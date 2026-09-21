@@ -40,6 +40,19 @@ def test_gzip_is_deterministic(tmp_path):
     assert first["sha256"] == second["sha256"]
 
 
+def test_export_preserves_interaction_summary_and_provenance(tmp_path):
+    source = tmp_path / "source"
+    source.mkdir()
+    summary = {"estimate": -6.2, "complete_design": True}
+    (source / "interaction_summary.json").write_text(json.dumps(summary))
+    result = export(source, tmp_path / "output")
+    assert (
+        json.loads((tmp_path / "output" / "interaction_summary.json").read_text())
+        == summary
+    )
+    assert "interaction_summary.json" in result["provenance"]
+
+
 def test_duplicate_episodes_rejected(tmp_path):
     source = tmp_path / "source"
     source.mkdir()

@@ -118,6 +118,7 @@ def export(run_dir, output_dir):
         "accounting.json",
         "two_arm_audit_manifest.json",
         "two_arm_audit_summary.json",
+        "interaction_summary.json",
         "fixtures.json",
         "tasks.json",
         "prompt_fixtures.json",
