@@ -1,0 +1,42 @@
+# Overnight execution log
+
+All timestamps below are UTC unless stated otherwise. Work began September 20 evening CDT; the user clarified the deadline as September 21, 07:00 CDT. Changes and findings are recorded separately from the frozen evaluation protocol.
+
+## Preparation and selected readings
+
+- Read selected sections of the cleaned Krishnamurthy, Sun, Kaufmann, Thompson-sampling, and IDS manuscripts. The design review distinguishes information presentation, external computation, and exploration control.
+- Implemented exact Beta-Bernoulli baselines, full-state DP, knowledge gradient, and 2,048-sample IDS, with rational/analytic cross-checks.
+- Built isolated-question HTTP batching, compressed raw-response persistence, deterministic episode replay, strict public/evaluator data separation, and paired/clustered reporting.
+- Initial runner validation: 100 tests passed. Commits preserve the scientific methods before live evaluation.
+
+## Development run v1: observed interface discrepancy
+
+The first 80-decision preflight used four target questions, ten repeats, alone and in four-question mixed batches. It passed the predeclared .10 probability-shift gate; largest observed shift .027. It cost $0.00201852.
+
+The pilot stopped at turn 16 on a valid backend choice assigned .44 probability when another arm had .45. This was the only such mismatch in the 162 successful HTTP responses saved at that point. Pilot plus preflight used 1,330,592 input tokens, estimated $0.055884864, with no transport/status failures. The strict argmax assertion exposed a mismatch with the documented response semantics; it was not a reward-performance exclusion.
+
+Retain the complete v1 ledger. The amended v2 protocol preserves backend choice, records the gap from the reported maximum, and does not silently execute host argmax. All scientific evaluation begins after this amendment. Budget accounting now includes prior sibling run namespaces, so the abandoned pilot is not hidden from spending totals.
+
+## Revised run v2: preflight and pilot gate
+
+The expanded preflight tests full 16-question batches: four target questions plus twelve unrelated decision contexts, with ten repeats and reversed batch ordering. It used 200 decisions across 50 requests, 94,060 input tokens, and estimated $0.00395052. Maximum target probability shifts were 0, .007, .003, and .018. This is evidence of no large shift on these fixtures, not a universal proof of batch independence.
+
+The revised pilot completed all 108 episodes (nine task cells, four policies, three replicates each), 20 pulls per episode. At completion the v2 ledger held 2,360 decisions and 1,699,989 input tokens for $0.071399538, including preflight. No API errors or backend-choice discrepancies occurred in this revised pilot. Combined with v1 and the original preparation calls, estimated project usage was $0.127438962.
+
+The budget gate regressed billed request tokens against question count and summed serialized question length, then projected the frozen matrix using dense late-posterior summaries. This is an engineering estimate, not a probabilistic cost interval. Projected online costs: E3 $0.30, E4 $7.46, E5 $5.09; with a 20% margin and $0.50 fixed-panel allowance, approximately $15.91. The $18 project cap remains active. Shared-request costs cannot be assigned exactly to individual questions; the earlier equal-share per-question diagnostic is not an estimate of each representation's intrinsic token cost.
+
+Pilot mean pseudo-regrets (horizon 20): counts/direct 3.441, summaries/direct 3.076, counts/sample 2.995, summaries/sample 2.687. These are development checks from only three episodes per cell, not scientific conclusions. Sample sizes and prompts were not changed in response. The fixed N remains an exploratory effect-size design; the pilot is too small and short to power a definitive main-study superiority claim.
+
+Gate decision: proceed with all five predefined experiments, preserving the full cell matrix and sample sizes.
+
+## Offline baseline provenance
+
+All 7,669 planned classical episodes completed before the v2 response-handling change: pilot 189; E3 1,600; E4 4,200; E5 1,680. Baseline policies, environmental seeds, and scientific inputs were unchanged, so the completed baseline JSONL was copied to v2 rather than simulated again.
+
+SHA-256 of that artifact: `fc2a126e631950eb3f163fdc37afccd85ed771629184b25686cbd69d76e0f3bb`.
+
+An independent analytic policy-value audit is underway to explain finite-horizon baseline behavior. In 200 E3 tasks, empirical greedy regret is below empirical exact-policy regret; this cannot establish superiority to the Bayesian optimum. Exact local Bellman loss is zero for the exact policy. Prior-integrated values will separate sampling variability from true expected policy gaps.
+
+## Reporting discipline
+
+Scientific changes after evaluation starts require a new experiment/run amendment and fresh evaluation tasks where appropriate. Report generation may improve without changing data. Numerical results from later stages will be recorded in the scientific report rather than silently rewriting this development history.
