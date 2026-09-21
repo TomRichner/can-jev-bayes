@@ -6,11 +6,11 @@ Investigated 2026-09-20. These notes distinguish official product documentation,
 
 Jev is TypeSafe AI's hosted System One decision model. It evaluates typed questions against supplied state and returns structured answers rather than generated explanations. Its three primitives are Choice, Score, and Noul. Multiple questions share state but are evaluated independently; questions in one request cannot consume one another's answers. Persistent bandit memory must therefore be maintained by our program and supplied on subsequent calls. [Introduction](https://docs.typesafe.ai/introduction), [quick start](https://docs.typesafe.ai/introduction/quickstart)
 
-| Primitive | Documented meaning | Relevance here |
-|---|---|---|
-| Choice | A listed option, probabilities over options, and confidence | Select an arm or a pre-generated candidate point |
-| Score | A probability-weighted position across an ordered rubric | Coarse semantic assessments, not arbitrary precise numeric generation |
-| Noul | A value in $[0,1]$ for a yes/no proposition | Separate reward-event or comparison-probability diagnostics |
+| Primitive | Documented meaning                                          | Relevance here                                                        |
+| --------- | ----------------------------------------------------------- | --------------------------------------------------------------------- |
+| Choice    | A listed option, probabilities over options, and confidence | Select an arm or a pre-generated candidate point                      |
+| Score     | A probability-weighted position across an ordered rubric    | Coarse semantic assessments, not arbitrary precise numeric generation |
+| Noul      | A value in $[0,1]$ for a yes/no proposition                 | Separate reward-event or comparison-probability diagnostics           |
 
 Choice accepts up to 255 options. Score accepts up to ten levels and computes its score from their probability-weighted indices. These constraints make 2–15-arm selection straightforward, but suggest a candidate-selection interface for future continuous optimization. [Choice](https://docs.typesafe.ai/primitives/choice), [Score](https://docs.typesafe.ai/primitives/score)
 
@@ -34,12 +34,12 @@ Used Python 3.12.9 and HTTPX, with `dotenv_values` reading the repo's lowercase 
 
 The models endpoint returned `jev-latest` and `jev-preview`. All four inference responses reported `jev-1.13.0`.
 
-| Check | Input tokens | End-to-end seconds | Observed answer |
-|---|---:|---:|---|
-| Two arms, one pull remaining | 476 | 0.156 | A: 0.96; B: 0.04; choose A |
-| Same evidence, 100 pulls remaining | 478 | 0.161 | A: 0.83; B: 0.17; choose A |
-| Identical repeat of previous request | 478 | 0.124 | A: 0.82; B: 0.18; choose A |
-| Fifteen arms, computed posterior summaries, 100 pulls | 2,248 | 0.121 | Choose arm_09; reported mass summed to 0.99 |
+| Check                                                 | Input tokens | End-to-end seconds | Observed answer                             |
+| ----------------------------------------------------- | -----------: | -----------------: | ------------------------------------------- |
+| Two arms, one pull remaining                          |          476 |              0.156 | A: 0.96; B: 0.04; choose A                  |
+| Same evidence, 100 pulls remaining                    |          478 |              0.161 | A: 0.83; B: 0.17; choose A                  |
+| Identical repeat of previous request                  |          478 |              0.124 | A: 0.82; B: 0.18; choose A                  |
+| Fifteen arms, computed posterior summaries, 100 pulls |        2,248 |              0.121 | Choose arm_09; reported mass summed to 0.99 |
 
 In the two-arm checks, A had six successes and four failures, B was unobserved, and both started from Beta(1,1). Thus the posterior means were $7/12$ and $1/2$. Both horizons used the same instruction to maximize expected total reward and consider learning's future value. The shift toward B shows response sensitivity to horizon in this example, but the selected action did not change. No claim of optimal exploration follows from these four calls.
 
@@ -183,16 +183,16 @@ Bayes-UCB chooses an optimistic posterior quantile. It gives a complementary Bay
 
 ## 5. Which additional Bayesian methods are most interesting?
 
-| Method | Question it helps answer | Priority and caveat |
-|---|---|---|
-| Exact finite-horizon DP | Does Jev recognize genuinely valuable exploration? | First study, restricted to small two-arm settings |
-| Thompson sampling | Can Jev match a simple strong Bayesian learner? | First study, all arm counts |
-| Bayes-UCB | Does uncertainty-seeking resemble optimism or probability matching? | First study, all arm counts |
-| Posterior-mean greedy | Is apparent sophistication just mean maximization? | First study control |
-| Information-directed sampling (IDS) | Does Jev seek information that matters for decisions? | Follow-up, especially informative/correlated actions |
-| Knowledge gradient (KG) | Can it value an observation by improvement in the best posterior decision? | Follow-up, especially best-arm identification and BO |
-| Gittins / finite-horizon index approximations | Can a cheap horizon-aware index approximate exact planning? | Follow-up with objective matched carefully |
-| Hierarchical/contextual Thompson sampling | Can semantic priors help across related arms/tasks? | Follow-up where Jev has actual domain information |
+| Method                                        | Question it helps answer                                                   | Priority and caveat                                  |
+| --------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Exact finite-horizon DP                       | Does Jev recognize genuinely valuable exploration?                         | First study, restricted to small two-arm settings    |
+| Thompson sampling                             | Can Jev match a simple strong Bayesian learner?                            | First study, all arm counts                          |
+| Bayes-UCB                                     | Does uncertainty-seeking resemble optimism or probability matching?        | First study, all arm counts                          |
+| Posterior-mean greedy                         | Is apparent sophistication just mean maximization?                         | First study control                                  |
+| Information-directed sampling (IDS)           | Does Jev seek information that matters for decisions?                      | Follow-up, especially informative/correlated actions |
+| Knowledge gradient (KG)                       | Can it value an observation by improvement in the best posterior decision? | Follow-up, especially best-arm identification and BO |
+| Gittins / finite-horizon index approximations | Can a cheap horizon-aware index approximate exact planning?                | Follow-up with objective matched carefully           |
+| Hierarchical/contextual Thompson sampling     | Can semantic priors help across related arms/tasks?                        | Follow-up where Jev has actual domain information    |
 
 IDS explicitly balances expected one-step regret with information about the optimal action. For an action distribution $p$:
 
