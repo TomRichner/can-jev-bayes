@@ -2,6 +2,9 @@
 name = "can-jev-bayes"
 version = "0.1.0"
 description = "Research environment for comparing Jev with Bayesian sequential decision methods"
+authors = [{ name = "Thomas J Richner" }]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "httpx>=0.28,<1",
