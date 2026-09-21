@@ -1,0 +1,16 @@
+experiment,horizon,policy,n_random_fixtures,n_error_fixtures,n_incomplete_fixtures_excluded,any_error_rate,exact_95_ci_low,exact_95_ci_high,one_sided_95_upper,analysis_role
+e2_assistance,1,bayes_explore,100,0,0,0.0,0.0,0.03621669264517641,0.029513049607039925,post_hoc_secondary
+e2_assistance,1,counts_explore,100,13,0,0.13,0.07107304618542953,0.21204067708744978,0.19871979304248238,post_hoc_secondary
+e2_assistance,1,dp_values_explore,100,0,0,0.0,0.0,0.03621669264517641,0.029513049607039925,post_hoc_secondary
+e2_assistance,1,means_explore,100,0,0,0.0,0.0,0.03621669264517641,0.029513049607039925,post_hoc_secondary
+e2_assistance,1,recommendation_explore,100,3,0,0.03,0.006229971538306393,0.08517605297428002,0.07571079374983004,post_hoc_secondary
+e2_assistance,2,bayes_explore,100,8,0,0.08,0.03517156251816281,0.15155763586442095,0.13971711921304591,post_hoc_secondary
+e2_assistance,2,counts_explore,100,17,0,0.17,0.10226491003552825,0.25817541063215865,0.24401675622436264,post_hoc_secondary
+e2_assistance,2,dp_values_explore,100,0,0,0.0,0.0,0.03621669264517641,0.029513049607039925,post_hoc_secondary
+e2_assistance,2,means_explore,100,2,0,0.02,0.002431336823942542,0.07038393247107011,0.0616192003960407,post_hoc_secondary
+e2_assistance,2,recommendation_explore,100,7,0,0.07,0.028605288907438704,0.13891972845585732,0.12745801558297026,post_hoc_secondary
+e2_assistance,10,bayes_explore,100,9,0,0.09,0.041983595628392247,0.1639822550296352,0.1517954286135935,post_hoc_secondary
+e2_assistance,10,counts_explore,100,17,0,0.17,0.10226491003552825,0.25817541063215865,0.24401675622436264,post_hoc_secondary
+e2_assistance,10,dp_values_explore,100,0,0,0.0,0.0,0.03621669264517641,0.029513049607039925,post_hoc_secondary
+e2_assistance,10,means_explore,100,7,0,0.07,0.028605288907438704,0.13891972845585732,0.12745801558297026,post_hoc_secondary
+e2_assistance,10,recommendation_explore,100,17,0,0.17,0.10226491003552825,0.25817541063215865,0.24401675622436264,post_hoc_secondary

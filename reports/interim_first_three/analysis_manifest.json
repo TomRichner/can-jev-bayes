@@ -1,0 +1,21 @@
+{
+  "bootstrap_samples": 10000,
+  "analysis_seed": 20260920,
+  "analysis_source_sha256": "6afbd7804a55cb15e82ce572f0e9e20124e2b8232af51a26394e111251e1d328",
+  "experiment_filter": [
+    "pilot",
+    "e1_horizon",
+    "e2_assistance",
+    "e3_exact_online"
+  ],
+  "interim": true,
+  "inputs": {
+    "episodes.jsonl": "269d61d230c0c0ec001334195e4bc896d3d573be43857ca300a65275c8a7266a",
+    "episodes_index.jsonl": "ee99ad8ca5582edb282ef1eeceb5cf026deef991affd92512c8b6454ef37f16c",
+    "diagnostics.jsonl": "0e4804cfc2bbff78359661b560c9ada6aa69dc29396f0a16759fb7d4d00a0882",
+    "index_manifest.json": "1552a9bf5faa23d6430506f252bd23e31ff903051a6f3dbc9ddcdab6bc0bf15a"
+  },
+  "completed_episode_rows": 3097,
+  "incomplete_episode_rows": 0,
+  "diagnostic_rows": 10800
+}
