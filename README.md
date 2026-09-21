@@ -12,7 +12,7 @@ PYTHONPATH=src .venv/bin/python -m jevbandits preflight
 PYTHONPATH=src .venv/bin/python -m jevbandits diagnostics --experiment e1_horizon
 PYTHONPATH=src .venv/bin/python -m jevbandits online --experiment pilot
 PYTHONPATH=src .venv/bin/python -m jevbandits online --experiment e4_scaling --only baselines
-PYTHONPATH=src .venv/bin/python -m jevbandits report --output reports/overnight_v1
+PYTHONPATH=src .venv/bin/python -m jevbandits report --output reports/overnight_v2
 ```
 
 Live commands read `jev_key` from ignored `.env` and spend API credits. Raw records and checkpoints are under ignored `artifacts/`. Offline reports need no API key. Use only one live API writer per ledger; baseline simulation can run separately.

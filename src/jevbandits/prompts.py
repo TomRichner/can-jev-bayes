@@ -133,8 +133,8 @@ def validate_answer(answer, ids):
     if mass <= 0 or abs(mass - 1) > max(0.02, 0.005 * len(ids)) + 1e-8:
         raise ValueError(f"invalid probability mass {mass}")
     chosen = list(ids).index(answer["choice"])
-    if values[chosen] < values.max() - 1e-8:
-        raise ValueError("returned choice is not an argmax")
+    # Preserve the backend choice even if rounded probabilities favor another
+    # arm; the caller records this observed API inconsistency explicitly.
     confidence = float(answer.get("confidence", float("nan")))
     if not np.isfinite(confidence) or not 0 <= confidence <= 1:
         raise ValueError("invalid confidence")

@@ -59,6 +59,16 @@ class JevClient:
         CREATE TABLE IF NOT EXISTS decisions (id TEXT PRIMARY KEY, record BLOB NOT NULL);
         """)
         self.cap, self.rate, self.batch_size = cap, rate, batch_size
+        # Only one live API writer may operate across sibling run directories.
+        self.previous_runs_cost = 0.0
+        for ledger in self.run_dir.parent.glob("*/ledger.sqlite"):
+            if ledger.resolve() == (self.run_dir / "ledger.sqlite").resolve():
+                continue
+            with sqlite3.connect(f"file:{ledger}?mode=ro", uri=True) as previous:
+                spent = previous.execute(
+                    "SELECT COALESCE(SUM(cost),0)+COALESCE(SUM(reserved),0) FROM attempts"
+                ).fetchone()[0]
+                self.previous_runs_cost += spent
         self.sem = asyncio.Semaphore(concurrency)
         self.rate_lock = asyncio.Lock()
         self.next_time = 0.0
@@ -93,6 +103,11 @@ class JevClient:
             "inference_decisions": decisions,
             "cap_usd": self.cap,
             "preparation_cost_usd": 0.00015456,
+            "previous_runs_cost_usd": self.previous_runs_cost,
+            "project_cost_and_reserves_usd": row[2]
+            + row[3]
+            + self.previous_runs_cost
+            + 0.00015456,
             "model": MODEL,
             "price_per_million_input": 0.042,
             "batch_size": self.batch_size,
@@ -151,6 +166,7 @@ class JevClient:
                     budget["known_cost_usd"]
                     + budget["uncertain_reserved_usd"]
                     + reserve
+                    + self.previous_runs_cost
                     + 0.00015456
                     > self.cap
                 ):
@@ -233,6 +249,10 @@ class JevClient:
                 "probabilities": probabilities.tolist(),
                 "raw_answer": answer,
                 "probability_mass": mass,
+                "choice_probability_gap": float(
+                    max(answer["probabilities"].values())
+                    - answer["probabilities"][answer["choice"]]
+                ),
                 "request_id": request_id,
                 "latency_seconds": elapsed,
                 "question_sha256": hashlib.sha256(

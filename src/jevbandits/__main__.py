@@ -49,7 +49,7 @@ def main():
         "command", choices=["preflight", "diagnostics", "online", "report"]
     )
     parser.add_argument("--experiment", default="pilot")
-    parser.add_argument("--run-dir", default="artifacts/overnight_v1")
+    parser.add_argument("--run-dir", default="artifacts/overnight_v2")
     parser.add_argument("--only", choices=["jev", "baselines"], default="jev")
     parser.add_argument("--n", type=int)
     parser.add_argument("--cap", type=float, default=18.0)

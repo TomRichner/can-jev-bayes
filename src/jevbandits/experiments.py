@@ -215,6 +215,7 @@ async def diagnostics(client, experiment, n=100):
                 prediction_entropy=float(-sum(x * np.log(x) for x in p if x > 0)),
                 request_id=answer["request_id"],
                 raw_answer=answer["raw_answer"],
+                choice_probability_gap=answer.get("choice_probability_gap", 0),
                 probability_mass=answer["probability_mass"],
             )
             records.append(context)
@@ -296,6 +297,7 @@ class Episode:
                 request_id=answer["request_id"],
                 probability_mass=answer["probability_mass"],
                 confidence=answer["raw_answer"]["confidence"],
+                choice_mismatch=bool(answer.get("choice_probability_gap", 0) > 1e-8),
             )
         if self.policy == "ucb_direct":
             values = beta.ppf(1 - 1 / turn, self.s + 1, self.f + 1)
@@ -339,6 +341,7 @@ class Episode:
             "best_arm_fraction": mean("best_arm"),
             "suffix_failure": not any(r["best_arm"] for r in self.trace[-20:]),
             "advice_adherence": mean("advice_adherence"),
+            "choice_mismatch_fraction": mean("choice_mismatch"),
             "completed": True,
             "theta": self.theta.tolist(),
             "trace": self.trace,
@@ -454,6 +457,16 @@ async def preflight(client):
             {"id": f"preflight:mixed:{repeat}:{i}", "question": job["question"]}
             for i, job in enumerate(jobs)
         ]
+        for i in range(4, 16):
+            distractor = observation(
+                [(i * 5) % 21, (i * 3) % 17], [i % 7, i % 9], 10, "bayes"
+            )
+            batch.append(
+                {
+                    "id": f"preflight:mixed:{repeat}:{i}",
+                    "question": question(distractor),
+                }
+            )
         if repeat % 2:
             batch.reverse()
         answers = await client.evaluate(batch)
