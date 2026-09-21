@@ -37,6 +37,15 @@ def test_known_prior_value_and_two_pull_rational_exploration_crossover():
     assert table.select_action((10, 0), (8, 0), np.random.default_rng(1)) == 1
 
 
+def test_original_api_probe_has_exact_horizon_100_exploratory_optimum():
+    # Ten historical observations require terminal T=110 to leave 100 pulls.
+    table = TwoArmTable(110)
+    q = table.q((6, 0), (4, 0))
+    np.testing.assert_allclose(q, [66.20292476447997, 66.26561031526978], atol=2e-12, rtol=0)
+    assert q[1] > q[0]
+    assert table.select_action((6, 0), (4, 0), np.random.default_rng(1)) == 1
+
+
 def test_symmetry_terminal_values_and_seeded_ties():
     table = TwoArmTable(10)
     np.testing.assert_allclose(table.q((1, 3), (2, 1))[::-1], table.q((3, 1), (1, 2)), atol=1e-14)

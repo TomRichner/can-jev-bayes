@@ -60,9 +60,18 @@ $$
 
 These are prior expectations, not estimates from the selected simulation seeds. They provide a useful anchor when interpreting finite-panel pseudo-regret: a policy can appear better than the optimum on a small fixed collection of worlds without exceeding its population Bayesian value.
 
+The original API probe's posterior state can also now be assessed exactly: arm A has six successes and four failures, hence Beta(7,5), while arm B remains Beta(1,1). Ten past observations plus 100 remaining decisions require a table with terminal horizon 110. Its action values are
+
+$$
+Q_{100}(A)=66.202924764480,\qquad
+Q_{100}(B)=66.265610315270.
+$$
+
+Thus **B is the exact Bayesian-optimal first action** in that state, despite its lower posterior mean. Choosing A incurs a one-step optimal-continuation loss of **0.062685550790** expected rewards. This is a result from full joint-state DP, not an inference from the AP index. It evaluates that specific probe state and should not substitute for the replicated experiment. The terminal-110 table used 53,383,008 array bytes and built in approximately 0.098 seconds.
+
 ## Scoring existing episodes and adding the exact policy
 
-The standalone CLI uses original manifests to identify E4's three two-arm families with 40 episodes each, and E9's two-arm prior family with 100 episodes. It reuses the original `Episode` environment and potential-outcome streams. The added policy name is `exact_long_horizon`; its per-turn action RNG is separately namespaced. Ties within $10^{-12}$ are uniformly randomized.
+The standalone CLI uses original manifests to identify E4's three two-arm families with 40 episodes each, and E9's two-arm prior family with 100 episodes. It reuses the original `Episode` environment and potential-outcome streams. The added policy name is `exact_h100`; its per-turn action RNG is separately namespaced. Ties within $10^{-12}$ are uniformly randomized. This name is specific to the two-arm horizon-100 panels and must not be read as an available comparator at every arm count.
 
 For completed Jev, classical, AP-index, and added exact-policy trajectories, the scorer replays successes/failures and records
 

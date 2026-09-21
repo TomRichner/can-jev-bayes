@@ -18,7 +18,7 @@ import numpy as np
 
 MAX_HORIZON = 150
 MAX_BYTES = 256 * 1024 * 1024
-POLICY_NAME = "exact_long_horizon"
+POLICY_NAME = "exact_h100"
 AUDITED_EXPERIMENTS = ("e4_scaling", "e9_sampling_regimes")
 
 
@@ -195,6 +195,8 @@ def add_baseline(run_dir, original, tables):
         if 2 not in design["ks"]:
             continue
         horizon = design["horizon"]
+        if horizon != 100:
+            raise ValueError("The exact_h100 comparator is restricted to horizon 100")
         if horizon not in tables:
             tables[horizon] = TwoArmTable(horizon)
         table = tables[horizon]
