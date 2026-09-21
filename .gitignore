@@ -221,6 +221,9 @@ __marimo__/
 /pdfs/
 /artifacts/
 
+# Private manuscript drafts and submission planning
+/manuscript/
+
 # macOS
 .DS_Store
 
