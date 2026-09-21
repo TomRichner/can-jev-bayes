@@ -8,10 +8,15 @@ import pytest
 
 from jevbandits.report import (
     bootstrap_mean,
+    classify_diagnostic_states,
     diagnostic_summaries,
+    episode_effects,
     fixture_effect,
     generate_report,
+    horizon_contrasts,
     paired_effect,
+    random_fixture_error_intervals,
+    state_regime_summaries,
     stratified_paired_effect,
     trajectory_summaries,
 )
@@ -70,6 +75,185 @@ def test_pool_equally_weights_cells_not_episodes():
     )
     assert effect["mean_difference"] == effect["ci_low"] == effect["ci_high"] == 5
     assert effect["n_pairs"] == 22
+
+
+def test_secondary_baselines_remain_distinct_from_primary_ts_comparison():
+    frame = pd.DataFrame(
+        [
+            {
+                "experiment": "e4_scaling",
+                "family": "prior",
+                "k": 2,
+                "horizon": 10,
+                "episode_id": str(i),
+                "policy": policy,
+                "pseudo_regret": regret,
+                "reward": 10 - regret,
+            }
+            for i in range(3)
+            for policy, regret in [
+                ("counts_direct", 2),
+                ("ts", 3),
+                ("greedy", 1),
+                ("bayes_ucb", 2),
+                ("knowledge_gradient", 1),
+                ("ids", 1),
+                ("ucb1", 4),
+            ]
+        ]
+    )
+    effects, pooled = episode_effects(frame, samples=100)
+    assert set(effects.loc[effects.right == "ts", "comparison_role"]) == {
+        "primary_vs_ts"
+    }
+    assert set(effects.loc[effects.right != "ts", "comparison_role"]) == {
+        "secondary_baseline"
+    }
+    greedy = pooled.loc[
+        (pooled.right == "greedy") & (pooled.metric == "pseudo_regret")
+    ].iloc[0]
+    assert greedy.mean_difference == 1
+
+
+def state_panel():
+    return pd.DataFrame(
+        [
+            {
+                "experiment": "e1_horizon",
+                "fixture_id": fixture,
+                "policy": "counts_explore",
+                "label_order": order,
+                "repeat": repeat,
+                "horizon": horizon,
+                "successes": s,
+                "failures": f,
+                "q_values": q,
+                "canonical_action": action,
+                "probabilities": p,
+                "exact_loss": max(q) - q[action],
+                "optimal_agreement": float(q[action] == max(q)),
+            }
+            for fixture, s, f in [
+                ("crossover", [10, 0], [8, 0]),
+                ("tied_means", [9, 0], [9, 0]),
+            ]
+            for horizon in [1, 10]
+            for q, action, p in [
+                (
+                    ([0.55, 0.5] if fixture == "crossover" else [0.5, 0.5])
+                    if horizon == 1
+                    else [5.5, 5.6],
+                    0 if horizon == 1 else 1,
+                    [0.8, 0.2] if horizon == 1 else [0.2, 0.8],
+                )
+            ]
+            for order in [0, 1]
+            for repeat in range(5)
+        ]
+    )
+
+
+def test_exploration_requirement_respects_posterior_mean_tie_sets():
+    classified = classify_diagnostic_states(state_panel())
+    assert set(classified.loc[classified.horizon == 1, "state_regime"]) == {"terminal"}
+    high = classified.loc[classified.horizon == 10]
+    assert set(high.loc[high.fixture_id == "crossover", "state_regime"]) == {
+        "exploration_required"
+    }
+    assert set(high.loc[high.fixture_id == "tied_means", "state_regime"]) == {
+        "greedy_can_be_optimal"
+    }
+    assert set(high.loc[high.fixture_id == "tied_means", "non_greedy_choice"]) == {0.0}
+    summary = state_regime_summaries(state_panel(), samples=100)
+    assert set(
+        summary.loc[summary.state_regime == "exploration_required", "n_fixtures"]
+    ) == {1}
+
+
+def test_horizon_contrasts_pair_fixtures_without_counting_repeated_calls():
+    result = horizon_contrasts(state_panel(), samples=100)
+    target = result.loc[
+        (result.stratum == "high_horizon_requires_exploration")
+        & (result.metric == "non_greedy_choice")
+    ].iloc[0]
+    assert target.n_fixtures == 1
+    assert target.low_mean == 0
+    assert target.high_mean == target.mean_difference == 1
+    assert np.isnan(target.ci_low)
+    probability = result.loc[
+        (result.stratum == "high_horizon_requires_exploration")
+        & (result.metric == "non_greedy_probability")
+    ].iloc[0]
+    assert probability.mean_difference == pytest.approx(0.6)
+    assert set(result.analysis_role) == {"post_hoc_secondary"}
+
+
+def test_diagnostic_only_report_includes_conditional_and_horizon_outputs(tmp_path):
+    frame = state_panel()
+    frame["decision_id"] = [f"decision-{i}" for i in range(len(frame))]
+    (tmp_path / "diagnostics.jsonl").write_text(
+        "\n".join(json.dumps(row) for row in frame.to_dict("records"))
+    )
+    path = generate_report(tmp_path, bootstrap_samples=100)
+    text = path.read_text()
+    assert "Secondary analysis: when exploration is valuable" in text
+    assert "Secondary analysis: paired horizon response" in text
+    assert "post hoc secondary" in text
+    assert (path.parent / "state_regime_summary.csv").exists()
+    assert (path.parent / "horizon_contrasts.csv").exists()
+
+
+def test_zero_fixture_errors_have_nondegenerate_exact_binomial_bounds():
+    frame = pd.DataFrame(
+        [
+            {
+                "experiment": "e2_assistance",
+                "horizon": 10,
+                "policy": "dp_values_explore",
+                "fixture_id": str(i),
+                "label_order": order,
+                "repeat": repeat,
+                "optimal_agreement": True,
+            }
+            for i in range(100)
+            for order in [0, 1]
+            for repeat in [0, 1]
+        ]
+    )
+    row = random_fixture_error_intervals(frame).iloc[0]
+    assert row.n_random_fixtures == 100
+    assert row.n_error_fixtures == 0
+    assert row.exact_95_ci_low == 0
+    assert row.exact_95_ci_high == pytest.approx(1 - 0.025**0.01)
+    assert row.one_sided_95_upper == pytest.approx(1 - 0.05**0.01)
+    # One failure anywhere in a fixture yields one event, not one event per call.
+    frame.loc[0, "optimal_agreement"] = False
+    row = random_fixture_error_intervals(frame).iloc[0]
+    assert row.n_error_fixtures == 1
+    assert row.any_error_rate == 0.01
+    assert random_fixture_error_intervals(frame.assign(experiment="e1_horizon")).empty
+
+
+def test_incomplete_fixture_protocol_is_excluded_from_error_bounds():
+    frame = pd.DataFrame(
+        [
+            {
+                "experiment": "e2_assistance",
+                "horizon": 1,
+                "policy": "counts_explore",
+                "fixture_id": str(i),
+                "label_order": order,
+                "repeat": repeat,
+                "optimal_agreement": True,
+            }
+            for i in range(2)
+            for order in [0, 1]
+            for repeat in [0, 1]
+        ]
+    )
+    row = random_fixture_error_intervals(frame.iloc[1:]).iloc[0]
+    assert row.n_random_fixtures == 1
+    assert row.n_incomplete_fixtures_excluded == 1
 
 
 def test_missing_entire_cell_does_not_change_estimand_silently():

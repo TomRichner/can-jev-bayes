@@ -15,6 +15,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy.stats import beta
 
 
 @dataclass(frozen=True)
@@ -307,6 +308,18 @@ def episode_effects(
             if p.endswith(("direct", "sample")) or p == "thompson_prompt"
         )
         contrasts = {(p, "ts") for p in learned if "ts" in policies}
+        secondary_baselines = {
+            "bayes_ucb",
+            "knowledge_gradient",
+            "ids",
+            "greedy",
+            "ucb1",
+        }
+        contrasts.update(
+            (p, baseline)
+            for p in learned
+            for baseline in secondary_baselines & policies
+        )
         if {"bayes_direct", "counts_direct"} <= policies:
             contrasts.add(("bayes_direct", "counts_direct"))
         for prefix in ("counts", "bayes"):
@@ -319,6 +332,15 @@ def episode_effects(
         if "exact" in policies:
             contrasts.update((p, "exact") for p in learned)
         for left, right in sorted(contrasts):
+            role = (
+                "secondary_baseline"
+                if right in secondary_baselines
+                else "planned_comparison"
+            )
+            if right == "ts" and left in {"counts_direct", "bayes_direct"}:
+                role = "primary_vs_ts"
+            elif left == "bayes_direct" and right == "counts_direct":
+                role = "primary_assistance"
             for metric in ("pseudo_regret", "reward", "exact_loss"):
                 if (
                     metric not in exp
@@ -338,6 +360,7 @@ def episode_effects(
                     rows.append(
                         {
                             "experiment": experiment,
+                            "comparison_role": role,
                             **dict(zip(cell_cols, key)),
                             **asdict(effect),
                         }
@@ -357,7 +380,12 @@ def episode_effects(
                         ),
                     )
                     pooled.append(
-                        {"experiment": experiment, "horizon": horizon, **effect}
+                        {
+                            "experiment": experiment,
+                            "horizon": horizon,
+                            "comparison_role": role,
+                            **effect,
+                        }
                     )
     return pd.DataFrame(rows), pd.DataFrame(pooled)
 
@@ -497,6 +525,246 @@ def trajectory_summaries(episodes: pd.DataFrame) -> pd.DataFrame:
             for key, value in sorted(totals.items())
         ]
     )
+
+
+def classify_diagnostic_states(diagnostics: pd.DataFrame) -> pd.DataFrame:
+    """Tie-aware, secondary state classification using recorded exact values only."""
+    required = {
+        "successes",
+        "failures",
+        "q_values",
+        "canonical_action",
+        "probabilities",
+    }
+    if diagnostics.empty or not required <= set(diagnostics):
+        return pd.DataFrame()
+    rows = []
+    for record in diagnostics.to_dict("records"):
+        s, f = np.asarray(record["successes"]), np.asarray(record["failures"])
+        q, probability = (
+            np.asarray(record["q_values"], dtype=float),
+            np.asarray(record["probabilities"], dtype=float),
+        )
+        mean = (s + 1) / (s + f + 2)
+        if (
+            not np.isfinite(q).all()
+            or len(q) != len(mean)
+            or len(probability) != len(mean)
+        ):
+            raise ValueError("Invalid recorded diagnostic values")
+        greedy = np.isclose(mean, mean.max(), rtol=0, atol=1e-10)
+        exploration_value = float(max(0, q.max() - q[greedy].max()))
+        needed = exploration_value > 1e-10
+        action = int(record["canonical_action"])
+        loss = float(max(0, q.max() - q[action]))
+        regime = (
+            "terminal"
+            if record["horizon"] == 1
+            else "exploration_required"
+            if needed
+            else "greedy_can_be_optimal"
+        )
+        rows.append(
+            {
+                **record,
+                "state_regime": regime,
+                "exploration_required": float(needed),
+                "value_of_exploration": exploration_value,
+                "non_greedy_choice": float(not greedy[action]),
+                "non_greedy_probability": float(probability[~greedy].sum()),
+                "exact_loss_per_remaining_pull": loss / record["horizon"],
+                "loss_at_least_001": float(loss >= 0.01),
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def state_regime_summaries(
+    diagnostics: pd.DataFrame, *, samples: int = 10_000
+) -> pd.DataFrame:
+    """Clustered summaries conditional on whether exploration is actually needed."""
+    classified = classify_diagnostic_states(diagnostics)
+    if classified.empty:
+        return classified
+    keys = ["experiment", "horizon", "policy", "state_regime"]
+    metrics = [
+        "optimal_agreement",
+        "exact_loss",
+        "exact_loss_per_remaining_pull",
+        "non_greedy_choice",
+        "non_greedy_probability",
+        "value_of_exploration",
+        "loss_at_least_001",
+    ]
+    rows = []
+    for key, group in classified.groupby(keys, sort=True):
+        for metric in metrics:
+            if metric not in group:
+                continue
+            by_order = group.groupby(["fixture_id", "label_order"])[metric].mean()
+            by_fixture = by_order.groupby("fixture_id").mean()
+            mean, low, high = bootstrap_mean(
+                by_fixture, samples=samples, seed=_seed(f"regime:{key}:{metric}")
+            )
+            rows.append(
+                dict(zip(keys, key))
+                | {
+                    "metric": metric,
+                    "mean": mean,
+                    "ci_low": low,
+                    "ci_high": high,
+                    "n_fixtures": len(by_fixture),
+                    "analysis_role": "post_hoc_secondary",
+                }
+            )
+    return pd.DataFrame(rows)
+
+
+def horizon_contrasts(
+    diagnostics: pd.DataFrame,
+    *,
+    low_horizon: int = 1,
+    high_horizon: int = 10,
+    samples: int = 10_000,
+) -> pd.DataFrame:
+    """Compare the same posterior at two horizons, resampling whole fixtures."""
+    classified = classify_diagnostic_states(diagnostics)
+    if classified.empty:
+        return classified
+    classified = classified.loc[classified.horizon.isin([low_horizon, high_horizon])]
+    metrics = [
+        "non_greedy_choice",
+        "non_greedy_probability",
+        "optimal_agreement",
+        "exact_loss",
+        "exploration_required",
+    ]
+    rows = []
+    for (experiment, policy), group in classified.groupby(
+        ["experiment", "policy"], sort=True
+    ):
+        for metric in metrics:
+            if metric not in group:
+                continue
+            # Equal weight to label orders; joins ensure only matched states contribute.
+            order_means = (
+                group.groupby(["fixture_id", "label_order", "horizon"])[metric]
+                .mean()
+                .unstack("horizon")
+            )
+            if low_horizon not in order_means or high_horizon not in order_means:
+                continue
+            matched = order_means[[low_horizon, high_horizon]].dropna()
+            difference = (
+                (matched[high_horizon] - matched[low_horizon])
+                .groupby("fixture_id")
+                .mean()
+            )
+            low = matched[low_horizon].groupby("fixture_id").mean()
+            high = matched[high_horizon].groupby("fixture_id").mean()
+            required = (
+                group.loc[group.horizon == high_horizon]
+                .groupby("fixture_id")
+                .exploration_required.first()
+            )
+            strata = {
+                "all_matched": difference.index,
+                "high_horizon_requires_exploration": difference.index.intersection(
+                    required.index[required == 1]
+                ),
+                "high_horizon_greedy_can_be_optimal": difference.index.intersection(
+                    required.index[required == 0]
+                ),
+            }
+            for stratum, fixture_ids in strata.items():
+                if not len(fixture_ids):
+                    continue
+                mean, ci_low, ci_high = bootstrap_mean(
+                    difference.loc[fixture_ids],
+                    samples=samples,
+                    seed=_seed(f"horizon:{experiment}:{policy}:{metric}:{stratum}"),
+                )
+                rows.append(
+                    {
+                        "experiment": experiment,
+                        "policy": policy,
+                        "stratum": stratum,
+                        "low_horizon": low_horizon,
+                        "high_horizon": high_horizon,
+                        "metric": metric,
+                        "low_mean": float(low.loc[fixture_ids].mean()),
+                        "high_mean": float(high.loc[fixture_ids].mean()),
+                        "mean_difference": mean,
+                        "ci_low": ci_low,
+                        "ci_high": ci_high,
+                        "n_fixtures": len(fixture_ids),
+                        "analysis_role": "post_hoc_secondary",
+                    }
+                )
+    return pd.DataFrame(rows)
+
+
+def random_fixture_error_intervals(diagnostics: pd.DataFrame) -> pd.DataFrame:
+    """Exact binomial intervals for any error on an E2 randomly drawn fixture.
+
+    Each fixture contributes one event across both display orders and both
+    repeated calls. No fixed anchors, selected strata, or individual API calls
+    enter the binomial denominator. Inference assumes independent fixture draws
+    and a stable evaluation protocol, not independence of its four calls.
+    """
+    required = {
+        "experiment",
+        "horizon",
+        "policy",
+        "fixture_id",
+        "label_order",
+        "repeat",
+        "optimal_agreement",
+    }
+    if diagnostics.empty or not required <= set(diagnostics):
+        return pd.DataFrame()
+    random_panel = diagnostics.loc[diagnostics.experiment == "e2_assistance"]
+    rows = []
+    expected = {(0, 0), (0, 1), (1, 0), (1, 1)}
+    for (experiment, horizon, policy), group in random_panel.groupby(
+        ["experiment", "horizon", "policy"], sort=True
+    ):
+        events = []
+        excluded = 0
+        for _, fixture in group.groupby("fixture_id"):
+            cells = list(zip(fixture.label_order, fixture.repeat))
+            if (
+                len(cells) != 4
+                or set(cells) != expected
+                or fixture.optimal_agreement.isna().any()
+            ):
+                excluded += 1
+                continue
+            events.append(bool((fixture.optimal_agreement < 1).any()))
+        n, errors = len(events), sum(events)
+        if not n:
+            continue
+        low = 0.0 if errors == 0 else float(beta.ppf(0.025, errors, n - errors + 1))
+        high = 1.0 if errors == n else float(beta.ppf(0.975, errors + 1, n - errors))
+        one_sided = (
+            1.0 if errors == n else float(beta.ppf(0.95, errors + 1, n - errors))
+        )
+        rows.append(
+            {
+                "experiment": experiment,
+                "horizon": horizon,
+                "policy": policy,
+                "n_random_fixtures": n,
+                "n_error_fixtures": errors,
+                "n_incomplete_fixtures_excluded": excluded,
+                "any_error_rate": errors / n,
+                "exact_95_ci_low": low,
+                "exact_95_ci_high": high,
+                "one_sided_95_upper": one_sided,
+                "analysis_role": "post_hoc_secondary",
+            }
+        )
+    return pd.DataFrame(rows)
 
 
 def _trajectory_figures(trajectories: pd.DataFrame, output: Path) -> list[str]:
@@ -654,6 +922,11 @@ def generate_report(
         "label_sensitivity": labels,
         "incomplete_episodes": incomplete,
         "trajectory_summary": trajectory_summaries(episodes),
+        "state_regime_summary": state_regime_summaries(
+            diagnostics, samples=bootstrap_samples
+        ),
+        "horizon_contrasts": horizon_contrasts(diagnostics, samples=bootstrap_samples),
+        "random_fixture_error_intervals": random_fixture_error_intervals(diagnostics),
     }
     for name, frame in frames.items():
         frame.to_csv(output / f"{name}.csv", index=False)
@@ -716,7 +989,13 @@ def generate_report(
     if not pooled.empty:
         sections += [
             "## Online experiments",
-            "Equal-cell-weight cumulative pseudo-regret differences:",
+            (
+                "Equal-cell-weight cumulative pseudo-regret differences. TS is the primary Bayesian "
+                "comparator; contrasts against Bayes-UCB, knowledge gradient, IDS, greedy and UCB1 are "
+                "secondary. A gain over TS alone does not establish improvement over Bayesian methods "
+                "generally, especially when posterior-mean greedy can be close to finite-horizon optimal "
+                "on the evaluated prior and horizon."
+            ),
         ]
         for experiment, exp in pooled.loc[pooled.metric == "pseudo_regret"].groupby(
             "experiment", sort=True
@@ -728,6 +1007,7 @@ def generate_report(
                         [
                             "left",
                             "right",
+                            "comparison_role",
                             "mean_difference",
                             "ci_low",
                             "ci_high",
@@ -782,12 +1062,115 @@ def generate_report(
             "Fixtures are designed state panels: E1 has six named anchors plus seeded random states; "
             "E2 uses a disjoint seed namespace and entirely random states. Random states have arm counts "
             "chosen from 0, 2, 5, 10 and 20 and successes uniform from zero to that count. "
-            "This is not the distribution of states visited by a policy and is not a draw from the "
-            "posterior-predictive process. Fixture bootstrap intervals describe sensitivity across "
+            "Conditional on this randomized nonadaptive allocation, uniform successes are exactly "
+            "the Beta-Binomial(n,1,1) prior-predictive distribution under the uniform prior. "
+            "This is nevertheless not the state-visit distribution of an adaptive policy. "
+            "Fixture bootstrap intervals describe sensitivity across "
             "this panel. They do not by themselves generalize to online performance. The numeric "
             "action-value and recommendation conditions supply outputs of an exact planning algorithm; "
             "their comparison measures the use of supplied computation, not independent planning ability."
         )
+        regime = frames["state_regime_summary"]
+        if not regime.empty:
+            sections += [
+                "### Secondary analysis: when exploration is valuable",
+                (
+                    "These state strata and horizon contrasts were added after the E1 results "
+                    "were inspected and are post hoc secondary analyses. Strict exploration is required "
+                    "when the best exact action value exceeds the best value among all posterior-mean "
+                    "maximizers by more than 1e-10. Tied means are handled as a set; uncertainty alone "
+                    "does not define a need to explore. Terminal states are shown separately. "
+                    "`state_regime_summary.csv` reports optimal-action agreement alongside exact loss, "
+                    "loss per remaining pull, non-greedy choice/probability, and the fraction losing at "
+                    "least 0.01 expected reward. The latter threshold is a descriptive scale, not a "
+                    "preregistered materiality criterion. Exploration-required subsets contain few "
+                    "fixtures, so their intervals are fragile. An empirical bootstrap interval of "
+                    "[0,0] or [1,1] in a boundary case does not establish certainty for new states."
+                ),
+                markdown_table(
+                    regime.loc[
+                        (regime.state_regime == "exploration_required")
+                        & regime.metric.isin(
+                            ["optimal_agreement", "exact_loss", "non_greedy_choice"]
+                        ),
+                        [
+                            "experiment",
+                            "horizon",
+                            "policy",
+                            "metric",
+                            "mean",
+                            "ci_low",
+                            "ci_high",
+                            "n_fixtures",
+                        ],
+                    ]
+                ),
+            ]
+        horizon = frames["horizon_contrasts"]
+        if not horizon.empty:
+            sections += [
+                "### Secondary analysis: paired horizon response",
+                (
+                    "The table compares horizon 10 minus horizon 1 within the same underlying posterior "
+                    "fixture, restricted to fixtures requiring a non-greedy action at horizon 10. "
+                    "The exact required-exploration indicator is the behavioral target; observed choice "
+                    "rates and reported probability mass are separate responses. This does not infer "
+                    "online reward from fixed-state behavior."
+                ),
+                markdown_table(
+                    horizon.loc[
+                        (horizon.stratum == "high_horizon_requires_exploration")
+                        & horizon.metric.isin(
+                            [
+                                "non_greedy_choice",
+                                "non_greedy_probability",
+                                "exploration_required",
+                            ]
+                        ),
+                        [
+                            "experiment",
+                            "policy",
+                            "metric",
+                            "low_mean",
+                            "high_mean",
+                            "mean_difference",
+                            "ci_low",
+                            "ci_high",
+                            "n_fixtures",
+                        ],
+                    ]
+                ),
+            ]
+        fixture_errors = frames["random_fixture_error_intervals"]
+        if not fixture_errors.empty:
+            sections += [
+                "### Secondary analysis: errors across random fixtures",
+                (
+                    "For E2's randomly drawn fixtures, a fixture error means at least one suboptimal "
+                    "direct choice across both label orders and both repeated queries at the stated "
+                    "horizon. Each complete fixture counts once. The table uses two-sided 95% "
+                    "Clopper–Pearson binomial intervals, which remain nondegenerate with zero errors. "
+                    "The CSV also supplies a one-sided 95% upper bound. For zero errors in 100 fixtures, "
+                    "these upper limits are about 3.62% and 2.95%, respectively. These are fixture-level "
+                    "bounds for this query protocol, not per-call error bounds. They assume independent "
+                    "random fixtures and a stable service; dependence caused by shared batching or time "
+                    "variation is not modeled. E1's hand-selected anchors and selected exploration "
+                    "strata are excluded from this analysis."
+                ),
+                markdown_table(
+                    fixture_errors[
+                        [
+                            "horizon",
+                            "policy",
+                            "n_random_fixtures",
+                            "n_error_fixtures",
+                            "any_error_rate",
+                            "exact_95_ci_low",
+                            "exact_95_ci_high",
+                        ]
+                    ]
+                ),
+            ]
     sections += ["## Figures"]
     sections.extend(
         f"![{name.replace('_', ' ').removesuffix('.png')}]({name})" for name in figures
