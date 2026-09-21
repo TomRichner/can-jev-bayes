@@ -13,6 +13,7 @@ from jevbandits.report import (
     episode_effects,
     fixture_effect,
     generate_report,
+    generate_two_arm_audit_report,
     horizon_contrasts,
     paired_effect,
     random_fixture_error_intervals,
@@ -428,3 +429,38 @@ def test_duplicate_additional_episode_policy_is_rejected(tmp_path):
         (tmp_path / name).write_text(json.dumps(row) + "\n")
     with pytest.raises(ValueError, match="Duplicate episode/policy"):
         generate_report(tmp_path, bootstrap_samples=100)
+
+
+def test_long_horizon_exact_audit_is_separate_and_counts_tasks_once(tmp_path):
+    rows = [
+        {
+            "experiment": "e4_scaling",
+            "family": "prior",
+            "k": 2,
+            "horizon": 100,
+            "episode_id": str(i),
+            "policy": policy,
+            "reward": 60,
+            "pseudo_regret": i + loss,
+            "exact_loss": loss,
+            "optimal_agreement": 1 - loss / 100,
+        }
+        for i in range(3)
+        for policy, loss in [("counts_direct", 1.0), ("exact_h100", 0.0)]
+    ]
+    (tmp_path / "two_arm_bellman_audit.jsonl").write_text(
+        "\n".join(json.dumps(row) for row in rows)
+    )
+    path = generate_two_arm_audit_report(tmp_path, bootstrap_samples=100)
+    metadata = json.loads((path.parent / "analysis_manifest.json").read_text())
+    assert metadata["n_episode_policy_rows"] == 6
+    assert metadata["n_unique_tasks"] == 3
+    assert "not pooled" in metadata["policy"]
+    assert (path.parent / "exact_loss_by_family.png").exists()
+    assert not (tmp_path / "episodes.jsonl").exists()
+    rows[0]["k"] = 3
+    (tmp_path / "two_arm_bellman_audit.jsonl").write_text(
+        "\n".join(json.dumps(row) for row in rows)
+    )
+    with pytest.raises(ValueError, match="two arms"):
+        generate_two_arm_audit_report(tmp_path, bootstrap_samples=100)

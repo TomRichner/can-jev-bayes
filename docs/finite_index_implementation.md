@@ -46,3 +46,17 @@ PYTHONPATH=src .venv/bin/python -m jevbandits.finite_index \
 ```
 
 There are 200 E3 episodes, 600 E4 episodes, and 240 E5 episodes, totaling 88,000 additional offline decisions. The E3 outcomes should be interpreted against exact Bellman loss and paired pseudo-regret. E4/E5 comparisons with Bayes-UCB, knowledge gradient, and IDS test whether the arm-specific stopping calculation helps in settings where the full joint DP is unavailable. Any favorable comparison remains exploratory because the comparator was added after initial results were inspected.
+
+## A concrete counterexample to global optimality
+
+The original two-pull diagnostic anchor also distinguishes the finite index from joint planning. For Beta(11,9) versus Beta(1,1), the two-pull indices are
+
+$$
+\lambda_A=\frac{(11/20)(1+12/21)}{1+11/20}=\frac{121}{217}\approx0.557604,
+\qquad
+\lambda_B=\frac{(1/2)(1+2/3)}{1+1/2}=\frac59\approx0.555556.
+$$
+
+Thus the index policy chooses A, whereas the exact joint values are $Q_A=1.10$ and $Q_B=1.108\overline3$, favoring B. The index brackets at tolerance $10^{-6}$ do not overlap, so this is a planning approximation rather than numerical ambiguity. Knowledge gradient has the exact action ranking at two pulls and chooses B on this fixture.
+
+This does not imply that knowledge gradient dominates the index in aggregate: the index's observed E3 loss is smaller over the 200 prior-drawn episodes. The example illustrates why both exact fixtures and representative closed-loop evaluations are needed, and why no single Bayesian heuristic should be treated as universal ground truth.

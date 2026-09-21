@@ -37,7 +37,7 @@ source .venv/bin/activate
 
 In this agent's restricted environment, the working invocation also used `UV_CACHE_DIR=/private/tmp/can-jev-bayes-uv-cache`; package downloads required network permission. This is an execution-environment detail, not a requirement for the research.
 
-Two live API observations must influence the harness: repeated identical inputs changed probabilities slightly, and one 15-arm response summed to 0.99. Preserve raw responses; do not assume deterministic outputs or an exactly normalized distribution. Details are in [research_notes.md](research_notes.md).
+Two live API observations must influence the harness: repeated identical inputs changed probabilities slightly, and one 15-arm response summed to 0.99. Preserve raw responses; do not assume deterministic outputs or an exactly normalized distribution. Details are in [research_notes.md](../research_notes.md).
 
 ## 3. Experimental design
 

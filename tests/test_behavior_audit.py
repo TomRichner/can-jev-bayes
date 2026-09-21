@@ -114,6 +114,31 @@ def test_e3_recomputed_loss_matches_recorded_trace_and_detects_corruption():
         audit_episode(record)
 
 
+def test_long_horizon_two_arm_scores_null_original_fields_and_tags_working_prior():
+    record = episode(actions=(0,) * 100, rewards=(1,) * 100, experiment="e4_scaling")
+    record["family"] = "clear"
+    record["exact_loss"] = None
+    for point in record["trace"]:
+        point.update(exact_loss=None, optimal_agreement=None)
+    result = audit_episode(record)
+    assert set(result.normative_reference) == {"posthoc_exact_two_arm_h100"}
+    assert set(result.normative_interpretation) == {"working_prior_stress_test"}
+    assert result.exact_loss.notna().all()
+    record["family"] = "prior"
+    assert set(audit_episode(record).normative_interpretation) == {"matched_prior"}
+    # pandas promotes mixed numeric/null episode totals to NaN while preserving nested nulls.
+    record["exact_loss"] = np.nan
+    assert audit_episode(record).exact_loss.notna().all()
+
+
+def test_long_horizon_larger_arm_counts_have_no_exact_reference():
+    record = episode(actions=(0,) * 100, rewards=(1,) * 100, experiment="e4_scaling")
+    record["k"] = 3
+    result = audit_episode(record)
+    assert set(result.normative_reference) == {"unavailable"}
+    assert "exact_loss" not in result
+
+
 @pytest.mark.parametrize(
     "field,value",
     [

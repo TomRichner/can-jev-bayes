@@ -17,6 +17,39 @@ import numpy as np
 import pandas as pd
 from scipy.stats import beta
 
+POLICY_LABELS = {
+    "counts_direct": "Jev: counts",
+    "bayes_direct": "Jev: Bayesian summaries",
+    "counts_sample": "Jev: counts, sampled",
+    "bayes_sample": "Jev: Bayesian summaries, sampled",
+    "dp_direct": "Jev: exact action values",
+    "neutral_direct": "Jev: neutral reward objective",
+    "regret_direct": "Jev: regret objective",
+    "thompson_prompt": "Jev: Thompson sampling prompt",
+    "ucb_direct": "Jev: Bayes-UCB advice",
+    "ts": "Thompson sampling",
+    "bayes_ucb": "Bayes-UCB",
+    "greedy": "Posterior-mean greedy",
+    "knowledge_gradient": "Knowledge gradient",
+    "ids": "Information-directed sampling",
+    "finite_ap_index": "Finite-horizon AP index",
+    "ucb1": "UCB1",
+    "random": "Uniform random",
+    "exact": "Bayes-optimal dynamic program",
+    "exact_h100": "Exact two-arm policy (100 pulls)",
+    "counts_explore": "Counts + exploration instruction",
+    "counts_neutral": "Counts + neutral reward instruction",
+    "counts_regret": "Counts + regret instruction",
+    "bayes_explore": "Bayesian summaries",
+    "means_explore": "Posterior means",
+    "dp_values_explore": "Exact action values",
+    "recommendation_explore": "Nested recommendation",
+}
+
+
+def policy_label(policy):
+    return POLICY_LABELS.get(policy, policy.replace("_", " "))
+
 
 @dataclass(frozen=True)
 class Effect:
@@ -343,6 +376,8 @@ def episode_effects(
                 role = "primary_vs_ts"
             elif left == "bayes_direct" and right == "counts_direct":
                 role = "primary_assistance"
+            if experiment == "pilot":
+                role = "pilot_exploratory"
             for metric in ("pseudo_regret", "reward", "exact_loss"):
                 if (
                     metric not in exp
@@ -798,7 +833,7 @@ def _trajectory_figures(trajectories: pd.DataFrame, output: Path) -> list[str]:
                 ax.plot(
                     curve.turn,
                     curve.mean_cumulative_pseudo_regret,
-                    label=policy,
+                    label=policy_label(policy),
                     linewidth=1.1,
                     color=policy_colors[policy],
                     linestyle="-."
@@ -830,13 +865,21 @@ def _figures(
     import matplotlib.pyplot as plt
 
     paths = []
+    policy_colors = (
+        {
+            policy: plt.get_cmap("tab20")(i % 20)
+            for i, policy in enumerate(sorted(summary.policy.unique()))
+        }
+        if not summary.empty
+        else {}
+    )
     if not summary.empty:
         regrets = summary.loc[summary.metric == "pseudo_regret"]
         for experiment, exp in regrets.groupby("experiment", sort=True):
             families = sorted(exp.family.unique())
             if exp.k.nunique() == 1:
                 fig, axes = plt.subplots(
-                    1, len(families), figsize=(7 * len(families), 6), squeeze=False
+                    1, len(families), figsize=(8 * len(families), 6), squeeze=False
                 )
                 for ax, family in zip(axes.flat, families):
                     cell = exp.loc[exp.family == family].sort_values("policy")
@@ -852,7 +895,7 @@ def _figures(
                         capsize=3,
                         markersize=4,
                     )
-                    ax.set_yticks(positions, cell.policy)
+                    ax.set_yticks(positions, [policy_label(p) for p in cell.policy])
                     ax.invert_yaxis()
                     ax.set(
                         title=f"{family}, {int(cell.k.iloc[0])} arms",
@@ -875,9 +918,25 @@ def _figures(
                 ):
                     values = values.sort_values("k")
                     ax.plot(
-                        values.k, values["mean"], marker="o", markersize=3, label=policy
+                        values.k,
+                        values["mean"],
+                        marker="o",
+                        markersize=3,
+                        label=policy_label(policy),
+                        color=policy_colors[policy],
+                        linestyle="-."
+                        if policy.endswith("sample")
+                        else "-"
+                        if policy.endswith("direct")
+                        else "--",
                     )
-                    ax.fill_between(values.k, values.ci_low, values.ci_high, alpha=0.08)
+                    ax.fill_between(
+                        values.k,
+                        values.ci_low,
+                        values.ci_high,
+                        alpha=0.08,
+                        color=policy_colors[policy],
+                    )
                 ax.set(
                     title=family,
                     xlabel="Number of arms",
@@ -905,7 +964,7 @@ def _figures(
                         values["mean"],
                         marker="o",
                         markersize=3,
-                        label=policy,
+                        label=policy_label(policy),
                     )
                     ax.fill_between(
                         values.horizon, values.ci_low, values.ci_high, alpha=0.10
@@ -1292,7 +1351,9 @@ def generate_report(
     manifest = {
         "bootstrap_samples": bootstrap_samples,
         "analysis_seed": 20260920,
-        "analysis_source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        "analysis_source_sha256": hashlib.sha256(
+            Path(__file__).read_bytes()
+        ).hexdigest(),
         "experiment_filter": None
         if experiment_filter is None
         else list(experiment_filter),
@@ -1313,5 +1374,166 @@ def generate_report(
     }
     (output / "analysis_manifest.json").write_text(
         json.dumps(manifest, indent=2) + "\n"
+    )
+    return path
+
+
+def generate_two_arm_audit_report(
+    run_dir, output_dir=None, *, bootstrap_samples=10_000
+):
+    """Keep the post hoc exact horizon-100 audit separate from the all-K panel."""
+    source = Path(run_dir)
+    output = Path(output_dir) if output_dir else source / "long_horizon_exact_report"
+    output.mkdir(parents=True, exist_ok=True)
+    data_path = source / "two_arm_bellman_audit.jsonl"
+    data = read_jsonl(data_path)
+    if data.empty:
+        raise ValueError("No long-horizon exact audit records")
+    if (
+        not data.k.eq(2).all()
+        or not data.horizon.eq(100).all()
+        or not data.experiment.eq("e4_scaling").all()
+    ):
+        raise ValueError("The separate exact audit requires E4, two arms, horizon 100")
+    if data.duplicated(["episode_id", "policy"]).any():
+        raise ValueError("Duplicate exact-audit episode/policy")
+    rows = []
+    for (family, policy), block in data.groupby(["family", "policy"], sort=True):
+        for metric in ("exact_loss", "optimal_agreement", "pseudo_regret", "reward"):
+            mean, low, high = bootstrap_mean(
+                block[metric],
+                samples=bootstrap_samples,
+                seed=_seed(f"two_arm_h100:{family}:{policy}:{metric}"),
+            )
+            rows.append(
+                {
+                    "family": family,
+                    "policy": policy,
+                    "metric": metric,
+                    "mean": mean,
+                    "ci_low": low,
+                    "ci_high": high,
+                    "n_episodes": len(block),
+                    "expected_episodes": 40,
+                    "analysis_role": "post_hoc_two_arm_normative_audit",
+                }
+            )
+    summary = pd.DataFrame(rows)
+    summary.to_csv(output / "episode_summary.csv", index=False)
+    effects = []
+    for family, block in data.groupby("family", sort=True):
+        for policy in sorted(set(block.policy) - {"exact_h100"}):
+            for metric in ("pseudo_regret", "exact_loss"):
+                effect = paired_effect(
+                    block,
+                    policy,
+                    "exact_h100",
+                    metric,
+                    ["episode_id"],
+                    samples=bootstrap_samples,
+                    seed=_seed(f"two_arm_h100:{family}:{policy}:{metric}:paired"),
+                )
+                effects.append(
+                    {
+                        "family": family,
+                        **asdict(effect),
+                        "analysis_role": "post_hoc_two_arm_normative_audit",
+                    }
+                )
+    pd.DataFrame(effects).to_csv(
+        output / "paired_exact_policy_effects.csv", index=False
+    )
+    sections = [
+        "# Post hoc exact audit: two arms, 100 pulls",
+        (
+            "This separate analysis scores recorded E4 two-arm histories against exact finite-horizon "
+            "Beta-Bernoulli action values and adds an offline exact-policy comparator. It is not pooled "
+            "with results at other arm counts and was added after initial collection. No new Jev calls "
+            "are used. The exact policy is not a clairvoyant oracle."
+        ),
+        (
+            "The frozen target is 40 paired underlying tasks per family; observed counts appear below. Policy rows reuse those tasks and do not "
+            "increase the independent task count. Intervals bootstrap whole episodes with 10,000 "
+            "resamples (or the explicitly recorded analysis setting) and are exploratory pointwise "
+            "95% intervals. Pseudo-regret contrasts versus the exact policy are paired within family."
+        ),
+        (
+            "Cumulative local exact loss sums the reward sacrificed by each chosen action assuming "
+            "optimal continuation thereafter. Its expectation equals the policy's Bayesian value gap "
+            "under the matched independent uniform prior. The prior family is the matched-prior test; "
+            "clear and close families are fixed-instance stress tests evaluated under a working prior. "
+            "Their local Q losses are not population reward gaps under those stress-test distributions. "
+            "Finite-sample pseudo-regret rankings can differ from expected Bayesian optimality."
+        ),
+    ]
+    for family, block in summary.groupby("family", sort=True):
+        table = []
+        for policy, policy_rows in block.groupby("policy", sort=True):
+            row = {
+                "Policy": policy_label(policy),
+                "Episodes": int(policy_rows.n_episodes.iloc[0]),
+            }
+            for metric, label in [
+                ("exact_loss", "Cumulative exact loss"),
+                ("optimal_agreement", "Optimal-action agreement"),
+                ("pseudo_regret", "Pseudo-regret"),
+            ]:
+                r = policy_rows.loc[policy_rows.metric == metric].iloc[0]
+                row[label] = f"{r['mean']:.4f} [{r.ci_low:.4f}, {r.ci_high:.4f}]"
+            table.append(row)
+        sections += [f"## {family.title()} family", markdown_table(pd.DataFrame(table))]
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    families = sorted(data.family.unique())
+    policies = sorted(data.policy.unique())
+    fig, axes = plt.subplots(
+        1, len(families), figsize=(5 * len(families) + 2, 6), sharey=True, squeeze=False
+    )
+    for ax, family in zip(axes.flat, families, strict=True):
+        for y, policy in enumerate(policies):
+            row = summary.loc[
+                (summary.family == family)
+                & (summary.policy == policy)
+                & (summary.metric == "exact_loss")
+            ]
+            if row.empty:
+                continue
+            r = row.iloc[0]
+            ax.hlines(y, r.ci_low, r.ci_high, color="#0072B2", linewidth=2)
+            ax.plot(r["mean"], y, "o", color="#0072B2", markersize=4)
+        ax.set(
+            title=f"{family.title()} family",
+            xlabel="Mean cumulative exact decision loss",
+        )
+        ax.grid(axis="x", alpha=0.2)
+    axes[0, 0].set_yticks(range(len(policies)), [policy_label(p) for p in policies])
+    axes[0, 0].invert_yaxis()
+    fig.suptitle("Separate two-arm, 100-pull audit · episode bootstrap 95% intervals")
+    fig.tight_layout()
+    fig.savefig(output / "exact_loss_by_family.png", dpi=180, bbox_inches="tight")
+    plt.close(fig)
+    sections.append("![Separate exact-loss audit](exact_loss_by_family.png)")
+    path = output / "report.md"
+    path.write_text("\n\n".join(sections) + "\n")
+    metadata = {
+        "bootstrap_samples": bootstrap_samples,
+        "analysis_source_sha256": hashlib.sha256(
+            Path(__file__).read_bytes()
+        ).hexdigest(),
+        "input_sha256": hashlib.sha256(data_path.read_bytes()).hexdigest(),
+        "audit_manifest": json.loads(
+            (source / "two_arm_audit_manifest.json").read_text()
+        )
+        if (source / "two_arm_audit_manifest.json").exists()
+        else None,
+        "n_episode_policy_rows": len(data),
+        "n_unique_tasks": data.episode_id.nunique(),
+        "policy": "separate two-arm analysis; not pooled with all-K comparison",
+    }
+    (output / "analysis_manifest.json").write_text(
+        json.dumps(metadata, indent=2) + "\n"
     )
     return path

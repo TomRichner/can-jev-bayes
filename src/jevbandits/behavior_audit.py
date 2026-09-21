@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
@@ -14,6 +15,7 @@ from scipy.stats import beta
 from .baselines import exact_q, knowledge_gradient
 from .followup_reports import NICE
 from .report import _seed, bootstrap_mean, markdown_table, read_jsonl
+from .two_arm_table import TwoArmTable
 
 TOLERANCE = 1e-10
 PHASES = ("early", "middle", "late")
@@ -47,6 +49,11 @@ METRICS = (
     "neutral_non_greedy",
     "exact_optimal_agreement",
 )
+
+
+@lru_cache(maxsize=1)
+def _long_horizon_table():
+    return TwoArmTable(100)
 
 
 def phase_for_turn(turn: int, horizon: int) -> str:
@@ -161,11 +168,12 @@ def audit_episode(episode: dict) -> pd.DataFrame:
             raise ValueError("Invalid Bernoulli reward")
         if int((s + f).sum()) != turn - 1:
             raise ValueError("Count reconstruction failed")
-        q = (
-            exact_q(tuple(s), tuple(f), horizon - turn + 1)
-            if episode["experiment"] == "e3_exact_online"
-            else None
-        )
+        if episode["experiment"] == "e3_exact_online":
+            q = exact_q(tuple(s), tuple(f), horizon - turn + 1)
+        elif k == 2 and horizon == 100:
+            q = _long_horizon_table().q(s, f)
+        else:
+            q = None
         row = state_behavior(s, f, action, turn, horizon, q)
         if "posterior_mean_greedy" in point and bool(
             point["posterior_mean_greedy"]
@@ -177,15 +185,16 @@ def audit_episode(episode: dict) -> pd.DataFrame:
             raise ValueError("Recorded unseen-arm flag disagrees with replay")
         if q is not None:
             recorded_loss = point.get("exact_loss")
-            if (
-                recorded_loss is None
-                or not np.isfinite(recorded_loss)
+            if episode["experiment"] == "e3_exact_online" and recorded_loss is None:
+                raise ValueError("Missing recorded E3 exact loss")
+            if recorded_loss is not None and (
+                not np.isfinite(recorded_loss)
                 or not np.isclose(recorded_loss, row["exact_loss"], atol=1e-9, rtol=0)
             ):
                 raise ValueError(
-                    "Recorded E3 exact loss disagrees with public-history recomputation"
+                    "Recorded exact loss disagrees with public-history recomputation"
                 )
-            if "optimal_agreement" in point and bool(
+            if point.get("optimal_agreement") is not None and bool(
                 point["optimal_agreement"]
             ) != bool(row["exact_optimal_agreement"]):
                 raise ValueError("Recorded E3 optimality flag disagrees with replay")
@@ -198,7 +207,7 @@ def audit_episode(episode: dict) -> pd.DataFrame:
     frame = pd.DataFrame(scored)
     if (
         "exact_loss" in frame
-        and episode.get("exact_loss") is not None
+        and pd.notna(episode.get("exact_loss"))
         and not np.isclose(
             episode["exact_loss"], frame.exact_loss.sum(), rtol=0, atol=1e-8
         )
@@ -208,6 +217,23 @@ def audit_episode(episode: dict) -> pd.DataFrame:
         key: episode[key]
         for key in ["experiment", "family", "k", "horizon", "policy", "episode_id"]
     }
+    reference = (
+        "exact_e3"
+        if episode["experiment"] == "e3_exact_online"
+        else "posthoc_exact_two_arm_h100"
+        if k == 2 and horizon == 100
+        else "unavailable"
+    )
+    interpretation = (
+        "unavailable"
+        if reference == "unavailable"
+        else "matched_prior"
+        if episode["family"] == "prior"
+        else "working_prior_stress_test"
+    )
+    metadata.update(
+        normative_reference=reference, normative_interpretation=interpretation
+    )
     phase_rows = []
     for phase in PHASES:
         block = frame.loc[frame.phase == phase]
@@ -238,6 +264,8 @@ def summarize_phases(phases: pd.DataFrame, *, samples=10_000) -> pd.DataFrame:
             rows.append(
                 dict(zip(keys, key))
                 | {
+                    "normative_reference": block.normative_reference.iloc[0],
+                    "normative_interpretation": block.normative_interpretation.iloc[0],
                     "metric": metric,
                     "mean": mean,
                     "ci_low": low,
@@ -372,7 +400,7 @@ def generate_behavior_report(
         "Posterior-mean maximizers form a tie-aware set (absolute tolerance 1e-10). Strict non-greedy choices have a larger mean deficit. Lower-mean/higher-uncertainty requires the chosen posterior standard deviation to exceed the maximum among posterior-mean maximizers. Equal-best-mean/higher-uncertainty requires a greedy-set choice with greater standard deviation than at least one other greedy-set member; it is reported separately and can be exploratory without sacrificing immediate expected reward.",
         "Same-history agreement compares the chosen action with all maximizers of Bayes-UCB (q_t=1-1/t) or the finite-horizon knowledge-gradient score, recomputed on this policy's own public state. Index ties use tolerance 1e-12. Mean top-set sizes are supplied because tied recommendations can inflate agreement. These agreements do not identify Jev's internal algorithm.",
         "## Exact two-arm decision-value checks",
-        "E3 exact Q values and recorded decision losses were checked at every visited state. These Q values assume Bayes-optimal continuation after the current action. Useful non-greedy actions strictly improve on the best posterior-mean-maximizing action's Q value; inferior non-greedy actions are strictly worse; neutral choices are tied within tolerance. This distinguishes value from merely leaving the greedy set. Elsewhere, non-greedy or uncertainty-seeking behavior is descriptive and is not labeled useful or wasteful without a normative action-value reference.",
+        "E3 exact Q values and recorded decision losses were checked at every visited state. A separately flagged post hoc exact Bellman table also scores two-arm, 100-pull histories; original null loss fields in those traces are not treated as recorded scores. No exact reference is supplied for larger arm counts. These Q values assume Bayes-optimal continuation after the current action. Useful non-greedy actions strictly improve on the best posterior-mean-maximizing action's Q value; inferior non-greedy actions are strictly worse; neutral choices are tied within tolerance. The prior family matches the Bayesian model; clear/close families use a working-prior normative reference, not their fixed-instance population optimum. These conditions remain separate and are not pooled across arm counts. Elsewhere, non-greedy or uncertainty-seeking behavior is descriptive and is not labeled useful or wasteful without a normative action-value reference.",
         markdown_table(exact),
         "This is a post hoc behavioral description with exploratory pointwise intervals and no multiple-comparison correction. Phase trajectories are descriptive associations: policies visit different states, and remaining horizon, evidence and time change together. Equal mean choices can gather valuable information; high agreement with a simple policy does not establish a common computation or mechanism.",
     ]
@@ -392,6 +420,7 @@ def generate_behavior_report(
                 "baselines.py",
                 "report.py",
                 "followup_reports.py",
+                "two_arm_table.py",
             ]
         },
         "inputs": {

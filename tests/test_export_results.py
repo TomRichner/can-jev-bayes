@@ -1,6 +1,8 @@
 import csv
 import gzip
 import json
+import sqlite3
+import zlib
 
 import pytest
 
@@ -16,7 +18,7 @@ def test_export_preserves_large_seed_and_drops_trace(tmp_path):
         "policy": "p",
         "seed": 2**64 - 1,
         "theta": [0.25, 0.75],
-        "trace": [{"reward": 1}],
+        "trace": [{"reward": 1, "action": 0}],
         "pseudo_regret": 0.125,
     }
     (source / "episodes_jev.jsonl").write_text(json.dumps(record) + "\n")
@@ -27,6 +29,8 @@ def test_export_preserves_large_seed_and_drops_trace(tmp_path):
     assert row["seed"] == str(2**64 - 1)
     assert json.loads(row["theta"]) == [0.25, 0.75]
     assert "trace" not in row
+    assert json.loads(row["actions"]) == [0]
+    assert json.loads(row["rewards"]) == [1]
     assert float(row["pseudo_regret"]) == 0.125
 
 
@@ -44,3 +48,31 @@ def test_duplicate_episodes_rejected(tmp_path):
     (source / "episodes_index.jsonl").write_text(row)
     with pytest.raises(ValueError, match="Duplicate"):
         export(source, tmp_path / "output")
+
+
+def test_ledger_export_whitelists_fields(tmp_path):
+    source = tmp_path / "source"
+    source.mkdir()
+    with sqlite3.connect(source / "ledger.sqlite") as db:
+        db.execute("CREATE TABLE decisions(id TEXT,record BLOB)")
+        record = {
+            "action": 0,
+            "probabilities": [0.6, 0.4],
+            "raw_answer": {
+                "type": "choice",
+                "choice": "a",
+                "confidence": 0.2,
+                "probabilities": {"a": 0.6, "b": 0.4},
+            },
+            "headers": {"authorization": "not-for-release"},
+        }
+        db.execute(
+            "INSERT INTO decisions VALUES(?,?)",
+            ("test", zlib.compress(json.dumps(record).encode())),
+        )
+    result = export(source, tmp_path / "output")
+    assert result["exports"]["decision_distributions"]["rows"] == 1
+    with gzip.open(tmp_path / "output" / "decision_distributions.csv.gz", "rt") as file:
+        text = file.read()
+    assert "not-for-release" not in text
+    assert "backend_confidence" in text

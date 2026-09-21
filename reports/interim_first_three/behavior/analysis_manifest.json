@@ -1,0 +1,17 @@
+{
+  "experiments": [
+    "e3_exact_online"
+  ],
+  "bootstrap_samples": 10000,
+  "completed_episode_rows": 2800,
+  "source_hashes": {
+    "behavior_audit.py": "439aa955b77b890f255637a28f3f676fda2062bbe6fcd99020458b42643e5215",
+    "baselines.py": "2f204f3724d31ae5b768d3e7c254f9d19bbae4ad81c281a26bb966277b4a9918",
+    "report.py": "6afbd7804a55cb15e82ce572f0e9e20124e2b8232af51a26394e111251e1d328",
+    "followup_reports.py": "e9c93ecd07e162d63fc132c4590b43e606a95af48cac22bb65cbb0036a0a1e53"
+  },
+  "inputs": {
+    "episodes.jsonl": "269d61d230c0c0ec001334195e4bc896d3d573be43857ca300a65275c8a7266a",
+    "episodes_index.jsonl": "ee99ad8ca5582edb282ef1eeceb5cf026deef991affd92512c8b6454ef37f16c"
+  }
+}
