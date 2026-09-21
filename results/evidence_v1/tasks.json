@@ -1,0 +1,5282 @@
+[
+  {
+    "episode_id": "e8_evidence_online:close:3:0",
+    "family": "close",
+    "k": 3,
+    "index": 0,
+    "seed": 17757274585557438911,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "038435ceafd6cfcade09629c4815600c2bc3e178902be013cee8ebc68641ef32"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:1",
+    "family": "close",
+    "k": 3,
+    "index": 1,
+    "seed": 7662886126612251116,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "1e88a07aeb2e047ca9c0513bc8c1b1d4027f8694874e5ede4d82b05b73b5d158"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:2",
+    "family": "close",
+    "k": 3,
+    "index": 2,
+    "seed": 4733445641516375922,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "20eef5911e9857f3b2c53bcaf8e3e10a8961cd6e4a3fa272f3c72048d3e91385"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:3",
+    "family": "close",
+    "k": 3,
+    "index": 3,
+    "seed": 16937892553332993532,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "46fd4fa3f39c904604b09a9ae5d527a0178294206c77d5a9ba85755a2d42a613"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:4",
+    "family": "close",
+    "k": 3,
+    "index": 4,
+    "seed": 10615234918932440970,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "466feb241363114ad3391d3915d63b985ce36fbacf131aaa06b5755cd97df009"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:5",
+    "family": "close",
+    "k": 3,
+    "index": 5,
+    "seed": 16889800582142259356,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "53452fc02fc63281c95dd6b28b6673531220e1870902ca6fb5e735251af066c6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:6",
+    "family": "close",
+    "k": 3,
+    "index": 6,
+    "seed": 8504480306061131865,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "276f4e0030498e0e837ee3fe57ee52dcc2d4f7e4bef8fd9e6eb837bd775772cf"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:7",
+    "family": "close",
+    "k": 3,
+    "index": 7,
+    "seed": 10842322046285111884,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "de6c08401dba12da603fa4c31d1d202a861601e9a86584fedb352bd1ce8d3143"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:8",
+    "family": "close",
+    "k": 3,
+    "index": 8,
+    "seed": 6383040735440673964,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "7f04cf6483487cbf57257ff7a8b80c8f5ac43504035d56925f1e67e618635f0e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:9",
+    "family": "close",
+    "k": 3,
+    "index": 9,
+    "seed": 15115162893996948921,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "c309cc50f8eb2586768905fa574607a644e34a9e2c130a7181059044b7d8cc17"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:10",
+    "family": "close",
+    "k": 3,
+    "index": 10,
+    "seed": 14533565056470040592,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "c00aea25d9adae0a14e89c9a0b3c6fcdf5ff83b3f95d4673e046c82312c7e17a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:11",
+    "family": "close",
+    "k": 3,
+    "index": 11,
+    "seed": 14236177264098328783,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "3299e410f718cef869b262f449926b65fba991823405f9ef7a0cbef15cef39fc"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:12",
+    "family": "close",
+    "k": 3,
+    "index": 12,
+    "seed": 2211977386966883873,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "3300b0d8695765d837297e0e538b625688aa1466ba9dffa1fecc48e628d87dee"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:13",
+    "family": "close",
+    "k": 3,
+    "index": 13,
+    "seed": 1337916215547542202,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "6f748e04968200e69af0cb6c777825022754015cb965d1bc4462216c5ee37d36"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:14",
+    "family": "close",
+    "k": 3,
+    "index": 14,
+    "seed": 14965672871487626742,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "2ba0b8a2f25e4363171b5464c9255b3cfc8b76e1a702bd9a0b653d9c7c1be122"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:15",
+    "family": "close",
+    "k": 3,
+    "index": 15,
+    "seed": 4170308508466799027,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "077749c845898220c796d00d67ec2b0ce19794145bab6e9316dd3cf8d90682dc"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:16",
+    "family": "close",
+    "k": 3,
+    "index": 16,
+    "seed": 17063370125145837617,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "e027dc5216879491bcdb910618c2bd5423066f49374c2dfa60c99b675ce6f43a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:17",
+    "family": "close",
+    "k": 3,
+    "index": 17,
+    "seed": 5829496995553726299,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "881dec8456e9af82c632da2c5e5bb261c2bf40ae176de2430f0686934c5e7ad6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:18",
+    "family": "close",
+    "k": 3,
+    "index": 18,
+    "seed": 3460457604566467248,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "4bef02d74480cf4b32ab24a65825902cba2ce120c4bd81744339f60d8e5412bd"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:19",
+    "family": "close",
+    "k": 3,
+    "index": 19,
+    "seed": 10574419393843767110,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "8427314fa0f03a139ed6a42895f92563dfc3c90656d7a1e13ea27aaae0e068fc"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:20",
+    "family": "close",
+    "k": 3,
+    "index": 20,
+    "seed": 8728392179424882348,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "e688a58d5b3c203d9ac3ef542d31a6f88577dd681da315772b95b5cfc9a15af6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:21",
+    "family": "close",
+    "k": 3,
+    "index": 21,
+    "seed": 5888904318492221995,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "33c249254f4d57f7978bb577f3954f989f0a256accc41d8d3c3e9122e46a0c58"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:22",
+    "family": "close",
+    "k": 3,
+    "index": 22,
+    "seed": 5571756800400354887,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "48dbfc7cc09f63537bd2d3eb886ed9835ce9f11316a575011a52394bdae4e9d5"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:23",
+    "family": "close",
+    "k": 3,
+    "index": 23,
+    "seed": 11592742298665832122,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "899480b85f9dddaded96cd4cdc5bf871eb7ef6510e98f1dc22c3cb02b2c4a1fa"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:24",
+    "family": "close",
+    "k": 3,
+    "index": 24,
+    "seed": 5060566140921636007,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "50ce4428c6825579ed520ddf465a55e1e55213c17cbbd8794078b937d8efb4f4"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:25",
+    "family": "close",
+    "k": 3,
+    "index": 25,
+    "seed": 9011156516170850755,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "153ec7a2a8633e082c0c335a934605774d06f5d60a3faf9ac41b14ad23bb16b9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:26",
+    "family": "close",
+    "k": 3,
+    "index": 26,
+    "seed": 16913315241138277694,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "c31f8f11d12f4ce4731134024ed758ec0b3910b9c7d6f9c767a1cd33615c51e9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:27",
+    "family": "close",
+    "k": 3,
+    "index": 27,
+    "seed": 15357943752500304372,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "84763b90d74d668a7c664a9ddfb1020ee61d8508d1c8dfe695bc26bed58c6f65"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:28",
+    "family": "close",
+    "k": 3,
+    "index": 28,
+    "seed": 12385600985328110714,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "0362662d36ed5f004a88b7bfad95323bf41d6a5353618b8f4698226d116fddaf"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:29",
+    "family": "close",
+    "k": 3,
+    "index": 29,
+    "seed": 5656721381774325988,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "e3ee7f110281873a4a75684000a0b477f11f5c99e09243af752e6e019d5223a4"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:30",
+    "family": "close",
+    "k": 3,
+    "index": 30,
+    "seed": 7252688278863769940,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "7b704f244a2b5d5c6999ad05f93c5933cc5ddc04773e9044bdf1b146f60262d1"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:31",
+    "family": "close",
+    "k": 3,
+    "index": 31,
+    "seed": 7030282175004447801,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "560ac538699b9d650722dea52174114f0de62f9638fb53122e7fe0e6cb0919c0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:32",
+    "family": "close",
+    "k": 3,
+    "index": 32,
+    "seed": 571729652216899899,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "3ff66e71c6ce242f0a1999a49c5091ea4196f57060d1e368037c5b74caf59326"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:33",
+    "family": "close",
+    "k": 3,
+    "index": 33,
+    "seed": 274253477466887059,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "93825d1394a1e77ee57dd7bd4df66b49448133fbb32b9d8490c1e3d655dc354c"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:34",
+    "family": "close",
+    "k": 3,
+    "index": 34,
+    "seed": 8132645852488250678,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "473c1ddddf91d52211d04b08bd62344bf72b1a154fd1b2f61be98f4d04e7d2a4"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:35",
+    "family": "close",
+    "k": 3,
+    "index": 35,
+    "seed": 5067191314079707861,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "4c195359b5d522a1e1517ec87642a5a7b7b009172dabce6b376552719eb42bd4"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:36",
+    "family": "close",
+    "k": 3,
+    "index": 36,
+    "seed": 16534714544164450848,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "8effe9d26ab8a1b01e3bd190bb7bdef0d7cb76e905fb92bfdbc594aaa4403170"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:37",
+    "family": "close",
+    "k": 3,
+    "index": 37,
+    "seed": 2712547197021417327,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "9167e01195554f1eb91a06140f04661d9667646783a8ca7e02d7e05478ae4384"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:38",
+    "family": "close",
+    "k": 3,
+    "index": 38,
+    "seed": 6154354444771299101,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "e1d7b5e9cb8e1eadd8b8df6c712a4dd71cc2405818aa7263782eeba44aa367e1"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:39",
+    "family": "close",
+    "k": 3,
+    "index": 39,
+    "seed": 7149083405844574169,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "7a634a02b8b855bdb1e349ddc977f1e4a6653e1b33d875b75f7af9effb80e53d"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:40",
+    "family": "close",
+    "k": 3,
+    "index": 40,
+    "seed": 15203443843362778966,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "c4688625516cd434fd40a646ab76ec3bc198c2816e86a2c98d07c9c61483f8e1"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:41",
+    "family": "close",
+    "k": 3,
+    "index": 41,
+    "seed": 3053429673016924550,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "5fbe550b26d932ce4e98b5454a274adc1d3aef3e673aa2810ce23b2214272a84"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:42",
+    "family": "close",
+    "k": 3,
+    "index": 42,
+    "seed": 7341692852955637785,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "59545e2678af910b1ebf8316c32be1a3479c2e22836498563315941dbfbefacf"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:43",
+    "family": "close",
+    "k": 3,
+    "index": 43,
+    "seed": 15725782244817301085,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "b2c89589c7d2f701d6144344d4c0bafa7269b1edd42f196dd7ec438306cac4c9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:44",
+    "family": "close",
+    "k": 3,
+    "index": 44,
+    "seed": 12467025161364658068,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "8bb4e44a648e35154824d9bdfbb0e75fadb5baed37da353a51e49853f714a5d9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:45",
+    "family": "close",
+    "k": 3,
+    "index": 45,
+    "seed": 10476212438735165214,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "51023ed5da390788c1d263f6542826abadb97d8646b4a53a9a068ceb5585624d"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:46",
+    "family": "close",
+    "k": 3,
+    "index": 46,
+    "seed": 5727923664748600827,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "a7c15547c8d16a2f7b15beed2cbdbb405d6f828a5588858cc0614d9f922b2847"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:47",
+    "family": "close",
+    "k": 3,
+    "index": 47,
+    "seed": 11554650001444779636,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "c4e1788d6322cac76ad03df1f8636d089341ef1543683d4b011249ab299ee230"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:48",
+    "family": "close",
+    "k": 3,
+    "index": 48,
+    "seed": 12406046973933533937,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "e9fbd46921fc026b21b4c2dbfa658bc23ae522c5586285d47abbf88e57151ae7"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:49",
+    "family": "close",
+    "k": 3,
+    "index": 49,
+    "seed": 6820188933623505823,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "2d83ab1ccb82a7e39dcdeb714e223e479d9830e4f85339c883d8911441402a9a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:50",
+    "family": "close",
+    "k": 3,
+    "index": 50,
+    "seed": 925588792713277581,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "e8ae36c8265c90e023ffa6a61eb2ce53ec55898cc67f5fc79eb9322f3013a49b"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:51",
+    "family": "close",
+    "k": 3,
+    "index": 51,
+    "seed": 4612787648354534120,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "2caa671135c2464bbc33ff48292407b2640ad9b935a1554ae66dafb7f11d43e3"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:52",
+    "family": "close",
+    "k": 3,
+    "index": 52,
+    "seed": 14969692494199737522,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "a9289573a53cc78ab53ab32d83e2532c0bd4ea48dff2fcff3b35be1838ae6df0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:53",
+    "family": "close",
+    "k": 3,
+    "index": 53,
+    "seed": 8328451502472216251,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "05c1d19e7b543cadbc0c6c3b50dd2b0bba6cbd4ea63fd67d55adb19303d14f56"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:54",
+    "family": "close",
+    "k": 3,
+    "index": 54,
+    "seed": 9402289190217663800,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "f48c262420d8be842fccabbfacaf53faf4ba2947f84b81c5aca5075bc9495378"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:55",
+    "family": "close",
+    "k": 3,
+    "index": 55,
+    "seed": 15802225484526918975,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "d8739f3ece41d0facdc07a3b32cef5e437d14973b8ecb1fc2bc6921f92e3f298"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:56",
+    "family": "close",
+    "k": 3,
+    "index": 56,
+    "seed": 1409289666277638345,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "7e3ee809cac565dbd6e6add3115403e996c90d5deee01daa62aaa179acb608cf"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:57",
+    "family": "close",
+    "k": 3,
+    "index": 57,
+    "seed": 5746607242481447039,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "c25394d58b59ab1597f88e6c0e8bda1e438cb1aa20e7e9c74754117076ab7189"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:58",
+    "family": "close",
+    "k": 3,
+    "index": 58,
+    "seed": 15853578562787562785,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "ef905c4c74895e3b747cc0ca10e83d7c98081554bd1874985ed6c4fd444c5ae7"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:59",
+    "family": "close",
+    "k": 3,
+    "index": 59,
+    "seed": 10009740631951710677,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "80a33d204cbcaa3f05d7a43ccac3076bde1a7224a085b03ead74b19ce0ea0f4c"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:60",
+    "family": "close",
+    "k": 3,
+    "index": 60,
+    "seed": 10599813616453319996,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "9819e65412d2ebe02b1f013091c9e84e3c463b5a723a90928b034765f223c276"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:61",
+    "family": "close",
+    "k": 3,
+    "index": 61,
+    "seed": 472289271645571999,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "b3fdef8c9788c37a36a08bac293375a3d745f0e066c01b3bc6dadacb84482afa"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:62",
+    "family": "close",
+    "k": 3,
+    "index": 62,
+    "seed": 4081685564849561400,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "b39221b0362d707ec671a8deabe32d28d5be6577e1870922c1f869241c75303e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:63",
+    "family": "close",
+    "k": 3,
+    "index": 63,
+    "seed": 3937776833460191336,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "9093d8daf4f7968a3d4a749fee5155dc28f77fddc529b946c85ba8168c4aaebf"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:64",
+    "family": "close",
+    "k": 3,
+    "index": 64,
+    "seed": 4966223797127005775,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "d4f71fd17bd8edf0784cb40c799fc81827b4b73bbda04f972cf26b5edbc01ce0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:65",
+    "family": "close",
+    "k": 3,
+    "index": 65,
+    "seed": 10290040591836095113,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "8ad1621834d71f5e5b1d78d11bb464b59507df482c96deaf58e25658d6f6e846"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:66",
+    "family": "close",
+    "k": 3,
+    "index": 66,
+    "seed": 6258538517282515015,
+    "theta": [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "751c9de7560ddec9853e2ec0ba8ab6457bbfc5b9dc65bec3ccd39babae4fbf23"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:67",
+    "family": "close",
+    "k": 3,
+    "index": 67,
+    "seed": 16046768244769702188,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "a9913e385a41c94c794508fa59219ee2e0c46d349c9948ff132eb3db5c500f5a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:68",
+    "family": "close",
+    "k": 3,
+    "index": 68,
+    "seed": 6167355226942510182,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "53b7932e233e43e31f0bb346bae7bde529799da4010c312f1eb764376853373f"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:69",
+    "family": "close",
+    "k": 3,
+    "index": 69,
+    "seed": 1828464628395394868,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "86051465862954b5ce4c942a902cefb61abc7ed41b4bdc10aebbb3f2436bfdfa"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:70",
+    "family": "close",
+    "k": 3,
+    "index": 70,
+    "seed": 15307063115643863724,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "f54948dc8a59d497d6e40778112a57b185576b35a58643235120be140eeff019"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:71",
+    "family": "close",
+    "k": 3,
+    "index": 71,
+    "seed": 6959547783962813907,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "b2a5e5d0b35d01d6c709fe55e67a87f76d9d8aac073eefb4abdaca4531febd50"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:72",
+    "family": "close",
+    "k": 3,
+    "index": 72,
+    "seed": 9870705599087103594,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "3cc59569637cf304a7290fd47c2b3aa53f233c8a27a4287eee926b996bbaecef"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:73",
+    "family": "close",
+    "k": 3,
+    "index": 73,
+    "seed": 10746225786728401432,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "b72c4d346fc47e871d8f628bc3799a0b8284543e21476510779dd5bc7fffe4de"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:74",
+    "family": "close",
+    "k": 3,
+    "index": 74,
+    "seed": 1690196508295113885,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "a46936f889f8908214df13cb320a23f03a322c220b6870d098a1beae5cf47b19"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:75",
+    "family": "close",
+    "k": 3,
+    "index": 75,
+    "seed": 2666383132262226571,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "aac806e464a120f6ddd5881a699ff44d1b6b48634ba26a973b85556bcf5cb114"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:76",
+    "family": "close",
+    "k": 3,
+    "index": 76,
+    "seed": 3853721423881750992,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "c430374ec4f93e829aeaba393a45fa2e3340df18559864632038f2516ccf391a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:77",
+    "family": "close",
+    "k": 3,
+    "index": 77,
+    "seed": 11106475037620534600,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "8b4d96162fcbc57ff9387eba1b22b8daa4ef3bed7180e61eb763c64322118721"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:78",
+    "family": "close",
+    "k": 3,
+    "index": 78,
+    "seed": 1398901989917882425,
+    "theta": [
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "ec2e7c0afa428dd70d3d6ed34da81b6a28bb5f75666a07e2011f6ea89d6ca769"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:3:79",
+    "family": "close",
+    "k": 3,
+    "index": 79,
+    "seed": 2020893410215744850,
+    "theta": [
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "5c932683a651f1484cb2e5ac33b8598dc6c6b561113afbbadbe8738f72c4692a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:0",
+    "family": "close",
+    "k": 10,
+    "index": 0,
+    "seed": 11070302423029555558,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "623bb35a51581fc6758c418a7f7e9305f51d0780da45cb3519c3af1c0a845b12"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:1",
+    "family": "close",
+    "k": 10,
+    "index": 1,
+    "seed": 5396988324037723888,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "b497afd45c54fc4369e3eb1f736f02393c75430ca65bb5ea49d1d4c5219df9be"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:2",
+    "family": "close",
+    "k": 10,
+    "index": 2,
+    "seed": 10288383279492912762,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "0f6fd106799aeedf79b5b6962ffe17c46490eda531beb15fec7e41428b15686a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:3",
+    "family": "close",
+    "k": 10,
+    "index": 3,
+    "seed": 323872264517096147,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "22c8585201b76e16ab1244eff9ee572787cfeeb9e071ef49fc1561f8a2d83338"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:4",
+    "family": "close",
+    "k": 10,
+    "index": 4,
+    "seed": 376522574257762342,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "ae3eac361271ac6c935b66f6fc82105627f963cb8861ea88ca2d25422f4d8c27"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:5",
+    "family": "close",
+    "k": 10,
+    "index": 5,
+    "seed": 10441861132611612070,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "befb4cd4f372df41c1d6f18552b99639c1f8089db38f81febc76d71dd61ff6fa"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:6",
+    "family": "close",
+    "k": 10,
+    "index": 6,
+    "seed": 9926794433527121050,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "be13ade1e25aacb60a41e4051eba8831ca80ab861af456fd548ee5396048e9a2"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:7",
+    "family": "close",
+    "k": 10,
+    "index": 7,
+    "seed": 14022208446886027097,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "a1b2cf86987363811a75b2cb2e1fa8ff7bab8f6a06a624408aa739874d1dd45a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:8",
+    "family": "close",
+    "k": 10,
+    "index": 8,
+    "seed": 5222604969232673412,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "7450069d50925cf3c51b104b11120ca84540395a21c49f59a5840704223131cb"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:9",
+    "family": "close",
+    "k": 10,
+    "index": 9,
+    "seed": 8353535888420581291,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "143a7560f37c330e9af9781b53d8c84ca834c35eb30fdf87b3aec033496c5a7c"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:10",
+    "family": "close",
+    "k": 10,
+    "index": 10,
+    "seed": 4377451222038272638,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "d7ac2df9081b14f98c93af0fc378d2752ce8df2f49cb1bd6629c491b2974e65e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:11",
+    "family": "close",
+    "k": 10,
+    "index": 11,
+    "seed": 243725776808545195,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "03d6a64abe853da2c5af04a2ffcce7d7e9038e1882dc6b35b4df2bec6f19bab9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:12",
+    "family": "close",
+    "k": 10,
+    "index": 12,
+    "seed": 13253003918787275104,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "98dab1a62bb8109a8143c1891095f6c1974f67c8708f28667719063da95e26b3"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:13",
+    "family": "close",
+    "k": 10,
+    "index": 13,
+    "seed": 8353243405288758574,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "76219ff346eee4b8c2dc9103e583107f10cd2277df654ea2df032a8166a3a1d8"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:14",
+    "family": "close",
+    "k": 10,
+    "index": 14,
+    "seed": 13013722553081698642,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "666213bff438395af5cd9fa88de61c961f95ed60dea923789d7392becf86bae4"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:15",
+    "family": "close",
+    "k": 10,
+    "index": 15,
+    "seed": 2163791109655105795,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "50aab22a1c9ca29507cbf024e48e73c21e86f3e4415788d42bb175706a0cbc5d"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:16",
+    "family": "close",
+    "k": 10,
+    "index": 16,
+    "seed": 8493081596895997094,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "8c6a4d16bfa3c55bc8e0649d9ae0dc0f3ac0e9bade5b3b77cd5ff2d28f2b4054"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:17",
+    "family": "close",
+    "k": 10,
+    "index": 17,
+    "seed": 15549978321065540420,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "a294f928021f1a8c454414c38e13322c3bfa84ed99eef9c049b4be90c6b569ef"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:18",
+    "family": "close",
+    "k": 10,
+    "index": 18,
+    "seed": 14370509858175987500,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "d87567a36e7ce658ccfc8eeb003b60129ca90cd3fb45e9b791e5908d6614db72"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:19",
+    "family": "close",
+    "k": 10,
+    "index": 19,
+    "seed": 14676268662055951149,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "294597157d6704174d1fca9a865861ab6cbb34447f966f6464b8c681fe1c137a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:20",
+    "family": "close",
+    "k": 10,
+    "index": 20,
+    "seed": 5662001277444564330,
+    "theta": [
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "021291d90fd836405d05fd616df67ffcceae7da5b6e34dc90be60c896eab8127"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:21",
+    "family": "close",
+    "k": 10,
+    "index": 21,
+    "seed": 5955376105422463812,
+    "theta": [
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "c213b9c7cded581b1486294d8a61e81bb65eb2f9363b3ad0ee606e51ced64bd2"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:22",
+    "family": "close",
+    "k": 10,
+    "index": 22,
+    "seed": 14726780272927694935,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "551da1b545247788b6a8268589a9a679d33776ca560aaa6bf2f82fa0b95ea164"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:23",
+    "family": "close",
+    "k": 10,
+    "index": 23,
+    "seed": 9926641130676958365,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "4f10fe550a593ad6f9d9970ac5de14f440ab006f2bf383b2b359f4be6ca9a977"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:24",
+    "family": "close",
+    "k": 10,
+    "index": 24,
+    "seed": 14743567797303785309,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "14e47abb25025ef356207489b9ba7381393dd0fb11b6c06e547c85a4e22a5cfd"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:25",
+    "family": "close",
+    "k": 10,
+    "index": 25,
+    "seed": 12619190158103960258,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "96c0f8b86ce0e73a883d2b03ed62af24577c42a028a2f067461bad9c01e51a24"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:26",
+    "family": "close",
+    "k": 10,
+    "index": 26,
+    "seed": 10011911919906951593,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "ce95895742725c7567667087e9cef03eed0494f82a1ad975e2b50fefb1b7bc38"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:27",
+    "family": "close",
+    "k": 10,
+    "index": 27,
+    "seed": 15581928891921995697,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "4bec3e0ff33eb365700d69aa711cc4099ef3853d480ac486b14dc30c67072d5a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:28",
+    "family": "close",
+    "k": 10,
+    "index": 28,
+    "seed": 15418898061917732067,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "734f365871e30affe16bc3b36e31c63b3b50a2d25b75a93f14f7aeca346203a2"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:29",
+    "family": "close",
+    "k": 10,
+    "index": 29,
+    "seed": 14858136573315071388,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "cca76e1dce978aecc3039bc742f23e434b2c76cccadfcccea3ee2d5542ec3b01"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:30",
+    "family": "close",
+    "k": 10,
+    "index": 30,
+    "seed": 189444604449142535,
+    "theta": [
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "e16a758919b65cf026712de6c6f7a77cebd8dc93d9a4837de8141a95f7aefb60"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:31",
+    "family": "close",
+    "k": 10,
+    "index": 31,
+    "seed": 9964106424817283360,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "125cf2af7a5b73ce112e7aabb2be210ee5a369976573a19c5800a997a4ee94d0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:32",
+    "family": "close",
+    "k": 10,
+    "index": 32,
+    "seed": 11844134610798013960,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "50f447e347ff4eaa18e095bc6b9ee7285d9220cf98f876a309589656ba699c57"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:33",
+    "family": "close",
+    "k": 10,
+    "index": 33,
+    "seed": 3091750338028328228,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "5ed1a7e7083b332b43737f701d0b6665a88fb73ac90e4575c6a81cde8c021a4e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:34",
+    "family": "close",
+    "k": 10,
+    "index": 34,
+    "seed": 5379794496269824811,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "ef1f22be581c1260135749884cb7cdcf28990233eef153099206b3eaede2a52f"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:35",
+    "family": "close",
+    "k": 10,
+    "index": 35,
+    "seed": 12542980551975046130,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "1d9c78908f7724e39ff33d9563ed417b55323f7a9d68ed6fe8c35bbe84f2de72"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:36",
+    "family": "close",
+    "k": 10,
+    "index": 36,
+    "seed": 5152509391811191112,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "03aa70746eb75b5b9c68cfca5316624ba4685c94231229d2e473c5963e7d1434"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:37",
+    "family": "close",
+    "k": 10,
+    "index": 37,
+    "seed": 17635134844943048710,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "75d542440dbeafade01c03ffefbe176bebaa6d2d74383d2cc8f9ee90d9be64c9"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:38",
+    "family": "close",
+    "k": 10,
+    "index": 38,
+    "seed": 8376001767624970525,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "cbdb8e309888d81f954974b88aa36e7f818382f187e8e62d33f1cb3aeb660cd5"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:39",
+    "family": "close",
+    "k": 10,
+    "index": 39,
+    "seed": 5571133101521645504,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "9d3f1069494502e25aba62167edb0ac7bf4f2e75488011e6a5e448f77d44a7fa"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:40",
+    "family": "close",
+    "k": 10,
+    "index": 40,
+    "seed": 237500712642062056,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "8f93e6c6174c714dafbf37f1049bc5088395856d4f70998b4fc84654b54227d6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:41",
+    "family": "close",
+    "k": 10,
+    "index": 41,
+    "seed": 10406034431730623882,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "6342c113164d4e591b670f8c1a102bfb526d0545f2b2f705f08c6f947cb8d8f2"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:42",
+    "family": "close",
+    "k": 10,
+    "index": 42,
+    "seed": 13499369492798137539,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "13dcfa880ddc58ce69facba9b8af25d78978276bc8398f2e1a05e332c38ab02a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:43",
+    "family": "close",
+    "k": 10,
+    "index": 43,
+    "seed": 10371484165055271673,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "eb9c6cbad4ba6e13ae1aa6d9dd0c4a20ce788b8dd71a3b0d4a728a872f91508c"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:44",
+    "family": "close",
+    "k": 10,
+    "index": 44,
+    "seed": 16415659549194988098,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "2f0085d261039e4ec3f0643b77f2e524d9f6b6e147b7302d965047ffd1a0ad05"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:45",
+    "family": "close",
+    "k": 10,
+    "index": 45,
+    "seed": 16264049042549558682,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "97a7f384218e489edbca14858a0818705ea42957235d16c63236329ed5de3518"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:46",
+    "family": "close",
+    "k": 10,
+    "index": 46,
+    "seed": 17849174761251747589,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "c11aad1c22626724658380bf52ff5ec9616058b2a8e80bbe1943124c8ef600b6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:47",
+    "family": "close",
+    "k": 10,
+    "index": 47,
+    "seed": 14136447547394122199,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "eb3affa661e6aa50af1fa9dde30b8c225bb361fa2df5f293dc77c9047524135e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:48",
+    "family": "close",
+    "k": 10,
+    "index": 48,
+    "seed": 13718317284272363595,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "73d63ed35136c3afec7197250443e5fe724539c4b2565dc8e2f9694e28ccdbcd"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:49",
+    "family": "close",
+    "k": 10,
+    "index": 49,
+    "seed": 13351205612478606669,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "485f2f11ccead6412f56f767cc45c79c8e7d4ca8bcd576097e2d3b3efe93cab1"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:50",
+    "family": "close",
+    "k": 10,
+    "index": 50,
+    "seed": 18107862600229059646,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "972eaf737c4b61381646ed19677b7ea78574d26938574bd620a915bfe9b711da"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:51",
+    "family": "close",
+    "k": 10,
+    "index": 51,
+    "seed": 13029003581764735241,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "2e773854aae93f99ea96e49d66cf0fdc8236a230fd9511e66dd3b7e976acd463"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:52",
+    "family": "close",
+    "k": 10,
+    "index": 52,
+    "seed": 1206782158448003253,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "d065ccd13535d710f9876caa6f28a5c573c24d51aecc472021dbf47f70fb6017"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:53",
+    "family": "close",
+    "k": 10,
+    "index": 53,
+    "seed": 2153338742094368112,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "33f35b27a0e4e73a27e29284f861dc43ea2fddfcea5a455ff6213ef0faffe81a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:54",
+    "family": "close",
+    "k": 10,
+    "index": 54,
+    "seed": 15321389902596797144,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "d5b1ef7c0c6c36741d05b2acfdb7a7d90767f954b80e356706193aa69f6901dc"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:55",
+    "family": "close",
+    "k": 10,
+    "index": 55,
+    "seed": 4016281532144227308,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "2293e18c9f8a952a2bd45c3ef17e8fcacb83596aaa0e767dd41d01af088895d6"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:56",
+    "family": "close",
+    "k": 10,
+    "index": 56,
+    "seed": 4771620825645148062,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "3af7dd22f5916b1bcf44260cf36f1034f3d29a9666fc5eb46f1a1d5c88baa7a0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:57",
+    "family": "close",
+    "k": 10,
+    "index": 57,
+    "seed": 6357361870511522936,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "ab5c47acf89053046a3dfe2c00bedfc261f19c99434bdb921e374faa1f8cfc91"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:58",
+    "family": "close",
+    "k": 10,
+    "index": 58,
+    "seed": 10612825093437880199,
+    "theta": [
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "1348583e1e8a3bc0b835862c5e5802fe6261892b02ae5d95a6e51fe6999d4c76"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:59",
+    "family": "close",
+    "k": 10,
+    "index": 59,
+    "seed": 1090160089341817413,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "974c82654de5d9388db2ac7861578e94126014487f1144eccc4f1695a97e51de"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:60",
+    "family": "close",
+    "k": 10,
+    "index": 60,
+    "seed": 12789269076232728812,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "c7ff448959c164c3ecbda92cc8ad0d4eb8f3a84f07a6deadd7270ad8ab7aec54"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:61",
+    "family": "close",
+    "k": 10,
+    "index": 61,
+    "seed": 16242259548869080159,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "cec8f062fbbcb3fc953f7087436b23f4724da0a99748cdeda76b9a1fabc253ea"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:62",
+    "family": "close",
+    "k": 10,
+    "index": 62,
+    "seed": 4892842264108581215,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "4c3ae2795435fab3e4915f18debccf838c11256ab9811bbfa1244f19daa378d8"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:63",
+    "family": "close",
+    "k": 10,
+    "index": 63,
+    "seed": 3071364610350494785,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "f82da995d6699fc2af3f7e817ad1a23ffe130688080d6eeebb5ae1e4469a0548"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:64",
+    "family": "close",
+    "k": 10,
+    "index": 64,
+    "seed": 18273837992305883991,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "34a18dc9b9b78c9711d6a83c70472b837b34081e45020272323332fa7f44f743"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:65",
+    "family": "close",
+    "k": 10,
+    "index": 65,
+    "seed": 14987427452489763492,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "61333a1f372dd3b1f949d7a922d1907ed266f1d1a5caef98880ddfa80f3f9b80"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:66",
+    "family": "close",
+    "k": 10,
+    "index": 66,
+    "seed": 3122868336250972212,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "d2ed74ddc7a7b6adb76707f355448988bed666175a247b56e633be663ecde21a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:67",
+    "family": "close",
+    "k": 10,
+    "index": 67,
+    "seed": 1448944491632039381,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "3bc62324347913f1d7b61f2b01baaafcc5bb8f623931787e973a78ac296fb87e"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:68",
+    "family": "close",
+    "k": 10,
+    "index": 68,
+    "seed": 4513943833066630977,
+    "theta": [
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "69663abe8a5cf54554df9187ba1939434b2d43498ac77df1a1a28f5021cc3c68"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:69",
+    "family": "close",
+    "k": 10,
+    "index": 69,
+    "seed": 18356564132078438348,
+    "theta": [
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "9cd7a4624e30672ad7f51b1eb9d09c2d59cbe4d0352c88bb432a7fee0fc7b4eb"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:70",
+    "family": "close",
+    "k": 10,
+    "index": 70,
+    "seed": 1230222182413688454,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "8489869dab608e7b95771a0ba5c5527f1db08a0b26c3ffbd011c83fcec1499e0"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:71",
+    "family": "close",
+    "k": 10,
+    "index": 71,
+    "seed": 4035117168158783620,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "ee905e4c75c98532710a6a73e696264523946ed9fce8a49ca10272274408065f"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:72",
+    "family": "close",
+    "k": 10,
+    "index": 72,
+    "seed": 6806710369746156336,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "4ebb6b5bf44867a7fa44f9f19f5e41a64d68429016bec67ce2b073e5c1a09fed"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:73",
+    "family": "close",
+    "k": 10,
+    "index": 73,
+    "seed": 3862573269281500803,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "0edb93829746dc8a9bae04a20d782b8b8bc2cf915e4c88cbbfe4b93b93f33615"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:74",
+    "family": "close",
+    "k": 10,
+    "index": 74,
+    "seed": 2931010933911188029,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "02bbbb04c3b58b85bd3864f97e35dd508e4016d533a7001a3ce3cb8db68547f7"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:75",
+    "family": "close",
+    "k": 10,
+    "index": 75,
+    "seed": 17985171483925165708,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "2d3a34888ebbad24836f4bb886fa1ec3208b10d92dc5db1929998850e984a91a"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:76",
+    "family": "close",
+    "k": 10,
+    "index": 76,
+    "seed": 445341109445235451,
+    "theta": [
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "55256170d37a40bf7665f0b094ccdf56934ba90534c1a42e251641abc37e4120"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:77",
+    "family": "close",
+    "k": 10,
+    "index": 77,
+    "seed": 3423200874796509784,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "outcomes_sha256": "96a824d840d17a64643bb06d53eeba7644a87053a4e049a8a77c01cf50a831a2"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:78",
+    "family": "close",
+    "k": 10,
+    "index": 78,
+    "seed": 16450404188505521206,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55,
+      0.5
+    ],
+    "outcomes_sha256": "62038e8d230d49d75e8f7e6988e63d6f47b95c75721e3fa37510a58cab69c0bd"
+  },
+  {
+    "episode_id": "e8_evidence_online:close:10:79",
+    "family": "close",
+    "k": 10,
+    "index": 79,
+    "seed": 6281744519745662084,
+    "theta": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.55
+    ],
+    "outcomes_sha256": "22159f6f1535c8d8d6f795312350bc243874f9edde7dcd06141689934a45b312"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:0",
+    "family": "prior",
+    "k": 3,
+    "index": 0,
+    "seed": 6875511183870438129,
+    "theta": [
+      0.7401789091911969,
+      0.7762926841664247,
+      0.437971735624996
+    ],
+    "outcomes_sha256": "ba6006c038a7bdf6e51a766199eddce3e8ff3b4e758683bb0ea408baea4672e8"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:1",
+    "family": "prior",
+    "k": 3,
+    "index": 1,
+    "seed": 416656991455204745,
+    "theta": [
+      0.19526569606030894,
+      0.4597512734773256,
+      0.006945524732696696
+    ],
+    "outcomes_sha256": "db750fc43f098a0145791c212d256e8083a63495032fd75f29bc7d0532627b38"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:2",
+    "family": "prior",
+    "k": 3,
+    "index": 2,
+    "seed": 3888102326351652284,
+    "theta": [
+      0.15908386676088737,
+      0.4212736111422204,
+      0.19851756875126766
+    ],
+    "outcomes_sha256": "397a8925dfc1e61839365015b9ffaf168428589fe0568c72d444ba06d14facd6"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:3",
+    "family": "prior",
+    "k": 3,
+    "index": 3,
+    "seed": 13725622563063824483,
+    "theta": [
+      0.34915931767896,
+      0.8804675171200886,
+      0.7831707989001719
+    ],
+    "outcomes_sha256": "32e3ac8137ab3f3fad56eb9a59669311f38653ecf2247366e2cb2a17d327eac2"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:4",
+    "family": "prior",
+    "k": 3,
+    "index": 4,
+    "seed": 9059306117136739278,
+    "theta": [
+      0.18486464683577136,
+      0.011051042951625498,
+      0.7703941949188832
+    ],
+    "outcomes_sha256": "d0e46597a6d02bcaac422aff1de142ac8b48c9b3a8b5900a346b63011a60e56d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:5",
+    "family": "prior",
+    "k": 3,
+    "index": 5,
+    "seed": 7806679639828248520,
+    "theta": [
+      0.06437831372429281,
+      0.6788957056209988,
+      0.8495709890509562
+    ],
+    "outcomes_sha256": "dfdda6b4bdc5c101d2733b77984d3e9d90d4a74f52cd7ab9a3ac85cf6c186c06"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:6",
+    "family": "prior",
+    "k": 3,
+    "index": 6,
+    "seed": 7245056389571453251,
+    "theta": [
+      0.27777198976392564,
+      0.08990154916639069,
+      0.8254144729132425
+    ],
+    "outcomes_sha256": "dd94a7d247a1324f93bcb500760abb2e85e313a55eadf98d9ce40b5f6ff0ef55"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:7",
+    "family": "prior",
+    "k": 3,
+    "index": 7,
+    "seed": 2211864109105731061,
+    "theta": [
+      0.15595210280675934,
+      0.39460336496156395,
+      0.7187542521053772
+    ],
+    "outcomes_sha256": "9ae46af20e21559fc21704351601c262a76792c8b280cc98cc3fd4d18a1ebf99"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:8",
+    "family": "prior",
+    "k": 3,
+    "index": 8,
+    "seed": 15859292186816543992,
+    "theta": [
+      0.20409084954762347,
+      0.023694456039764836,
+      0.43792655007403963
+    ],
+    "outcomes_sha256": "5e6eb145dce51f8ee8a0294b5da0aa45c9e013bbb412b25e0641d6d988a59971"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:9",
+    "family": "prior",
+    "k": 3,
+    "index": 9,
+    "seed": 1762628349122935656,
+    "theta": [
+      0.6752850210272212,
+      0.46729419738888,
+      0.5400840424258012
+    ],
+    "outcomes_sha256": "1fd902a00817363b8c43690565d61f064a3ac3edd3f265b85f2b49798178833e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:10",
+    "family": "prior",
+    "k": 3,
+    "index": 10,
+    "seed": 5574934804613306723,
+    "theta": [
+      0.2579619383345064,
+      0.5166710408817901,
+      0.6411553194693359
+    ],
+    "outcomes_sha256": "2ed96c4a56ac4b63454939e394809f797ec275234a4020b69ce2e57a8813edd1"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:11",
+    "family": "prior",
+    "k": 3,
+    "index": 11,
+    "seed": 10825654295387083847,
+    "theta": [
+      0.48327649678558915,
+      0.16293509714732218,
+      0.23483716525039985
+    ],
+    "outcomes_sha256": "945801edaf10a07b21d22797270eaac6ace1dfa5a7cde7fc99cd94882c6e6d13"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:12",
+    "family": "prior",
+    "k": 3,
+    "index": 12,
+    "seed": 17916922276266909295,
+    "theta": [
+      0.6508680434757332,
+      0.5518486003898436,
+      0.671676141914254
+    ],
+    "outcomes_sha256": "781da453ec573f80c01fe3fb380b5fc043092a9592ebc75d1b87435340dae55c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:13",
+    "family": "prior",
+    "k": 3,
+    "index": 13,
+    "seed": 6875176772561850293,
+    "theta": [
+      0.551880349321445,
+      0.22860929146175837,
+      0.8916443770013396
+    ],
+    "outcomes_sha256": "24751414a40c5c5f88414f18e7dda47fbef6ba24cdcabef50453a9969b58835b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:14",
+    "family": "prior",
+    "k": 3,
+    "index": 14,
+    "seed": 555100907742882018,
+    "theta": [
+      0.7752521452062724,
+      0.09458247197180014,
+      0.5641639340531959
+    ],
+    "outcomes_sha256": "10386f947911b028714a307d4d697bb1e16bb0f6b871ae2ff7d9c18793556ea3"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:15",
+    "family": "prior",
+    "k": 3,
+    "index": 15,
+    "seed": 6596567433930669940,
+    "theta": [
+      0.4298218192701835,
+      0.764520663448008,
+      0.14447413404745058
+    ],
+    "outcomes_sha256": "6882f60905f2fe64be9fea469a838636cf4e1d96539cab9806bd8ca1e5ee703f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:16",
+    "family": "prior",
+    "k": 3,
+    "index": 16,
+    "seed": 16578229628510508153,
+    "theta": [
+      0.6576975801561986,
+      0.8676520987399874,
+      0.9673055220706518
+    ],
+    "outcomes_sha256": "085684d41e6923d1696723ff05056ae0657adf1c07e99847c2e275ec7ce69432"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:17",
+    "family": "prior",
+    "k": 3,
+    "index": 17,
+    "seed": 9190190129412918882,
+    "theta": [
+      0.23305814722011298,
+      0.9988309344681083,
+      0.6823614140780404
+    ],
+    "outcomes_sha256": "aec01c4dc34b474a4c2ab0d792efafe7e4515cd3510e7fc7d5217d013ca11254"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:18",
+    "family": "prior",
+    "k": 3,
+    "index": 18,
+    "seed": 17227895808912169832,
+    "theta": [
+      0.616014369384463,
+      0.7578559195015776,
+      0.9048942691743161
+    ],
+    "outcomes_sha256": "9df10b47bad07578ae117aad77895ae21ab86fb829d1f8ee4de9a84b90c484c9"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:19",
+    "family": "prior",
+    "k": 3,
+    "index": 19,
+    "seed": 3672653395706330271,
+    "theta": [
+      0.997192704971963,
+      0.16128879958745965,
+      0.7312871938964263
+    ],
+    "outcomes_sha256": "57775ae5da10c20ad1b233043cba18e01bc2c4657b1e2273a5acd8b892bfb8b3"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:20",
+    "family": "prior",
+    "k": 3,
+    "index": 20,
+    "seed": 7628112187397059785,
+    "theta": [
+      0.6137131183293345,
+      0.21944754318222848,
+      0.5114138623516499
+    ],
+    "outcomes_sha256": "5eca90cb0a222dfcef91f932b7aecef71c4e8e0e7d712d9d2a1784529f57a4e9"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:21",
+    "family": "prior",
+    "k": 3,
+    "index": 21,
+    "seed": 10905778144999145556,
+    "theta": [
+      0.42450142450858097,
+      0.8008641723032104,
+      0.8765170729482271
+    ],
+    "outcomes_sha256": "e7f0216f2fd576e039f7bb0e505e1303cae0c323e64c0f238f9471a65a819da6"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:22",
+    "family": "prior",
+    "k": 3,
+    "index": 22,
+    "seed": 13352596826478157769,
+    "theta": [
+      0.7738500492276399,
+      0.34430154255155887,
+      0.3364100449399996
+    ],
+    "outcomes_sha256": "737b6776cf0f7aab18049a46e8db50257dfbcabbbc7e06ff0e155de2225103f6"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:23",
+    "family": "prior",
+    "k": 3,
+    "index": 23,
+    "seed": 1307126000949551466,
+    "theta": [
+      0.889455616221285,
+      0.14887442680774118,
+      0.37253357425655403
+    ],
+    "outcomes_sha256": "68fbeaccc7d1ffc5e4ace3b37ee901b7619fad5c4d30fc0779d963599e1ae6be"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:24",
+    "family": "prior",
+    "k": 3,
+    "index": 24,
+    "seed": 5895997663355841091,
+    "theta": [
+      0.6924598616683458,
+      0.2002913513364072,
+      0.14847712568125532
+    ],
+    "outcomes_sha256": "c825bee92cf3b3453c37e27b1c91c7da8fcce801a3276b36b35b5e027687f65e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:25",
+    "family": "prior",
+    "k": 3,
+    "index": 25,
+    "seed": 3795897404736410533,
+    "theta": [
+      0.9571875625667843,
+      0.27192524393717993,
+      0.01757993085742582
+    ],
+    "outcomes_sha256": "4cfce707800397105ad573d677a5f1e1d2ca01d094b2ba9090cc1aedfa80406a"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:26",
+    "family": "prior",
+    "k": 3,
+    "index": 26,
+    "seed": 2705724436055900486,
+    "theta": [
+      0.2788555689676962,
+      0.6725618795751956,
+      0.9261040333732082
+    ],
+    "outcomes_sha256": "85b55e9e2f0014c718e3cd007589f6f11970ed3ac7f3f8bb00e2add15f4b8150"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:27",
+    "family": "prior",
+    "k": 3,
+    "index": 27,
+    "seed": 7033787305330818313,
+    "theta": [
+      0.6141168611496449,
+      0.28783041118869845,
+      0.012233789388346109
+    ],
+    "outcomes_sha256": "43c490763b2229851ba41d5cec6ee78349292d378c69d496a1add4f13d75cc58"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:28",
+    "family": "prior",
+    "k": 3,
+    "index": 28,
+    "seed": 434221084450957140,
+    "theta": [
+      0.6787382993547012,
+      0.6656778885376211,
+      0.29564422606877994
+    ],
+    "outcomes_sha256": "0df13570f9a2bcd68de6fc7a9dedd76b99af22f89a7e2c7caf5713a1fec59638"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:29",
+    "family": "prior",
+    "k": 3,
+    "index": 29,
+    "seed": 10193283828219588450,
+    "theta": [
+      0.053846664521744386,
+      0.359775568721765,
+      0.23735606977637894
+    ],
+    "outcomes_sha256": "10043b113f0a5956e1a4758d6852fd57fcbac2921b5991e569b910b965ef4323"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:30",
+    "family": "prior",
+    "k": 3,
+    "index": 30,
+    "seed": 8689183939408071271,
+    "theta": [
+      0.6794233621662297,
+      0.5271566388605403,
+      0.7789028951609436
+    ],
+    "outcomes_sha256": "eb72728755a2615ef8e8aec8ed5ce75dc8c629be7e2177a1235237708359434e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:31",
+    "family": "prior",
+    "k": 3,
+    "index": 31,
+    "seed": 3681168282700411395,
+    "theta": [
+      0.4490684521326204,
+      0.8265055682086277,
+      0.7513521921610785
+    ],
+    "outcomes_sha256": "b9527e52a42b7b73d153b1246162804ce34b2fd548c639277b5c9c2602925585"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:32",
+    "family": "prior",
+    "k": 3,
+    "index": 32,
+    "seed": 1438733680337246341,
+    "theta": [
+      0.8030530591473138,
+      0.9828656331176818,
+      0.39141051867397414
+    ],
+    "outcomes_sha256": "1a7a746019607d03566a61120b1bae8d606fe39c5ec4ee96fa4457d92e5fc7c5"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:33",
+    "family": "prior",
+    "k": 3,
+    "index": 33,
+    "seed": 13371652942304380684,
+    "theta": [
+      0.8447137571288346,
+      0.7537133368281598,
+      0.5206493743174159
+    ],
+    "outcomes_sha256": "e6420e46e664a9ff43d6897200aef14356e84a0d3442c3954e8471872b4a50eb"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:34",
+    "family": "prior",
+    "k": 3,
+    "index": 34,
+    "seed": 12105063774106245434,
+    "theta": [
+      0.09759583166036385,
+      0.4118102752258729,
+      0.4662490755640502
+    ],
+    "outcomes_sha256": "9c79e715bbf92744c588b215a3d7bb153d632fc5ae98966a3dbbb32f183a0092"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:35",
+    "family": "prior",
+    "k": 3,
+    "index": 35,
+    "seed": 17816443959097434469,
+    "theta": [
+      0.5111660916878951,
+      0.7089888225908562,
+      0.4917220717704908
+    ],
+    "outcomes_sha256": "f47f93ee712399aa154900e41e3570ae8be7f3443bab8f4eefe6e4f2f19c7e94"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:36",
+    "family": "prior",
+    "k": 3,
+    "index": 36,
+    "seed": 3178192596117461872,
+    "theta": [
+      0.6436929227596383,
+      0.523300689476593,
+      0.36988025348219117
+    ],
+    "outcomes_sha256": "29aa6886ef0f8215fbf56debe3b6b15746040a73dbdbaf3dbf0f9809a94ffc78"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:37",
+    "family": "prior",
+    "k": 3,
+    "index": 37,
+    "seed": 16244742421970214673,
+    "theta": [
+      0.3911026632555249,
+      0.2679271694775571,
+      0.5036152257678338
+    ],
+    "outcomes_sha256": "c4b3fdea82da648a22a7eede0c9886fdf64c3a4d3d9e0ad53950e80a0dbca736"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:38",
+    "family": "prior",
+    "k": 3,
+    "index": 38,
+    "seed": 7121432979614511405,
+    "theta": [
+      0.6544827727663474,
+      0.20428432688067505,
+      0.6615731904834975
+    ],
+    "outcomes_sha256": "0bd0a5455420fecd3a41efff872035d794ffefac076da3906093d1c80b038c10"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:39",
+    "family": "prior",
+    "k": 3,
+    "index": 39,
+    "seed": 1470780109806801468,
+    "theta": [
+      0.16596143994579973,
+      0.9102027045876969,
+      0.5610946288052978
+    ],
+    "outcomes_sha256": "633be0f938f822fc6bfd5dceac43fc67b9531ca22f96223797066d63246ee3af"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:40",
+    "family": "prior",
+    "k": 3,
+    "index": 40,
+    "seed": 5455249489750791838,
+    "theta": [
+      0.15911086645665407,
+      0.9816443544106537,
+      0.5456030853054834
+    ],
+    "outcomes_sha256": "0c97de8fe41f8768b3f9d29b6bf92cd13d3f2dc18ba60ba29c6beea5ebe61633"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:41",
+    "family": "prior",
+    "k": 3,
+    "index": 41,
+    "seed": 526254897175379274,
+    "theta": [
+      0.3747046858973349,
+      0.3509059270575405,
+      0.7465595108398692
+    ],
+    "outcomes_sha256": "4a69a73c9e0ce1836119a7a550267148dfe27f508537e9039266501d5275ac60"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:42",
+    "family": "prior",
+    "k": 3,
+    "index": 42,
+    "seed": 17540670131465988017,
+    "theta": [
+      0.22484529466952577,
+      0.8827576777548073,
+      0.0012771601569638773
+    ],
+    "outcomes_sha256": "0379bf628229343363f9c9a15a0c9a33511e39f86ce079c62df5df7bf73532ac"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:43",
+    "family": "prior",
+    "k": 3,
+    "index": 43,
+    "seed": 7813553878091219072,
+    "theta": [
+      0.6484522197447933,
+      0.6009517030714482,
+      0.7612255125928223
+    ],
+    "outcomes_sha256": "7c14ff804fd6486526798d323ce02318c950513f67a8524aae713620f2058110"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:44",
+    "family": "prior",
+    "k": 3,
+    "index": 44,
+    "seed": 433643476884799841,
+    "theta": [
+      0.25824070407226585,
+      0.29115644370978744,
+      0.9742809463550097
+    ],
+    "outcomes_sha256": "0b605b9e4c624760a2f2b3539a489f057c99303cb9248fb1fa949f9d2ab89a28"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:45",
+    "family": "prior",
+    "k": 3,
+    "index": 45,
+    "seed": 926816295067053934,
+    "theta": [
+      0.8994593815096249,
+      0.8596749480476444,
+      0.13539070089069444
+    ],
+    "outcomes_sha256": "a8173ac0f6eecfda0d11e28d53175365cdc5f44b5003c0fdce7d07371143335c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:46",
+    "family": "prior",
+    "k": 3,
+    "index": 46,
+    "seed": 12375043677914435358,
+    "theta": [
+      0.052403981602622246,
+      0.8231857356637695,
+      0.04690888233364461
+    ],
+    "outcomes_sha256": "2df804119478afe631d1f1145abe3adffa76b521f3c2eb74cb7536aafff0b0f5"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:47",
+    "family": "prior",
+    "k": 3,
+    "index": 47,
+    "seed": 13576736135177112381,
+    "theta": [
+      0.7460951665207912,
+      0.9659098389021286,
+      0.6734486913653294
+    ],
+    "outcomes_sha256": "745c7e6f2912a15d976dab8b6ed48d9bba6a071cba9b4e57668085d60114138d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:48",
+    "family": "prior",
+    "k": 3,
+    "index": 48,
+    "seed": 8281077383126819666,
+    "theta": [
+      0.19465627811195277,
+      0.20052460348939796,
+      0.2551911368654326
+    ],
+    "outcomes_sha256": "37f93699bea3245712b030ad84899384f93d8239ac45656100ce6dff0d57401c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:49",
+    "family": "prior",
+    "k": 3,
+    "index": 49,
+    "seed": 3644857907781763906,
+    "theta": [
+      0.25814697926829755,
+      0.03255351316379704,
+      0.09778647496195557
+    ],
+    "outcomes_sha256": "68703fd1416af0fbcf842c913d1ddc1f9b19d25b960fdd8fa3704f71e02c356f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:50",
+    "family": "prior",
+    "k": 3,
+    "index": 50,
+    "seed": 1413003784163367916,
+    "theta": [
+      0.8245377030638761,
+      0.9720554359677919,
+      0.23651756591871892
+    ],
+    "outcomes_sha256": "576d8eed638c7675ab13c097d3aa346d47607e5b7532dfbfc04ed6c08302d875"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:51",
+    "family": "prior",
+    "k": 3,
+    "index": 51,
+    "seed": 8971296622733848916,
+    "theta": [
+      0.2615664161917219,
+      0.8463714999784909,
+      0.1897660067053762
+    ],
+    "outcomes_sha256": "6a363cf6f6c81a0d212ceb0153c9d5cc62d3fb197a5efa7865c0925d526acd2e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:52",
+    "family": "prior",
+    "k": 3,
+    "index": 52,
+    "seed": 15328424828508052581,
+    "theta": [
+      0.09733696680839138,
+      0.5575508675644465,
+      0.5696123103115486
+    ],
+    "outcomes_sha256": "648ccfe5c628745a21593838378a956bc2033c518701bab86b3f5a34de752000"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:53",
+    "family": "prior",
+    "k": 3,
+    "index": 53,
+    "seed": 18377660706273538458,
+    "theta": [
+      0.9293097579332197,
+      0.1587827904134489,
+      0.43087554546759527
+    ],
+    "outcomes_sha256": "a3e1a33af01ba05ea848d1a4234acb270b17b9070fca533bae92b3a922650326"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:54",
+    "family": "prior",
+    "k": 3,
+    "index": 54,
+    "seed": 10965917387223260853,
+    "theta": [
+      0.8682434709468503,
+      0.6007584861654109,
+      0.2715970535334218
+    ],
+    "outcomes_sha256": "3345fb1c905eaf7b398eb3880f944b8ec3328ff385f7f415e002823bc56a4c86"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:55",
+    "family": "prior",
+    "k": 3,
+    "index": 55,
+    "seed": 10200929920349195369,
+    "theta": [
+      0.8434909924215334,
+      0.45770018813688224,
+      0.45195138266070617
+    ],
+    "outcomes_sha256": "414589acb6417cb8d16b22bbc5577da14d408c4290b7f8b34f410cc1bc29476b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:56",
+    "family": "prior",
+    "k": 3,
+    "index": 56,
+    "seed": 4184748592349953470,
+    "theta": [
+      0.2515955882860029,
+      0.9381300972843757,
+      0.3479227677077413
+    ],
+    "outcomes_sha256": "d0603301711147ae3195cfa176572f29b42cd113b2b4ed277fceef2e032e9e32"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:57",
+    "family": "prior",
+    "k": 3,
+    "index": 57,
+    "seed": 15544586060141758598,
+    "theta": [
+      0.8986356935977264,
+      0.09776710484421741,
+      0.11481784514281716
+    ],
+    "outcomes_sha256": "19f4c79ebff69003d314ee1855e1b3dd028c15ec6a988d610c3120513bb8b4bc"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:58",
+    "family": "prior",
+    "k": 3,
+    "index": 58,
+    "seed": 8299337016412179419,
+    "theta": [
+      0.12683352049132468,
+      0.933028291253123,
+      0.45143525692809694
+    ],
+    "outcomes_sha256": "b1803bce1bd03dfcdfe0dca0c813fc56f5500d470b7a56243bc46106edd911ca"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:59",
+    "family": "prior",
+    "k": 3,
+    "index": 59,
+    "seed": 9392195043314791850,
+    "theta": [
+      0.34469749434594305,
+      0.5086314489369288,
+      0.9342503740928841
+    ],
+    "outcomes_sha256": "a486c6c6289e93e5c4e91b3f3678f9980dbb09712c1e8d8c524be7719ae14b77"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:60",
+    "family": "prior",
+    "k": 3,
+    "index": 60,
+    "seed": 2516547707018443108,
+    "theta": [
+      0.05365436675793611,
+      0.3381281929668612,
+      0.2834403508402927
+    ],
+    "outcomes_sha256": "23e2b77601379d292baa56d0ffcc696506ef0d6a128b40db044942a39a99decf"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:61",
+    "family": "prior",
+    "k": 3,
+    "index": 61,
+    "seed": 17051536410830219421,
+    "theta": [
+      0.5736450244240242,
+      0.3835408113779689,
+      0.2771946331297796
+    ],
+    "outcomes_sha256": "7246bd9ff6fe44d4fe32cd7bac5774c36d255203f3303161f45f64f2b03ed436"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:62",
+    "family": "prior",
+    "k": 3,
+    "index": 62,
+    "seed": 11932606519206715255,
+    "theta": [
+      0.4249515579912654,
+      0.509212355604811,
+      0.9525437726104472
+    ],
+    "outcomes_sha256": "9ac6fe42947eb3048d1e4131fd6eb41efbd959fe91c31f21d7ba52545442bf91"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:63",
+    "family": "prior",
+    "k": 3,
+    "index": 63,
+    "seed": 12668975692761416693,
+    "theta": [
+      0.08749515725522625,
+      0.5653301988858265,
+      0.3966119414112655
+    ],
+    "outcomes_sha256": "9a3119afb94d49440442621e2125d38d82babdd77d8a15fec9afcc2792ac0d10"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:64",
+    "family": "prior",
+    "k": 3,
+    "index": 64,
+    "seed": 3204306314635309848,
+    "theta": [
+      0.21270916810060972,
+      0.12023384426127691,
+      0.01236158775219104
+    ],
+    "outcomes_sha256": "bccca364df0308c9b826bc45632bdbedb0a7331200ebdb526f696e744931c2d4"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:65",
+    "family": "prior",
+    "k": 3,
+    "index": 65,
+    "seed": 14655209536285400756,
+    "theta": [
+      0.17269407463936798,
+      0.6122726558160373,
+      0.5697617332070624
+    ],
+    "outcomes_sha256": "18fb396028d631f467af247b1bb033c483bc2bf47acb0ed8bb313ecc430f0bd6"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:66",
+    "family": "prior",
+    "k": 3,
+    "index": 66,
+    "seed": 10746754871463645194,
+    "theta": [
+      0.3550577417099425,
+      0.2015225906227433,
+      0.7930453666925638
+    ],
+    "outcomes_sha256": "5887646f944901426e7ab827049db5cad2973a41ee0003a560b6e213be124c8c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:67",
+    "family": "prior",
+    "k": 3,
+    "index": 67,
+    "seed": 16109874656304798747,
+    "theta": [
+      0.9903231815128489,
+      0.9438547985676988,
+      0.21236845575835006
+    ],
+    "outcomes_sha256": "9ddf164e1440d0d2266759afa392a86fa791c7da41748e0925fa15aa728b404d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:68",
+    "family": "prior",
+    "k": 3,
+    "index": 68,
+    "seed": 11683222106656298018,
+    "theta": [
+      0.07662850565141056,
+      0.26356995573069797,
+      0.2916165099654848
+    ],
+    "outcomes_sha256": "d723f2a55bd400cff05c5386846f9de0a9b579f9017dbd08ba131793caa29f2e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:69",
+    "family": "prior",
+    "k": 3,
+    "index": 69,
+    "seed": 11859031517920978804,
+    "theta": [
+      0.9894770164561274,
+      0.24341342871857147,
+      0.9759018077134224
+    ],
+    "outcomes_sha256": "b3632be486de6cf4e7be00a81f4252f9675c0b9bcad60f9eeed5b86e8794d909"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:70",
+    "family": "prior",
+    "k": 3,
+    "index": 70,
+    "seed": 16034665005114647915,
+    "theta": [
+      0.6175460697224773,
+      0.46164704094426773,
+      0.5210023236210339
+    ],
+    "outcomes_sha256": "6804be9fda699932bfa992fc6ba76afe445cfaf94c92542e1b568de7d9955e43"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:71",
+    "family": "prior",
+    "k": 3,
+    "index": 71,
+    "seed": 6930050092040898580,
+    "theta": [
+      0.6600705002018918,
+      0.396618424833544,
+      0.42949501694119296
+    ],
+    "outcomes_sha256": "a4a1a911f043a4981b1f04f1468d0ef5a624489802559d6312e5cd33c4871086"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:72",
+    "family": "prior",
+    "k": 3,
+    "index": 72,
+    "seed": 11549383320377503694,
+    "theta": [
+      0.32512095025608045,
+      0.6598123252836221,
+      0.5317415102869768
+    ],
+    "outcomes_sha256": "192eab0cc3cead18d1278d1e884157214c8bdff88d91735b2f5cbed389440920"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:73",
+    "family": "prior",
+    "k": 3,
+    "index": 73,
+    "seed": 17076096466104544991,
+    "theta": [
+      0.11358445515732685,
+      0.05091192819679555,
+      0.8156894440349193
+    ],
+    "outcomes_sha256": "8ab4a09773531972362c7be97ffcc779eea6febd19bdc7039f8f25a653623ef0"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:74",
+    "family": "prior",
+    "k": 3,
+    "index": 74,
+    "seed": 9111460264922060685,
+    "theta": [
+      0.18240865198036615,
+      0.39384137731237423,
+      0.9551598142954854
+    ],
+    "outcomes_sha256": "c2995a8befc8ba6f2243dd1a1be0aac8faba50c38e5f3184bbe1f73443b96bf9"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:75",
+    "family": "prior",
+    "k": 3,
+    "index": 75,
+    "seed": 16325391600768240071,
+    "theta": [
+      0.5210257178193166,
+      0.7708733986928589,
+      0.3615852486900122
+    ],
+    "outcomes_sha256": "6b5be7f9d3e639fd345c2e9ad7c6bcac3fc82e91ce47934f3999ce836ba88ba9"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:76",
+    "family": "prior",
+    "k": 3,
+    "index": 76,
+    "seed": 7417951296714902806,
+    "theta": [
+      0.881538575310266,
+      0.6294348188448489,
+      0.8802649327219578
+    ],
+    "outcomes_sha256": "3fb24a194f63a51689545993bf0c1b405398c654e88498234ea822a8a5015180"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:77",
+    "family": "prior",
+    "k": 3,
+    "index": 77,
+    "seed": 5949641814581640066,
+    "theta": [
+      0.950180983764529,
+      0.8374635839583611,
+      0.8223346822200469
+    ],
+    "outcomes_sha256": "223add2b436c0f0eb89d69fdbbaa1828be975c7515d46c89158a394175f0847e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:78",
+    "family": "prior",
+    "k": 3,
+    "index": 78,
+    "seed": 3854631868457018909,
+    "theta": [
+      0.663535577299132,
+      0.4972061307154515,
+      0.49458670377442693
+    ],
+    "outcomes_sha256": "0b2a4bc0e963573724e290d54d3f8c32dd88aaa695a714ba3e009ca93459e01b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:3:79",
+    "family": "prior",
+    "k": 3,
+    "index": 79,
+    "seed": 16767713972980241352,
+    "theta": [
+      0.564571688968844,
+      0.408835544831307,
+      0.5303651077790988
+    ],
+    "outcomes_sha256": "8e21e78df01bb3955a050128e62810e5c04d8a2ab4a00573332dd794db7a112d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:0",
+    "family": "prior",
+    "k": 10,
+    "index": 0,
+    "seed": 6691366056853334107,
+    "theta": [
+      0.18095948908254694,
+      0.5102188229929785,
+      0.7393403843903116,
+      0.08743184132865445,
+      0.9805768993543649,
+      0.3183253690024119,
+      0.6530819497361281,
+      0.006793016649172784,
+      0.48633948236319496,
+      0.01468250725507135
+    ],
+    "outcomes_sha256": "e8b85ea419cd7ba364396c336ccb69e4c94e0e4039c61b797484ae75f0ed3e5e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:1",
+    "family": "prior",
+    "k": 10,
+    "index": 1,
+    "seed": 4923892016015326762,
+    "theta": [
+      0.3911661724485018,
+      0.32523264830437326,
+      0.2635216502484072,
+      0.9618611513250805,
+      0.5140385550111687,
+      0.01725588162675522,
+      0.9381572971266571,
+      0.6606833503563264,
+      0.5348017212635475,
+      0.8622044097443263
+    ],
+    "outcomes_sha256": "adbce87d0e4b2306cf9393e82eecf937a30c5125575973ab21372f29b4fa790c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:2",
+    "family": "prior",
+    "k": 10,
+    "index": 2,
+    "seed": 13812577311345247745,
+    "theta": [
+      0.9588054349069015,
+      0.7328889080099694,
+      0.8399618053793413,
+      0.623192836527228,
+      0.6858197499579058,
+      0.12234757981812765,
+      0.9516160531083737,
+      0.588211918969171,
+      0.25220691944619616,
+      0.8156713813940831
+    ],
+    "outcomes_sha256": "ca0aea8741b5dd28cf3fc4c0eda85d2ac7e2de6c3fbc8f9dc7704efee0db7ecd"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:3",
+    "family": "prior",
+    "k": 10,
+    "index": 3,
+    "seed": 1205196637784244983,
+    "theta": [
+      0.8981670782568729,
+      0.31336665943067066,
+      0.043370546776303545,
+      0.5056997652649103,
+      0.06120388885434989,
+      0.6549048172354223,
+      0.6290530282964176,
+      0.1507275085373491,
+      0.4724163957811362,
+      0.7547875874141988
+    ],
+    "outcomes_sha256": "5133a39cb88806390c326a659d786eb9a3ae14b01a07127e7edcf18aa8dc5c56"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:4",
+    "family": "prior",
+    "k": 10,
+    "index": 4,
+    "seed": 7694057398885332950,
+    "theta": [
+      0.188573069525634,
+      0.4230382886103759,
+      0.013762825008307037,
+      0.12555595173858453,
+      0.7216784152718253,
+      0.590308783956027,
+      0.09111594797573057,
+      0.3993161772117265,
+      0.8173768078361238,
+      0.5525617749203772
+    ],
+    "outcomes_sha256": "66f018fe630550669f17cf47f1387c60c80acc6eef26d0cd63cf919be02ffc58"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:5",
+    "family": "prior",
+    "k": 10,
+    "index": 5,
+    "seed": 4936246885418657943,
+    "theta": [
+      0.7311439976780948,
+      0.8987662227516882,
+      0.06179642560824525,
+      0.6313631481661358,
+      0.45028943638307106,
+      0.37031150698049087,
+      0.7729781754230001,
+      0.39203608038306864,
+      0.8089097787194522,
+      0.24985991215947306
+    ],
+    "outcomes_sha256": "63ea53fd9e40315118ca292eb3e3396797c0c8f127cc2de63caed597a1a6977d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:6",
+    "family": "prior",
+    "k": 10,
+    "index": 6,
+    "seed": 10391336478955294750,
+    "theta": [
+      0.2755758758190214,
+      0.7266141857279412,
+      0.847337565900774,
+      0.04895622112635572,
+      0.787276464643501,
+      0.9134031315532414,
+      0.973784053767191,
+      0.1738703831112849,
+      0.35242540150995555,
+      0.6650337471082398
+    ],
+    "outcomes_sha256": "a81ad6d6ee3a7ccef050d671ada21ac8f60bd174b6cc93d52e49280a1581fe87"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:7",
+    "family": "prior",
+    "k": 10,
+    "index": 7,
+    "seed": 5225955499642849171,
+    "theta": [
+      0.16949928367353762,
+      0.02278436366484073,
+      0.48745748243562836,
+      0.5291828474466495,
+      0.3892565019051074,
+      0.32056141595965815,
+      0.3531355053265023,
+      0.06020575282680868,
+      0.5823074328332066,
+      0.2520358598271943
+    ],
+    "outcomes_sha256": "56c67d1fdc810fe246988c96b2a1f45d31b0d5ce84be568b4f408916b4e66988"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:8",
+    "family": "prior",
+    "k": 10,
+    "index": 8,
+    "seed": 13993658106658746234,
+    "theta": [
+      0.03998911019383318,
+      0.3573174441463272,
+      0.21065012540936057,
+      0.9070048686027384,
+      0.043591322981775746,
+      0.8163092558820301,
+      0.0964831502781271,
+      0.48979589414192076,
+      0.43330201610732444,
+      0.5589787982676792
+    ],
+    "outcomes_sha256": "eaecb9c6056e7f36534fc77cf176c9078ba1d586c51a2eaa6d928f7c59d1ee01"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:9",
+    "family": "prior",
+    "k": 10,
+    "index": 9,
+    "seed": 9429297657220236546,
+    "theta": [
+      0.31735414066608547,
+      0.875645362100454,
+      0.40477561506697124,
+      0.19210352942338915,
+      0.45189604448335696,
+      0.6039475923290993,
+      0.4471296866743553,
+      0.33878311830011115,
+      0.5956925838625291,
+      0.850393177346329
+    ],
+    "outcomes_sha256": "4f418a729c281e5c6c50c3852f7bec1294076b5ae28f3d748eb93198345fd662"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:10",
+    "family": "prior",
+    "k": 10,
+    "index": 10,
+    "seed": 10856077860790813354,
+    "theta": [
+      0.3819566941027633,
+      0.3276742478715062,
+      0.41717619718054133,
+      0.8610332324578935,
+      0.05852511019474745,
+      0.3888140889209462,
+      0.8621386013456261,
+      0.14799753686737382,
+      0.8097521116435303,
+      0.1633719833733667
+    ],
+    "outcomes_sha256": "b1e34d26137a7f47addb3cfb208a03fc0334f08b9d7c7b92f375e7cf16956986"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:11",
+    "family": "prior",
+    "k": 10,
+    "index": 11,
+    "seed": 18237471663330032897,
+    "theta": [
+      0.8603394610494474,
+      0.19691690260363104,
+      0.5050018252498091,
+      0.7894365250306198,
+      0.7036421433013171,
+      0.38753082580551274,
+      0.8768032001442266,
+      0.9153269139502677,
+      0.04805630062632362,
+      0.03851601736796117
+    ],
+    "outcomes_sha256": "e7e49941f05003b4d691a9f14d5bafc229eb57609a605f6325d66f73a0d84beb"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:12",
+    "family": "prior",
+    "k": 10,
+    "index": 12,
+    "seed": 14127504496793907918,
+    "theta": [
+      0.17585029689811327,
+      0.6797721220249763,
+      0.7964235893012309,
+      0.1932708729767646,
+      0.26526850655143763,
+      0.6080768961398492,
+      0.4903524039881875,
+      0.04832766730152773,
+      0.3337560903128126,
+      0.27133493708341316
+    ],
+    "outcomes_sha256": "8b6da0c5131039762d504ba156f4878275ea62cb2ad042a38ec8e54faf07c58a"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:13",
+    "family": "prior",
+    "k": 10,
+    "index": 13,
+    "seed": 7870634503799718907,
+    "theta": [
+      0.9643841048027394,
+      0.16464095897610884,
+      0.009003423407212635,
+      0.24827664747738776,
+      0.010080810602795996,
+      0.5006712792052318,
+      0.6182187294154728,
+      0.23618976954119783,
+      0.8482506308437784,
+      0.04557230244516314
+    ],
+    "outcomes_sha256": "3dbf6629d119615f331e714608b486a40f04d38333a4f43300245fd3dc8c6d19"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:14",
+    "family": "prior",
+    "k": 10,
+    "index": 14,
+    "seed": 6609678908727673751,
+    "theta": [
+      0.9189027428755474,
+      0.8329745453007895,
+      0.11646144935449074,
+      0.04658662375129034,
+      0.4900920016383136,
+      0.698302844299245,
+      0.8807083149052638,
+      0.3522577573918675,
+      0.8081670293752543,
+      0.11141329168735575
+    ],
+    "outcomes_sha256": "6b7739e256377f91da3fdc94dd275eb11ce6e9ba6efba841d52532674cbe2df2"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:15",
+    "family": "prior",
+    "k": 10,
+    "index": 15,
+    "seed": 4889102012904125615,
+    "theta": [
+      0.6698094509298196,
+      0.6943388686321036,
+      0.8318225259461135,
+      0.5176018347060569,
+      0.9091089615748061,
+      0.47433009733868864,
+      0.4956516309376072,
+      0.6730585929602997,
+      0.10467279677738138,
+      0.4111344482364721
+    ],
+    "outcomes_sha256": "1bb9ae8b01b60af4cc866b7e880e9fcd621b98298ac632483c0742d0a6c86737"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:16",
+    "family": "prior",
+    "k": 10,
+    "index": 16,
+    "seed": 4234951669943133933,
+    "theta": [
+      0.5902323037542349,
+      0.6596333506104622,
+      0.6382822583563865,
+      0.2287382577936468,
+      0.36540703919107304,
+      0.25267124777971617,
+      0.34904824002561036,
+      0.20921928006978932,
+      0.04906399713496451,
+      0.4932170078392133
+    ],
+    "outcomes_sha256": "4b53b8628c2f72488ef905a50313d8469d99ac2bf2049b7f028fd76649762525"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:17",
+    "family": "prior",
+    "k": 10,
+    "index": 17,
+    "seed": 11884540479535563522,
+    "theta": [
+      0.6702008426178941,
+      0.6424835437835087,
+      0.9571507772520625,
+      0.15262904562053503,
+      0.8289382298121031,
+      0.5175830220125355,
+      0.6807680375386963,
+      0.9961515732096772,
+      0.6324637828819096,
+      0.7696205273712262
+    ],
+    "outcomes_sha256": "ef23faee58dc91af8db5e7b9d263593495828072f9d0da6413218d24848f5b9a"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:18",
+    "family": "prior",
+    "k": 10,
+    "index": 18,
+    "seed": 6327634734250796693,
+    "theta": [
+      0.7047232779813039,
+      0.42004487753201103,
+      0.03649884268414735,
+      0.7446357079054724,
+      0.39228776241821456,
+      0.9972170616784399,
+      0.21786544737186006,
+      0.7316070921553786,
+      0.170886471997347,
+      0.24788123374622487
+    ],
+    "outcomes_sha256": "1ed4bc8905a2db9aa90f5ca3155d2778d3aafd8cdc44d4ccc047daa1b17c78a2"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:19",
+    "family": "prior",
+    "k": 10,
+    "index": 19,
+    "seed": 8774109066573426650,
+    "theta": [
+      0.808547417202801,
+      0.1572474143251301,
+      0.4858927276995018,
+      0.44711922184764813,
+      0.49096163306884955,
+      0.34847741189261067,
+      0.3213710560382576,
+      0.9610017708742207,
+      0.4758090929426413,
+      0.0509905897690844
+    ],
+    "outcomes_sha256": "b26da9246d9b89426d56afa5f26c41e354db21997e8fc2b94f6085a230555718"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:20",
+    "family": "prior",
+    "k": 10,
+    "index": 20,
+    "seed": 13571307449908365281,
+    "theta": [
+      0.11553798743227342,
+      0.06345790576587114,
+      0.43648512060240047,
+      0.034829334167453214,
+      0.5165767531537551,
+      0.4774816375063775,
+      0.910613062696866,
+      0.869405459317937,
+      0.47263130348392074,
+      0.2195591212651863
+    ],
+    "outcomes_sha256": "f50fa219bcc0bb63eb23b4756c54aec37fa8544328eb5609896c459d5966ba0d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:21",
+    "family": "prior",
+    "k": 10,
+    "index": 21,
+    "seed": 17425120419779591570,
+    "theta": [
+      0.34237373834223117,
+      0.26349307907812397,
+      0.477207950156597,
+      0.6932945721986025,
+      0.18104758072156965,
+      0.40842523314916657,
+      0.8713946704528203,
+      0.5491865562536368,
+      0.030914875091600912,
+      0.198907280107598
+    ],
+    "outcomes_sha256": "f8382e5c07371973f20770ed20a99a60c5392494fd72090c233304d08a1b181f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:22",
+    "family": "prior",
+    "k": 10,
+    "index": 22,
+    "seed": 5193673478120841691,
+    "theta": [
+      0.7074370982589435,
+      0.33404230943964003,
+      0.4518155711376555,
+      0.04721586620386029,
+      0.4966083197727492,
+      0.4248150652163543,
+      0.21492735220982387,
+      0.8124603453207343,
+      0.4102631587006744,
+      0.8602128597237516
+    ],
+    "outcomes_sha256": "c9ee67f4a3b108495150d2f31601b434a207cbdfde8d686b158872d1dd42380d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:23",
+    "family": "prior",
+    "k": 10,
+    "index": 23,
+    "seed": 7903354693830774276,
+    "theta": [
+      0.7901730005816986,
+      0.3345075944600045,
+      0.3026139262362607,
+      0.0426965832304504,
+      0.9660559780828549,
+      0.5662320878334016,
+      0.7058885697252679,
+      0.8154024071549252,
+      0.5085619131418054,
+      0.8488307078452634
+    ],
+    "outcomes_sha256": "807843a32c90e56e424c6bf51f38fa30a7fc95bd3359dbbab3d394ecbb066431"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:24",
+    "family": "prior",
+    "k": 10,
+    "index": 24,
+    "seed": 17216564497197103073,
+    "theta": [
+      0.16178855641356288,
+      0.2590923335626945,
+      0.6782055757135463,
+      0.3791097949880442,
+      0.05204129578418375,
+      0.08626748525181197,
+      0.5313662670403931,
+      0.9303569738544599,
+      0.6515024289769974,
+      0.7398208099544655
+    ],
+    "outcomes_sha256": "4b090145782ac7f5edf73a42f05d4f39214b36db359f5cb7f3d3839687810af2"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:25",
+    "family": "prior",
+    "k": 10,
+    "index": 25,
+    "seed": 7389639614157726727,
+    "theta": [
+      0.451186008790284,
+      0.5881929039431478,
+      0.5022281785251338,
+      0.9664711334333148,
+      0.6467582837244236,
+      0.9537584837117993,
+      0.30654755059718275,
+      0.7967634080255785,
+      0.6041064503624081,
+      0.13234163926148806
+    ],
+    "outcomes_sha256": "69850a25bb03b24e191296a4f56d9407a29b25cb366635e98cc215592015da28"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:26",
+    "family": "prior",
+    "k": 10,
+    "index": 26,
+    "seed": 17559397816559299913,
+    "theta": [
+      0.671604212001147,
+      0.43237565211018136,
+      0.2556933918793356,
+      0.088250446964527,
+      0.8559464036643412,
+      0.9269437162987052,
+      0.501864377955286,
+      0.3942428369896814,
+      0.307103073592508,
+      0.8495575413409717
+    ],
+    "outcomes_sha256": "44bd7d223b998ed7a08378166b6f7f0a4ab895d37865689474c07940fb5c2aba"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:27",
+    "family": "prior",
+    "k": 10,
+    "index": 27,
+    "seed": 13074372654889207633,
+    "theta": [
+      0.15002976197350698,
+      0.8577807094409502,
+      0.8276956851657553,
+      0.029781224565481063,
+      0.017336571300610882,
+      0.6624160793449192,
+      0.342879555160541,
+      0.8237628355646868,
+      0.3779186914380991,
+      0.21188482192975916
+    ],
+    "outcomes_sha256": "06670e1582757f34288ba76415c56b241fd3f4be28bd540b0bffd1810240e71f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:28",
+    "family": "prior",
+    "k": 10,
+    "index": 28,
+    "seed": 10056528159960313721,
+    "theta": [
+      0.5659362285146852,
+      0.9968146769816862,
+      0.040929344564563055,
+      0.11931668946846068,
+      0.12861248998335537,
+      0.724216022550722,
+      0.16460082544979562,
+      0.3885632640030744,
+      0.20197021232737306,
+      0.474088308570042
+    ],
+    "outcomes_sha256": "e4205eef759081fa9ca4530baadb751ddc054e59ddb210e7f23edf8a3283f727"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:29",
+    "family": "prior",
+    "k": 10,
+    "index": 29,
+    "seed": 705187071692213817,
+    "theta": [
+      0.891964957121724,
+      0.4740838893658181,
+      0.02743277363360204,
+      0.7220828354169694,
+      0.7612417425617961,
+      0.8796189847697159,
+      0.2867090941312595,
+      0.9107729351384415,
+      0.10484838287213316,
+      0.06436266748630882
+    ],
+    "outcomes_sha256": "c1cfb9d15beef33c742153effd33a55634de0ee3a713d54c92613853063f7d80"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:30",
+    "family": "prior",
+    "k": 10,
+    "index": 30,
+    "seed": 12358681862612865351,
+    "theta": [
+      0.18169541228628955,
+      0.7170316314195544,
+      0.46520880295192724,
+      0.5182950051790424,
+      0.5365935929748062,
+      0.44055303870175655,
+      0.04584953972534982,
+      0.21365337485098918,
+      0.9368999752256655,
+      0.00010211653755065055
+    ],
+    "outcomes_sha256": "78e6cd98fdfa06250406185e625b9fca542054a547596fec7dc5960f100e9e6e"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:31",
+    "family": "prior",
+    "k": 10,
+    "index": 31,
+    "seed": 13686287306234975047,
+    "theta": [
+      0.565154335093832,
+      0.11096418863989295,
+      0.8565352103941297,
+      0.9089842544970063,
+      0.3413483568930447,
+      0.6499071507382265,
+      0.5775533769165456,
+      0.7521963179898633,
+      0.7343749479376509,
+      0.36911960581678743
+    ],
+    "outcomes_sha256": "76189eb7770256aae175f56521de7b562a4f302a6114f285b9e18f996916765b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:32",
+    "family": "prior",
+    "k": 10,
+    "index": 32,
+    "seed": 11779469776940740930,
+    "theta": [
+      0.9409894249941524,
+      0.18939293745550048,
+      0.11227965699197992,
+      0.002368990018941224,
+      0.31739206477081117,
+      0.2855351325565789,
+      0.39278034697648795,
+      0.5534671466962855,
+      0.7635889837887887,
+      0.9788669666414958
+    ],
+    "outcomes_sha256": "1fe166d5fc9509ebeaee770a61d79d65a3618dc960e716822bed5a477541d96f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:33",
+    "family": "prior",
+    "k": 10,
+    "index": 33,
+    "seed": 5661602073685019887,
+    "theta": [
+      0.13625650527128616,
+      0.17243142845056886,
+      0.6381461160039266,
+      0.7986669199332331,
+      0.32824024080752184,
+      0.6484990432429717,
+      0.8341585477082062,
+      0.03864759003967926,
+      0.5768968002669744,
+      0.5363397131894806
+    ],
+    "outcomes_sha256": "153fd6a37e56aac374e385503ac2c44296a0108dcffacc85f157bf8073a3df80"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:34",
+    "family": "prior",
+    "k": 10,
+    "index": 34,
+    "seed": 10043765393727508897,
+    "theta": [
+      0.25571573741232584,
+      0.8726505737412323,
+      0.20108420985694656,
+      0.881179909231845,
+      0.9987237849376951,
+      0.23522156952979306,
+      0.598454527292888,
+      0.120922608273603,
+      0.20792959208245454,
+      0.0932544327695796
+    ],
+    "outcomes_sha256": "07a0ba2961c6bfef01815b640855a8e777dbb1b34e3571ad38a79e9a94538890"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:35",
+    "family": "prior",
+    "k": 10,
+    "index": 35,
+    "seed": 10912210651485616700,
+    "theta": [
+      0.6641268752537454,
+      0.35782845786991596,
+      0.4548489509696508,
+      0.1792652796868906,
+      0.08743861477311882,
+      0.9761117735404883,
+      0.17167050231174522,
+      0.7825284296530873,
+      0.2005046504242708,
+      0.1908156043122598
+    ],
+    "outcomes_sha256": "bf91b6398c362a9dd4ec191975dab7efb568c054b1d17890d58114ea1c83d795"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:36",
+    "family": "prior",
+    "k": 10,
+    "index": 36,
+    "seed": 634798834512458484,
+    "theta": [
+      0.9054641874967126,
+      0.28316805333718176,
+      0.49478898719970643,
+      0.16227185420258572,
+      0.5787999147811984,
+      0.5051249711550381,
+      0.5795031016618583,
+      0.7491639840028443,
+      0.22810127915758457,
+      0.1445227539886669
+    ],
+    "outcomes_sha256": "7dcad61b9118dcef1d5e5dd17446d5b65f026a29cc8a0f25883f5310056cfe18"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:37",
+    "family": "prior",
+    "k": 10,
+    "index": 37,
+    "seed": 1287084920059985356,
+    "theta": [
+      0.9934512938355632,
+      0.6329548994076394,
+      0.7533056987319946,
+      0.7581832897144062,
+      0.6708341503882504,
+      0.002685223058488033,
+      0.5011990418686175,
+      0.2317981807156376,
+      0.22867040099513208,
+      0.19634289068083807
+    ],
+    "outcomes_sha256": "9a73dd1760d79f674417b4c5e2e6f60a0182ec94ab777404ec0583cf73ee6072"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:38",
+    "family": "prior",
+    "k": 10,
+    "index": 38,
+    "seed": 6192967114359042733,
+    "theta": [
+      0.2726635315289467,
+      0.9564613505296862,
+      0.8679665675004063,
+      0.5653417763000187,
+      0.5315264443023916,
+      0.22446846800649797,
+      0.5994231052412751,
+      0.6585670905262695,
+      0.664619435135845,
+      0.30490910127766224
+    ],
+    "outcomes_sha256": "37e5db71bfdc3f4037cc1257dae1de1c7c1688155c8ea6b6bfa535b2f6277751"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:39",
+    "family": "prior",
+    "k": 10,
+    "index": 39,
+    "seed": 13515673419996546113,
+    "theta": [
+      0.24392755561638393,
+      0.6407964599140062,
+      0.5066925986660513,
+      0.0166983455115851,
+      0.21124925077455903,
+      0.42648469898470803,
+      0.0345366081046329,
+      0.7296335311681998,
+      0.6971207529444471,
+      0.22202179839777905
+    ],
+    "outcomes_sha256": "bcaab70e661c85006e75363503f9e93c04dc2b14bd4bafb3d2744a93ff018575"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:40",
+    "family": "prior",
+    "k": 10,
+    "index": 40,
+    "seed": 7185719907723284354,
+    "theta": [
+      0.9464923593186694,
+      0.21892067759427677,
+      0.5576573245073878,
+      0.9994014718790881,
+      0.7586318131556012,
+      0.36883363069882236,
+      0.006026573107135419,
+      0.18604697635902662,
+      0.5942081530822458,
+      0.6345107725540537
+    ],
+    "outcomes_sha256": "cf77c361ecdf0a89e3c1ca1f9cf549863b0c559bdac0464dfb6dc8ce928c09b4"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:41",
+    "family": "prior",
+    "k": 10,
+    "index": 41,
+    "seed": 15624749889274233040,
+    "theta": [
+      0.022147402317369096,
+      0.6751844049961778,
+      0.5690993013942531,
+      0.7435465522304683,
+      0.05450324479293883,
+      0.9515790399956102,
+      0.6164200408528091,
+      0.24791815298764422,
+      0.6163174946251548,
+      0.49877047264934754
+    ],
+    "outcomes_sha256": "1676a12cdc7a18214826176d7d12a2361a47bffa60298e740143595f0baff8b1"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:42",
+    "family": "prior",
+    "k": 10,
+    "index": 42,
+    "seed": 9916338866371081355,
+    "theta": [
+      0.1666559976339833,
+      0.19571439957820774,
+      0.8753654600385844,
+      0.5178782421980915,
+      0.8756990322662388,
+      0.015218980717014748,
+      0.3810862822986362,
+      0.9916468119039032,
+      0.7518490068557183,
+      0.1628816497642885
+    ],
+    "outcomes_sha256": "0a964de110519cdd49ad4d0b30d227476d9d31fa84dfc202fee7b268c95f753b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:43",
+    "family": "prior",
+    "k": 10,
+    "index": 43,
+    "seed": 11559245972159927233,
+    "theta": [
+      0.9806904593237571,
+      0.7420072475681118,
+      0.3258161724230304,
+      0.3928942763818294,
+      0.6705015052015855,
+      0.41876856231209303,
+      0.007892687214505947,
+      0.28467138281882604,
+      0.3307994278976427,
+      0.2535502550971361
+    ],
+    "outcomes_sha256": "9ab9f0822936dc75b2f734f4dda7438b5dcb5e7c291278950bb381abfece0a31"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:44",
+    "family": "prior",
+    "k": 10,
+    "index": 44,
+    "seed": 13009341556839452104,
+    "theta": [
+      0.419192297836686,
+      0.2775254677038451,
+      0.9325009991170315,
+      0.6483820523146996,
+      0.3911357257274859,
+      0.7675820491330817,
+      0.9927824381540726,
+      0.4997761773495272,
+      0.6668268492606738,
+      0.8472823921915303
+    ],
+    "outcomes_sha256": "05c323ce5588c336234538e223f0ecf6a96d61aa9053514944046a3cdb28ca15"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:45",
+    "family": "prior",
+    "k": 10,
+    "index": 45,
+    "seed": 5798083390475960444,
+    "theta": [
+      0.25972773475814337,
+      0.19458156521377346,
+      0.5998208649181065,
+      0.37977262442175685,
+      0.33215338579282455,
+      0.7671218807692394,
+      0.24222247235247293,
+      0.3469124878811883,
+      0.2520842291170093,
+      0.867031844982286
+    ],
+    "outcomes_sha256": "f647c25b9d9e8f32c06a3f767484ed8fc1985d28db4a8e1ddacab0601fb1b553"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:46",
+    "family": "prior",
+    "k": 10,
+    "index": 46,
+    "seed": 1555955593694250255,
+    "theta": [
+      0.20125802418501254,
+      0.9251181077027777,
+      0.948385950068401,
+      0.17468514590036116,
+      0.89861092653361,
+      0.41651001822153083,
+      0.27294296426052506,
+      0.09771910448502871,
+      0.41353106146404084,
+      0.8750316179386685
+    ],
+    "outcomes_sha256": "31e7c09837e11e6186d86a2a6a3a557ad6ccda026b719cc839360afdf9249df4"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:47",
+    "family": "prior",
+    "k": 10,
+    "index": 47,
+    "seed": 7369304954040384873,
+    "theta": [
+      0.007097971616719141,
+      0.8369685177630464,
+      0.4465978454092627,
+      0.2899733799462117,
+      0.18551527494881853,
+      0.6127745957001844,
+      0.6008821115166463,
+      0.558969087954179,
+      0.27392177618787866,
+      0.04948507712789799
+    ],
+    "outcomes_sha256": "d8ff553658683890912c2b5d7cfdc9216a08eeedef2d230849090bce05cf97ca"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:48",
+    "family": "prior",
+    "k": 10,
+    "index": 48,
+    "seed": 14763217293022375564,
+    "theta": [
+      0.7955956631167145,
+      0.4923334628209783,
+      0.4757764223349292,
+      0.8981177667953693,
+      0.5503824395497345,
+      0.5674952088091832,
+      0.447174709151518,
+      0.8967244229470089,
+      0.5588946238912055,
+      0.9268595393878001
+    ],
+    "outcomes_sha256": "0a5273fa51f1b95fc497970159474e1f1830b1b27158d7b99a5bd480ac40d321"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:49",
+    "family": "prior",
+    "k": 10,
+    "index": 49,
+    "seed": 8146587208421376750,
+    "theta": [
+      0.6476273045634944,
+      0.7908747036265278,
+      0.6143058549005374,
+      0.0008353322500979269,
+      0.2168759500701795,
+      0.909923711785499,
+      0.17517606173340716,
+      0.3341802791652597,
+      0.5836434201489854,
+      0.28182588273141856
+    ],
+    "outcomes_sha256": "1f767e55ff6851de1706e7c078a5389233702e9d41beac9ed5c21206321ee7bd"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:50",
+    "family": "prior",
+    "k": 10,
+    "index": 50,
+    "seed": 18312164660426348284,
+    "theta": [
+      0.5282319808535537,
+      0.37736135062660814,
+      0.07924032117344114,
+      0.33279301770715947,
+      0.24789813772989042,
+      0.5255676780273729,
+      0.6298457682917282,
+      0.9594622408997263,
+      0.8526373218008987,
+      0.48149850440908837
+    ],
+    "outcomes_sha256": "1695da2fe9bdf5cf0eee607178c0086b730768b7cd8f881a475801bffc0cc8b8"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:51",
+    "family": "prior",
+    "k": 10,
+    "index": 51,
+    "seed": 4980253647456923996,
+    "theta": [
+      0.41368187383786503,
+      0.08599734261408593,
+      0.9460509177953514,
+      0.94408693112676,
+      0.6301058127375725,
+      0.8020752846831645,
+      0.8733368422943668,
+      0.23954007884782583,
+      0.29113305847087356,
+      0.4998559975120669
+    ],
+    "outcomes_sha256": "d6f8740502748cec14dce68f11e5a3cfe7d511963cc51098500deabdeeb94232"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:52",
+    "family": "prior",
+    "k": 10,
+    "index": 52,
+    "seed": 13411143226741102900,
+    "theta": [
+      0.5955359795019014,
+      0.968155490176567,
+      0.5218541573346773,
+      0.954674970659798,
+      0.41986902202363824,
+      0.7270149168649419,
+      0.5525750870378159,
+      0.8740477318501154,
+      0.375768743706045,
+      0.4340528824899534
+    ],
+    "outcomes_sha256": "664f4960e8bc594a535a2173afcad0ea771d4a2994bee48e00a83c80e77ec225"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:53",
+    "family": "prior",
+    "k": 10,
+    "index": 53,
+    "seed": 1044986707729159113,
+    "theta": [
+      0.6168770879711382,
+      0.8296254180419141,
+      0.948726881881748,
+      0.29114498787307475,
+      0.48206988822590213,
+      0.16327122446558773,
+      0.9376248661687488,
+      0.48998839621953977,
+      0.6427359965212134,
+      0.05392278437488006
+    ],
+    "outcomes_sha256": "209bf860b4ae0f924083db07437e4ee376a3e1024e2cab8ff3ebf5c633808f60"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:54",
+    "family": "prior",
+    "k": 10,
+    "index": 54,
+    "seed": 1921584664525388430,
+    "theta": [
+      0.6625051428336864,
+      0.8457858462658372,
+      0.590079793239467,
+      0.7024910484478712,
+      0.07488207688967663,
+      0.15023454961471466,
+      0.619713700345748,
+      0.7518889314019415,
+      0.4378243095181402,
+      0.09304880837673789
+    ],
+    "outcomes_sha256": "bee0c5063c919ca5b3790df7d6e74e3beb1e69fe05fd2e7c552461d550cb833a"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:55",
+    "family": "prior",
+    "k": 10,
+    "index": 55,
+    "seed": 9823480817996742934,
+    "theta": [
+      0.8681698262199286,
+      0.7813854190622724,
+      0.17751922662255645,
+      0.9457249937070519,
+      0.025658769956605737,
+      0.13070277301594016,
+      0.903399440644857,
+      0.18064424987380634,
+      0.12836331045682636,
+      0.1786166933095445
+    ],
+    "outcomes_sha256": "bcdef89a95b919453b6962fd7e0e54eb1ee41c8f1f20cc658950d2f139477b31"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:56",
+    "family": "prior",
+    "k": 10,
+    "index": 56,
+    "seed": 8125357133295214510,
+    "theta": [
+      0.6861412978325552,
+      0.5743017518438274,
+      0.11692639719689477,
+      0.37956480305340373,
+      0.6079770214193321,
+      0.27683988316764885,
+      0.1837292891092966,
+      0.06489688356652018,
+      0.323101140834848,
+      0.2248953201147063
+    ],
+    "outcomes_sha256": "625ce6f429cd9c35228de582d1d3119e2b179eaa87735e8ae644cf808fd25ea0"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:57",
+    "family": "prior",
+    "k": 10,
+    "index": 57,
+    "seed": 14749995804544355146,
+    "theta": [
+      0.4844617051516424,
+      0.1523382900868288,
+      0.331124144801191,
+      0.35261704865521204,
+      0.9314142919399726,
+      0.9978530548310791,
+      0.17051470703793944,
+      0.9871492311262199,
+      0.6648036393235316,
+      0.47099010452859663
+    ],
+    "outcomes_sha256": "f3c23c4d845c810747f63eb7af2382087a142f6ce4dbe394fb037964282d31a0"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:58",
+    "family": "prior",
+    "k": 10,
+    "index": 58,
+    "seed": 6808417884942179038,
+    "theta": [
+      0.2382244893433759,
+      0.3232308086319095,
+      0.9411980118175818,
+      0.5672358464652197,
+      0.09327267052184432,
+      0.809758760242781,
+      0.9849631882362393,
+      0.7299991037031968,
+      0.2318145669960876,
+      0.5139249642653329
+    ],
+    "outcomes_sha256": "13e7e00f4475d98771f383772a4a30ed1a8446e21cb30fbc4b7d87ddfa164d77"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:59",
+    "family": "prior",
+    "k": 10,
+    "index": 59,
+    "seed": 12922855676858039760,
+    "theta": [
+      0.6046997984613841,
+      0.2692313116211462,
+      0.5727889642346171,
+      0.010490807955647932,
+      0.7084411401712616,
+      0.020656176482635145,
+      0.8597725558923336,
+      0.8431410100234786,
+      0.7422185266721706,
+      0.6023983082252771
+    ],
+    "outcomes_sha256": "41b17a0c6226188218f3faec4fd7b274802aaae032590f42c075a31e8defe9d4"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:60",
+    "family": "prior",
+    "k": 10,
+    "index": 60,
+    "seed": 4098488584580122997,
+    "theta": [
+      0.9407812643621578,
+      0.25713500638897746,
+      0.6450654588551653,
+      0.6667414057758615,
+      0.9511768576519923,
+      0.8804815828890087,
+      0.33831820737064244,
+      0.787222402590417,
+      0.171789444755594,
+      0.6134889345692786
+    ],
+    "outcomes_sha256": "94bb72e84bd142728c482cec86b7ee4955685a354089fdad3f13da792759954d"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:61",
+    "family": "prior",
+    "k": 10,
+    "index": 61,
+    "seed": 14091353438441521521,
+    "theta": [
+      0.8103573043317033,
+      0.28436278785535357,
+      0.6517458905854495,
+      0.6058112661785812,
+      0.37053227442849535,
+      0.24084698342154026,
+      0.9640341411932333,
+      0.26850907087205056,
+      0.6917476677730166,
+      0.7854662248151775
+    ],
+    "outcomes_sha256": "721ea65f9eb5ee1444506267eab73b6445b725a06dd84b3a2c237858daf37388"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:62",
+    "family": "prior",
+    "k": 10,
+    "index": 62,
+    "seed": 3245822843868810607,
+    "theta": [
+      0.5333866217947968,
+      0.05699528663115795,
+      0.4387766326159572,
+      0.9314724705554569,
+      0.35977325985359654,
+      0.9517127161370064,
+      0.1056333858578306,
+      0.40405695417780574,
+      0.791873702831074,
+      0.9998716944072791
+    ],
+    "outcomes_sha256": "4eaab5b9a3e3a5de116a67febcf13dc4a5b1781ca0441857d4097cfd608a6650"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:63",
+    "family": "prior",
+    "k": 10,
+    "index": 63,
+    "seed": 10054988417945950405,
+    "theta": [
+      0.7928980556357947,
+      0.3940228252759269,
+      0.9277899078513159,
+      0.8012427101007554,
+      0.6729061394573334,
+      0.16851896336142805,
+      0.5696840959669113,
+      0.3166082155847669,
+      0.5726523236178203,
+      0.8879834357971711
+    ],
+    "outcomes_sha256": "f998d8ec90fdf40e30af3163e5b1e447c4ab15376eb86361bfcceb0d296ba456"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:64",
+    "family": "prior",
+    "k": 10,
+    "index": 64,
+    "seed": 13491059690331316480,
+    "theta": [
+      0.6091856487312943,
+      0.17530731458581852,
+      0.2237668669943626,
+      0.8547158352670975,
+      0.026752515463977472,
+      0.19589282177665762,
+      0.2349976301252567,
+      0.5127753764182302,
+      0.5989552273952585,
+      0.2700286434203524
+    ],
+    "outcomes_sha256": "0ec245ddbe261886d3f04b37d94960e3ac2cfcdaee632d09ff16f0b03d6a9988"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:65",
+    "family": "prior",
+    "k": 10,
+    "index": 65,
+    "seed": 864320652964339010,
+    "theta": [
+      0.7473491157563221,
+      0.2937330838207283,
+      0.06684976345463094,
+      0.9778563937160621,
+      0.12948055883707119,
+      0.3559909781733673,
+      0.366438320101581,
+      0.8367850185250824,
+      0.058984579597336335,
+      0.5110020003815188
+    ],
+    "outcomes_sha256": "c3adf040f7b32dfe1f488dd8d12ac2b4bee04bf35802ee3041452cb5cbb1e39f"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:66",
+    "family": "prior",
+    "k": 10,
+    "index": 66,
+    "seed": 6622254498011118298,
+    "theta": [
+      0.9025724469952839,
+      0.48658137018413616,
+      0.9223851914665693,
+      0.12236729707341623,
+      0.5435553721755008,
+      0.7511682171493042,
+      0.06515963328868915,
+      0.7767405332417817,
+      0.027446543038467875,
+      0.584922066779611
+    ],
+    "outcomes_sha256": "ab2b9bf9e0599107e41aedd86f2102e5eda26953ed7cc6531fee6fc029db671a"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:67",
+    "family": "prior",
+    "k": 10,
+    "index": 67,
+    "seed": 4671891436775049674,
+    "theta": [
+      0.44858165306762765,
+      0.18728739054410948,
+      0.8843355530386329,
+      0.18126168911679552,
+      0.1454855654687995,
+      0.8856797404365193,
+      0.72764239402731,
+      0.5844005020950602,
+      0.5315522780444157,
+      0.7854788966804821
+    ],
+    "outcomes_sha256": "f2b6a9c61ef87d34dcc1bb588b92e9826f883ec1dbfa5009d244e5b1120e0738"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:68",
+    "family": "prior",
+    "k": 10,
+    "index": 68,
+    "seed": 5537107423242180471,
+    "theta": [
+      0.3370666995952324,
+      0.5497580423318207,
+      0.22557597080105737,
+      0.7703458707382375,
+      0.1524208814724324,
+      0.6998384529277745,
+      0.5739885029004591,
+      0.9369888259083756,
+      0.6888594747806716,
+      0.17438617587028893
+    ],
+    "outcomes_sha256": "d5986fe6df61e0fd19742fad53db23a1a9ed0d272490ee59dc257c52a16ee456"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:69",
+    "family": "prior",
+    "k": 10,
+    "index": 69,
+    "seed": 13895977394954287322,
+    "theta": [
+      0.9165619136748325,
+      0.9677173035307611,
+      0.8559604776711559,
+      0.9976003087585982,
+      0.4659941824390145,
+      0.38254182075251525,
+      0.26969959305846536,
+      0.13076046364942187,
+      0.18792696306601098,
+      0.37202096074430413
+    ],
+    "outcomes_sha256": "843c0311d0b638ca2a5c869e544223d829183437af8fd084b69e741972a92e95"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:70",
+    "family": "prior",
+    "k": 10,
+    "index": 70,
+    "seed": 16058653285013579326,
+    "theta": [
+      0.8607584524828329,
+      0.0694087717498228,
+      0.45423277781816934,
+      0.9128181017586537,
+      0.4307047738703824,
+      0.07583719041081105,
+      0.8060233015728027,
+      0.3591025153681638,
+      0.8945105425550859,
+      0.17210920781510075
+    ],
+    "outcomes_sha256": "f377c3394697f924d3d9487ffe9e2fe4e1bd02164bcac3571e886974c702f590"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:71",
+    "family": "prior",
+    "k": 10,
+    "index": 71,
+    "seed": 10979862289586048258,
+    "theta": [
+      0.7956714011377969,
+      0.7192638103723069,
+      0.00899750167620414,
+      0.788410206830162,
+      0.5604757305685405,
+      0.4312878597083655,
+      0.9325805084641744,
+      0.06670886489683708,
+      0.6809078507380949,
+      0.9933639523672653
+    ],
+    "outcomes_sha256": "07d14d3829fe04d4231100978e49370629b1919dec2f51b3dca8d6b9a68ec289"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:72",
+    "family": "prior",
+    "k": 10,
+    "index": 72,
+    "seed": 7633372730865073221,
+    "theta": [
+      0.8428279432955063,
+      0.5145583730614705,
+      0.5835302839190689,
+      0.6733977954810615,
+      0.6042716466427032,
+      0.4508296281072713,
+      0.17206491078599892,
+      0.18268205039308702,
+      0.27424426425394655,
+      0.8064501603698518
+    ],
+    "outcomes_sha256": "6bf3b082b57b97f13cd6040ab676eddb6371600e6a7a9f8d4a1263ee6866bd7b"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:73",
+    "family": "prior",
+    "k": 10,
+    "index": 73,
+    "seed": 18190900790610607514,
+    "theta": [
+      0.25116130342797244,
+      0.15488298862664737,
+      0.6515365349270145,
+      0.3984699319682314,
+      0.17615054516721831,
+      0.7198744648957927,
+      0.5140986948516661,
+      0.4706740253160294,
+      0.7715795666757077,
+      0.6919608143468009
+    ],
+    "outcomes_sha256": "8e4d0f3fc1ed9b0c471f780ee2b413a234d4a8b4d9f94a60f87c62d0234b0176"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:74",
+    "family": "prior",
+    "k": 10,
+    "index": 74,
+    "seed": 17442284178527345818,
+    "theta": [
+      0.8206507520272255,
+      0.9085401050570241,
+      0.38464974675464186,
+      0.7495417875920106,
+      0.8609177799792088,
+      0.5597857321898229,
+      0.059900400630133084,
+      0.49745209825209175,
+      0.6842489116944988,
+      0.9771046896576304
+    ],
+    "outcomes_sha256": "03e9c18d3b3fca27c4f77cf0697824e0e990a0f3882b7270f7f21771df82f832"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:75",
+    "family": "prior",
+    "k": 10,
+    "index": 75,
+    "seed": 7595034547994963304,
+    "theta": [
+      0.7577533866886142,
+      0.03545498533185222,
+      0.5867138734565747,
+      0.527671622081307,
+      0.2787580697120387,
+      0.3228711730720039,
+      0.20228261697636124,
+      0.741078942735475,
+      0.71902963372772,
+      0.3462284087489749
+    ],
+    "outcomes_sha256": "e47fe13024f689c8c627fa34b5af776599a11ec5b18b69803b358dc35b3b67e0"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:76",
+    "family": "prior",
+    "k": 10,
+    "index": 76,
+    "seed": 4752623309128533835,
+    "theta": [
+      0.573874253944251,
+      0.4169075477845767,
+      0.1697036043009461,
+      0.529392433812739,
+      0.26195434038277315,
+      0.7578457722332571,
+      0.8297147647495076,
+      0.8911285123123385,
+      0.49980579795662994,
+      0.2552066991396965
+    ],
+    "outcomes_sha256": "6d675c650f3ce7612a1fdd2cff7247df13eea00074e3f0902a9c4a19b55f89c6"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:77",
+    "family": "prior",
+    "k": 10,
+    "index": 77,
+    "seed": 1096149368587011349,
+    "theta": [
+      0.7147913624409141,
+      0.951240087081045,
+      0.6601047331811286,
+      0.6810585339690783,
+      0.15852606930251045,
+      0.9342073031508535,
+      0.8561521419028383,
+      0.10957675124349793,
+      0.04672811197851746,
+      0.8089400663383631
+    ],
+    "outcomes_sha256": "b4b8085be7089c44bb48bc563df54c0f9d71cc4737e6aedd080c3ec317078a7c"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:78",
+    "family": "prior",
+    "k": 10,
+    "index": 78,
+    "seed": 4861889250724090700,
+    "theta": [
+      0.4177452807135185,
+      0.4086917652658735,
+      0.5822027537837138,
+      0.5440892561674685,
+      0.8839538761581518,
+      0.979728401144505,
+      0.8978276701886054,
+      0.08938698201840758,
+      0.16710445864048767,
+      0.7039903530125756
+    ],
+    "outcomes_sha256": "909e5e66d02b391e9a071a86b79f6f654f2228a8621ac789a866eeec6a6e6929"
+  },
+  {
+    "episode_id": "e8_evidence_online:prior:10:79",
+    "family": "prior",
+    "k": 10,
+    "index": 79,
+    "seed": 2004255730978922414,
+    "theta": [
+      0.0916967094301657,
+      0.9193886008006593,
+      0.708191295457871,
+      0.10683713600108367,
+      0.7536167012311501,
+      0.719462842768232,
+      0.5305579338210227,
+      0.15115457868518786,
+      0.47116680242876013,
+      0.9028164217921526
+    ],
+    "outcomes_sha256": "0f73c6d160efc74afdfd6c01c7551aff75e57ad13cc410114c660ae6861d379a"
+  }
+]

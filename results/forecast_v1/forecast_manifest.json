@@ -1,0 +1,34 @@
+{
+  "experiment": "e7_probability_forecasts",
+  "n_fixtures_per_k": 100,
+  "ks": [
+    2,
+    3,
+    5,
+    10,
+    15
+  ],
+  "representations": [
+    "counts",
+    "means",
+    "bayes"
+  ],
+  "repeats": 2,
+  "questions": 24000,
+  "payload_sha256": "0c85c4ec11edb9417332ed2f91d1b7fb9e479e60c0d3f1e670165f39a3bfe70a",
+  "log_clip": 1e-06,
+  "source_sha256": "ce6044269a555199f80a1b079b5b1e836fb9a727ba42d9016fbef1d2171aed31",
+  "dependency_sha256": {
+    "client.py": "dba591f9c045e367ca542e6289cb5587f0175b4214097053f03eca68a90becb5",
+    "prompts.py": "169102b7d942707626be1e6cb0d510f3a0de38c80b1e985539598d3a8070d4e8",
+    "experiments.py": "219a7dab2d34cd54fce52fbe2998150f8d9274c6e2a84b166b43a6c81ba5ee33"
+  },
+  "shared_state": {
+    "environment": "Independent stationary Bernoulli bandit: each pull earns 0 or 1. Unknown arm success probabilities stay fixed. Only selected-arm outcomes are observed.",
+    "prior": "Before observations each arm independently has a Beta(1,1) prior.",
+    "protocol": "Each question is a separate decision with its own observation in its instructions. Arm labels carry no reward information. Remaining pulls include the current pull. There are no rewards after that budget ends."
+  },
+  "model": "jev-1.13.0",
+  "seed": 20260920,
+  "question_target_distinction": "predictive reward vs latent best arm; no action-policy reward claims"
+}

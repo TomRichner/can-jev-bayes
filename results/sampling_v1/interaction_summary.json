@@ -1,0 +1,38 @@
+{
+  "experiment": "e9_sampling_regimes",
+  "metric": "pseudo_regret",
+  "contrast": "(sample-direct at K=10) - (sample-direct at K=2)",
+  "hypothesis": "negative",
+  "estimate": -6.2836152882965255,
+  "ci_low": -8.986443791648517,
+  "ci_high": -3.7001936642305893,
+  "bootstrap_resamples": 10000,
+  "interval": "two-sided 95% percentile",
+  "complete_design": true,
+  "analysis_status": "planned confirmatory analysis",
+  "secondary_per_k": [
+    {
+      "k": 2,
+      "sample_minus_direct": 0.8427360191308366,
+      "ci_low": -0.37206284494441744,
+      "ci_high": 1.8753651943441167,
+      "paired_tasks": 100,
+      "planned_tasks": 100,
+      "missing_pairs": 0,
+      "completed_direct": 100,
+      "completed_sample": 100
+    },
+    {
+      "k": 10,
+      "sample_minus_direct": -5.440879269165689,
+      "ci_low": -7.959730178768558,
+      "ci_high": -3.1126121014767296,
+      "paired_tasks": 100,
+      "planned_tasks": 100,
+      "missing_pairs": 0,
+      "completed_direct": 100,
+      "completed_sample": 100
+    }
+  ],
+  "interpretation": "K and resulting fixed-budget difficulty/input arity change together; no mechanistic isolation or K-threshold estimate"
+}

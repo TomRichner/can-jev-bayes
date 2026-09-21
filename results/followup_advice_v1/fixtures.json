@@ -1,0 +1,2502 @@
+[
+  {
+    "cohort": "random",
+    "index": 0,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      18,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 1,
+    "successes": [
+      1,
+      2
+    ],
+    "failures": [
+      4,
+      8
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 2,
+    "successes": [
+      4,
+      0
+    ],
+    "failures": [
+      16,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 3,
+    "successes": [
+      13,
+      4
+    ],
+    "failures": [
+      7,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 4,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 5,
+    "successes": [
+      0,
+      2
+    ],
+    "failures": [
+      2,
+      8
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 6,
+    "successes": [
+      17,
+      1
+    ],
+    "failures": [
+      3,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 7,
+    "successes": [
+      2,
+      1
+    ],
+    "failures": [
+      0,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 8,
+    "successes": [
+      0,
+      14
+    ],
+    "failures": [
+      2,
+      6
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 9,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      1,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 10,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      4,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 11,
+    "successes": [
+      1,
+      6
+    ],
+    "failures": [
+      19,
+      14
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 12,
+    "successes": [
+      5,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 13,
+    "successes": [
+      0,
+      11
+    ],
+    "failures": [
+      5,
+      9
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 14,
+    "successes": [
+      5,
+      0
+    ],
+    "failures": [
+      5,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 15,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      2,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 16,
+    "successes": [
+      2,
+      2
+    ],
+    "failures": [
+      3,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 17,
+    "successes": [
+      8,
+      0
+    ],
+    "failures": [
+      2,
+      20
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 18,
+    "successes": [
+      4,
+      0
+    ],
+    "failures": [
+      16,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 19,
+    "successes": [
+      8,
+      1
+    ],
+    "failures": [
+      12,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 20,
+    "successes": [
+      10,
+      10
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 21,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      1,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 22,
+    "successes": [
+      12,
+      8
+    ],
+    "failures": [
+      8,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 23,
+    "successes": [
+      3,
+      1
+    ],
+    "failures": [
+      7,
+      9
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 24,
+    "successes": [
+      0,
+      16
+    ],
+    "failures": [
+      0,
+      4
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 25,
+    "successes": [
+      4,
+      1
+    ],
+    "failures": [
+      1,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 26,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      2,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 27,
+    "successes": [
+      7,
+      19
+    ],
+    "failures": [
+      3,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 28,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 29,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 30,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      1,
+      10
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 31,
+    "successes": [
+      3,
+      2
+    ],
+    "failures": [
+      17,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 32,
+    "successes": [
+      0,
+      2
+    ],
+    "failures": [
+      0,
+      3
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 33,
+    "successes": [
+      1,
+      2
+    ],
+    "failures": [
+      1,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 34,
+    "successes": [
+      5,
+      1
+    ],
+    "failures": [
+      5,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 35,
+    "successes": [
+      2,
+      4
+    ],
+    "failures": [
+      3,
+      6
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 36,
+    "successes": [
+      5,
+      0
+    ],
+    "failures": [
+      5,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 37,
+    "successes": [
+      1,
+      5
+    ],
+    "failures": [
+      4,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 38,
+    "successes": [
+      9,
+      3
+    ],
+    "failures": [
+      1,
+      17
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 39,
+    "successes": [
+      4,
+      19
+    ],
+    "failures": [
+      6,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 40,
+    "successes": [
+      3,
+      8
+    ],
+    "failures": [
+      2,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 41,
+    "successes": [
+      1,
+      9
+    ],
+    "failures": [
+      4,
+      11
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 42,
+    "successes": [
+      10,
+      5
+    ],
+    "failures": [
+      0,
+      15
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 43,
+    "successes": [
+      5,
+      6
+    ],
+    "failures": [
+      5,
+      4
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 44,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      1,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 45,
+    "successes": [
+      7,
+      0
+    ],
+    "failures": [
+      3,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 46,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      20
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 47,
+    "successes": [
+      0,
+      8
+    ],
+    "failures": [
+      10,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 48,
+    "successes": [
+      4,
+      0
+    ],
+    "failures": [
+      6,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 49,
+    "successes": [
+      8,
+      3
+    ],
+    "failures": [
+      2,
+      17
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 50,
+    "successes": [
+      3,
+      16
+    ],
+    "failures": [
+      2,
+      4
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 51,
+    "successes": [
+      1,
+      0
+    ],
+    "failures": [
+      4,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 52,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 53,
+    "successes": [
+      1,
+      3
+    ],
+    "failures": [
+      1,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 54,
+    "successes": [
+      0,
+      10
+    ],
+    "failures": [
+      2,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 55,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 56,
+    "successes": [
+      7,
+      1
+    ],
+    "failures": [
+      3,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 57,
+    "successes": [
+      0,
+      1
+    ],
+    "failures": [
+      0,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 58,
+    "successes": [
+      19,
+      2
+    ],
+    "failures": [
+      1,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 59,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      5,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 60,
+    "successes": [
+      0,
+      5
+    ],
+    "failures": [
+      5,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 61,
+    "successes": [
+      5,
+      15
+    ],
+    "failures": [
+      0,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 62,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 63,
+    "successes": [
+      17,
+      0
+    ],
+    "failures": [
+      3,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 64,
+    "successes": [
+      16,
+      0
+    ],
+    "failures": [
+      4,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 65,
+    "successes": [
+      1,
+      1
+    ],
+    "failures": [
+      1,
+      9
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 66,
+    "successes": [
+      0,
+      18
+    ],
+    "failures": [
+      10,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 67,
+    "successes": [
+      0,
+      3
+    ],
+    "failures": [
+      2,
+      17
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 68,
+    "successes": [
+      3,
+      8
+    ],
+    "failures": [
+      2,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 69,
+    "successes": [
+      0,
+      5
+    ],
+    "failures": [
+      2,
+      15
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 70,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 71,
+    "successes": [
+      0,
+      1
+    ],
+    "failures": [
+      0,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 72,
+    "successes": [
+      8,
+      2
+    ],
+    "failures": [
+      12,
+      3
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 73,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 74,
+    "successes": [
+      0,
+      11
+    ],
+    "failures": [
+      0,
+      9
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 75,
+    "successes": [
+      8,
+      0
+    ],
+    "failures": [
+      12,
+      10
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 76,
+    "successes": [
+      0,
+      3
+    ],
+    "failures": [
+      5,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 77,
+    "successes": [
+      0,
+      8
+    ],
+    "failures": [
+      2,
+      12
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 78,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      2,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 79,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 80,
+    "successes": [
+      0,
+      3
+    ],
+    "failures": [
+      0,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 81,
+    "successes": [
+      1,
+      11
+    ],
+    "failures": [
+      1,
+      9
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 82,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 83,
+    "successes": [
+      5,
+      9
+    ],
+    "failures": [
+      0,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 84,
+    "successes": [
+      5,
+      3
+    ],
+    "failures": [
+      5,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 85,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 86,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      2,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 87,
+    "successes": [
+      15,
+      4
+    ],
+    "failures": [
+      5,
+      6
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 88,
+    "successes": [
+      5,
+      3
+    ],
+    "failures": [
+      5,
+      7
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 89,
+    "successes": [
+      0,
+      13
+    ],
+    "failures": [
+      5,
+      7
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 90,
+    "successes": [
+      4,
+      1
+    ],
+    "failures": [
+      6,
+      4
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 91,
+    "successes": [
+      3,
+      10
+    ],
+    "failures": [
+      7,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 92,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      10
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 93,
+    "successes": [
+      0,
+      0
+    ],
+    "failures": [
+      0,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 94,
+    "successes": [
+      3,
+      1
+    ],
+    "failures": [
+      2,
+      1
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 95,
+    "successes": [
+      0,
+      6
+    ],
+    "failures": [
+      0,
+      4
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 96,
+    "successes": [
+      2,
+      2
+    ],
+    "failures": [
+      18,
+      0
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 97,
+    "successes": [
+      2,
+      0
+    ],
+    "failures": [
+      0,
+      2
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 98,
+    "successes": [
+      9,
+      0
+    ],
+    "failures": [
+      11,
+      5
+    ]
+  },
+  {
+    "cohort": "random",
+    "index": 99,
+    "successes": [
+      0,
+      5
+    ],
+    "failures": [
+      0,
+      0
+    ]
+  },
+  {
+    "cohort": "targeted",
+    "index": 0,
+    "successes": [
+      43,
+      0
+    ],
+    "failures": [
+      21,
+      0
+    ],
+    "accepted_draw": 1
+  },
+  {
+    "cohort": "targeted",
+    "index": 1,
+    "successes": [
+      51,
+      0
+    ],
+    "failures": [
+      26,
+      0
+    ],
+    "accepted_draw": 2
+  },
+  {
+    "cohort": "targeted",
+    "index": 2,
+    "successes": [
+      7,
+      0
+    ],
+    "failures": [
+      6,
+      0
+    ],
+    "accepted_draw": 3
+  },
+  {
+    "cohort": "targeted",
+    "index": 3,
+    "successes": [
+      41,
+      0
+    ],
+    "failures": [
+      38,
+      0
+    ],
+    "accepted_draw": 4
+  },
+  {
+    "cohort": "targeted",
+    "index": 4,
+    "successes": [
+      15,
+      0
+    ],
+    "failures": [
+      11,
+      0
+    ],
+    "accepted_draw": 5
+  },
+  {
+    "cohort": "targeted",
+    "index": 5,
+    "successes": [
+      39,
+      0
+    ],
+    "failures": [
+      23,
+      0
+    ],
+    "accepted_draw": 6
+  },
+  {
+    "cohort": "targeted",
+    "index": 6,
+    "successes": [
+      7,
+      0
+    ],
+    "failures": [
+      3,
+      0
+    ],
+    "accepted_draw": 7
+  },
+  {
+    "cohort": "targeted",
+    "index": 7,
+    "successes": [
+      30,
+      0
+    ],
+    "failures": [
+      20,
+      0
+    ],
+    "accepted_draw": 8
+  },
+  {
+    "cohort": "targeted",
+    "index": 8,
+    "successes": [
+      45,
+      0
+    ],
+    "failures": [
+      34,
+      0
+    ],
+    "accepted_draw": 9
+  },
+  {
+    "cohort": "targeted",
+    "index": 9,
+    "successes": [
+      33,
+      0
+    ],
+    "failures": [
+      27,
+      0
+    ],
+    "accepted_draw": 10
+  },
+  {
+    "cohort": "targeted",
+    "index": 10,
+    "successes": [
+      14,
+      0
+    ],
+    "failures": [
+      7,
+      0
+    ],
+    "accepted_draw": 11
+  },
+  {
+    "cohort": "targeted",
+    "index": 11,
+    "successes": [
+      24,
+      0
+    ],
+    "failures": [
+      13,
+      0
+    ],
+    "accepted_draw": 12
+  },
+  {
+    "cohort": "targeted",
+    "index": 12,
+    "successes": [
+      36,
+      0
+    ],
+    "failures": [
+      28,
+      0
+    ],
+    "accepted_draw": 13
+  },
+  {
+    "cohort": "targeted",
+    "index": 13,
+    "successes": [
+      36,
+      0
+    ],
+    "failures": [
+      25,
+      0
+    ],
+    "accepted_draw": 14
+  },
+  {
+    "cohort": "targeted",
+    "index": 14,
+    "successes": [
+      16,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 15
+  },
+  {
+    "cohort": "targeted",
+    "index": 15,
+    "successes": [
+      24,
+      0
+    ],
+    "failures": [
+      12,
+      0
+    ],
+    "accepted_draw": 16
+  },
+  {
+    "cohort": "targeted",
+    "index": 16,
+    "successes": [
+      44,
+      0
+    ],
+    "failures": [
+      28,
+      0
+    ],
+    "accepted_draw": 17
+  },
+  {
+    "cohort": "targeted",
+    "index": 17,
+    "successes": [
+      40,
+      0
+    ],
+    "failures": [
+      25,
+      0
+    ],
+    "accepted_draw": 18
+  },
+  {
+    "cohort": "targeted",
+    "index": 18,
+    "successes": [
+      12,
+      0
+    ],
+    "failures": [
+      8,
+      0
+    ],
+    "accepted_draw": 19
+  },
+  {
+    "cohort": "targeted",
+    "index": 19,
+    "successes": [
+      45,
+      0
+    ],
+    "failures": [
+      33,
+      0
+    ],
+    "accepted_draw": 20
+  },
+  {
+    "cohort": "targeted",
+    "index": 20,
+    "successes": [
+      6,
+      0
+    ],
+    "failures": [
+      4,
+      0
+    ],
+    "accepted_draw": 21
+  },
+  {
+    "cohort": "targeted",
+    "index": 21,
+    "successes": [
+      7,
+      0
+    ],
+    "failures": [
+      4,
+      0
+    ],
+    "accepted_draw": 22
+  },
+  {
+    "cohort": "targeted",
+    "index": 22,
+    "successes": [
+      28,
+      0
+    ],
+    "failures": [
+      13,
+      0
+    ],
+    "accepted_draw": 23
+  },
+  {
+    "cohort": "targeted",
+    "index": 23,
+    "successes": [
+      39,
+      0
+    ],
+    "failures": [
+      25,
+      0
+    ],
+    "accepted_draw": 24
+  },
+  {
+    "cohort": "targeted",
+    "index": 24,
+    "successes": [
+      13,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ],
+    "accepted_draw": 25
+  },
+  {
+    "cohort": "targeted",
+    "index": 25,
+    "successes": [
+      25,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 26
+  },
+  {
+    "cohort": "targeted",
+    "index": 26,
+    "successes": [
+      38,
+      0
+    ],
+    "failures": [
+      24,
+      0
+    ],
+    "accepted_draw": 27
+  },
+  {
+    "cohort": "targeted",
+    "index": 27,
+    "successes": [
+      28,
+      0
+    ],
+    "failures": [
+      26,
+      0
+    ],
+    "accepted_draw": 28
+  },
+  {
+    "cohort": "targeted",
+    "index": 28,
+    "successes": [
+      14,
+      0
+    ],
+    "failures": [
+      11,
+      0
+    ],
+    "accepted_draw": 29
+  },
+  {
+    "cohort": "targeted",
+    "index": 29,
+    "successes": [
+      47,
+      0
+    ],
+    "failures": [
+      29,
+      0
+    ],
+    "accepted_draw": 30
+  },
+  {
+    "cohort": "targeted",
+    "index": 30,
+    "successes": [
+      45,
+      0
+    ],
+    "failures": [
+      29,
+      0
+    ],
+    "accepted_draw": 31
+  },
+  {
+    "cohort": "targeted",
+    "index": 31,
+    "successes": [
+      18,
+      0
+    ],
+    "failures": [
+      14,
+      0
+    ],
+    "accepted_draw": 32
+  },
+  {
+    "cohort": "targeted",
+    "index": 32,
+    "successes": [
+      19,
+      0
+    ],
+    "failures": [
+      9,
+      0
+    ],
+    "accepted_draw": 34
+  },
+  {
+    "cohort": "targeted",
+    "index": 33,
+    "successes": [
+      22,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ],
+    "accepted_draw": 35
+  },
+  {
+    "cohort": "targeted",
+    "index": 34,
+    "successes": [
+      35,
+      0
+    ],
+    "failures": [
+      21,
+      0
+    ],
+    "accepted_draw": 36
+  },
+  {
+    "cohort": "targeted",
+    "index": 35,
+    "successes": [
+      28,
+      0
+    ],
+    "failures": [
+      16,
+      0
+    ],
+    "accepted_draw": 37
+  },
+  {
+    "cohort": "targeted",
+    "index": 36,
+    "successes": [
+      17,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 38
+  },
+  {
+    "cohort": "targeted",
+    "index": 37,
+    "successes": [
+      13,
+      0
+    ],
+    "failures": [
+      11,
+      0
+    ],
+    "accepted_draw": 39
+  },
+  {
+    "cohort": "targeted",
+    "index": 38,
+    "successes": [
+      26,
+      0
+    ],
+    "failures": [
+      12,
+      0
+    ],
+    "accepted_draw": 40
+  },
+  {
+    "cohort": "targeted",
+    "index": 39,
+    "successes": [
+      10,
+      0
+    ],
+    "failures": [
+      7,
+      0
+    ],
+    "accepted_draw": 41
+  },
+  {
+    "cohort": "targeted",
+    "index": 40,
+    "successes": [
+      31,
+      0
+    ],
+    "failures": [
+      25,
+      0
+    ],
+    "accepted_draw": 43
+  },
+  {
+    "cohort": "targeted",
+    "index": 41,
+    "successes": [
+      25,
+      0
+    ],
+    "failures": [
+      19,
+      0
+    ],
+    "accepted_draw": 45
+  },
+  {
+    "cohort": "targeted",
+    "index": 42,
+    "successes": [
+      42,
+      0
+    ],
+    "failures": [
+      22,
+      0
+    ],
+    "accepted_draw": 46
+  },
+  {
+    "cohort": "targeted",
+    "index": 43,
+    "successes": [
+      21,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 47
+  },
+  {
+    "cohort": "targeted",
+    "index": 44,
+    "successes": [
+      34,
+      0
+    ],
+    "failures": [
+      20,
+      0
+    ],
+    "accepted_draw": 48
+  },
+  {
+    "cohort": "targeted",
+    "index": 45,
+    "successes": [
+      34,
+      0
+    ],
+    "failures": [
+      31,
+      0
+    ],
+    "accepted_draw": 49
+  },
+  {
+    "cohort": "targeted",
+    "index": 46,
+    "successes": [
+      41,
+      0
+    ],
+    "failures": [
+      22,
+      0
+    ],
+    "accepted_draw": 50
+  },
+  {
+    "cohort": "targeted",
+    "index": 47,
+    "successes": [
+      30,
+      0
+    ],
+    "failures": [
+      21,
+      0
+    ],
+    "accepted_draw": 51
+  },
+  {
+    "cohort": "targeted",
+    "index": 48,
+    "successes": [
+      20,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 52
+  },
+  {
+    "cohort": "targeted",
+    "index": 49,
+    "successes": [
+      31,
+      0
+    ],
+    "failures": [
+      24,
+      0
+    ],
+    "accepted_draw": 53
+  },
+  {
+    "cohort": "targeted",
+    "index": 50,
+    "successes": [
+      42,
+      0
+    ],
+    "failures": [
+      32,
+      0
+    ],
+    "accepted_draw": 54
+  },
+  {
+    "cohort": "targeted",
+    "index": 51,
+    "successes": [
+      48,
+      0
+    ],
+    "failures": [
+      32,
+      0
+    ],
+    "accepted_draw": 56
+  },
+  {
+    "cohort": "targeted",
+    "index": 52,
+    "successes": [
+      44,
+      0
+    ],
+    "failures": [
+      36,
+      0
+    ],
+    "accepted_draw": 57
+  },
+  {
+    "cohort": "targeted",
+    "index": 53,
+    "successes": [
+      16,
+      0
+    ],
+    "failures": [
+      8,
+      0
+    ],
+    "accepted_draw": 58
+  },
+  {
+    "cohort": "targeted",
+    "index": 54,
+    "successes": [
+      50,
+      0
+    ],
+    "failures": [
+      23,
+      0
+    ],
+    "accepted_draw": 59
+  },
+  {
+    "cohort": "targeted",
+    "index": 55,
+    "successes": [
+      28,
+      0
+    ],
+    "failures": [
+      14,
+      0
+    ],
+    "accepted_draw": 60
+  },
+  {
+    "cohort": "targeted",
+    "index": 56,
+    "successes": [
+      38,
+      0
+    ],
+    "failures": [
+      32,
+      0
+    ],
+    "accepted_draw": 61
+  },
+  {
+    "cohort": "targeted",
+    "index": 57,
+    "successes": [
+      37,
+      0
+    ],
+    "failures": [
+      28,
+      0
+    ],
+    "accepted_draw": 63
+  },
+  {
+    "cohort": "targeted",
+    "index": 58,
+    "successes": [
+      18,
+      0
+    ],
+    "failures": [
+      12,
+      0
+    ],
+    "accepted_draw": 64
+  },
+  {
+    "cohort": "targeted",
+    "index": 59,
+    "successes": [
+      27,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 65
+  },
+  {
+    "cohort": "targeted",
+    "index": 60,
+    "successes": [
+      16,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ],
+    "accepted_draw": 66
+  },
+  {
+    "cohort": "targeted",
+    "index": 61,
+    "successes": [
+      47,
+      0
+    ],
+    "failures": [
+      30,
+      0
+    ],
+    "accepted_draw": 67
+  },
+  {
+    "cohort": "targeted",
+    "index": 62,
+    "successes": [
+      15,
+      0
+    ],
+    "failures": [
+      14,
+      0
+    ],
+    "accepted_draw": 68
+  },
+  {
+    "cohort": "targeted",
+    "index": 63,
+    "successes": [
+      38,
+      0
+    ],
+    "failures": [
+      25,
+      0
+    ],
+    "accepted_draw": 69
+  },
+  {
+    "cohort": "targeted",
+    "index": 64,
+    "successes": [
+      32,
+      0
+    ],
+    "failures": [
+      27,
+      0
+    ],
+    "accepted_draw": 70
+  },
+  {
+    "cohort": "targeted",
+    "index": 65,
+    "successes": [
+      25,
+      0
+    ],
+    "failures": [
+      12,
+      0
+    ],
+    "accepted_draw": 71
+  },
+  {
+    "cohort": "targeted",
+    "index": 66,
+    "successes": [
+      47,
+      0
+    ],
+    "failures": [
+      22,
+      0
+    ],
+    "accepted_draw": 72
+  },
+  {
+    "cohort": "targeted",
+    "index": 67,
+    "successes": [
+      43,
+      0
+    ],
+    "failures": [
+      27,
+      0
+    ],
+    "accepted_draw": 74
+  },
+  {
+    "cohort": "targeted",
+    "index": 68,
+    "successes": [
+      12,
+      0
+    ],
+    "failures": [
+      9,
+      0
+    ],
+    "accepted_draw": 75
+  },
+  {
+    "cohort": "targeted",
+    "index": 69,
+    "successes": [
+      29,
+      0
+    ],
+    "failures": [
+      20,
+      0
+    ],
+    "accepted_draw": 77
+  },
+  {
+    "cohort": "targeted",
+    "index": 70,
+    "successes": [
+      11,
+      0
+    ],
+    "failures": [
+      7,
+      0
+    ],
+    "accepted_draw": 78
+  },
+  {
+    "cohort": "targeted",
+    "index": 71,
+    "successes": [
+      11,
+      0
+    ],
+    "failures": [
+      8,
+      0
+    ],
+    "accepted_draw": 79
+  },
+  {
+    "cohort": "targeted",
+    "index": 72,
+    "successes": [
+      39,
+      0
+    ],
+    "failures": [
+      27,
+      0
+    ],
+    "accepted_draw": 80
+  },
+  {
+    "cohort": "targeted",
+    "index": 73,
+    "successes": [
+      22,
+      0
+    ],
+    "failures": [
+      11,
+      0
+    ],
+    "accepted_draw": 81
+  },
+  {
+    "cohort": "targeted",
+    "index": 74,
+    "successes": [
+      40,
+      0
+    ],
+    "failures": [
+      30,
+      0
+    ],
+    "accepted_draw": 84
+  },
+  {
+    "cohort": "targeted",
+    "index": 75,
+    "successes": [
+      24,
+      0
+    ],
+    "failures": [
+      17,
+      0
+    ],
+    "accepted_draw": 85
+  },
+  {
+    "cohort": "targeted",
+    "index": 76,
+    "successes": [
+      48,
+      0
+    ],
+    "failures": [
+      29,
+      0
+    ],
+    "accepted_draw": 86
+  },
+  {
+    "cohort": "targeted",
+    "index": 77,
+    "successes": [
+      31,
+      0
+    ],
+    "failures": [
+      15,
+      0
+    ],
+    "accepted_draw": 87
+  },
+  {
+    "cohort": "targeted",
+    "index": 78,
+    "successes": [
+      51,
+      0
+    ],
+    "failures": [
+      24,
+      0
+    ],
+    "accepted_draw": 89
+  },
+  {
+    "cohort": "targeted",
+    "index": 79,
+    "successes": [
+      8,
+      0
+    ],
+    "failures": [
+      5,
+      0
+    ],
+    "accepted_draw": 90
+  },
+  {
+    "cohort": "targeted",
+    "index": 80,
+    "successes": [
+      42,
+      0
+    ],
+    "failures": [
+      23,
+      0
+    ],
+    "accepted_draw": 91
+  },
+  {
+    "cohort": "targeted",
+    "index": 81,
+    "successes": [
+      9,
+      0
+    ],
+    "failures": [
+      6,
+      0
+    ],
+    "accepted_draw": 92
+  },
+  {
+    "cohort": "targeted",
+    "index": 82,
+    "successes": [
+      20,
+      0
+    ],
+    "failures": [
+      16,
+      0
+    ],
+    "accepted_draw": 94
+  },
+  {
+    "cohort": "targeted",
+    "index": 83,
+    "successes": [
+      44,
+      0
+    ],
+    "failures": [
+      23,
+      0
+    ],
+    "accepted_draw": 96
+  },
+  {
+    "cohort": "targeted",
+    "index": 84,
+    "successes": [
+      8,
+      0
+    ],
+    "failures": [
+      7,
+      0
+    ],
+    "accepted_draw": 97
+  },
+  {
+    "cohort": "targeted",
+    "index": 85,
+    "successes": [
+      6,
+      0
+    ],
+    "failures": [
+      5,
+      0
+    ],
+    "accepted_draw": 98
+  },
+  {
+    "cohort": "targeted",
+    "index": 86,
+    "successes": [
+      36,
+      0
+    ],
+    "failures": [
+      26,
+      0
+    ],
+    "accepted_draw": 101
+  },
+  {
+    "cohort": "targeted",
+    "index": 87,
+    "successes": [
+      35,
+      0
+    ],
+    "failures": [
+      18,
+      0
+    ],
+    "accepted_draw": 102
+  },
+  {
+    "cohort": "targeted",
+    "index": 88,
+    "successes": [
+      29,
+      0
+    ],
+    "failures": [
+      21,
+      0
+    ],
+    "accepted_draw": 103
+  },
+  {
+    "cohort": "targeted",
+    "index": 89,
+    "successes": [
+      11,
+      0
+    ],
+    "failures": [
+      6,
+      0
+    ],
+    "accepted_draw": 105
+  },
+  {
+    "cohort": "targeted",
+    "index": 90,
+    "successes": [
+      16,
+      0
+    ],
+    "failures": [
+      9,
+      0
+    ],
+    "accepted_draw": 107
+  },
+  {
+    "cohort": "targeted",
+    "index": 91,
+    "successes": [
+      17,
+      0
+    ],
+    "failures": [
+      16,
+      0
+    ],
+    "accepted_draw": 111
+  },
+  {
+    "cohort": "targeted",
+    "index": 92,
+    "successes": [
+      35,
+      0
+    ],
+    "failures": [
+      22,
+      0
+    ],
+    "accepted_draw": 113
+  },
+  {
+    "cohort": "targeted",
+    "index": 93,
+    "successes": [
+      15,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ],
+    "accepted_draw": 115
+  },
+  {
+    "cohort": "targeted",
+    "index": 94,
+    "successes": [
+      36,
+      0
+    ],
+    "failures": [
+      17,
+      0
+    ],
+    "accepted_draw": 116
+  },
+  {
+    "cohort": "targeted",
+    "index": 95,
+    "successes": [
+      12,
+      0
+    ],
+    "failures": [
+      10,
+      0
+    ],
+    "accepted_draw": 117
+  },
+  {
+    "cohort": "targeted",
+    "index": 96,
+    "successes": [
+      30,
+      0
+    ],
+    "failures": [
+      23,
+      0
+    ],
+    "accepted_draw": 118
+  },
+  {
+    "cohort": "targeted",
+    "index": 97,
+    "successes": [
+      34,
+      0
+    ],
+    "failures": [
+      19,
+      0
+    ],
+    "accepted_draw": 119
+  },
+  {
+    "cohort": "targeted",
+    "index": 98,
+    "successes": [
+      7,
+      0
+    ],
+    "failures": [
+      5,
+      0
+    ],
+    "accepted_draw": 124
+  },
+  {
+    "cohort": "targeted",
+    "index": 99,
+    "successes": [
+      17,
+      0
+    ],
+    "failures": [
+      13,
+      0
+    ],
+    "accepted_draw": 125
+  }
+]

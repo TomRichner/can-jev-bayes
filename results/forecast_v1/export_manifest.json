@@ -1,0 +1,56 @@
+{
+  "source_run": "artifacts/forecast_v1",
+  "exports": {
+    "forecasts": {
+      "rows": 24000,
+      "fields": [
+        "arm",
+        "backend_choice",
+        "backend_confidence",
+        "backend_noul",
+        "backend_probabilities",
+        "decision_id",
+        "excess_brier",
+        "excess_log_loss",
+        "experiment",
+        "failures",
+        "fixture_id",
+        "k",
+        "max_absolute_error",
+        "prediction",
+        "reference",
+        "repeat",
+        "representation",
+        "request_id",
+        "simple_baseline",
+        "simple_baseline_scores",
+        "successes",
+        "target",
+        "zero_prediction_positive_reference"
+      ],
+      "sha256": "1077cca4bf5077d5bb0db035b2e8c5a8f00372bfd0bebb8d852de7bde9ffe8af"
+    },
+    "decision_distributions": {
+      "rows": 24000,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "8c36ceaf6999117d4f51e446b645bb2b0317ee3ee37b1df6a81b0a00038fabfe"
+    }
+  },
+  "provenance": {
+    "forecast_manifest.json": "d7109cd6c89794c7dfaf368fd21a9740a54a674cfcb6b5c3285647679ea205f9",
+    "accounting.json": "fb4175d0e08fa46a723e070a2df8548d65930d48d478d5d6913138a4e8af457c"
+  }
+}

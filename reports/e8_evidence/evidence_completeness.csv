@@ -1,0 +1,9 @@
+left,right,family,k,expected_pairs,n_left,n_right,n_pairs,missing_left,missing_right,missing_pairs
+means_direct,counts_direct,close,3,80,80,80,80,0,0,0
+means_direct,counts_direct,close,10,80,80,80,80,0,0,0
+means_direct,counts_direct,prior,3,80,80,80,80,0,0,0
+means_direct,counts_direct,prior,10,80,80,80,80,0,0,0
+bayes_direct,means_direct,close,3,80,80,80,80,0,0,0
+bayes_direct,means_direct,close,10,80,80,80,80,0,0,0
+bayes_direct,means_direct,prior,3,80,80,80,80,0,0,0
+bayes_direct,means_direct,prior,10,80,80,80,80,0,0,0

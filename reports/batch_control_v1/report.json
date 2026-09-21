@@ -1,0 +1,1981 @@
+{
+  "experiment": "batch_control",
+  "completed_decisions": 1920,
+  "planned_decisions": 1920,
+  "matched_questions": 960,
+  "planned_matched_questions": 960,
+  "complete": true,
+  "estimates": [
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.03625000000000002,
+      "ci95": [
+        0.028250000000000015,
+        0.04475000000000002
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0011250000000000023,
+      "ci95": [
+        -0.012625000000000008,
+        0.010875000000000001
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0018062990531447943,
+      "ci95": [
+        -0.0004266393167879736,
+        0.004185166827566204
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.031000000000000017,
+      "ci95": [
+        0.02400000000000001,
+        0.041000000000000016
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.030625000000000013,
+      "ci95": [
+        0.025750000000000012,
+        0.035500000000000004
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.02212500000000001,
+      "ci95": [
+        0.01750000000000001,
+        0.027378124999999975
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0025,
+      "ci95": [
+        -0.015000000000000003,
+        0.0075000000000000015
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.015541666666666667,
+      "ci95": [
+        0.010791666666666668,
+        0.020417708333333322
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 9.999999999999914e-05,
+      "ci95": [
+        -0.002425000000000001,
+        0.0028499999999999984
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.00020717946714312875,
+      "ci95": [
+        -0.00034451951798528514,
+        0.00065150306442304
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014750000000000003,
+      "ci95": [
+        0.009958333333333336,
+        0.01991666666666667
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0020833333333333333,
+      "ci95": [
+        -0.0125,
+        0.00625
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014354166666666671,
+      "ci95": [
+        0.009645833333333336,
+        0.019375000000000003
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "all",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.01022916666666667,
+      "ci95": [
+        0.0069583333333333355,
+        0.013563020833333335
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.003749999999999999,
+      "ci95": [
+        0.0022499999999999985,
+        0.00525
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.00011707908921000376,
+      "ci95": [
+        -0.0004660919390602533,
+        0.0007482475113550739
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.005500000000000003,
+      "ci95": [
+        0.003250000000000002,
+        0.007750000000000004
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.005125000000000002,
+      "ci95": [
+        0.0033750000000000017,
+        0.0069999999999999975
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.004125000000000001,
+      "ci95": [
+        0.0026250000000000015,
+        0.005999999999999998
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.017249999999999998,
+      "ci95": [
+        0.008249999999999999,
+        0.026749999999999996
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0003750000000000038,
+      "ci95": [
+        -0.005750000000000004,
+        0.004249999999999997
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.00039288745852912864,
+      "ci95": [
+        -0.0010527793118608642,
+        0.00018235300772686492
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014499999999999999,
+      "ci95": [
+        0.007499999999999998,
+        0.0235
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.015625,
+      "ci95": [
+        0.007374999999999998,
+        0.024625
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.012124999999999999,
+      "ci95": [
+        0.0053750000000000004,
+        0.019500000000000003
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.075,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.01675,
+      "ci95": [
+        0.0085,
+        0.025500000000000002
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.000999999999999998,
+      "ci95": [
+        -0.004625000000000005,
+        0.006875000000000001
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.00021272620694535172,
+      "ci95": [
+        -0.00032226386958686474,
+        0.0008910818807814586
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014750000000000003,
+      "ci95": [
+        0.005750000000000002,
+        0.025
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.075,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.016499999999999997,
+      "ci95": [
+        0.007625,
+        0.026250000000000002
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "nested",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.010250000000000006,
+      "ci95": [
+        0.0055,
+        0.01500000000000001
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008499999999999997,
+      "ci95": [
+        0.003999999999999999,
+        0.01349999999999999
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.000999999999999998,
+      "ci95": [
+        -0.002250000000000002,
+        0.005749999999999991
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -8.207547348018651e-05,
+      "ci95": [
+        -0.0003175507464138001,
+        0.00011707872335112195
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008499999999999999,
+      "ci95": [
+        0.004500000000000001,
+        0.012499999999999995
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.006749999999999997,
+      "ci95": [
+        0.003246874999999999,
+        0.010749999999999996
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0050000000000000044,
+      "ci95": [
+        0.0018750000000000023,
+        0.009000000000000005
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.01075,
+      "ci95": [
+        0.005499999999999998,
+        0.016
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 5.551115123125783e-18,
+      "ci95": [
+        -0.005625,
+        0.0051250000000000046
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0004180646144320621,
+      "ci95": [
+        -0.0013845393872241364,
+        0.00027457440231646967
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014249999999999999,
+      "ci95": [
+        0.005250000000000002,
+        0.025000000000000005
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.011500000000000002,
+      "ci95": [
+        0.005500000000000003,
+        0.017750000000000005
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.007750000000000005,
+      "ci95": [
+        0.003250000000000005,
+        0.012750000000000008
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.031500000000000014,
+      "ci95": [
+        0.025250000000000012,
+        0.03825000000000002
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008750000000000004,
+      "ci95": [
+        0.0013750000000000012,
+        0.015625000000000007
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0004438102143229261,
+      "ci95": [
+        -0.0008516247768576657,
+        -2.921736139940352e-05
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.03100000000000001,
+      "ci95": [
+        0.024500000000000015,
+        0.03825000000000001
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.026250000000000013,
+      "ci95": [
+        0.021125000000000012,
+        0.031500000000000014
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.01875000000000001,
+      "ci95": [
+        0.013500000000000007,
+        0.02462500000000001
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.005,
+      "ci95": [
+        -0.015000000000000003,
+        0.0075000000000000015
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.025166666666666664,
+      "ci95": [
+        0.02225,
+        0.028125
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0008999999999999987,
+      "ci95": [
+        -0.00485,
+        0.0031500000000000013
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 5.97013609959729e-05,
+      "ci95": [
+        -0.00015513430194860525,
+        0.00028887030741040414
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.028333333333333332,
+      "ci95": [
+        0.025958333333333333,
+        0.03079166666666667
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.004166666666666667,
+      "ci95": [
+        -0.0125,
+        0.00625
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.026666666666666665,
+      "ci95": [
+        0.025083333333333336,
+        0.02808333333333333
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "all",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.018541666666666668,
+      "ci95": [
+        0.016583333333333332,
+        0.020583333333333335
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008499999999999997,
+      "ci95": [
+        0.0055000000000000005,
+        0.011
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -7.423229535974407e-06,
+      "ci95": [
+        -0.00019776508440022599,
+        0.0001906972130059317
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008999999999999998,
+      "ci95": [
+        0.006749999999999994,
+        0.012
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.008749999999999996,
+      "ci95": [
+        0.006874999999999997,
+        0.010999999999999994
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.006249999999999994,
+      "ci95": [
+        0.004999999999999999,
+        0.007374999999999995
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.025500000000000002,
+      "ci95": [
+        0.018749999999999996,
+        0.031999999999999994
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0006250000000000015,
+      "ci95": [
+        -0.008753124999999999,
+        0.0072499999999999995
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 8.797276106197183e-05,
+      "ci95": [
+        -0.00041339480906514234,
+        0.0007143959590445078
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.029250000000000005,
+      "ci95": [
+        0.020999999999999998,
+        0.03925
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.027125,
+      "ci95": [
+        0.021124999999999998,
+        0.033249999999999995
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.015875,
+      "ci95": [
+        0.010500000000000004,
+        0.0215
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.019999999999999997,
+      "ci95": [
+        0.013249999999999998,
+        0.027249999999999986
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.003875,
+      "ci95": [
+        -0.010875,
+        0.00225
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0003116883949361604,
+      "ci95": [
+        -9.586981663099403e-05,
+        0.0007994809110720222
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.02275,
+      "ci95": [
+        0.015999999999999997,
+        0.029249999999999998
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.023875,
+      "ci95": [
+        0.021375,
+        0.026250000000000006
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "nested",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.020374999999999997,
+      "ci95": [
+        0.017374999999999998,
+        0.023500000000000004
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0625,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.03824999999999999,
+      "ci95": [
+        0.03249999999999999,
+        0.04525
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.004374999999999995,
+      "ci95": [
+        -0.013749999999999995,
+        0.005003124999999968
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0001685546924446668,
+      "ci95": [
+        -0.00040574522973343047,
+        0.0006937745075471764
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.040999999999999995,
+      "ci95": [
+        0.03324999999999999,
+        0.05249999999999999
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0625,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.038625,
+      "ci95": [
+        0.032624999999999994,
+        0.044625
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.026125000000000002,
+      "ci95": [
+        0.0205,
+        0.031625
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0375,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "alone_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.02724999999999999,
+      "ci95": [
+        0.022749999999999992,
+        0.03174999999999999
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.004375000000000001,
+      "ci95": [
+        -0.016000000000000004,
+        0.006000000000000004
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.00024122576139193886,
+      "ci95": [
+        -0.0005135591893868443,
+        0.001157702326351351
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "mixed_repeat_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.03700000000000001,
+      "ci95": [
+        0.030500000000000006,
+        0.043750000000000004
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0375,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.035375,
+      "ci95": [
+        0.03225,
+        0.039999999999999994
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.023875,
+      "ci95": [
+        0.018374999999999996,
+        0.030125000000000002
+      ]
+    }
+  ],
+  "format_minus_nested_contrasts": [
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.002125000000000001,
+      "ci95": [
+        -0.01487500000000001,
+        0.012750000000000008
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0015935728461994425,
+      "ci95": [
+        -0.0006514991788401484,
+        0.004031500743968794
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014125000000000007,
+      "ci95": [
+        0.005375000000000009,
+        0.022250000000000002
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "advice_only",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.011875000000000005,
+      "ci95": [
+        0.005875000000000006,
+        0.017875000000000002
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -9.564711773534795e-05,
+      "ci95": [
+        -0.0009711105511998289,
+        0.0007313319669727049
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.011375,
+      "ci95": [
+        -0.019999999999999997,
+        -0.0031249999999999984
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "dp_values",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.006125000000000005,
+      "ci95": [
+        -0.010750000000000004,
+        -0.0017500000000000005
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0013750000000000019,
+      "ci95": [
+        -0.010750000000000006,
+        0.005625
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0006056136654744804,
+      "ci95": [
+        -0.0017584745577078349,
+        0.0002913896268239817
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.000874999999999999,
+      "ci95": [
+        -0.003999999999999998,
+        0.0026250000000000015
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "inline",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0018749999999999934,
+      "ci95": [
+        -0.0016250000000000066,
+        0.006499999999999994
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        -0.005375,
+        0.004750000000000004
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0002948016804255382,
+      "ci95": [
+        -0.0010433946059764134,
+        0.00024186154143018525
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.00975,
+      "ci95": [
+        -0.016753125000000004,
+        -0.003874999999999999
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "path_explicit",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.005250000000000001,
+      "ci95": [
+        -0.008624999999999996,
+        -0.0021250000000000067
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0009999999999999926,
+      "ci95": [
+        -0.011500000000000005,
+        0.008375000000000007
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0006307908213774138,
+      "ci95": [
+        -0.0018153595054140365,
+        0.00042602502526328275
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0125,
+      "ci95": [
+        -0.0375,
+        0.075
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0049999999999999975,
+      "ci95": [
+        -0.009625000000000002,
+        -0.0009999999999999979
+      ]
+    },
+    {
+      "cohort": "random",
+      "format": "per_option",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.002500000000000001,
+      "ci95": [
+        -0.006125,
+        0.0008749999999999973
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.012625000000000003,
+      "ci95": [
+        0.0033749999999999987,
+        0.02225000000000001
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0007554986092590865,
+      "ci95": [
+        -0.0015110711240609444,
+        -0.00012189000709942802
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.00237500000000001,
+      "ci95": [
+        -0.0026249999999999932,
+        0.008000000000000012
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "advice_only",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0016249999999999886,
+      "ci95": [
+        -0.006124999999999989,
+        0.003625000000000015
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0003191116244721348,
+      "ci95": [
+        -0.0009741455060146826,
+        0.0002060213015855058
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.015125000000000005,
+      "ci95": [
+        -0.01712500000000001,
+        -0.013125000000000001
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "dp_values",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.014125000000000004,
+      "ci95": [
+        -0.01700000000000001,
+        -0.011250000000000001
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0032499999999999985,
+      "ci95": [
+        -0.0063750000000000005,
+        0.012749999999999997
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.00022371563387418858,
+      "ci95": [
+        -0.0008625680429142846,
+        0.00044009445964876846
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.003249999999999996,
+      "ci95": [
+        -0.003875000000000001,
+        0.011124999999999993
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "inline",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.004499999999999999,
+      "ci95": [
+        -0.01125,
+        0.002625000000000006
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0625,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0004999999999999949,
+      "ci95": [
+        -0.012874999999999998,
+        0.013125000000000008
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0001431337024914936,
+      "ci95": [
+        -0.0010081801766965031,
+        0.0005939510616591925
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0625,
+        0.0375
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.014749999999999996,
+      "ci95": [
+        0.00899999999999999,
+        0.020749999999999998
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "path_explicit",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.005750000000000007,
+      "ci95": [
+        -0.00012499999999999282,
+        0.011500000000000002
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0375,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "distribution_advice_adherence_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0005000000000000011,
+      "ci95": [
+        -0.008625000000000004,
+        0.008374999999999999
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "distribution_exact_loss_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -7.046263354422155e-05,
+      "ci95": [
+        -0.000661435262351002,
+        0.0004914819679770036
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "optimal_agreement_delta",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": -0.0125,
+      "ci95": [
+        -0.0375,
+        0.0
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.011499999999999996,
+      "ci95": [
+        0.007371874999999994,
+        0.015999999999999993
+      ]
+    },
+    {
+      "cohort": "targeted",
+      "format": "per_option",
+      "metric": "repeat_mean_probability_tv",
+      "complete_fixtures": 10,
+      "planned_fixtures": 10,
+      "mean": 0.0034999999999999996,
+      "ci95": [
+        -0.0031250000000000028,
+        0.009874999999999998
+      ]
+    }
+  ],
+  "interpretation": "Descriptive validation audit, not a new mechanism claim. Signed differences are mixed minus alone. TV includes service variation. Repeat-mean TV and within-mode repeat TV are secondary diagnostics, not noise-corrected causal effects. Fixture bootstrap intervals do not capture cross-fixture dependence induced by mixed requests. Ten fixtures per cohort; exploratory unadjusted intervals, no equivalence or significance claim."
+}

@@ -1,0 +1,114 @@
+{
+  "experiment": "e8_evidence_online",
+  "version": 1,
+  "master_seed": 20260920,
+  "model": "jev-1.13.0",
+  "online": {
+    "e8_evidence_online": {
+      "ks": [
+        3,
+        10
+      ],
+      "families": [
+        "close",
+        "prior"
+      ],
+      "n": 80,
+      "horizon": 100,
+      "policies": [
+        "counts_direct",
+        "means_direct",
+        "bayes_direct"
+      ]
+    }
+  },
+  "policies": {
+    "counts_direct": [
+      "counts",
+      "explore",
+      "direct"
+    ],
+    "means_direct": [
+      "means",
+      "explore",
+      "direct"
+    ],
+    "bayes_direct": [
+      "bayes",
+      "explore",
+      "direct"
+    ]
+  },
+  "classical": [
+    "random",
+    "greedy",
+    "ts",
+    "bayes_ucb",
+    "ucb1",
+    "knowledge_gradient",
+    "ids",
+    "finite_ap_index"
+  ],
+  "tasks": 320,
+  "jev_episodes": 960,
+  "baseline_episodes": 2560,
+  "decisions": 96000,
+  "shared_state": {
+    "environment": "Independent stationary Bernoulli bandit: each pull earns 0 or 1. Unknown arm success probabilities stay fixed. Only selected-arm outcomes are observed.",
+    "prior": "Before observations each arm independently has a Beta(1,1) prior.",
+    "protocol": "Each question is a separate decision with its own observation in its instructions. Arm labels carry no reward information. Remaining pulls include the current pull. There are no rewards after that budget ends."
+  },
+  "objective": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+  "action_rule": "backend_choice",
+  "task_panel_sha256": "11ce13234a0114698a39e8134ee70f4aaa0d195bc6f88fb10a221985d9d415b2",
+  "prompt_fixtures_sha256": "c9f304c159eb029c42c2dd70cab80bd1e37c8d007baa2de57d2b592525847870",
+  "primary_analysis": {
+    "metric": "pseudo_regret",
+    "contrasts_left_minus_right": [
+      [
+        "means_direct",
+        "counts_direct"
+      ],
+      [
+        "bayes_direct",
+        "means_direct"
+      ]
+    ],
+    "population": "equal weight across all four cells",
+    "resampling": "10000 paired whole episodes within each cell",
+    "pointwise_quantiles": [
+      0.025,
+      0.975
+    ],
+    "bonferroni_two_contrast_quantiles": [
+      0.0125,
+      0.9875
+    ],
+    "per_cell": "exploratory pointwise 95% intervals",
+    "missing": "report missing pairs; incomplete pooled design is descriptive only"
+  },
+  "finite_ap_index": {
+    "tolerance": 1e-06,
+    "status": "finite-horizon single-arm index heuristic; not joint optimal",
+    "ties": "uniform midpoint maxima within absolute 1e-12"
+  },
+  "collection": {
+    "default_cap_usd": 18,
+    "includes": "all sibling ledgers plus conservative reserves",
+    "projected_incremental_usd": 3,
+    "projection_status": "rough planning estimate, not a spending authorization",
+    "gate": "after E1-E7; parent budget review; no automatic credit purchase"
+  },
+  "source_sha256": {
+    "src/jevbandits/evidence_followup.py": "9b8caa18232345172c4a50fd31c203d19505d8d70ab425a0118a5d8fe3726684",
+    "tests/test_evidence_followup.py": "91bff3b808f4a86cfaac136421c43cb281520593b174cbe0cf9da883ca9ea92f",
+    "docs/e8_evidence_protocol.md": "7d13c837168d9cb9aa9d4449bed55191df738c290e664ff95b114144c0514527",
+    "src/jevbandits/prompts.py": "169102b7d942707626be1e6cb0d510f3a0de38c80b1e985539598d3a8070d4e8",
+    "src/jevbandits/experiments.py": "219a7dab2d34cd54fce52fbe2998150f8d9274c6e2a84b166b43a6c81ba5ee33",
+    "src/jevbandits/baselines.py": "2f204f3724d31ae5b768d3e7c254f9d19bbae4ad81c281a26bb966277b4a9918",
+    "src/jevbandits/client.py": "dba591f9c045e367ca542e6289cb5587f0175b4214097053f03eca68a90becb5",
+    "src/jevbandits/finite_index.py": "24d290004256a469b4b3545863370bb9f1e41929451886e08b2f41ada06e7eb2",
+    "uv.lock": "b0f721b12f72ad16a9dc239f1c030a4bdf68d506b16360534cf3749b98792a6e"
+  },
+  "git_commit": "da68166943a01292854ab2ea2fff00c491cd782f"
+}

@@ -1,0 +1,90 @@
+{
+  "source_run": "artifacts/sampling_v1",
+  "exports": {
+    "episodes": {
+      "rows": 2100,
+      "fields": [
+        "action_rule",
+        "actions",
+        "advice_adherence",
+        "arms_visited",
+        "backend_confidences",
+        "best_arm_fraction",
+        "choice_mismatch_fraction",
+        "completed",
+        "episode_id",
+        "exact_loss",
+        "exact_method",
+        "experiment",
+        "family",
+        "followup_status",
+        "framing",
+        "horizon",
+        "index_ambiguous_ranking_fraction",
+        "index_tolerance",
+        "k",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "posthoc_exploratory",
+        "pseudo_regret",
+        "representation",
+        "reward",
+        "rewards",
+        "seed",
+        "suffix_failure",
+        "switches",
+        "theta",
+        "unseen_fraction"
+      ],
+      "sha256": "00487a2ff941a1fcb96a33f0c18786e4fb2a2ad356a6033a89616b96b5c4de21"
+    },
+    "bellman_audit": {
+      "rows": 1100,
+      "fields": [
+        "actions",
+        "episode_id",
+        "exact_loss",
+        "experiment",
+        "family",
+        "horizon",
+        "k",
+        "optimal_agreement",
+        "policy",
+        "posthoc_normative_audit",
+        "pseudo_regret",
+        "reward",
+        "rewards",
+        "source_episode_sha256"
+      ],
+      "sha256": "6d92ad75f4b84ae3b3cc1ada99330ba0720e9f76655a20f3ef9db949874e2f76"
+    },
+    "decision_distributions": {
+      "rows": 40000,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "4bbd4962bb3ee2b789ce952a66e48e2a76b71d37715f50181932b8766a35205f"
+    }
+  },
+  "provenance": {
+    "manifest.json": "ab4e0e931599426d801b7ba051310c6d4272574ba1974da4dc7ae5d5ad0d0cc2",
+    "accounting.json": "3624ee318a28b9f9143f80f96a9cc963187a2d9cb0ae86ff1df4911d943f9c30",
+    "two_arm_audit_manifest.json": "6dee3719357097638d9ab248ee783b7f150cf5d7b5fa33aee08dec6de488374d",
+    "two_arm_audit_summary.json": "9d16a479d2729d8e14a7acfff4a626f030d92b475dc96912850ada5a13960a9a",
+    "interaction_summary.json": "54933a963173be3f6bdadf67ee87554e89d5be8df5a05e238deb35d786f8a57d",
+    "tasks.json": "830e42b589daf8c2a6d8356169ea6321e1ceabc9d5f24ef3c52da24af08ed676",
+    "prompt_fixtures.json": "d58b7c93b4c492fbdcdeff79fcbb613499b3aa1cd3313926aa5c1f23ee7a06ec"
+  }
+}

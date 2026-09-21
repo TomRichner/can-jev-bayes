@@ -1,0 +1,65 @@
+{
+  "source_run": "artifacts/evidence_v1",
+  "exports": {
+    "episodes": {
+      "rows": 3520,
+      "fields": [
+        "action_rule",
+        "actions",
+        "advice_adherence",
+        "arms_visited",
+        "backend_confidences",
+        "best_arm_fraction",
+        "choice_mismatch_fraction",
+        "completed",
+        "episode_id",
+        "exact_loss",
+        "experiment",
+        "family",
+        "followup_status",
+        "framing",
+        "horizon",
+        "index_ambiguous_ranking_fraction",
+        "index_tolerance",
+        "k",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "pseudo_regret",
+        "representation",
+        "reward",
+        "rewards",
+        "seed",
+        "suffix_failure",
+        "switches",
+        "theta",
+        "unseen_fraction"
+      ],
+      "sha256": "c4eb09428bc18fa47a5fce970b4205bf14dbbb8580ed7124cf68f7ce2861960e"
+    },
+    "decision_distributions": {
+      "rows": 96000,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "d34337b443e4bb531b9b9524811b8757757b833c542e30ba22df7f5404d1278d"
+    }
+  },
+  "provenance": {
+    "manifest.json": "a316f35dc32dae17a44db8b9410350bb3f31cfd975bd783803f1341c0923a1ee",
+    "accounting.json": "1db1539ede80f6001d53aeeaa873bbd357d963b90f3cb09c151b93861d42bd70",
+    "tasks.json": "e8cb4f1d92f453daecc718cd860338155c1984b0b2661bc84ede362723cb3ee0",
+    "prompt_fixtures.json": "0e23a7115a8efb7cb4fc2e2dbfd4501b201bd928c92c84e7dba4b9c859d1f30b"
+  }
+}

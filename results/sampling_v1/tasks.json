@@ -1,0 +1,3202 @@
+[
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:0",
+    "family": "prior",
+    "k": 2,
+    "index": 0,
+    "seed": 17782269822240910050,
+    "theta": [
+      0.6793831240190877,
+      0.16193137272587135
+    ],
+    "outcomes_sha256": "f4092f750851d778ea5128b7dea9e6ef37bdb388223e4db346d39dfc9316916e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:1",
+    "family": "prior",
+    "k": 2,
+    "index": 1,
+    "seed": 6554803695725517401,
+    "theta": [
+      0.9852161597081287,
+      0.7429620796950538
+    ],
+    "outcomes_sha256": "a8c0bdcf92081ec72760935ca897b1d238c8630acf64c9e9472fdf0738f9da64"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:2",
+    "family": "prior",
+    "k": 2,
+    "index": 2,
+    "seed": 8010383865175168,
+    "theta": [
+      0.9863246796805624,
+      0.59065726010767
+    ],
+    "outcomes_sha256": "e3a6ffbee92bf62a67ab746d9cde537c7174261a314201fea8af8cbab5e02c1f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:3",
+    "family": "prior",
+    "k": 2,
+    "index": 3,
+    "seed": 16132838066444486860,
+    "theta": [
+      0.18336006346841896,
+      0.02433949775621596
+    ],
+    "outcomes_sha256": "2d8c93420ab55a68a4696420665ab7693f536c023dadc7ecc376304358488540"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:4",
+    "family": "prior",
+    "k": 2,
+    "index": 4,
+    "seed": 11300699723201301044,
+    "theta": [
+      0.12609942087376935,
+      0.7952938166839721
+    ],
+    "outcomes_sha256": "3ecd2a994569d5610c4ddfeade667094e5dcc96bdc311328d3788e06285a1d4d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:5",
+    "family": "prior",
+    "k": 2,
+    "index": 5,
+    "seed": 8877151586259597412,
+    "theta": [
+      0.7552029344867023,
+      0.7887317345843486
+    ],
+    "outcomes_sha256": "1a0b257b3b0d8a7d2d7fb1afa950788332da86ab1d57aa6c107607ae63a87178"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:6",
+    "family": "prior",
+    "k": 2,
+    "index": 6,
+    "seed": 6453851794807976801,
+    "theta": [
+      0.07197202428627837,
+      0.5365406391994089
+    ],
+    "outcomes_sha256": "7aec527f00c86d70c0effa696011d6e0aaa27a8970c7d0e4d049265f0ac94cff"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:7",
+    "family": "prior",
+    "k": 2,
+    "index": 7,
+    "seed": 10189766534452902680,
+    "theta": [
+      0.16577640340984326,
+      0.5001911651154562
+    ],
+    "outcomes_sha256": "f1dd7b73478caedba9cdc5d143408e59f6d042a85dc134ccb8f5366b3057c7c2"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:8",
+    "family": "prior",
+    "k": 2,
+    "index": 8,
+    "seed": 8558837922116125184,
+    "theta": [
+      0.5698565678343144,
+      0.006096493471220199
+    ],
+    "outcomes_sha256": "b6c56862ebfbed99bc03acff58ac0ca6688bbb27f22653e53d5def994dbc336f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:9",
+    "family": "prior",
+    "k": 2,
+    "index": 9,
+    "seed": 17145212723302775953,
+    "theta": [
+      0.16496290314659443,
+      0.7587532000964046
+    ],
+    "outcomes_sha256": "d5732cd9e7b513744e786207228af5b5153bad2b9674d55b2a1d41a97253640e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:10",
+    "family": "prior",
+    "k": 2,
+    "index": 10,
+    "seed": 4800067633368260928,
+    "theta": [
+      0.3300384391342656,
+      0.8125910623736186
+    ],
+    "outcomes_sha256": "46342970fa4cdf28889db1df96198fec0d64a0083af2c8dd4fef11d8acdbb55b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:11",
+    "family": "prior",
+    "k": 2,
+    "index": 11,
+    "seed": 13716276850814359102,
+    "theta": [
+      0.3006300181891035,
+      0.6513786389851067
+    ],
+    "outcomes_sha256": "ec999239e0f49bd94b4583ef16d065170d72f54c1034b4df0d7b618af393630b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:12",
+    "family": "prior",
+    "k": 2,
+    "index": 12,
+    "seed": 17879239538769401265,
+    "theta": [
+      0.9050997374368422,
+      0.26337961395296855
+    ],
+    "outcomes_sha256": "c707f4e80e6329089882226c3f1deb52afaf2cb16f2de56a6908036339392003"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:13",
+    "family": "prior",
+    "k": 2,
+    "index": 13,
+    "seed": 861853896714288331,
+    "theta": [
+      0.17782694284180367,
+      0.5548956718626149
+    ],
+    "outcomes_sha256": "ffb5b2545df25cd4a591f21b9ffbe82d7aadab3fa88b034a6444346f1eabf35b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:14",
+    "family": "prior",
+    "k": 2,
+    "index": 14,
+    "seed": 14365871140023605193,
+    "theta": [
+      0.5281259084963731,
+      0.7325948783932951
+    ],
+    "outcomes_sha256": "c803f3ec94b1bf7da222de39b31caad617b3dc7a93894a1bb162525ce483c6e9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:15",
+    "family": "prior",
+    "k": 2,
+    "index": 15,
+    "seed": 15662056342832009762,
+    "theta": [
+      0.8659872801601987,
+      0.5457582401666442
+    ],
+    "outcomes_sha256": "7b354698a3af45532dfe1b312b7cbd31a85d294d1d453cc45b8d953bc4c304d0"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:16",
+    "family": "prior",
+    "k": 2,
+    "index": 16,
+    "seed": 15708022146447023272,
+    "theta": [
+      0.7993030552796859,
+      0.4613682195493351
+    ],
+    "outcomes_sha256": "1ee358578262b24969668a2c3c029ff3a74b73480d89278ef59f467a8ccf6a67"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:17",
+    "family": "prior",
+    "k": 2,
+    "index": 17,
+    "seed": 6326057587714569647,
+    "theta": [
+      0.03682326785566275,
+      0.8975511139098821
+    ],
+    "outcomes_sha256": "bf862a2ed804a65c32258d596eee1cc02d6b7dc8cc9b6d9d94a6191115053fda"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:18",
+    "family": "prior",
+    "k": 2,
+    "index": 18,
+    "seed": 17079004639356877759,
+    "theta": [
+      0.16996271341978575,
+      0.6823534734670806
+    ],
+    "outcomes_sha256": "bd07becbcb05ff6136241c9436000fa72443659bb43987118ad86ebdd699c85f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:19",
+    "family": "prior",
+    "k": 2,
+    "index": 19,
+    "seed": 17240797949743944866,
+    "theta": [
+      0.20357612126088276,
+      0.1600893086106782
+    ],
+    "outcomes_sha256": "4bede7f53e671fea50b462b79e1463a8fbf22e05690e83692f5690f5f3945616"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:20",
+    "family": "prior",
+    "k": 2,
+    "index": 20,
+    "seed": 87414974769934268,
+    "theta": [
+      0.3081312895713485,
+      0.9621747042372568
+    ],
+    "outcomes_sha256": "0a7c7a96632318fa96e2a0113c4d5201533f8e98603b1055f52f722dbdca9516"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:21",
+    "family": "prior",
+    "k": 2,
+    "index": 21,
+    "seed": 13439036907594214429,
+    "theta": [
+      0.35559971519975003,
+      0.7903211088491697
+    ],
+    "outcomes_sha256": "7d3c24a492382d56fa5957911685b8741fa27a6790d0f43aae53e497139c6dc5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:22",
+    "family": "prior",
+    "k": 2,
+    "index": 22,
+    "seed": 4292464338840725302,
+    "theta": [
+      0.20451255891727452,
+      0.49629836146549977
+    ],
+    "outcomes_sha256": "b359dbeea9e1887762734005766f9d1eb1ad0ff3b6b4c03337802748b26ec937"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:23",
+    "family": "prior",
+    "k": 2,
+    "index": 23,
+    "seed": 16968578892465399919,
+    "theta": [
+      0.06566109739492154,
+      0.19159287449046358
+    ],
+    "outcomes_sha256": "dffc9937b145caea8f105d1482407514546965e2ad786cdc98006a0134b686f4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:24",
+    "family": "prior",
+    "k": 2,
+    "index": 24,
+    "seed": 13691278765606193635,
+    "theta": [
+      0.3259997524743033,
+      0.2062486040740441
+    ],
+    "outcomes_sha256": "174ef395214bb18346116a1c42681de7ed2b52a7f50c4c9911aacb5a84ca7bd4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:25",
+    "family": "prior",
+    "k": 2,
+    "index": 25,
+    "seed": 15773197784769433749,
+    "theta": [
+      0.5023218999579709,
+      0.9036101474640996
+    ],
+    "outcomes_sha256": "92447d27c4f3049de6654256ac57629b2ccdb2143a634a4d470f812d03cfec44"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:26",
+    "family": "prior",
+    "k": 2,
+    "index": 26,
+    "seed": 6009921638856267319,
+    "theta": [
+      0.7550107934813698,
+      0.10026522492281384
+    ],
+    "outcomes_sha256": "e669849045280a588093b08571b88ffcf525715b3d98f6f6f802bdbc11a85ef5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:27",
+    "family": "prior",
+    "k": 2,
+    "index": 27,
+    "seed": 5708010660917608876,
+    "theta": [
+      0.6142513129102579,
+      0.2899899374011388
+    ],
+    "outcomes_sha256": "40231a98b372e06c1925abaae36decdbd53405da5c0e2e5c4381dd9f4eee5877"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:28",
+    "family": "prior",
+    "k": 2,
+    "index": 28,
+    "seed": 10352889860690554147,
+    "theta": [
+      0.334669323721022,
+      0.09365231554980905
+    ],
+    "outcomes_sha256": "699203598647ee85362ac140138d90da20fdff49ea8ab0ac8cfe5a365d94a790"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:29",
+    "family": "prior",
+    "k": 2,
+    "index": 29,
+    "seed": 1538537812358348814,
+    "theta": [
+      0.7717566330974464,
+      0.765439169410084
+    ],
+    "outcomes_sha256": "246617d781dfc99e120c06499089e2b1d2da2ed9edb885a8498467bff51b8185"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:30",
+    "family": "prior",
+    "k": 2,
+    "index": 30,
+    "seed": 17116490791130981721,
+    "theta": [
+      0.7075259997462525,
+      0.019870931429618256
+    ],
+    "outcomes_sha256": "b28d9ea54fb17487bc576ee2ac7854751f5ed3fc60c6bcfec0a4c67bb696081e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:31",
+    "family": "prior",
+    "k": 2,
+    "index": 31,
+    "seed": 11901336468487051138,
+    "theta": [
+      0.3310052302765093,
+      0.17845685367849815
+    ],
+    "outcomes_sha256": "103b2fc3b8dd21b3aa2d72d3721a5a16bf4317fa0cecd671eb70ccd6c4373e00"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:32",
+    "family": "prior",
+    "k": 2,
+    "index": 32,
+    "seed": 14529577945688989944,
+    "theta": [
+      0.16442530514607667,
+      0.8384669368079429
+    ],
+    "outcomes_sha256": "dfce4caf3f458bdc6a1e8fbc4115a3578a20e07937618c0a4589811fa6e07edb"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:33",
+    "family": "prior",
+    "k": 2,
+    "index": 33,
+    "seed": 12632337084581614496,
+    "theta": [
+      0.14703006870631305,
+      0.5421801645624863
+    ],
+    "outcomes_sha256": "720e4cfbbc06a0a687e965ca31f27b67d8662421fa32965bea33c5d5a68f959f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:34",
+    "family": "prior",
+    "k": 2,
+    "index": 34,
+    "seed": 2876939378900391500,
+    "theta": [
+      0.8277897637906912,
+      0.9537827563311281
+    ],
+    "outcomes_sha256": "9c45667178dbd26cd3d6404a2ef0e4d10c6be190e4f8c80e06131f76225000b7"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:35",
+    "family": "prior",
+    "k": 2,
+    "index": 35,
+    "seed": 10055120381059437931,
+    "theta": [
+      0.9441134103483831,
+      0.7040360699992728
+    ],
+    "outcomes_sha256": "56f38a409ddfd84da6ee41f6c6c038aa729fa78e7b3a2c38bb018fe2b0243bc4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:36",
+    "family": "prior",
+    "k": 2,
+    "index": 36,
+    "seed": 13699424651572129532,
+    "theta": [
+      0.8660978092367175,
+      0.7625625925087247
+    ],
+    "outcomes_sha256": "0b33196e07da3974b698bbb5b75d0c07260ebd2dc102b67ca60bc3a541d23a73"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:37",
+    "family": "prior",
+    "k": 2,
+    "index": 37,
+    "seed": 4148658369611559169,
+    "theta": [
+      0.4858373409263148,
+      0.5724315840957109
+    ],
+    "outcomes_sha256": "25b432efd7182c213f63ef0a39476dff8d79cba1c8a7ffa2d4a12ef456134f3c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:38",
+    "family": "prior",
+    "k": 2,
+    "index": 38,
+    "seed": 11385302067493900608,
+    "theta": [
+      0.22343399065000108,
+      0.07406729257111493
+    ],
+    "outcomes_sha256": "a94e8e27cdcb454befb1e8582c1eb4df0a86bedc0b1e5e51f2498c321ece3451"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:39",
+    "family": "prior",
+    "k": 2,
+    "index": 39,
+    "seed": 5154453957959045339,
+    "theta": [
+      0.7163119643758569,
+      0.7378608431993214
+    ],
+    "outcomes_sha256": "33e820e9e65b62f364ba02f705e5f597e24068ae8116cbe386d3bcc0680a5ae9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:40",
+    "family": "prior",
+    "k": 2,
+    "index": 40,
+    "seed": 8247445767610260312,
+    "theta": [
+      0.8467981401092575,
+      0.3412357042284792
+    ],
+    "outcomes_sha256": "e3b682713c73978461d94ab457e79bbfbed3dba914118dfd9529dbd66542869e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:41",
+    "family": "prior",
+    "k": 2,
+    "index": 41,
+    "seed": 1800414683559596240,
+    "theta": [
+      0.43523911747948435,
+      0.08922250049834375
+    ],
+    "outcomes_sha256": "5f7ca8a1c7a00b796c4377d724acc500c927555dadd8cda43167f335fc8be5a6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:42",
+    "family": "prior",
+    "k": 2,
+    "index": 42,
+    "seed": 5990787865661790253,
+    "theta": [
+      0.7970764177404005,
+      0.9095555407426787
+    ],
+    "outcomes_sha256": "070fdee0641f1dae6ea9a2511cb43619e5bc724f131b919853b9910ea9da0b11"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:43",
+    "family": "prior",
+    "k": 2,
+    "index": 43,
+    "seed": 8677650111383245682,
+    "theta": [
+      0.7725257266573347,
+      0.8615973675418966
+    ],
+    "outcomes_sha256": "d5dadea02a5c4f0c2859734ed0ee48e87036c31ad4176d422cef38434e9f1e9c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:44",
+    "family": "prior",
+    "k": 2,
+    "index": 44,
+    "seed": 4387330547984220672,
+    "theta": [
+      0.35153653015077185,
+      0.6577031395466573
+    ],
+    "outcomes_sha256": "064f9a99c0f8f04c7f384791ed947b76ce03aca4dd7ad529be0a842b9dd99efe"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:45",
+    "family": "prior",
+    "k": 2,
+    "index": 45,
+    "seed": 11455138563168902251,
+    "theta": [
+      0.022121480803780035,
+      0.5573616407630261
+    ],
+    "outcomes_sha256": "7bb52d3cda0ddb0dced4eb3d1932bfc56c9a95ed995c812db2e0a4a4f3a3b6d9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:46",
+    "family": "prior",
+    "k": 2,
+    "index": 46,
+    "seed": 8914273004488475431,
+    "theta": [
+      0.7523154009511137,
+      0.42630136483085196
+    ],
+    "outcomes_sha256": "7b822d4a0a07bc6feb0ecf9508031b2056c20f12814fa4b537a08e486306a194"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:47",
+    "family": "prior",
+    "k": 2,
+    "index": 47,
+    "seed": 14251683280587766573,
+    "theta": [
+      0.042308788634436066,
+      0.861572070008789
+    ],
+    "outcomes_sha256": "b34409d29e62488a74c7eefffbcd562a879941e586ee7c53da7b22ba4c53c245"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:48",
+    "family": "prior",
+    "k": 2,
+    "index": 48,
+    "seed": 17877890663887793694,
+    "theta": [
+      0.9684742060172485,
+      0.1455758243046382
+    ],
+    "outcomes_sha256": "b32a314b78c419e19ad1d0ccdd07e172b16a6ed0311f78cddcb2f028f0a48485"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:49",
+    "family": "prior",
+    "k": 2,
+    "index": 49,
+    "seed": 611592499771347945,
+    "theta": [
+      0.09104405936458114,
+      0.5637305502451457
+    ],
+    "outcomes_sha256": "1ed9fd78e0c4248dd1951805c009346baa27b7cd4e1537dd2993169a7abc3fa8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:50",
+    "family": "prior",
+    "k": 2,
+    "index": 50,
+    "seed": 9551149351141468066,
+    "theta": [
+      0.522446602813188,
+      0.40187878659785614
+    ],
+    "outcomes_sha256": "e2ff980110808c1e4dad2ee66e62e2d19d72b99e160314cfd8eeb7fa46158dd3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:51",
+    "family": "prior",
+    "k": 2,
+    "index": 51,
+    "seed": 13472849768886855785,
+    "theta": [
+      0.7672406256825223,
+      0.3538894738417155
+    ],
+    "outcomes_sha256": "854aa1a2a3e8a49ad0b3537531110b48f8c63d1024e37f0381a92229341830d9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:52",
+    "family": "prior",
+    "k": 2,
+    "index": 52,
+    "seed": 5036205381994287525,
+    "theta": [
+      0.7050476591613801,
+      0.26890757060841497
+    ],
+    "outcomes_sha256": "53908865d46483ed8c4ad613935ed21f1efdaa5b6cfd782ff58b5e1c06d9a593"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:53",
+    "family": "prior",
+    "k": 2,
+    "index": 53,
+    "seed": 18258409491469191916,
+    "theta": [
+      0.35104117625287445,
+      0.06460046140351151
+    ],
+    "outcomes_sha256": "d733fca0f9b0cb001d80f6afb8ef9b168899d0d30c3ea3ae956a242d0e0d692f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:54",
+    "family": "prior",
+    "k": 2,
+    "index": 54,
+    "seed": 7587775030436685724,
+    "theta": [
+      0.6540586199211478,
+      0.9998532908471479
+    ],
+    "outcomes_sha256": "08487686e5efa3702ba980133b11bd35998c7aaa1b2f387e461ca1b9326cc591"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:55",
+    "family": "prior",
+    "k": 2,
+    "index": 55,
+    "seed": 2795088130427098620,
+    "theta": [
+      0.5219603891821342,
+      0.6796295243618212
+    ],
+    "outcomes_sha256": "f7f3557555b167da4a3d8e98f29a32ac353bee7eba6025bd5b115210ff0da6d2"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:56",
+    "family": "prior",
+    "k": 2,
+    "index": 56,
+    "seed": 15793033691791158606,
+    "theta": [
+      0.0908547971254215,
+      0.3616458905692147
+    ],
+    "outcomes_sha256": "35f2c6cb58c76a5261d4447853bbc25c5ca02f1b21c50485db6000a3d55bad3a"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:57",
+    "family": "prior",
+    "k": 2,
+    "index": 57,
+    "seed": 4275280720520726087,
+    "theta": [
+      0.31227613495088263,
+      0.1465986011825758
+    ],
+    "outcomes_sha256": "1b39c1f128e39b55dccf65d3bdc501196f18490f980ba752cf38c42650debf9d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:58",
+    "family": "prior",
+    "k": 2,
+    "index": 58,
+    "seed": 2107694735879101196,
+    "theta": [
+      0.2711410524204916,
+      0.09394251526159325
+    ],
+    "outcomes_sha256": "91e0e92a76de938c8c7397b916de09d8e636cc25b709514c1bb27fadd3d2fcb2"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:59",
+    "family": "prior",
+    "k": 2,
+    "index": 59,
+    "seed": 17961399831291331577,
+    "theta": [
+      0.3822227767170061,
+      0.6378258966849212
+    ],
+    "outcomes_sha256": "cd144191f1f3687363bb2e99bc3a8258dce5e9fa3a054cc2ab2089c7a333ecc6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:60",
+    "family": "prior",
+    "k": 2,
+    "index": 60,
+    "seed": 6623060967386112992,
+    "theta": [
+      0.40238968520301527,
+      0.8447537006489387
+    ],
+    "outcomes_sha256": "bddf3ab55a91e2586402792cf48b57fc3f9b10a40092742e9c61d9d22746ee91"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:61",
+    "family": "prior",
+    "k": 2,
+    "index": 61,
+    "seed": 1086116376978086180,
+    "theta": [
+      0.06696911471249908,
+      0.36057046860844716
+    ],
+    "outcomes_sha256": "0403f3772ea7bc6df21a46ba1635ab116b847cd8c6ef3e48090612f891fb1170"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:62",
+    "family": "prior",
+    "k": 2,
+    "index": 62,
+    "seed": 16463682275330315064,
+    "theta": [
+      0.2934518583312245,
+      0.12186233826789489
+    ],
+    "outcomes_sha256": "6999ee7f3779395c9de40e3b73a89b5aad6c89386ad3c0b850b37d9c43cce491"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:63",
+    "family": "prior",
+    "k": 2,
+    "index": 63,
+    "seed": 16061666018714160509,
+    "theta": [
+      0.13126214058674987,
+      0.08879274384452597
+    ],
+    "outcomes_sha256": "a7ab7c67f19b9132b1823be3ded85bb0728cd6474f53028edafdb621d6f7cf4e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:64",
+    "family": "prior",
+    "k": 2,
+    "index": 64,
+    "seed": 3860986661463685613,
+    "theta": [
+      0.7832195998382379,
+      0.5708358637332228
+    ],
+    "outcomes_sha256": "dfb7e6c990cef07b9fba129fcbd6b04921f385e12bf31055ec08e3e1d8f1133a"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:65",
+    "family": "prior",
+    "k": 2,
+    "index": 65,
+    "seed": 10732072275348481685,
+    "theta": [
+      0.8657773172359617,
+      0.1825474170923382
+    ],
+    "outcomes_sha256": "60c1bc357a6ec339fcb84fc931155c3a5f7065b3481d2663a0c1760919d727ef"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:66",
+    "family": "prior",
+    "k": 2,
+    "index": 66,
+    "seed": 3189441466010845058,
+    "theta": [
+      0.2523126005005806,
+      0.35532172931190453
+    ],
+    "outcomes_sha256": "2c7fec16e8b552bc3ceee0685669272769f5461cc31e7bf77ddb061f6d0e2f80"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:67",
+    "family": "prior",
+    "k": 2,
+    "index": 67,
+    "seed": 11832776023438391506,
+    "theta": [
+      0.36700880887513204,
+      0.7637637886188354
+    ],
+    "outcomes_sha256": "a039613334a5b22a9c06167c3c0e14b4c6686d04399cc43cf0f36492f2662d2f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:68",
+    "family": "prior",
+    "k": 2,
+    "index": 68,
+    "seed": 1336205263401420063,
+    "theta": [
+      0.13606701865577608,
+      0.6426571988473344
+    ],
+    "outcomes_sha256": "dc5a59c7d677fc8669f717958e01ad2e9556f80c2d20e1c6424406f34044c2a4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:69",
+    "family": "prior",
+    "k": 2,
+    "index": 69,
+    "seed": 3004993478943375229,
+    "theta": [
+      0.9899387629923732,
+      0.8937264116092597
+    ],
+    "outcomes_sha256": "d375814828e206fd2ecdf7cc9beabba8c80b028d077b1973ce7a244431a5f621"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:70",
+    "family": "prior",
+    "k": 2,
+    "index": 70,
+    "seed": 3288523765829675619,
+    "theta": [
+      0.5492158487280131,
+      0.43019307349410596
+    ],
+    "outcomes_sha256": "805e435112bea8d92a6d923a00bf505e591a09547845295c7a0cb7c6378ac96b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:71",
+    "family": "prior",
+    "k": 2,
+    "index": 71,
+    "seed": 10042550487407122279,
+    "theta": [
+      0.1954773503376466,
+      0.6469403831676324
+    ],
+    "outcomes_sha256": "518235ff82c150a03aefce06634f076ef7dadf02bf35a74e26d3a779e1c18bf6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:72",
+    "family": "prior",
+    "k": 2,
+    "index": 72,
+    "seed": 16602568439288417959,
+    "theta": [
+      0.6393842692608712,
+      0.8854531810473134
+    ],
+    "outcomes_sha256": "5a43defc3e9729c8c7d1712883937ad6f9e35eb38cfa6727bea606625f6f5868"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:73",
+    "family": "prior",
+    "k": 2,
+    "index": 73,
+    "seed": 11574502196371795257,
+    "theta": [
+      0.7588504067324637,
+      0.2624014214520246
+    ],
+    "outcomes_sha256": "2a8b85f21a63becc1d7b07d3b5fbbcaf0543f4c842ece7ae20a53d1fdceb494d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:74",
+    "family": "prior",
+    "k": 2,
+    "index": 74,
+    "seed": 12365838661218385604,
+    "theta": [
+      0.6023607334421845,
+      0.6160575491466856
+    ],
+    "outcomes_sha256": "cae36edf2ecd8a9945c313a0d06e4ef1f34e1565c42fa5c1d3c356625e3b13b5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:75",
+    "family": "prior",
+    "k": 2,
+    "index": 75,
+    "seed": 15034370751983442824,
+    "theta": [
+      0.6551585839435888,
+      0.3775835023120914
+    ],
+    "outcomes_sha256": "1054f931266c5812f9e77440fa95170579b9b57eadd2cb3e2d1033e1c14bc4d3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:76",
+    "family": "prior",
+    "k": 2,
+    "index": 76,
+    "seed": 2271761675670354223,
+    "theta": [
+      0.764383710780217,
+      0.9764262889139471
+    ],
+    "outcomes_sha256": "01be1455759a14528a620f26366f79e814cb4541b13e06e0352546f224acb2de"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:77",
+    "family": "prior",
+    "k": 2,
+    "index": 77,
+    "seed": 507470451785472862,
+    "theta": [
+      0.15292069394649213,
+      0.943691020910145
+    ],
+    "outcomes_sha256": "08474a5cd333cbcd8dea71b1dae9ccd02ed872a6246b35bacc9d79838a7abd9e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:78",
+    "family": "prior",
+    "k": 2,
+    "index": 78,
+    "seed": 6305207299502321838,
+    "theta": [
+      0.9386167271289733,
+      0.17726878393790804
+    ],
+    "outcomes_sha256": "a2d9fee9f28b15f9fd4df8ece8291e1c058c31733f7b6b6b69233f7f93374c63"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:79",
+    "family": "prior",
+    "k": 2,
+    "index": 79,
+    "seed": 10112702243733985054,
+    "theta": [
+      0.6316191597141201,
+      0.5115974848593733
+    ],
+    "outcomes_sha256": "cffa8fcea264cd55776da6c465aa7ee15f195490130ec4b7fe41d632e3d3b7b8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:80",
+    "family": "prior",
+    "k": 2,
+    "index": 80,
+    "seed": 5334452694749503132,
+    "theta": [
+      0.30190004590409064,
+      0.995507674777585
+    ],
+    "outcomes_sha256": "8340510f6bc24aae01885f1a2ac223300416d77c6c529bf02489ed9d77d49a3b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:81",
+    "family": "prior",
+    "k": 2,
+    "index": 81,
+    "seed": 6567687855631865630,
+    "theta": [
+      0.015320295909469504,
+      0.5397982093656158
+    ],
+    "outcomes_sha256": "fdd936b43e80b421e36bccbda5633881728bf5a87f560d1295c50147a2b35516"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:82",
+    "family": "prior",
+    "k": 2,
+    "index": 82,
+    "seed": 5197045771142746888,
+    "theta": [
+      0.007151083598717757,
+      0.35835194970837425
+    ],
+    "outcomes_sha256": "b5d74cccf55c342983097cee3e6297722cebe842441673c25d43694331a8858f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:83",
+    "family": "prior",
+    "k": 2,
+    "index": 83,
+    "seed": 1969935420374737992,
+    "theta": [
+      0.3847577324219087,
+      0.6981392570146319
+    ],
+    "outcomes_sha256": "471ef19bb484881d372e5f46d7b2f18e91427fe75180ca259f818c81d047b9e7"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:84",
+    "family": "prior",
+    "k": 2,
+    "index": 84,
+    "seed": 5811408588063915644,
+    "theta": [
+      0.42386160807816403,
+      0.19772259355487667
+    ],
+    "outcomes_sha256": "7cde5ae1612e0b4b7742b68c33a21c6b8cd02bb4236fe80991c0985a30b697a4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:85",
+    "family": "prior",
+    "k": 2,
+    "index": 85,
+    "seed": 7826241973029421218,
+    "theta": [
+      0.8139250363084565,
+      0.5872653968999386
+    ],
+    "outcomes_sha256": "85e5c9a596faca9f6192c52825036cba3d9efdb725506659f60cabe4bda589ec"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:86",
+    "family": "prior",
+    "k": 2,
+    "index": 86,
+    "seed": 18008836157133469741,
+    "theta": [
+      0.6973426102085596,
+      0.19850779336847343
+    ],
+    "outcomes_sha256": "7a59f6b30ca7153366d155dc648b71f9bdf0231ea04bfa1b04ca2fe07226c2b8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:87",
+    "family": "prior",
+    "k": 2,
+    "index": 87,
+    "seed": 12149647920739733661,
+    "theta": [
+      0.8022068514375097,
+      0.6134020437507032
+    ],
+    "outcomes_sha256": "63a9f569b77b510dd1e61efc4eece57ac43784b87ebec7502c4269ddbacb1e4e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:88",
+    "family": "prior",
+    "k": 2,
+    "index": 88,
+    "seed": 4413816095948886917,
+    "theta": [
+      0.16588444498000865,
+      0.6726395969765397
+    ],
+    "outcomes_sha256": "3e718afb1cee5ce25b573b8096dee6f74c6ed7ee2cef42bfe06f4a73181808a3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:89",
+    "family": "prior",
+    "k": 2,
+    "index": 89,
+    "seed": 8539986669555070273,
+    "theta": [
+      0.4159539749748192,
+      0.1347153102511199
+    ],
+    "outcomes_sha256": "c01b10c20c7ea81fe20173800b0294366b6eee75d5a811ed6aa379dc88372809"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:90",
+    "family": "prior",
+    "k": 2,
+    "index": 90,
+    "seed": 799826821047943703,
+    "theta": [
+      0.4471144259474401,
+      0.28647103194978946
+    ],
+    "outcomes_sha256": "bf77dc9d67d4708fb22a35ba637f154fe9205a92f24c3dd0fc9f285843373b4b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:91",
+    "family": "prior",
+    "k": 2,
+    "index": 91,
+    "seed": 2352928178628869453,
+    "theta": [
+      0.8642608922731634,
+      0.874971966775925
+    ],
+    "outcomes_sha256": "8b4ec75007a6746af3f116f6cf9b54ac66d7da883f28b155542491b7eeab538c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:92",
+    "family": "prior",
+    "k": 2,
+    "index": 92,
+    "seed": 17580033199764226621,
+    "theta": [
+      0.11005510807245755,
+      0.32667652168648864
+    ],
+    "outcomes_sha256": "a1ed47ceaa0cafa482f6a34628bb64aea770c0ab8056a3cd87f041a8dec8436f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:93",
+    "family": "prior",
+    "k": 2,
+    "index": 93,
+    "seed": 656462058138325522,
+    "theta": [
+      0.4215842677882483,
+      0.9206129268831422
+    ],
+    "outcomes_sha256": "07b6424edf0c40f6db19ce31b37d02280acec4c0ac44fbe2e7a2bc5a6a37ffcd"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:94",
+    "family": "prior",
+    "k": 2,
+    "index": 94,
+    "seed": 15355213764883895244,
+    "theta": [
+      0.12484797383780136,
+      0.414652369063459
+    ],
+    "outcomes_sha256": "65d761c6376d70cca0e99e830765712ed3b14a4619be01843b661da79f3a015e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:95",
+    "family": "prior",
+    "k": 2,
+    "index": 95,
+    "seed": 14187469906105940827,
+    "theta": [
+      0.4696626510569409,
+      0.22963960707751968
+    ],
+    "outcomes_sha256": "7083d41cdbdcf0a77b2c8f2b996ee0ed5cf7abcdc34182743da839f38cb6cc89"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:96",
+    "family": "prior",
+    "k": 2,
+    "index": 96,
+    "seed": 12337927345383384984,
+    "theta": [
+      0.11466875173903548,
+      0.3643023208848221
+    ],
+    "outcomes_sha256": "f10284f8aabb4941e84ca05a875cf575282cdf300332ced167e755bd30de61e7"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:97",
+    "family": "prior",
+    "k": 2,
+    "index": 97,
+    "seed": 12179234963448851932,
+    "theta": [
+      0.7111282126974766,
+      0.23862976949630033
+    ],
+    "outcomes_sha256": "eb7fa82fad623924d39bbbcc14cfc3fc7665268f03036d4fa8aad80883ab9459"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:98",
+    "family": "prior",
+    "k": 2,
+    "index": 98,
+    "seed": 12381829589268472023,
+    "theta": [
+      0.3659565553122455,
+      0.21431004000925097
+    ],
+    "outcomes_sha256": "8950b719f19155e09516861bb3df715ba7ace1e504c0a1333b24443a97509f8d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:2:99",
+    "family": "prior",
+    "k": 2,
+    "index": 99,
+    "seed": 4621566806245871623,
+    "theta": [
+      0.5601357262951915,
+      0.8195193796072421
+    ],
+    "outcomes_sha256": "b3b065a7d86f00e8fd41db1c5d66de0a6e6221db548031d3ea19640c2f40a00d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:0",
+    "family": "prior",
+    "k": 10,
+    "index": 0,
+    "seed": 17986921866489719190,
+    "theta": [
+      0.8976937426851324,
+      0.057882899901621515,
+      0.8169460315968616,
+      0.2622825589374114,
+      0.07155604313893082,
+      0.08519031132619026,
+      0.865559715191885,
+      0.030449710778062338,
+      0.34004182633073526,
+      0.14267060292393152
+    ],
+    "outcomes_sha256": "9806b9338978f4f251021b81baedd272f584f693da3287b09763de866d5277a5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:1",
+    "family": "prior",
+    "k": 10,
+    "index": 1,
+    "seed": 11869239158013835311,
+    "theta": [
+      0.2508290390546424,
+      0.6294685406876791,
+      0.027813857620879442,
+      0.3511683502563537,
+      0.5136319711013718,
+      0.25033048497932187,
+      0.5004137447196171,
+      0.9573150344842059,
+      0.1877241760436601,
+      0.3192448185246294
+    ],
+    "outcomes_sha256": "55b5d3f84b15d7ddb43927c82a42c4e211246a3ce95473b2e3dc550b7c2fb0d6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:2",
+    "family": "prior",
+    "k": 10,
+    "index": 2,
+    "seed": 10467944490201175937,
+    "theta": [
+      0.5300237446056545,
+      0.9106956075382665,
+      0.975714279331796,
+      0.866821338801986,
+      0.03502576991738891,
+      0.5594332042114026,
+      0.9298963642024726,
+      0.506911187960856,
+      0.7662027858949323,
+      0.9516456141476661
+    ],
+    "outcomes_sha256": "c4f392a632ca8814f014fa38d980538515df3dbaa3feea9777381556202b3aa2"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:3",
+    "family": "prior",
+    "k": 10,
+    "index": 3,
+    "seed": 17906865053986841255,
+    "theta": [
+      0.12378992390975156,
+      0.43576703802871525,
+      0.20705046563416002,
+      0.541435591883654,
+      0.7344936816736443,
+      0.29203722151916495,
+      0.35594984315243205,
+      0.2966457188296271,
+      0.8641431548382003,
+      0.4016610859194094
+    ],
+    "outcomes_sha256": "4fe6bf515fc332e3121c3b2d1d1c832b87dafd1754505454b6631d771219d55a"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:4",
+    "family": "prior",
+    "k": 10,
+    "index": 4,
+    "seed": 13905134078236788110,
+    "theta": [
+      0.2270303867855914,
+      0.374151390717132,
+      0.3228395404195913,
+      0.8847743881631652,
+      0.024554020677141894,
+      0.82465065773027,
+      0.28044573925801186,
+      0.3546870827313027,
+      0.07156988892191435,
+      0.8390083790971715
+    ],
+    "outcomes_sha256": "4321b5542dbb84c279365c1999ff9506c6a4e5e59e1fee4cde6a2e7dd4377643"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:5",
+    "family": "prior",
+    "k": 10,
+    "index": 5,
+    "seed": 14965368951808920071,
+    "theta": [
+      0.0865144475605529,
+      0.615054102501634,
+      0.15617570852986884,
+      0.0917291926618561,
+      0.3498535554016618,
+      0.9741856395137338,
+      0.7251305477646771,
+      0.22374582017335332,
+      0.30065115546434545,
+      0.26168040500836937
+    ],
+    "outcomes_sha256": "e5a921a154969bf9420efa599318bfb219a2d802b3a503a55179ed013400160d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:6",
+    "family": "prior",
+    "k": 10,
+    "index": 6,
+    "seed": 4928666760895525269,
+    "theta": [
+      0.23903885793464255,
+      0.43742086910160444,
+      0.4349270079055486,
+      0.8557755500844393,
+      0.6781647370945268,
+      0.035348534206548876,
+      0.9808409982033378,
+      0.08271347465245511,
+      0.7380237138770078,
+      0.30227209211972506
+    ],
+    "outcomes_sha256": "d0d2643ab948084481cf71462ec39e262dda8c7212a6868cbb2dcef130e46a35"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:7",
+    "family": "prior",
+    "k": 10,
+    "index": 7,
+    "seed": 5256051526845385000,
+    "theta": [
+      0.14713655431673814,
+      0.9747788502845127,
+      0.187922000364207,
+      0.5095002154937618,
+      0.04010368061330595,
+      0.9156185297576753,
+      0.296061698987441,
+      0.5124614758707833,
+      0.8071592438061457,
+      0.4435708515353433
+    ],
+    "outcomes_sha256": "3df7093102965508e541e1a7514e0546a69aac091c8a0f903e88818148a8459c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:8",
+    "family": "prior",
+    "k": 10,
+    "index": 8,
+    "seed": 17649321387767645169,
+    "theta": [
+      0.5293398270806854,
+      0.45799651399487845,
+      0.36391769392109785,
+      0.7634083467423242,
+      0.4956181256047481,
+      0.5889711579956427,
+      0.5988122964985362,
+      0.7904338232746678,
+      0.28720103693059135,
+      0.5734850067426192
+    ],
+    "outcomes_sha256": "f4fe993321f2660a30bead3b09663910bbc1a68cd9c4385f7816d28b7b219042"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:9",
+    "family": "prior",
+    "k": 10,
+    "index": 9,
+    "seed": 612579779756465107,
+    "theta": [
+      0.3067517637642776,
+      0.26396645715644046,
+      0.6667379890848699,
+      0.4669713747194983,
+      0.06723514651492601,
+      0.7369330266802177,
+      0.41295611852165404,
+      0.5751282498498925,
+      0.7076871329163488,
+      0.02723727255571262
+    ],
+    "outcomes_sha256": "68d70c72adb2b57057f6652d0d6f8dabc19f3c6a94fc2e6eb9e0482c7874e44a"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:10",
+    "family": "prior",
+    "k": 10,
+    "index": 10,
+    "seed": 9860919363287367745,
+    "theta": [
+      0.24352574636102167,
+      0.2756763511436923,
+      0.3372979229932184,
+      0.1301438966759228,
+      0.4633327470263759,
+      0.9643337004066006,
+      0.9686327922107913,
+      0.23334557115508942,
+      0.5671295227974755,
+      0.9701944010438909
+    ],
+    "outcomes_sha256": "e20345110ff5ccdb3e4b3094f9956494a705503d5ba55e4d13827531554cc485"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:11",
+    "family": "prior",
+    "k": 10,
+    "index": 11,
+    "seed": 12386852688442421773,
+    "theta": [
+      0.9441647731098157,
+      0.6582280378653838,
+      0.5046512929010499,
+      0.8832472683180077,
+      0.6217165554712677,
+      0.4018933103270773,
+      0.9697590555945501,
+      0.7261302977067287,
+      0.8021111658434049,
+      0.08854464902473813
+    ],
+    "outcomes_sha256": "c0a94b79ff6a0fa114b0dc293994ffd3235112965cc7d17bcaa30eb0b3c6da8c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:12",
+    "family": "prior",
+    "k": 10,
+    "index": 12,
+    "seed": 9736517146603333907,
+    "theta": [
+      0.5507635772808037,
+      0.2830600695596217,
+      0.5015905873104055,
+      0.1033451482255827,
+      0.81008510139095,
+      0.6856827327752821,
+      0.5501980834644379,
+      0.7540033158087255,
+      0.3505772571578969,
+      0.29232723068826144
+    ],
+    "outcomes_sha256": "4780b214d9c803d62ca58e9706da761f65fca77bb03f7de0d3ffffdfd26335fa"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:13",
+    "family": "prior",
+    "k": 10,
+    "index": 13,
+    "seed": 17692043249926538918,
+    "theta": [
+      0.9340365574255485,
+      0.05040710015691288,
+      0.8620036162832367,
+      0.31921908846732067,
+      0.6581922929095924,
+      0.2508665594081654,
+      0.6593658058911748,
+      0.12466342474325355,
+      0.12283562535733032,
+      0.2646208646309367
+    ],
+    "outcomes_sha256": "cbc5a30da3f60dabc530419ff37264196093011800eddd0b32a6b1560a7a9c22"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:14",
+    "family": "prior",
+    "k": 10,
+    "index": 14,
+    "seed": 15549232887957030088,
+    "theta": [
+      0.27279344537607114,
+      0.775516664234069,
+      0.7311362429442116,
+      0.982173918777011,
+      0.43629897054736666,
+      0.4300464062291851,
+      0.7397275261416787,
+      0.3009487856372575,
+      0.5625052027911558,
+      0.15556686416429075
+    ],
+    "outcomes_sha256": "57622da93a936db3d1e554d2041c91eed48e158b202080fed7cdb333738b43e3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:15",
+    "family": "prior",
+    "k": 10,
+    "index": 15,
+    "seed": 3540844853091355909,
+    "theta": [
+      0.521680218241273,
+      0.22397469781185028,
+      0.8245919465785493,
+      0.09093568312054494,
+      0.4220184937493061,
+      0.5691078320015204,
+      0.380401215757129,
+      0.05016253894505699,
+      0.7081005910026836,
+      0.18331007325675205
+    ],
+    "outcomes_sha256": "2a4d688d06c461fbfcc5f333bf92840957514676c8bf393d2319723e23783b3b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:16",
+    "family": "prior",
+    "k": 10,
+    "index": 16,
+    "seed": 8453211675100912180,
+    "theta": [
+      0.342225574625836,
+      0.5363064530151312,
+      0.49066569690330614,
+      0.015423132363673066,
+      0.4934124671184061,
+      0.5946948522303158,
+      0.07337684244199967,
+      0.2449664253227664,
+      0.6509007051857489,
+      0.13557141982283671
+    ],
+    "outcomes_sha256": "e4f75175dec7bd259abf667854068d87a565f1482edee0b81ea758ae07f5b771"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:17",
+    "family": "prior",
+    "k": 10,
+    "index": 17,
+    "seed": 3581416283609425780,
+    "theta": [
+      0.07134971579794365,
+      0.25498221494008866,
+      0.15197165585040814,
+      0.6588866046119459,
+      0.6553293464477733,
+      0.11711694679931399,
+      0.9939938811249828,
+      0.043370414798848414,
+      0.6106512129531219,
+      0.5543769179656701
+    ],
+    "outcomes_sha256": "6ff5d696e9df47cbd8ff6125ef5439da7db391aba63b835f53063993c17ef0ca"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:18",
+    "family": "prior",
+    "k": 10,
+    "index": 18,
+    "seed": 6066711690040699669,
+    "theta": [
+      0.338259198471826,
+      0.8728850505635665,
+      0.37334281728915286,
+      0.14134184558338594,
+      0.3822291972584454,
+      0.40252539362972206,
+      0.010661395180814727,
+      0.6330399451471388,
+      0.5935038076633556,
+      0.778719572415378
+    ],
+    "outcomes_sha256": "c5792b7aedc23e13a5d09d0063683b6b87edd82e930e69cfa310519118726202"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:19",
+    "family": "prior",
+    "k": 10,
+    "index": 19,
+    "seed": 5770406748961191866,
+    "theta": [
+      0.9373951010112455,
+      0.9245732424157826,
+      0.7977538276433287,
+      0.8870275157220072,
+      0.9297057484207591,
+      0.22436802861117783,
+      0.43401120413418004,
+      0.7784824004230502,
+      0.1823838118997742,
+      0.36350965710660227
+    ],
+    "outcomes_sha256": "33338d4efcc21166840ec5021ceaeca7bf8a11133090f0f5c117ee5db082abe3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:20",
+    "family": "prior",
+    "k": 10,
+    "index": 20,
+    "seed": 11554082445849223788,
+    "theta": [
+      0.24999951147013624,
+      0.10302208337890371,
+      0.7934308299804266,
+      0.26000952835143876,
+      0.6050095034513072,
+      0.20342821240610987,
+      0.36255100957607095,
+      0.35952920208150024,
+      0.6668099857045577,
+      0.07930553145421879
+    ],
+    "outcomes_sha256": "4792ea003f08cb0528063e27f137ead1dd97745241e80cc464d262faa6b8c282"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:21",
+    "family": "prior",
+    "k": 10,
+    "index": 21,
+    "seed": 16823348222361674468,
+    "theta": [
+      0.7245427577800115,
+      0.06013056879272482,
+      0.9776514596411175,
+      0.23221273604449852,
+      0.7351627828699934,
+      0.18730731102763976,
+      0.6021454617978013,
+      0.22385413350313857,
+      0.49237726579691016,
+      0.40662227353165986
+    ],
+    "outcomes_sha256": "15cf446038c9033db7b5b3b5fe80f117d38546d50552e38b6d0400f2472fd5d2"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:22",
+    "family": "prior",
+    "k": 10,
+    "index": 22,
+    "seed": 15137979203591388979,
+    "theta": [
+      0.2170327668958576,
+      0.5160632375037828,
+      0.26780962010236387,
+      0.12259864942302726,
+      0.586705169062033,
+      0.44353171611902986,
+      0.6600382884880912,
+      0.8499187840551315,
+      0.25620344984480725,
+      0.7560929738808136
+    ],
+    "outcomes_sha256": "12bd0e75fd3f900bf1bd8aab900394a2ab96522aec83d565ba4e4a43c247d24b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:23",
+    "family": "prior",
+    "k": 10,
+    "index": 23,
+    "seed": 5922047873735980424,
+    "theta": [
+      0.9417509663388431,
+      0.8246246182276828,
+      0.128662402043213,
+      0.3267106012665768,
+      0.2975172071178118,
+      0.6342885801323863,
+      0.5115690106893009,
+      0.6309320742123447,
+      0.2974011852237445,
+      0.6253144026022573
+    ],
+    "outcomes_sha256": "02e0ac4dd456d70524b166a8898b7a08b93e146ef37ecb7accd5913595eb99bc"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:24",
+    "family": "prior",
+    "k": 10,
+    "index": 24,
+    "seed": 2073371279510349738,
+    "theta": [
+      0.025414403645987092,
+      0.9523172550963788,
+      0.6219352698103744,
+      0.8670048526339278,
+      0.2769097084716477,
+      0.32314061940380095,
+      0.8158588792989748,
+      0.5006320336868341,
+      0.7800054786622092,
+      0.6190486180385303
+    ],
+    "outcomes_sha256": "53c0415137de8146dafa9a3a0423bad3b3b4f4d9148799c19ce28d2cb5623283"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:25",
+    "family": "prior",
+    "k": 10,
+    "index": 25,
+    "seed": 12489156324211615899,
+    "theta": [
+      0.4942287675111051,
+      0.9325064967482063,
+      0.50978313640513,
+      0.26984138449952527,
+      0.9774731156108126,
+      0.9128026751559282,
+      0.8432781567158365,
+      0.2964752647200046,
+      0.4998821446814584,
+      0.09319887395698777
+    ],
+    "outcomes_sha256": "82cf7351bc4b58227896dc365fb27c6adf16e59a57afaa7139a502988069d843"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:26",
+    "family": "prior",
+    "k": 10,
+    "index": 26,
+    "seed": 7338314701198619730,
+    "theta": [
+      0.31422347438755494,
+      0.9512754733096253,
+      0.49124769260963697,
+      0.969212119138127,
+      0.07819411503209757,
+      0.48764612899507026,
+      0.4703389575884125,
+      0.09953440102490668,
+      0.053055611381752465,
+      0.6899553417623399
+    ],
+    "outcomes_sha256": "3d42ab4774108022c1ba4a919cb41e49f0b46f3d8ec45af523a82e74bd44be58"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:27",
+    "family": "prior",
+    "k": 10,
+    "index": 27,
+    "seed": 856573154265748048,
+    "theta": [
+      0.4600806173812573,
+      0.8486409678492988,
+      0.06050814314237105,
+      0.6736950593767579,
+      0.6213382949601717,
+      0.8319328597042627,
+      0.09128848193259625,
+      0.455761729733811,
+      0.9899824466816568,
+      0.03034122998995456
+    ],
+    "outcomes_sha256": "3c07889763994a899ebba24409d3374214ff2b8bcb3fb964be85fadd964ab800"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:28",
+    "family": "prior",
+    "k": 10,
+    "index": 28,
+    "seed": 15150506438780308115,
+    "theta": [
+      0.06927712395337095,
+      0.4280948459262732,
+      0.6270756013374714,
+      0.738124771642444,
+      0.4138761210283643,
+      0.8783909872776231,
+      0.43212531459118936,
+      0.5352868438227643,
+      0.29255167162987666,
+      0.6904645222764181
+    ],
+    "outcomes_sha256": "063924d4ef08a8df623413927583a44f222aa32811801be63468043aa5ec5047"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:29",
+    "family": "prior",
+    "k": 10,
+    "index": 29,
+    "seed": 12373098111784147833,
+    "theta": [
+      0.8672907345109802,
+      0.40564969943417556,
+      0.15930879920185312,
+      0.31015034656507234,
+      0.63911169524359,
+      0.8054959044847427,
+      0.2548914505835975,
+      0.16325058113627355,
+      0.8477712672647242,
+      0.08020603116895614
+    ],
+    "outcomes_sha256": "be845c223ddcc9567684aff0a963262a24c4947e514a31bab79b2413d339a686"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:30",
+    "family": "prior",
+    "k": 10,
+    "index": 30,
+    "seed": 13068980064436660801,
+    "theta": [
+      0.7699637139992334,
+      0.888221974801348,
+      0.9036419261834729,
+      0.6074879382702238,
+      0.5884396114498756,
+      0.07112416868750306,
+      0.7315344566377465,
+      0.8022199069963429,
+      0.3748896737360712,
+      0.4154727321738566
+    ],
+    "outcomes_sha256": "0baa24e1f82eac12cdccc40e92a75fcd8dac58ae28ccd0b2731b9473651367e1"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:31",
+    "family": "prior",
+    "k": 10,
+    "index": 31,
+    "seed": 15434603097806706204,
+    "theta": [
+      0.9472280524483976,
+      0.13259641405730727,
+      0.5581768764332696,
+      0.2806100576623957,
+      0.3804736944280702,
+      0.5413585585369527,
+      0.10358791109216749,
+      0.9899220952786651,
+      0.7085871321342183,
+      0.015404593045719896
+    ],
+    "outcomes_sha256": "461e983ae253fb1c980b4779ecdb5a8e372604d788fed45d7b2de3bcc102c65f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:32",
+    "family": "prior",
+    "k": 10,
+    "index": 32,
+    "seed": 7179435524175592960,
+    "theta": [
+      0.5768135988097218,
+      0.8511500721384548,
+      0.5436781695968209,
+      0.4269520503244056,
+      0.7304525841561158,
+      0.3819898909004205,
+      0.953124481605294,
+      0.7113727076620934,
+      0.28470385516613006,
+      0.9882397529416554
+    ],
+    "outcomes_sha256": "8552a9f427ad3dbbd5a5a53dbcfc971584d4d1808cb86ad58a2586d25e775448"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:33",
+    "family": "prior",
+    "k": 10,
+    "index": 33,
+    "seed": 17200589722491450676,
+    "theta": [
+      0.5860500529185568,
+      0.16705373504288518,
+      0.4121063195666736,
+      0.23050650376604925,
+      0.05678595584954263,
+      0.9200838554596834,
+      0.8518301731591845,
+      0.8539296048655804,
+      0.43941856245605043,
+      0.5598739809243114
+    ],
+    "outcomes_sha256": "c92de84e84158e293ba06e75e7df92c5220deec23d8e88105f316f8c4c5f3998"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:34",
+    "family": "prior",
+    "k": 10,
+    "index": 34,
+    "seed": 8198548080168867658,
+    "theta": [
+      0.5854222679865492,
+      0.3741397031556243,
+      0.5387618785746952,
+      0.5005343026719735,
+      0.7622957965402987,
+      0.5733511332073669,
+      0.8462587150712425,
+      0.775824228785088,
+      0.6078747993697678,
+      0.9519809315904998
+    ],
+    "outcomes_sha256": "9c028dda4093c85db1986d9f45d56a44d85d425b3cedd01f7c57b4cc3395d0d9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:35",
+    "family": "prior",
+    "k": 10,
+    "index": 35,
+    "seed": 13675166928622352966,
+    "theta": [
+      0.3214533251216252,
+      0.8937785517336052,
+      0.8308213154292762,
+      0.4757879319748876,
+      0.9196871962586042,
+      0.46309168623721003,
+      0.38290928466291385,
+      0.2812364611806177,
+      0.3646189379193461,
+      0.7394812193763683
+    ],
+    "outcomes_sha256": "1aac82a23f17893300ef1b439eae3be3dd4a09f07489d8f4fe8fb7ddee86f3a8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:36",
+    "family": "prior",
+    "k": 10,
+    "index": 36,
+    "seed": 763821948881365969,
+    "theta": [
+      0.13550637293117704,
+      0.024413794081584134,
+      0.5171950635793162,
+      0.33444397809535664,
+      0.8622429693937855,
+      0.3554856636459077,
+      0.8941835132535707,
+      0.92990458533258,
+      0.14507974230296758,
+      0.6919832070099776
+    ],
+    "outcomes_sha256": "cf0bebaa6d45e891e32b350e8d149103afad435b0f74f40475d675f3ec12fd77"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:37",
+    "family": "prior",
+    "k": 10,
+    "index": 37,
+    "seed": 13475645757970722363,
+    "theta": [
+      0.3575694897242848,
+      0.19263156027533343,
+      0.17856349567810303,
+      0.5823969068312448,
+      0.22089905018008588,
+      0.3142416842555711,
+      0.6327491627786507,
+      0.2031306304701681,
+      0.4492782482892105,
+      0.8230584650387183
+    ],
+    "outcomes_sha256": "99b111daebeddc5bade7e1118388e06604c2ae29802af89c1f6a1f730ffb0303"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:38",
+    "family": "prior",
+    "k": 10,
+    "index": 38,
+    "seed": 11751313316904210190,
+    "theta": [
+      0.928672262880524,
+      0.9663061165580866,
+      0.9767064803296869,
+      0.23092956030505063,
+      0.6048634181419533,
+      0.466981144258975,
+      0.249876919507039,
+      0.3236436237850958,
+      0.19117428547688847,
+      0.41877659900591757
+    ],
+    "outcomes_sha256": "7b29a35adb9e6329f69ea439d1a3c99e8c11ad61a45277f32f8e68a8d85998a8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:39",
+    "family": "prior",
+    "k": 10,
+    "index": 39,
+    "seed": 14267427029702025843,
+    "theta": [
+      0.4733551022729537,
+      0.07341564043209695,
+      0.6841550576987748,
+      0.9285757161618579,
+      0.5313024032781457,
+      0.7200764418889268,
+      0.36266813454697944,
+      0.07181280187778555,
+      0.7484092156834824,
+      0.48545123545857166
+    ],
+    "outcomes_sha256": "30c3aa83a26e63151b55a94f1b8e9918f3ed6c79a2e068d787ead2303105b91f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:40",
+    "family": "prior",
+    "k": 10,
+    "index": 40,
+    "seed": 17409982136919590987,
+    "theta": [
+      0.4460868439078443,
+      0.7511941209051091,
+      0.2706070506851521,
+      0.32348857836414524,
+      0.510084098029695,
+      0.8997173792145278,
+      0.5614729664437734,
+      0.1366017208660514,
+      0.14513651576624192,
+      0.7202726167634512
+    ],
+    "outcomes_sha256": "0053dffe5e21807b9da9fc6ab662ee79afbd6efdbef8e07b9acdb81c614c857c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:41",
+    "family": "prior",
+    "k": 10,
+    "index": 41,
+    "seed": 11569235860960641991,
+    "theta": [
+      0.15302080303803392,
+      0.35488697757908877,
+      0.13688430453438763,
+      0.9165361376609343,
+      0.4926763032175666,
+      0.2731009795791413,
+      0.4626402988061482,
+      0.7352114044160096,
+      0.5670522949432123,
+      0.34381168685305474
+    ],
+    "outcomes_sha256": "03d90fd8d0670e9aeeb1c69ea17b2c5d07e0b0d51bc95f690d63854fb8342f68"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:42",
+    "family": "prior",
+    "k": 10,
+    "index": 42,
+    "seed": 496008552483264421,
+    "theta": [
+      0.18489138593098858,
+      0.622051937379108,
+      0.8339841635604179,
+      0.8999094675426901,
+      0.9222015593463535,
+      0.9574397962641561,
+      0.39602475386257846,
+      0.19526898977505017,
+      0.9429642603697393,
+      0.20144139328966384
+    ],
+    "outcomes_sha256": "f548f292359b6c07303c8a9c4f4dac65d3d553de786bd6bcf8cf5e1f4952536c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:43",
+    "family": "prior",
+    "k": 10,
+    "index": 43,
+    "seed": 1404019696263860313,
+    "theta": [
+      0.10462467627002865,
+      0.7716235624877087,
+      0.4766862501998674,
+      0.28402966954007647,
+      0.9211653662581071,
+      0.21663091984210434,
+      0.9161721661957953,
+      0.9725458114902705,
+      0.3644523754318317,
+      0.5596922039264934
+    ],
+    "outcomes_sha256": "d819f68485c940173888f0b61b732a999004c3cfcf39e5ca89d535cd0a9afa00"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:44",
+    "family": "prior",
+    "k": 10,
+    "index": 44,
+    "seed": 2899386892940652545,
+    "theta": [
+      0.8652186833740855,
+      0.45210715213031,
+      0.9205081880703202,
+      0.8560037644436606,
+      0.13945975631458013,
+      0.6782513909039486,
+      0.41159662068886155,
+      0.8388217838429571,
+      0.47463158948745976,
+      0.6459846711905782
+    ],
+    "outcomes_sha256": "68ad2fa154bcccdea847a3aa192551120305d6f9b28e3c6e9fb04594f7c0bb1e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:45",
+    "family": "prior",
+    "k": 10,
+    "index": 45,
+    "seed": 9349633369205793994,
+    "theta": [
+      0.13363495776547146,
+      0.2912761769486618,
+      0.7973652708775568,
+      0.6667257734347685,
+      0.16266918159540966,
+      0.4413141207921059,
+      0.6842782161289581,
+      0.8520152135969535,
+      0.5106122084917215,
+      0.3672793828818127
+    ],
+    "outcomes_sha256": "338762a3033e314171a421767883e660c053754d2fbd0fb9e28c208fbfef2c12"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:46",
+    "family": "prior",
+    "k": 10,
+    "index": 46,
+    "seed": 2148654313459360929,
+    "theta": [
+      0.34553975359795813,
+      0.7734550067894714,
+      0.3798303258085698,
+      0.7612506141078862,
+      0.4632601007502777,
+      0.9605098706554257,
+      0.7309301528215402,
+      0.3326269435709556,
+      0.9059586859773624,
+      0.2394353235346067
+    ],
+    "outcomes_sha256": "a8197268141f6d14841685b4ebdcca9623e569b94a5e57652769f83f0364b99a"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:47",
+    "family": "prior",
+    "k": 10,
+    "index": 47,
+    "seed": 15579288097877852738,
+    "theta": [
+      0.1628430018538653,
+      0.4922370093328297,
+      0.4688680445964627,
+      0.016846246227366746,
+      0.6165990894849772,
+      0.7343836873180691,
+      0.7232865287456199,
+      0.912033166034992,
+      0.12780194901628308,
+      0.3715810447987871
+    ],
+    "outcomes_sha256": "46fb739fc73336923b165d1b84c70f8909b0ba0d41afc00b9fac73fade66af68"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:48",
+    "family": "prior",
+    "k": 10,
+    "index": 48,
+    "seed": 5112523608981295865,
+    "theta": [
+      0.3744227125770744,
+      0.08620506714058644,
+      0.16424522664150307,
+      0.6861045022381228,
+      0.8461302871030765,
+      0.0012637099061806243,
+      0.12764983256805715,
+      0.3721435370102385,
+      0.8742100863371804,
+      0.2685626884646657
+    ],
+    "outcomes_sha256": "84ec7337875446d1b0d9f729aadc4e78966a817ca02a40e1d45db5134cab7aa8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:49",
+    "family": "prior",
+    "k": 10,
+    "index": 49,
+    "seed": 11985882981528905585,
+    "theta": [
+      0.8131176964740651,
+      0.691662358881505,
+      0.15310310744506883,
+      0.995545392938876,
+      0.6651867088669371,
+      0.8871871265087404,
+      0.6071450550839321,
+      0.07817430365478345,
+      0.04405921284102624,
+      0.5806795938539064
+    ],
+    "outcomes_sha256": "da14ccb1a056efd9b1125d14451d95c955a7c2514d3a336aaf03ca2e3fc5cf13"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:50",
+    "family": "prior",
+    "k": 10,
+    "index": 50,
+    "seed": 3805907481238272389,
+    "theta": [
+      0.9423989410067513,
+      0.13991178285218359,
+      0.007043127118741721,
+      0.3436408379034605,
+      0.31583335874262575,
+      0.3399487908206749,
+      0.09364304420899514,
+      0.7638615009963746,
+      0.11030069883477932,
+      0.9457916030281873
+    ],
+    "outcomes_sha256": "84817f257e03d98b9cd390258bca9f5e60efa46833015c83830ca03573b67522"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:51",
+    "family": "prior",
+    "k": 10,
+    "index": 51,
+    "seed": 7576846547390572581,
+    "theta": [
+      0.4269701798277287,
+      0.4704134380220134,
+      0.9648793561743965,
+      0.47681218409230763,
+      0.6226208659846253,
+      0.10643387651071652,
+      0.349473757394802,
+      0.24845800352289768,
+      0.5018610086428015,
+      0.11425607284329271
+    ],
+    "outcomes_sha256": "60954f225e7c8e20412561617532b35df5f8f775879940ec3f578dfa4627427d"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:52",
+    "family": "prior",
+    "k": 10,
+    "index": 52,
+    "seed": 85200056346619618,
+    "theta": [
+      0.668323158939879,
+      0.5518081618984368,
+      0.6705750371273728,
+      0.6823035564916332,
+      0.5918450096377765,
+      0.031538721378589776,
+      0.25932671546907954,
+      0.5122164731998109,
+      0.079147635174146,
+      0.19592608602025
+    ],
+    "outcomes_sha256": "89322ad2f7676e5a64f5def178cbcb2f108ecfbe0e9f1018030343c8474cc3fe"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:53",
+    "family": "prior",
+    "k": 10,
+    "index": 53,
+    "seed": 7404757204877164814,
+    "theta": [
+      0.7560004682727844,
+      0.7642014029752708,
+      0.40609098015077383,
+      0.7874879609722923,
+      0.9164357209808582,
+      0.7508721616119937,
+      0.36501625716551395,
+      0.612379268765164,
+      0.8225018595903354,
+      0.6847279677278347
+    ],
+    "outcomes_sha256": "696f814461168b5e03133ee4227286981cb0bef1597d33f009df2c0db9a3ffe9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:54",
+    "family": "prior",
+    "k": 10,
+    "index": 54,
+    "seed": 1644583017892263129,
+    "theta": [
+      0.3610147275101807,
+      0.8306820245826556,
+      0.6776745238063178,
+      0.14282622166768374,
+      0.31265777339020945,
+      0.05833756303721187,
+      0.11406861599376832,
+      0.822870540922925,
+      0.5117489798507536,
+      0.029776895768747404
+    ],
+    "outcomes_sha256": "008dfe975e7ec4d10175f6d2af3ca77f30f64196982e250e1f88f5777f9d7664"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:55",
+    "family": "prior",
+    "k": 10,
+    "index": 55,
+    "seed": 6775766904994216905,
+    "theta": [
+      0.9430451870996046,
+      0.13834175769935705,
+      0.053792677673932116,
+      0.005499203695243253,
+      0.29176719500523707,
+      0.9958953868392864,
+      0.8581642794457607,
+      0.8623296757837708,
+      0.09022441100357256,
+      0.802368876283357
+    ],
+    "outcomes_sha256": "959d745a4a89385b3e9dd0f328ae21227885726e007679dc86336af3ac9c77f8"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:56",
+    "family": "prior",
+    "k": 10,
+    "index": 56,
+    "seed": 13395143169017492554,
+    "theta": [
+      0.29145889677258663,
+      0.16893634319329323,
+      0.4967209672256453,
+      0.1663416382628542,
+      0.21627939748536384,
+      0.9220315982543769,
+      0.8481142694422663,
+      0.4604782374268114,
+      0.39760452381714745,
+      0.8767418022196451
+    ],
+    "outcomes_sha256": "e049de14d2b2f83eea2d087dffa96bbac4e18d13fe6ecc0cc539bc1517b1041b"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:57",
+    "family": "prior",
+    "k": 10,
+    "index": 57,
+    "seed": 3253937255483377207,
+    "theta": [
+      0.09739399018959004,
+      0.8316405487693109,
+      0.6851426205308653,
+      0.401287845692633,
+      0.267292164671679,
+      0.813196215429094,
+      0.8968439252669215,
+      0.6336787758352328,
+      0.1189654382537887,
+      0.5744774886927757
+    ],
+    "outcomes_sha256": "d9c265be586e1d024b07619c2fc36cb62127455d8b6a3ff8635f61a7913eb928"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:58",
+    "family": "prior",
+    "k": 10,
+    "index": 58,
+    "seed": 16757315615922103526,
+    "theta": [
+      0.7091893417677015,
+      0.30176409492222217,
+      0.00769064512790568,
+      0.9352222343276224,
+      0.30261361621776817,
+      0.5129991850766449,
+      0.6953817988654181,
+      0.28858640010511233,
+      0.7526250681290724,
+      0.22276767090362287
+    ],
+    "outcomes_sha256": "56db47db4fdac2c70a34a23a1041ab73de1c7c8d5bfd96662263699337d52e66"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:59",
+    "family": "prior",
+    "k": 10,
+    "index": 59,
+    "seed": 9342916484022093244,
+    "theta": [
+      0.7804038595059553,
+      0.8985434572650746,
+      0.21950821233210027,
+      0.8913625675206976,
+      0.2847128173547363,
+      0.8300300024414728,
+      0.6015950030863615,
+      0.9690289720461349,
+      0.8111198825985143,
+      0.41263441671064705
+    ],
+    "outcomes_sha256": "c47c2689009b360647d386e1950f9b4d0992a2196275abd085fef0b06c70c2f6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:60",
+    "family": "prior",
+    "k": 10,
+    "index": 60,
+    "seed": 4155415864796196121,
+    "theta": [
+      0.937391834934147,
+      0.22375736190350548,
+      0.14349458855039907,
+      0.8086973643431276,
+      0.9268140166778491,
+      0.8317403727752198,
+      0.1450095662852536,
+      0.17159831032517106,
+      0.4451085697504049,
+      0.706425011197294
+    ],
+    "outcomes_sha256": "e0430bb10ded6b84f98b1065622a2f518cdcb56ec6ae71fc2e32b938243e2d62"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:61",
+    "family": "prior",
+    "k": 10,
+    "index": 61,
+    "seed": 6977909184029053414,
+    "theta": [
+      0.6593522600248227,
+      0.6994304364422653,
+      0.774210402958516,
+      0.8153666101745783,
+      0.06975618853201025,
+      0.8907060917588814,
+      0.590211969424056,
+      0.9313594456572308,
+      0.3066038636643361,
+      0.5316750378660515
+    ],
+    "outcomes_sha256": "5949a34cb64671730c5296425adecb97699ce739fdeffe4da5b11954f547efaf"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:62",
+    "family": "prior",
+    "k": 10,
+    "index": 62,
+    "seed": 14960755097746450366,
+    "theta": [
+      0.7267452422999275,
+      0.10456414530052552,
+      0.2654545913443129,
+      0.1963531352446228,
+      0.4303008733809331,
+      0.04986709796942805,
+      0.5727246825840525,
+      0.720572114171625,
+      0.19728246924566306,
+      0.9113471542143923
+    ],
+    "outcomes_sha256": "1347ebeae3cc2678f3eff060c70835b064c33af80bc002b3f4eca208abfc75a5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:63",
+    "family": "prior",
+    "k": 10,
+    "index": 63,
+    "seed": 5073687374639694394,
+    "theta": [
+      0.8672516838035106,
+      0.006125278740051357,
+      0.16970223990857486,
+      0.36406027087847,
+      0.07951659434807976,
+      0.04807197667145927,
+      0.5080346565031169,
+      0.17408528740371396,
+      0.5472333331537641,
+      0.2075748713616607
+    ],
+    "outcomes_sha256": "f6401a050dcc89d07335c8f15ad0dd3f8a2099bc1ebc94f00dfc20bcd05263a9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:64",
+    "family": "prior",
+    "k": 10,
+    "index": 64,
+    "seed": 11592749306098929722,
+    "theta": [
+      0.7787523483679911,
+      0.4320553529183106,
+      0.11281970822706121,
+      0.530521186767625,
+      0.22880900116609745,
+      0.9636441109865608,
+      0.9147558817635647,
+      0.4760025713180834,
+      0.6181281898186342,
+      0.8814110394390156
+    ],
+    "outcomes_sha256": "ffce6e8dece62dc6165ef62adf40a056dc30067a3a2f89a8dd89f84e771ee94f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:65",
+    "family": "prior",
+    "k": 10,
+    "index": 65,
+    "seed": 14094394828716103391,
+    "theta": [
+      0.9382462817653524,
+      0.6610486374021494,
+      0.012211294318948832,
+      0.8126532482598777,
+      0.7585750997974784,
+      0.2096582475956815,
+      0.15307574965862866,
+      0.10278193193547068,
+      0.23105452462676881,
+      0.4865248085970881
+    ],
+    "outcomes_sha256": "7c4cf11aa49d66c358388a76ed3e731d9f897e731777fd5fc952f93b30059569"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:66",
+    "family": "prior",
+    "k": 10,
+    "index": 66,
+    "seed": 1639118901428235464,
+    "theta": [
+      0.6680633548223741,
+      0.2839527158790059,
+      0.5039963639590993,
+      0.3007062587129132,
+      0.6805536002433411,
+      0.8504826849917936,
+      0.7888375076933771,
+      0.8764906213071779,
+      0.24370365287819323,
+      0.2989630349695653
+    ],
+    "outcomes_sha256": "cb14a2f900ed72ed53d3e8b9f6715b1cdfaccfeb10fe330a418a57bb5666b183"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:67",
+    "family": "prior",
+    "k": 10,
+    "index": 67,
+    "seed": 5598585508728895590,
+    "theta": [
+      0.4086007296296152,
+      0.39648651735031604,
+      0.07779934521119741,
+      0.35783382859342167,
+      0.7013604767701561,
+      0.3213873491799194,
+      0.383890270206294,
+      0.4405845250559825,
+      0.4288763848704206,
+      0.10199018170656245
+    ],
+    "outcomes_sha256": "412947f9d160d507d0f0b98b2be0b1bba1dabd70b790d3dea020f469ff6a102f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:68",
+    "family": "prior",
+    "k": 10,
+    "index": 68,
+    "seed": 18226173887532227773,
+    "theta": [
+      0.8260452924607169,
+      0.722418454314034,
+      0.4331503866292064,
+      0.7801172799959228,
+      0.9074932795631668,
+      0.3075026481862908,
+      0.9651127831188108,
+      0.37822901750318577,
+      0.07367298182946706,
+      0.7323126820414484
+    ],
+    "outcomes_sha256": "700fe4862d4d4308f51a26b494722bc1fa7aeaed6387b53f6770093fc61f5462"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:69",
+    "family": "prior",
+    "k": 10,
+    "index": 69,
+    "seed": 8941037059871570020,
+    "theta": [
+      0.5195494971556132,
+      0.6884994494281995,
+      0.8500015570845018,
+      0.9066988223198139,
+      0.394185511940044,
+      0.6486859356645274,
+      0.7434148508405449,
+      0.7291585578922384,
+      0.7844004430035233,
+      0.4039502164089266
+    ],
+    "outcomes_sha256": "4cfc67de6d6ed2cb6658ec7e2fcd4b465df7d306740009ee2b0f8d994cd8d701"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:70",
+    "family": "prior",
+    "k": 10,
+    "index": 70,
+    "seed": 4343057595799773812,
+    "theta": [
+      0.19568272482278237,
+      0.9309668933963855,
+      0.21533568911649978,
+      0.42795738958814694,
+      0.8384231430982071,
+      0.1960850832062004,
+      0.6406102671589916,
+      0.6644930096374626,
+      0.8470410537030646,
+      0.6190079208952534
+    ],
+    "outcomes_sha256": "42f10569c063f935773c001ecc8d4196fd08f8b1195c254635bdc829169e7cb6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:71",
+    "family": "prior",
+    "k": 10,
+    "index": 71,
+    "seed": 3261425298118699279,
+    "theta": [
+      0.10756295508224607,
+      0.0696131663316838,
+      0.7810959912893862,
+      0.7003365974451694,
+      0.6011474653349497,
+      0.8985797632251048,
+      0.8220847391490851,
+      0.42548476670624297,
+      0.3373857122739315,
+      0.007934171992120997
+    ],
+    "outcomes_sha256": "e8c90d788a8b55c8a319ca0b03338790a2088b919cb014ba155878d560792efb"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:72",
+    "family": "prior",
+    "k": 10,
+    "index": 72,
+    "seed": 8552190964969058922,
+    "theta": [
+      0.5586303842658021,
+      0.07268912997301258,
+      0.7871163583681736,
+      0.8651723399218826,
+      0.4109939998766609,
+      0.8129077780449774,
+      0.3271737438053963,
+      0.7253351843304068,
+      0.9910585173671059,
+      0.10048794042011036
+    ],
+    "outcomes_sha256": "b38fe6edc484c1167e97c0fd62f527c11620f1e6188ca803fb38b505896685d6"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:73",
+    "family": "prior",
+    "k": 10,
+    "index": 73,
+    "seed": 2197039255294939641,
+    "theta": [
+      0.7314514188420136,
+      0.48305214495914484,
+      0.7982409267618727,
+      0.28148947715070555,
+      0.7231817093291159,
+      0.6625207268899359,
+      0.9400811954121904,
+      0.562681612413215,
+      0.26855112036037354,
+      0.9742219798806906
+    ],
+    "outcomes_sha256": "fe7ab5f1c62009ad1008061fd24aab1e423003512bff7d6d999cee4d8900b700"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:74",
+    "family": "prior",
+    "k": 10,
+    "index": 74,
+    "seed": 1739840684832338425,
+    "theta": [
+      0.07740243476832942,
+      0.3055980711098023,
+      0.29411067195457846,
+      0.679810701991824,
+      0.5739774741762931,
+      0.7474258643484253,
+      0.4198989038846136,
+      0.427146695779281,
+      0.43075629779504687,
+      0.7411027419219764
+    ],
+    "outcomes_sha256": "b0e5d3c9080581124a30245c7ba880b914cadd1c4492b7ed96ac80ab7d9abaea"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:75",
+    "family": "prior",
+    "k": 10,
+    "index": 75,
+    "seed": 11855475744305621323,
+    "theta": [
+      0.38915138736732907,
+      0.2393495739502505,
+      0.9518094858974514,
+      0.49595277430980345,
+      0.5908900149093921,
+      0.6666017467704305,
+      0.24131118149214292,
+      0.7843572080227879,
+      0.04347970678009336,
+      0.5507101202903405
+    ],
+    "outcomes_sha256": "603e99d356367aaf01905c53b9f662e9b5e54a7598b174c0f64ae6305aaeb1b3"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:76",
+    "family": "prior",
+    "k": 10,
+    "index": 76,
+    "seed": 14568629882940912307,
+    "theta": [
+      0.308335278845225,
+      0.5482152416531477,
+      0.5676674284208846,
+      0.5553549562141995,
+      0.8117406467693368,
+      0.07703807797573588,
+      0.7087425990374159,
+      0.2919470900117348,
+      0.5550434965051942,
+      0.1788898287179048
+    ],
+    "outcomes_sha256": "e870740814e4a8746c6acbd50ea77b145c0525e9d1c5a93e3588c804ad81503c"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:77",
+    "family": "prior",
+    "k": 10,
+    "index": 77,
+    "seed": 7725820133376361366,
+    "theta": [
+      0.3043496175400459,
+      0.8903049506300023,
+      0.7867678556046664,
+      0.38468508658366135,
+      0.6770939704331831,
+      0.06892599763581363,
+      0.845497120904592,
+      0.6135767546688934,
+      0.8456842906507753,
+      0.971950560766499
+    ],
+    "outcomes_sha256": "66458514064d94ea5290428947bf6edd7d2a6497462220b15d6f79ffad1d3f82"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:78",
+    "family": "prior",
+    "k": 10,
+    "index": 78,
+    "seed": 10639754476548699255,
+    "theta": [
+      0.4954027759204552,
+      0.8698238795177954,
+      0.864860742243738,
+      0.550505664785353,
+      0.9773431139516057,
+      0.8911626013257192,
+      0.10196090180162354,
+      0.573494410190065,
+      0.2919564606567702,
+      0.11913488128776241
+    ],
+    "outcomes_sha256": "20b0845bf6a9f8cf46e06697c558b7068c9a65e91bcfad7c0657e9e318ea2b36"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:79",
+    "family": "prior",
+    "k": 10,
+    "index": 79,
+    "seed": 12854174751592769352,
+    "theta": [
+      0.27476549832656655,
+      0.11698368028663475,
+      0.9970710162856953,
+      0.4228125831713906,
+      0.5425701125244504,
+      0.4379883044623691,
+      0.3420255773872623,
+      0.7699910831993136,
+      0.6626375831905984,
+      0.969895391489189
+    ],
+    "outcomes_sha256": "57b02aa2a43e4ef53324b997676a01bce83cdd654663b811bae8ee292c1792dc"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:80",
+    "family": "prior",
+    "k": 10,
+    "index": 80,
+    "seed": 16662194391047994316,
+    "theta": [
+      0.9907823708038959,
+      0.5818816693923158,
+      0.8554130830325221,
+      0.2014564491260699,
+      0.10666956089925021,
+      0.5907590153854045,
+      0.9581197786676717,
+      0.3417005254923948,
+      0.8738490432936583,
+      0.37232682515278
+    ],
+    "outcomes_sha256": "efcee4a30359e37b399515815bff5ba1b5d95627902b6916b1ff2bbac6c9b4b9"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:81",
+    "family": "prior",
+    "k": 10,
+    "index": 81,
+    "seed": 4854195492340243835,
+    "theta": [
+      0.10632977472786415,
+      0.8315785928243865,
+      0.6837922299028437,
+      0.5230552280816595,
+      0.46711656032777643,
+      0.23405152542482388,
+      0.5475840863004771,
+      0.1463162508932816,
+      0.04821732115566636,
+      0.9548705014197196
+    ],
+    "outcomes_sha256": "9ef6cfde775b86b36e74c729973661414ab276ad9eb5e8e17f6aaf35670f5922"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:82",
+    "family": "prior",
+    "k": 10,
+    "index": 82,
+    "seed": 226223325025275708,
+    "theta": [
+      0.49798940819246645,
+      0.5043857948309625,
+      0.5234591455874311,
+      0.023244657112783458,
+      0.6369214229364555,
+      0.09928626864616286,
+      0.45315427435494227,
+      0.5880917730238416,
+      0.1989933384886423,
+      0.3702856390003767
+    ],
+    "outcomes_sha256": "584247db7caefb07fd13e74480ce6002a758f0114d42ab389b27c9f19f613e89"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:83",
+    "family": "prior",
+    "k": 10,
+    "index": 83,
+    "seed": 7663418627506525385,
+    "theta": [
+      0.3256365915010026,
+      0.5408698191222829,
+      0.8625380168243885,
+      0.8487680364518737,
+      0.859913635213343,
+      0.5093398914496087,
+      0.5577121855496157,
+      0.017511393013288853,
+      0.03611081195900168,
+      0.01038512442586302
+    ],
+    "outcomes_sha256": "13459b336f3ca485e50861983c686943edf48ec4eaf03ba1cfa7b5cb8cfe85ef"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:84",
+    "family": "prior",
+    "k": 10,
+    "index": 84,
+    "seed": 11531609677445254740,
+    "theta": [
+      0.9583946965101147,
+      0.6327979132829866,
+      0.8681240617411644,
+      0.9861588901559563,
+      0.39046361949160957,
+      0.4312018965928475,
+      0.8192113604211363,
+      0.6827723484737542,
+      0.7078798940908616,
+      0.7826532827859013
+    ],
+    "outcomes_sha256": "572dcf589c1eddde293535eed9f06235f1113cd6c0554eace9f3d9cef71c19b5"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:85",
+    "family": "prior",
+    "k": 10,
+    "index": 85,
+    "seed": 11222761604978544697,
+    "theta": [
+      0.7781079005648682,
+      0.31645451105497086,
+      0.6621864335268147,
+      0.45361307660316225,
+      0.7147615214702522,
+      0.11344723008388205,
+      0.13908811401435325,
+      0.9294483591779303,
+      0.6652882917269648,
+      0.869741947621981
+    ],
+    "outcomes_sha256": "a2106e3be8cf359fa7048bf60fdc23a31988094f8368fb7bbcca54658608803e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:86",
+    "family": "prior",
+    "k": 10,
+    "index": 86,
+    "seed": 804707980139326228,
+    "theta": [
+      0.6794232072074551,
+      0.3861965989621439,
+      0.6233844510359747,
+      0.10113580435372994,
+      0.14725672047540178,
+      0.6286727643974035,
+      0.03501856018069036,
+      0.5201947349400043,
+      0.9948692121478825,
+      0.49746977889119154
+    ],
+    "outcomes_sha256": "d2ceef6ff0a80f4b043fe0567dbeddb118c79fca6515fcd5e13f1166f368ae11"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:87",
+    "family": "prior",
+    "k": 10,
+    "index": 87,
+    "seed": 1451426982411741136,
+    "theta": [
+      0.2971459364282265,
+      0.5170677896508578,
+      0.21045214161030457,
+      0.19485277259370937,
+      0.6019569711572231,
+      0.45576661132437746,
+      0.7792844894426318,
+      0.26475815248533635,
+      0.8310574462397169,
+      0.22539386203514145
+    ],
+    "outcomes_sha256": "9e6d7440801700818cbc70b9d85e11c54c883be90ea5ea040c715485d7c9f18f"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:88",
+    "family": "prior",
+    "k": 10,
+    "index": 88,
+    "seed": 10187134122366612045,
+    "theta": [
+      0.5402522714813834,
+      0.6872264113434836,
+      0.818270709298832,
+      0.5838505073022321,
+      0.8766748894845775,
+      0.7674124444007215,
+      0.4251086018388653,
+      0.8975933263663042,
+      0.5671453578263869,
+      0.2741989882126215
+    ],
+    "outcomes_sha256": "0609562b04a7e71ad6d68c5b0af2beecfa0c13cfcdb7d7750858ec65f74934c4"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:89",
+    "family": "prior",
+    "k": 10,
+    "index": 89,
+    "seed": 7992694037665470457,
+    "theta": [
+      0.26554871201889996,
+      0.9470046974978172,
+      0.46228872018117273,
+      0.6359057293117786,
+      0.34224953981696676,
+      0.1759042244408398,
+      0.1964747237600235,
+      0.8399405206810802,
+      0.29091841501395155,
+      0.8708147920849802
+    ],
+    "outcomes_sha256": "3c92eb13b02260b8b8712b89f4ab5ae05a5f5d3052cdf2a3f16e6c9ec9af5c51"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:90",
+    "family": "prior",
+    "k": 10,
+    "index": 90,
+    "seed": 4583323043790738097,
+    "theta": [
+      0.5422247180020711,
+      0.5688172845084768,
+      0.6295224875940493,
+      0.581167769270981,
+      0.16043269178051026,
+      0.029533024891429276,
+      0.5546059420931864,
+      0.4558917065715085,
+      0.4890952554845455,
+      0.6585864759945697
+    ],
+    "outcomes_sha256": "50c8c8c6b8ddcd270f3bb9616f9d60fa4d5fd56c74b69a74fb69fb584952d584"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:91",
+    "family": "prior",
+    "k": 10,
+    "index": 91,
+    "seed": 12983475592751225359,
+    "theta": [
+      0.7516716031790751,
+      0.3584769229167119,
+      0.1305619620724973,
+      0.9471359792817627,
+      0.7743429765329989,
+      0.5063359333289514,
+      0.28933530567512805,
+      0.022915948818110436,
+      0.12320186852806013,
+      0.7521370342086371
+    ],
+    "outcomes_sha256": "ad5247fa1f2f207cb5bccfc8a66a6a65eef14e421c7ebf838873c5b0c5b69c42"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:92",
+    "family": "prior",
+    "k": 10,
+    "index": 92,
+    "seed": 13234096904192824563,
+    "theta": [
+      0.253528568031202,
+      0.06469389523233195,
+      0.9081275111096795,
+      0.7743107021066058,
+      0.6257914274575199,
+      0.02552077403056259,
+      0.3188772251202377,
+      0.377456274065169,
+      0.18358142407985664,
+      0.7927386469039339
+    ],
+    "outcomes_sha256": "8554a8b947da698e1986a6f34f24fdf7506867e47aeb868e714c283940dcaa5e"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:93",
+    "family": "prior",
+    "k": 10,
+    "index": 93,
+    "seed": 5393469664284910993,
+    "theta": [
+      0.5485259113399126,
+      0.06827692914723155,
+      0.32785461583071773,
+      0.4045523568017151,
+      0.7450639085740871,
+      0.3965996542223806,
+      0.2952390771151506,
+      0.7421111120176384,
+      0.31755990817279894,
+      0.2300196769249944
+    ],
+    "outcomes_sha256": "d8832eae9c99d2a168fe8fa1b297035c51cdc39609548eae5fbb4bd7a5689e12"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:94",
+    "family": "prior",
+    "k": 10,
+    "index": 94,
+    "seed": 9796187117282946194,
+    "theta": [
+      0.2792302222624043,
+      0.5601278837952682,
+      0.41976722643915454,
+      0.14607008465918817,
+      0.5552846809966256,
+      0.39930150017541516,
+      0.49641138171451826,
+      0.5540257930111647,
+      0.08617081432547155,
+      0.004698898165786283
+    ],
+    "outcomes_sha256": "704dc1f5a2310836650844b25f99b267b0acd02097ea4ead2a7a956abf7ba8ba"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:95",
+    "family": "prior",
+    "k": 10,
+    "index": 95,
+    "seed": 5498265407795403363,
+    "theta": [
+      0.12408916330590082,
+      0.7275374235787913,
+      0.20616449699844128,
+      0.4920853429171252,
+      0.9169639543205141,
+      0.4603165450414612,
+      0.7687748163253219,
+      0.7801068787675568,
+      0.12321975948889805,
+      0.16609427238172977
+    ],
+    "outcomes_sha256": "b34b6dc4a48c909578955cb3ac57c7695097afd4c47700cf149ffed305e94d70"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:96",
+    "family": "prior",
+    "k": 10,
+    "index": 96,
+    "seed": 18391546898368548674,
+    "theta": [
+      0.29902160159479013,
+      0.3873169402141356,
+      0.15608275998555504,
+      0.6672295770290413,
+      0.9508094756916246,
+      0.1516099346346744,
+      0.8249446302688649,
+      0.20553320276826872,
+      0.9023001870922165,
+      0.7666660540495984
+    ],
+    "outcomes_sha256": "6711793191163cdf216f46893d20629792c23bb584a9d2d4d64766845d8904d1"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:97",
+    "family": "prior",
+    "k": 10,
+    "index": 97,
+    "seed": 9882405637284999207,
+    "theta": [
+      0.6475757749833508,
+      0.5810734216162546,
+      0.6448350021966659,
+      0.37145790857291655,
+      0.22764084547349459,
+      0.22545492728649968,
+      0.18404554302416262,
+      0.8665831836391997,
+      0.15023181123879792,
+      0.7643018230998014
+    ],
+    "outcomes_sha256": "a3e67f6496c9bbcbee87f7a7226d4931f583e97f0ff26714717084852a8d0bf0"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:98",
+    "family": "prior",
+    "k": 10,
+    "index": 98,
+    "seed": 5114446731023710059,
+    "theta": [
+      0.05945670673156223,
+      0.5594168990668817,
+      0.47667862368439307,
+      0.8464220729575684,
+      0.985160970152482,
+      0.48261080822250846,
+      0.9280178708223392,
+      0.965701437469507,
+      0.9588181251927987,
+      0.6827219477070141
+    ],
+    "outcomes_sha256": "98b1a0ebcec4575bc8ef986405f520d606b608e13072f0c1ec187426d6ac5273"
+  },
+  {
+    "episode_id": "e9_sampling_regimes:prior:10:99",
+    "family": "prior",
+    "k": 10,
+    "index": 99,
+    "seed": 16117659562509439954,
+    "theta": [
+      0.46900842902023177,
+      0.8083397642155657,
+      0.7684263243440766,
+      0.8664188094191126,
+      0.5357893913801174,
+      0.9141094527317889,
+      0.058943437405210165,
+      0.09868289893209944,
+      0.7498518208039069,
+      0.6006023441936689
+    ],
+    "outcomes_sha256": "77e3df043ed97a6c6e0a7eae84693e284ffb5b5307d68a8147fa6323a60665aa"
+  }
+]

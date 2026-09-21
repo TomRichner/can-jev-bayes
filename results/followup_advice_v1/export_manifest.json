@@ -1,0 +1,70 @@
+{
+  "source_run": "artifacts/followup_advice_v1",
+  "exports": {
+    "diagnostics": {
+      "rows": 28800,
+      "fields": [
+        "action",
+        "advice_adherence",
+        "advice_present",
+        "backend_choice",
+        "backend_confidence",
+        "backend_probabilities",
+        "canonical_action",
+        "choice_mismatch",
+        "choice_probability_gap",
+        "chosen_arm",
+        "cohort",
+        "decision_id",
+        "distribution_advice_adherence",
+        "distribution_exact_loss",
+        "exact_loss",
+        "experiment",
+        "failures",
+        "fixture_id",
+        "format",
+        "framing",
+        "horizon",
+        "label_order",
+        "label_scheme",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "prediction_entropy",
+        "probabilities",
+        "probability_mass",
+        "q_values",
+        "recommended_arm",
+        "recommended_canonical_action",
+        "repeat",
+        "representation",
+        "request_id",
+        "successes"
+      ],
+      "sha256": "10a068b965160f8d5d92a910a21e8b81363cc785f8ac3192735f12128f0f218a"
+    },
+    "decision_distributions": {
+      "rows": 28800,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "08f39217a377e3005a4e44c85c27d9abab5156e950c0c75461c481d283e3d16c"
+    }
+  },
+  "provenance": {
+    "manifest.json": "a1b86b401cf986fcf051980759ecf5ba368ec7e18c92c649c381c808bb850c4c",
+    "accounting.json": "d747a20f76d4f86666677d33817b1eb2b743ab78e2e210863891f37245e185e7",
+    "fixtures.json": "5c8c73f1d99e1d5417f1e0347b6b6e8d3b7017dcbe7771031d184795ba838645"
+  }
+}

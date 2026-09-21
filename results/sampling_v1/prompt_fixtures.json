@@ -1,0 +1,2474 @@
+[
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 2,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": false,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 0,
+              "failures": 0,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 1,
+              "posterior_beta": 1,
+              "posterior_sd": 0.288675,
+              "credible_interval_95": [
+                0.025,
+                0.975
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 1,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 50,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_direct",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  },
+  {
+    "k": 10,
+    "observed": true,
+    "policy": "bayes_sample",
+    "question": {
+      "type": "choice",
+      "instructions": {
+        "question": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+        "observation": {
+          "remaining_pulls_including_this_one": 100,
+          "arms": [
+            {
+              "id": "arm_00",
+              "successes": 0,
+              "failures": 1,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 1,
+              "posterior_beta": 2,
+              "posterior_sd": 0.235702,
+              "credible_interval_95": [
+                0.012579,
+                0.841886
+              ]
+            },
+            {
+              "id": "arm_01",
+              "successes": 1,
+              "failures": 3,
+              "posterior_mean": 0.333333,
+              "posterior_alpha": 2,
+              "posterior_beta": 4,
+              "posterior_sd": 0.178174,
+              "credible_interval_95": [
+                0.052745,
+                0.716418
+              ]
+            },
+            {
+              "id": "arm_02",
+              "successes": 2,
+              "failures": 0,
+              "posterior_mean": 0.75,
+              "posterior_alpha": 3,
+              "posterior_beta": 1,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.292402,
+                0.991596
+              ]
+            },
+            {
+              "id": "arm_03",
+              "successes": 3,
+              "failures": 2,
+              "posterior_mean": 0.571429,
+              "posterior_alpha": 4,
+              "posterior_beta": 3,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.222778,
+                0.881883
+              ]
+            },
+            {
+              "id": "arm_04",
+              "successes": 0,
+              "failures": 4,
+              "posterior_mean": 0.166667,
+              "posterior_alpha": 1,
+              "posterior_beta": 5,
+              "posterior_sd": 0.140859,
+              "credible_interval_95": [
+                0.005051,
+                0.521824
+              ]
+            },
+            {
+              "id": "arm_05",
+              "successes": 1,
+              "failures": 1,
+              "posterior_mean": 0.5,
+              "posterior_alpha": 2,
+              "posterior_beta": 2,
+              "posterior_sd": 0.223607,
+              "credible_interval_95": [
+                0.094299,
+                0.905701
+              ]
+            },
+            {
+              "id": "arm_06",
+              "successes": 2,
+              "failures": 3,
+              "posterior_mean": 0.428571,
+              "posterior_alpha": 3,
+              "posterior_beta": 4,
+              "posterior_sd": 0.174964,
+              "credible_interval_95": [
+                0.118117,
+                0.777222
+              ]
+            },
+            {
+              "id": "arm_07",
+              "successes": 3,
+              "failures": 0,
+              "posterior_mean": 0.8,
+              "posterior_alpha": 4,
+              "posterior_beta": 1,
+              "posterior_sd": 0.163299,
+              "credible_interval_95": [
+                0.397635,
+                0.993691
+              ]
+            },
+            {
+              "id": "arm_08",
+              "successes": 0,
+              "failures": 2,
+              "posterior_mean": 0.25,
+              "posterior_alpha": 1,
+              "posterior_beta": 3,
+              "posterior_sd": 0.193649,
+              "credible_interval_95": [
+                0.008404,
+                0.707598
+              ]
+            },
+            {
+              "id": "arm_09",
+              "successes": 1,
+              "failures": 4,
+              "posterior_mean": 0.285714,
+              "posterior_alpha": 2,
+              "posterior_beta": 5,
+              "posterior_sd": 0.159719,
+              "credible_interval_95": [
+                0.043272,
+                0.641235
+              ]
+            }
+          ],
+          "summary_definition": "Posterior summaries concern the unknown success probability, not the noise of the next binary outcome. Counts and Beta(1,1) priors determine these summaries."
+        }
+      },
+      "criteria": {
+        "arm_00": "Pull arm_00 now.",
+        "arm_01": "Pull arm_01 now.",
+        "arm_02": "Pull arm_02 now.",
+        "arm_03": "Pull arm_03 now.",
+        "arm_04": "Pull arm_04 now.",
+        "arm_05": "Pull arm_05 now.",
+        "arm_06": "Pull arm_06 now.",
+        "arm_07": "Pull arm_07 now.",
+        "arm_08": "Pull arm_08 now.",
+        "arm_09": "Pull arm_09 now."
+      }
+    }
+  }
+]

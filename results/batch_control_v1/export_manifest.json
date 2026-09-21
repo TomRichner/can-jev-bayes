@@ -1,0 +1,76 @@
+{
+  "source_run": "artifacts/batch_control_v1",
+  "exports": {
+    "diagnostics": {
+      "rows": 1920,
+      "fields": [
+        "action",
+        "advice_adherence",
+        "advice_present",
+        "backend_choice",
+        "backend_confidence",
+        "backend_probabilities",
+        "batch_mode",
+        "block",
+        "block_position",
+        "canonical_action",
+        "choice_mismatch",
+        "choice_probability_gap",
+        "chosen_arm",
+        "cohort",
+        "decision_id",
+        "distribution_advice_adherence",
+        "distribution_exact_loss",
+        "exact_loss",
+        "experiment",
+        "failures",
+        "first_mode",
+        "fixture_id",
+        "format",
+        "framing",
+        "horizon",
+        "label_order",
+        "label_scheme",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "prediction_entropy",
+        "probabilities",
+        "probability_mass",
+        "q_values",
+        "recommended_arm",
+        "recommended_canonical_action",
+        "repeat",
+        "representation",
+        "request_id",
+        "source_decision_id",
+        "source_experiment",
+        "successes"
+      ],
+      "sha256": "aa21220498caefbe718138c722689d955ac044c36619a7d5f03ff5dd763d6236"
+    },
+    "decision_distributions": {
+      "rows": 1920,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "48adfb903ccd1915b7a4818ad492b526b6949a4d428bf919ae8f828f019bbace"
+    }
+  },
+  "provenance": {
+    "manifest.json": "63956d88fd4a43a58406d94f297103f64c47840fd5669f19f1ec2d0dfb76051c",
+    "accounting.json": "a87863bb6121997e661bfdf4ef0cc682aad7276e46d0a2a87e9975f7a233505c",
+    "fixtures.json": "f85a291f43f53570b60e31c20699c9010701b0f9eb8385a77a785cc66d5e4e12"
+  }
+}

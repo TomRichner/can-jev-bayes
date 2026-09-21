@@ -1,0 +1,9 @@
+left,right,family,k,mean_difference,ci95_low,ci95_high,n_pairs,analysis_role
+means_direct,counts_direct,close,3,-0.035625000000000004,-0.4112656250000003,0.3356406250000002,80,exploratory_cell
+means_direct,counts_direct,close,10,-0.05437500000000001,-0.33876562500000024,0.22937500000000027,80,exploratory_cell
+means_direct,counts_direct,prior,3,-1.6672659861307402,-3.563607533991839,-0.13808139147563553,80,exploratory_cell
+means_direct,counts_direct,prior,10,-9.378452212183252,-13.534108588162901,-5.583342282031693,80,exploratory_cell
+bayes_direct,means_direct,close,3,-0.020625000000000056,-0.2556250000000002,0.21876562499999994,80,exploratory_cell
+bayes_direct,means_direct,close,10,-0.13187500000000013,-0.3556250000000004,0.07126562499999983,80,exploratory_cell
+bayes_direct,means_direct,prior,3,1.2188577812333876,0.2063186203886814,2.5564488921793926,80,exploratory_cell
+bayes_direct,means_direct,prior,10,2.2663337158485244,0.9117945258103519,3.902516582553715,80,exploratory_cell

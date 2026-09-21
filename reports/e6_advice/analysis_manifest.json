@@ -1,0 +1,11 @@
+{
+  "mode": "advice",
+  "bootstrap_samples": 10000,
+  "analysis_source_sha256": "e9c93ecd07e162d63fc132c4590b43e606a95af48cac22bb65cbb0036a0a1e53",
+  "shared_analysis_sha256": "ecc42782975eaadec6c0d44aa6a1e2190146dee0f4d3e9e1f116fc89fbb2c6ff",
+  "inputs": {
+    "manifest.json": "a1b86b401cf986fcf051980759ecf5ba368ec7e18c92c649c381c808bb850c4c",
+    "fixtures.json": "5c8c73f1d99e1d5417f1e0347b6b6e8d3b7017dcbe7771031d184795ba838645",
+    "diagnostics.jsonl": "83aee8dd105e3af5949c8beb30077fbad757d36e68491838f41da622787f5b29"
+  }
+}

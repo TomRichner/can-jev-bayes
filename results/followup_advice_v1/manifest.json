@@ -1,0 +1,63 @@
+{
+  "experiment": "e6_advice_binding",
+  "version": 1,
+  "master_seed": 20260920,
+  "targeted_seed": 18251463150930455819,
+  "random_seed": 9383320767409482986,
+  "execution_seed": 13448582946650612077,
+  "model": "jev-1.13.0",
+  "shared_state": {
+    "environment": "Independent stationary Bernoulli bandit: each pull earns 0 or 1. Unknown arm success probabilities stay fixed. Only selected-arm outcomes are observed.",
+    "prior": "Before observations each arm independently has a Beta(1,1) prior.",
+    "protocol": "Each question is a separate decision with its own observation in its instructions. Arm labels carry no reward information. Remaining pulls include the current pull. There are no rewards after that budget ends."
+  },
+  "objectives": {
+    "neutral": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one.",
+    "explore": "Choose the arm to pull now to maximize expected total reward over all remaining pulls, including this one. Pulling an uncertain arm may improve later choices. Explore only when the expected future benefit justifies the immediate reward tradeoff.",
+    "regret": "Choose the arm to pull now to minimize expected cumulative regret over the remaining pulls relative to always pulling the arm with the highest fixed success probability. Those probabilities are unknown; observations may help later decisions.",
+    "thompson": "Choose an arm using the principle of Thompson sampling: an arm should be selected in proportion to its posterior probability of having the highest success probability. Use the observations and Bayesian posterior information. The overall task is to maximize expected total reward over the remaining pulls.",
+    "ucb": "Choose the arm with the largest supplied Bayes-UCB index, breaking equal-index ties arbitrarily. The index is computed from this episode's observations to balance reward and exploration.",
+    "recommendation": "Choose the recommended arm. The supplied recommendation is from an exact Bayesian calculation maximizing expected total reward over the remaining pulls, given these observations and priors."
+  },
+  "formats": [
+    "nested",
+    "path_explicit",
+    "inline",
+    "per_option",
+    "advice_only",
+    "dp_values"
+  ],
+  "label_schemes": {
+    "original": [
+      "arm_00",
+      "arm_01"
+    ],
+    "letters": [
+      "A",
+      "B"
+    ]
+  },
+  "horizons": [
+    1,
+    2,
+    10
+  ],
+  "repeats": 2,
+  "assignments": 2,
+  "decisions": 28800,
+  "fixture_sha256": "5e53f7e3f00de03fd91bd7b80170e0e54a363d2682cf05d59ac52c7d9a0b3c52",
+  "ordered_jobs_sha256": "90cc796df55ad991b731590d803c08fa9ff801cbb2f60e7fb11daabb8e543bc1",
+  "action_rule": "backend_choice",
+  "tie_tolerance": 1e-10,
+  "source_sha256": {
+    "src/jevbandits/advice_followup.py": "70f2698af564de5674ed0c212ef26fc18ac6f9295fe7f75203279d9130ef5d09",
+    "tests/test_advice_followup.py": "c6912aa434700273ac5be0b0e6765dce58fbe5af60a17a3a7fd4812dc1a5b9b9",
+    "docs/e6_advice_protocol.md": "092f6a372e2571aaa382435f815ebc061cc581823b8991629918b03e383b508a",
+    "src/jevbandits/prompts.py": "169102b7d942707626be1e6cb0d510f3a0de38c80b1e985539598d3a8070d4e8",
+    "src/jevbandits/experiments.py": "219a7dab2d34cd54fce52fbe2998150f8d9274c6e2a84b166b43a6c81ba5ee33",
+    "src/jevbandits/baselines.py": "2f204f3724d31ae5b768d3e7c254f9d19bbae4ad81c281a26bb966277b4a9918",
+    "src/jevbandits/client.py": "dba591f9c045e367ca542e6289cb5587f0175b4214097053f03eca68a90becb5",
+    "uv.lock": "b0f721b12f72ad16a9dc239f1c030a4bdf68d506b16360534cf3749b98792a6e"
+  },
+  "git_commit": "a7e1c413630b7892bcbc1d90d286e4ef73470745"
+}

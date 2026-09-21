@@ -1,0 +1,11 @@
+{
+  "mode": "evidence",
+  "bootstrap_samples": 10000,
+  "analysis_source_sha256": "e9c93ecd07e162d63fc132c4590b43e606a95af48cac22bb65cbb0036a0a1e53",
+  "shared_analysis_sha256": "ecc42782975eaadec6c0d44aa6a1e2190146dee0f4d3e9e1f116fc89fbb2c6ff",
+  "inputs": {
+    "manifest.json": "a316f35dc32dae17a44db8b9410350bb3f31cfd975bd783803f1341c0923a1ee",
+    "tasks.json": "e8cb4f1d92f453daecc718cd860338155c1984b0b2661bc84ede362723cb3ee0",
+    "episodes.jsonl": "e9f381b468e29b68e5a44239d87f74cc0a68fe0f8c943fd0281441d94f9ace92"
+  }
+}

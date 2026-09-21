@@ -1,0 +1,54 @@
+{
+  "source_run": "artifacts/primitive_v1",
+  "exports": {
+    "forecasts": {
+      "rows": 16560,
+      "fields": [
+        "arm",
+        "backend_choice",
+        "backend_confidence",
+        "backend_noul",
+        "backend_probabilities",
+        "decision_id",
+        "experiment",
+        "fixture_id",
+        "k",
+        "mean_absolute_error",
+        "mean_binary_excess_brier",
+        "mean_binary_excess_log_loss",
+        "prediction_event_probabilities",
+        "primitive",
+        "probability_mass",
+        "reference_event_probabilities",
+        "repeat",
+        "representation",
+        "request_id",
+        "target"
+      ],
+      "sha256": "aa2ad2f9e99680e732487b41ec5b26e017da39dfdeb0e1072e634778a20e6ae2"
+    },
+    "decision_distributions": {
+      "rows": 16560,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "4f907ec6af63ed930daa4b6836f82af543286faf00d42b8bc09e6d42b3c2003c"
+    }
+  },
+  "provenance": {
+    "manifest.json": "4ba19ecdb9581bba5a81f515c75e6f07a831b650f5a66c34df1d8ac960efa273",
+    "accounting.json": "114da5f5b588ceda1a4355696ee90a36edf193217b648b540e491e1023289511",
+    "fixtures.json": "264389820bc987b7014c108bbff9bd10d2cba4a99fa6dd40e7f6330e99e866d9"
+  }
+}

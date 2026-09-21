@@ -1,0 +1,1 @@
+experiment,family,k,horizon,episode_id,seed,policy,representation,framing,action_rule,reward,pseudo_regret,exact_loss,optimal_agreement,posterior_mean_greedy,unseen_fraction,switches,arms_visited,best_arm_fraction,suffix_failure,advice_adherence,choice_mismatch_fraction,completed,theta,trace,followup_status,index_tolerance,index_ambiguous_ranking_fraction

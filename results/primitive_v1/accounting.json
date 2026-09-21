@@ -1,0 +1,16 @@
+{
+  "http_requests": 1067,
+  "input_tokens": 18894164,
+  "known_cost_usd": 0.7935548880000001,
+  "uncertain_reserved_usd": 0.0,
+  "error_attempts": 0,
+  "inference_decisions": 16560,
+  "cap_usd": 19.0,
+  "preparation_cost_usd": 0.00015456,
+  "previous_runs_cost_usd": 17.305998150000004,
+  "project_cost_and_reserves_usd": 18.099707598000002,
+  "model": "jev-1.13.0",
+  "price_per_million_input": 0.042,
+  "batch_size": 16,
+  "updated_utc": "2026-09-21T06:38:56.068324+00:00"
+}
