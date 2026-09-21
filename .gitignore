@@ -232,3 +232,6 @@ CLAUDE.md
 AGENTS.md
 .claude/
 .codex/
+
+# VS Code workspace (machine-local folder layout)
+*.code-workspace
