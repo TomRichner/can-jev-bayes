@@ -267,6 +267,7 @@ def episode_summaries(episodes: pd.DataFrame, *, samples: int = 10_000) -> pd.Da
         "best_arm_fraction",
         "suffix_failure",
         "advice_adherence",
+        "choice_mismatch_fraction",
     ]
     rows = []
     for key, cell in episodes.groupby(keys, sort=True, dropna=False):
@@ -693,6 +694,25 @@ def generate_report(
                 "questions can share one HTTP request; decisions and request counts differ."
             ),
         ]
+    if not summary.empty:
+        mismatch = summary.loc[summary.metric == "choice_mismatch_fraction"]
+        if not mismatch.empty:
+            mismatch_table = mismatch.groupby(
+                ["experiment", "policy"], as_index=False
+            ).agg(
+                mean_mismatch_fraction=("mean", "mean"),
+                episode_rows=("n", "sum"),
+                task_cells=("mean", "size"),
+            )
+            sections += [
+                "## Backend choice versus probability argmax",
+                (
+                    "The fraction below equally weights observed task cells within each experiment. "
+                    "It describes disagreement between the backend choice and reported probability "
+                    "argmax, including for sampled policies before local sampling."
+                ),
+                markdown_table(mismatch_table),
+            ]
     if not pooled.empty:
         sections += [
             "## Online experiments",
@@ -786,6 +806,16 @@ def generate_report(
             "rule; interpreting sampling gains requires comparison with simple randomized baselines. "
             "Counts and Bayesian summaries contain the same information under the stated prior. "
             "Better assisted performance supports a representation or computation benefit, not extra data."
+        ),
+        (
+            "Direct policies execute the API's returned choice, which is not guaranteed in practice to "
+            "equal the argmax of its reported probabilities. The v1 pilot encountered a returned choice "
+            "with probability 0.44 while another arm had 0.45, contradicting the documented argmax "
+            "description. The amended v2 protocol retains valid backend choices and records their "
+            "probability gap rather than replacing them. `choice_mismatch_fraction` reports how often "
+            "that discrepancy occurs. Sampled policies instead draw locally from the normalized "
+            "reported distribution. A pure-probability-argmax policy would be a separate intervention; "
+            "offline action agreement cannot establish its counterfactual online reward."
         ),
         (
             "The experiments use stationary Bernoulli rewards, supplied sufficient statistics, anonymous "

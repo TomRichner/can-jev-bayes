@@ -147,7 +147,7 @@ def test_budget_reserves_inflight_requests_before_network(tmp_path):
     async def run():
         reserve = MAX_INPUT * PRICE
         c = client(
-            tmp_path,
+            tmp_path / "project" / "run",
             handler,
             cap=reserve + 0.00015456 + 1e-8,
             batch_size=1,
@@ -164,6 +164,26 @@ def test_budget_reserves_inflight_requests_before_network(tmp_path):
             )
         finally:
             await c.close()
+
+    asyncio.run(run())
+
+
+def test_project_cap_counts_previous_run_ledgers(tmp_path):
+    async def run():
+        first = client(tmp_path / "v1", response_for)
+        await first.evaluate(jobs())
+        await first.close()
+        cap = MAX_INPUT * PRICE + 0.00015456 + 1e-8
+        second = client(tmp_path / "v2", response_for, cap=cap)
+        try:
+            with pytest.raises(BudgetExceeded):
+                await second.evaluate(jobs())
+            assert second.accounting()["previous_runs_cost_usd"] == pytest.approx(
+                100 * PRICE
+            )
+            assert second.accounting()["http_requests"] == 0
+        finally:
+            await second.close()
 
     asyncio.run(run())
 
@@ -272,10 +292,39 @@ def test_invalid_probabilities_rejected(probabilities):
         validate_answer(answer_for(q, 0, probabilities), list(q["criteria"]))
 
 
-def test_direct_choice_must_be_argmax_and_confidence_finite():
+def test_valid_backend_choice_retained_even_when_not_probability_argmax():
     q = question(observation([0, 0], [0, 0], 1))
-    with pytest.raises(ValueError, match="argmax"):
-        validate_answer(answer_for(q, 0, [0.2, 0.8]), list(q["criteria"]))
+    chosen, probabilities, mass = validate_answer(
+        answer_for(q, 0, [0.2, 0.8]), list(q["criteria"])
+    )
+    assert chosen == 0
+    assert probabilities.tolist() == [0.2, 0.8]
+    assert mass == 1.0
+
+
+def test_api_choice_discrepancy_is_preserved_and_logged(tmp_path):
+    def handler(request):
+        body = response_for(request).json()
+        q = json.loads(request.content)["questions"]["q0"]
+        body["answers"]["q0"] = answer_for(q, 0, [0.49, 0.51])
+        return httpx.Response(200, json=body)
+
+    async def run():
+        c = client(tmp_path, handler)
+        try:
+            result = (await c.evaluate(jobs()))[0]
+            assert result["action"] == 0
+            assert result["choice_probability_gap"] == pytest.approx(0.02)
+            assert result["raw_answer"]["choice"] == "arm_00"
+            assert result["probabilities"] == [0.49, 0.51]
+        finally:
+            await c.close()
+
+    asyncio.run(run())
+
+
+def test_confidence_must_be_finite():
+    q = question(observation([0, 0], [0, 0], 1))
     answer = answer_for(q)
     answer["confidence"] = float("nan")
     with pytest.raises(ValueError, match="confidence"):

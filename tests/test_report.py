@@ -185,6 +185,7 @@ def test_report_writes_offline_artifacts_and_excludes_incomplete(tmp_path):
                     "pseudo_regret": regret + episode,
                     "reward": 10 - regret,
                     "exact_loss": None,
+                    "choice_mismatch_fraction": 0.1 if policy != "ts" else None,
                     "completed": True,
                 }
             )
@@ -194,6 +195,11 @@ def test_report_writes_offline_artifacts_and_excludes_incomplete(tmp_path):
     assert report.exists()
     assert "Completed episode rows: 9" in report.read_text()
     assert "2.000 lower cumulative pseudo-regret" in report.read_text()
+    assert "Backend choice versus probability argmax" in report.read_text()
+    summary = pd.read_csv(report.parent / "episode_summary.csv")
+    mismatch = summary.loc[summary.metric == "choice_mismatch_fraction"]
+    assert set(mismatch.policy) == {"counts_direct", "bayes_direct"}
+    assert mismatch["mean"].tolist() == pytest.approx([0.1, 0.1])
     assert (report.parent / "e4_scaling_regret.png").exists()
     metadata = json.loads((report.parent / "analysis_manifest.json").read_text())
     assert metadata["incomplete_episode_rows"] == 1
