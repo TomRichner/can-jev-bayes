@@ -13,6 +13,7 @@ from jevbandits.report import (
     generate_report,
     paired_effect,
     stratified_paired_effect,
+    trajectory_summaries,
 )
 
 
@@ -107,6 +108,40 @@ def test_bootstrap_reproducibility_and_bad_values():
     )
     with pytest.raises(ValueError, match="finite"):
         bootstrap_mean([1, np.nan])
+
+
+def test_trajectories_accumulate_within_episode_before_averaging():
+    frame = pd.DataFrame(
+        [
+            {
+                "experiment": "e4_scaling",
+                "family": "prior",
+                "k": 2,
+                "horizon": 2,
+                "policy": "ts",
+                "trace": [
+                    {
+                        "turn": 1,
+                        "reward": reward,
+                        "pseudo_regret": regret,
+                        "posterior_mean_greedy": True,
+                    },
+                    {
+                        "turn": 2,
+                        "reward": reward,
+                        "pseudo_regret": regret,
+                        "posterior_mean_greedy": False,
+                    },
+                ],
+            }
+            for reward, regret in [(1, 0.1), (0, 0.3)]
+        ]
+    )
+    result = trajectory_summaries(frame)
+    assert result.n_episodes.tolist() == [2, 2]
+    assert result.mean_cumulative_pseudo_regret.tolist() == pytest.approx([0.2, 0.4])
+    assert result.mean_cumulative_reward.tolist() == [0.5, 1.0]
+    assert result.non_greedy_fraction.tolist() == [0.0, 1.0]
 
 
 def test_diagnostic_pairing_uses_canonical_actions_and_fixture_clusters():

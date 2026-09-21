@@ -266,6 +266,7 @@ def episode_summaries(episodes: pd.DataFrame, *, samples: int = 10_000) -> pd.Da
         "arms_visited",
         "best_arm_fraction",
         "suffix_failure",
+        "advice_adherence",
     ]
     rows = []
     for key, cell in episodes.groupby(keys, sort=True, dropna=False):
@@ -368,6 +369,7 @@ def diagnostic_summaries(
     keys = ["experiment", "horizon", "policy"]
     metrics = [
         "exact_loss",
+        "distribution_exact_loss",
         "optimal_agreement",
         "posterior_mean_greedy",
         "prediction_entropy",
@@ -462,6 +464,77 @@ def diagnostic_summaries(
                         }
                     )
     return pd.DataFrame(summary), pd.DataFrame(effects), pd.DataFrame(label_rows)
+
+
+def trajectory_summaries(episodes: pd.DataFrame) -> pd.DataFrame:
+    """Descriptive episode-average curves without treating pulls as replicates."""
+    keys = ["experiment", "family", "k", "horizon", "policy"]
+    totals = {}
+    for _, episode in episodes.iterrows():
+        trace = episode.get("trace")
+        if not isinstance(trace, list):
+            continue
+        regret = reward = 0.0
+        for point in trace:
+            regret += point["pseudo_regret"]
+            reward += point["reward"]
+            key = tuple(episode[k] for k in keys) + (point["turn"],)
+            sums = totals.setdefault(key, [0, 0.0, 0.0, 0.0])
+            sums[0] += 1
+            sums[1] += regret
+            sums[2] += reward
+            sums[3] += float(not point["posterior_mean_greedy"])
+    return pd.DataFrame(
+        [
+            dict(zip([*keys, "turn"], key))
+            | {
+                "n_episodes": value[0],
+                "mean_cumulative_pseudo_regret": value[1] / value[0],
+                "mean_cumulative_reward": value[2] / value[0],
+                "non_greedy_fraction": value[3] / value[0],
+            }
+            for key, value in sorted(totals.items())
+        ]
+    )
+
+
+def _trajectory_figures(trajectories: pd.DataFrame, output: Path) -> list[str]:
+    if trajectories.empty:
+        return []
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    paths = []
+    for (experiment, family), exp in trajectories.groupby(
+        ["experiment", "family"], sort=True
+    ):
+        arm_counts = sorted(exp.k.unique())
+        fig, axes = plt.subplots(
+            1, len(arm_counts), figsize=(4 * len(arm_counts), 4), squeeze=False
+        )
+        for ax, k in zip(axes.flat, arm_counts):
+            for policy, curve in exp.loc[exp.k == k].groupby("policy", sort=True):
+                curve = curve.sort_values("turn")
+                ax.plot(
+                    curve.turn,
+                    curve.mean_cumulative_pseudo_regret,
+                    label=policy,
+                    linewidth=1.1,
+                )
+            ax.set(
+                title=f"{k} arms", xlabel="Pull", ylabel="Mean cumulative pseudo-regret"
+            )
+            ax.grid(alpha=0.2)
+        axes[0, -1].legend(fontsize=7, loc="center left", bbox_to_anchor=(1, 0.5))
+        fig.suptitle(f"{experiment}, {family}: descriptive episode means")
+        fig.tight_layout()
+        name = f"{experiment}_{family}_trajectories.png"
+        fig.savefig(output / name, dpi=180, bbox_inches="tight")
+        plt.close(fig)
+        paths.append(name)
+    return paths
 
 
 def _figures(
@@ -579,10 +652,12 @@ def generate_report(
         "diagnostic_effects": d_effects,
         "label_sensitivity": labels,
         "incomplete_episodes": incomplete,
+        "trajectory_summary": trajectory_summaries(episodes),
     }
     for name, frame in frames.items():
         frame.to_csv(output / f"{name}.csv", index=False)
     figures = _figures(summary, d_summary, output)
+    figures.extend(_trajectory_figures(frames["trajectory_summary"], output))
     sections = [
         "# Jev bandit experimental results",
         (
@@ -684,7 +759,8 @@ def generate_report(
             "choice changes and includes repeated-call variability, so it is not pure systematic label bias."
         )
         sections.append(
-            "Fixtures are a designed state panel: six named cases plus seeded states with arm counts "
+            "Fixtures are designed state panels: E1 has six named anchors plus seeded random states; "
+            "E2 uses a disjoint seed namespace and entirely random states. Random states have arm counts "
             "chosen from 0, 2, 5, 10 and 20 and successes uniform from zero to that count. "
             "This is not the distribution of states visited by a policy and is not a draw from the "
             "posterior-predictive process. Fixture bootstrap intervals describe sensitivity across "
