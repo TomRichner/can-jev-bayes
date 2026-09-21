@@ -388,3 +388,43 @@ def test_report_writes_offline_artifacts_and_excludes_incomplete(tmp_path):
     metadata = json.loads((report.parent / "analysis_manifest.json").read_text())
     assert metadata["incomplete_episode_rows"] == 1
     assert metadata["inputs"]["episodes.jsonl"]
+
+
+def test_additional_index_episodes_loaded_hashed_and_compared(tmp_path):
+    shared = {
+        "experiment": "e3_exact_online",
+        "family": "prior",
+        "k": 2,
+        "horizon": 20,
+        "episode_id": "fixture",
+        "completed": True,
+        "reward": 12,
+        "pseudo_regret": 1.0,
+    }
+    (tmp_path / "episodes.jsonl").write_text(
+        json.dumps({**shared, "policy": "counts_direct"}) + "\n"
+    )
+    (tmp_path / "episodes_index.jsonl").write_text(
+        json.dumps({**shared, "policy": "finite_ap_index"}) + "\n"
+    )
+    report = generate_report(
+        tmp_path,
+        bootstrap_samples=100,
+        experiment_filter=["e3_exact_online"],
+        interim=True,
+    )
+    assert "interim report" in report.read_text()
+    manifest = json.loads((report.parent / "analysis_manifest.json").read_text())
+    assert "episodes_index.jsonl" in manifest["inputs"]
+    assert manifest["experiment_filter"] == ["e3_exact_online"]
+    effects = pd.read_csv(report.parent / "paired_effects.csv")
+    assert set(effects.right) == {"finite_ap_index"}
+    assert set(effects.comparison_role) == {"secondary_baseline"}
+
+
+def test_duplicate_additional_episode_policy_is_rejected(tmp_path):
+    row = {"episode_id": "fixture", "policy": "finite_ap_index"}
+    for name in ["episodes.jsonl", "episodes_index.jsonl"]:
+        (tmp_path / name).write_text(json.dumps(row) + "\n")
+    with pytest.raises(ValueError, match="Duplicate episode/policy"):
+        generate_report(tmp_path, bootstrap_samples=100)

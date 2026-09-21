@@ -269,6 +269,7 @@ def episode_summaries(episodes: pd.DataFrame, *, samples: int = 10_000) -> pd.Da
         "suffix_failure",
         "advice_adherence",
         "choice_mismatch_fraction",
+        "index_ambiguous_ranking_fraction",
     ]
     rows = []
     for key, cell in episodes.groupby(keys, sort=True, dropna=False):
@@ -314,6 +315,7 @@ def episode_effects(
             "ids",
             "greedy",
             "ucb1",
+            "finite_ap_index",
         }
         contrasts.update(
             (p, baseline)
@@ -776,12 +778,19 @@ def _trajectory_figures(trajectories: pd.DataFrame, output: Path) -> list[str]:
     import matplotlib.pyplot as plt
 
     paths = []
+    policy_colors = {
+        policy: plt.get_cmap("tab20")(i % 20)
+        for i, policy in enumerate(sorted(trajectories.policy.unique()))
+    }
     for (experiment, family), exp in trajectories.groupby(
         ["experiment", "family"], sort=True
     ):
         arm_counts = sorted(exp.k.unique())
         fig, axes = plt.subplots(
-            1, len(arm_counts), figsize=(4 * len(arm_counts), 4), squeeze=False
+            1,
+            len(arm_counts),
+            figsize=(max(6, 4 * len(arm_counts)), 4.5),
+            squeeze=False,
         )
         for ax, k in zip(axes.flat, arm_counts):
             for policy, curve in exp.loc[exp.k == k].groupby("policy", sort=True):
@@ -791,12 +800,18 @@ def _trajectory_figures(trajectories: pd.DataFrame, output: Path) -> list[str]:
                     curve.mean_cumulative_pseudo_regret,
                     label=policy,
                     linewidth=1.1,
+                    color=policy_colors[policy],
+                    linestyle="-."
+                    if policy.endswith("sample")
+                    else "-"
+                    if policy.endswith("direct")
+                    else "--",
                 )
             ax.set(
                 title=f"{k} arms", xlabel="Pull", ylabel="Mean cumulative pseudo-regret"
             )
             ax.grid(alpha=0.2)
-        axes[0, -1].legend(fontsize=7, loc="center left", bbox_to_anchor=(1, 0.5))
+        axes[0, -1].legend(fontsize=8, loc="center left", bbox_to_anchor=(1, 0.5))
         fig.suptitle(f"{experiment}, {family}: descriptive episode means")
         fig.tight_layout()
         name = f"{experiment}_{family}_trajectories.png"
@@ -819,6 +834,38 @@ def _figures(
         regrets = summary.loc[summary.metric == "pseudo_regret"]
         for experiment, exp in regrets.groupby("experiment", sort=True):
             families = sorted(exp.family.unique())
+            if exp.k.nunique() == 1:
+                fig, axes = plt.subplots(
+                    1, len(families), figsize=(7 * len(families), 6), squeeze=False
+                )
+                for ax, family in zip(axes.flat, families):
+                    cell = exp.loc[exp.family == family].sort_values("policy")
+                    positions = np.arange(len(cell))
+                    ax.errorbar(
+                        cell["mean"],
+                        positions,
+                        xerr=np.array(
+                            [cell["mean"] - cell.ci_low, cell.ci_high - cell["mean"]]
+                        ),
+                        fmt="o",
+                        color="tab:blue",
+                        capsize=3,
+                        markersize=4,
+                    )
+                    ax.set_yticks(positions, cell.policy)
+                    ax.invert_yaxis()
+                    ax.set(
+                        title=f"{family}, {int(cell.k.iloc[0])} arms",
+                        xlabel="Mean cumulative pseudo-regret",
+                    )
+                    ax.grid(axis="x", alpha=0.2)
+                fig.suptitle(f"{experiment}: episode bootstrap 95% intervals")
+                fig.tight_layout()
+                name = f"{experiment}_regret.png"
+                fig.savefig(output / name, dpi=180, bbox_inches="tight")
+                plt.close(fig)
+                paths.append(name)
+                continue
             fig, axes = plt.subplots(
                 1, len(families), figsize=(5 * len(families), 4.5), squeeze=False
             )
@@ -880,17 +927,31 @@ def generate_report(
     output_dir: str | Path | None = None,
     *,
     bootstrap_samples: int = 10_000,
+    experiment_filter: Sequence[str] | None = None,
+    interim: bool = False,
 ) -> Path:
     """Create CSVs, scientific plots and a Markdown report without API access."""
     source = Path(run_dir)
     output = Path(output_dir) if output_dir is not None else source / "report"
     output.mkdir(parents=True, exist_ok=True)
     episodes = read_jsonl(source / "episodes.jsonl")
+    additional_episodes = read_jsonl(source / "episodes_index.jsonl")
+    if not additional_episodes.empty:
+        episodes = pd.concat([episodes, additional_episodes], ignore_index=True)
+    if not episodes.empty and episodes.duplicated(["episode_id", "policy"]).any():
+        raise ValueError("Duplicate episode/policy records across episode inputs")
     diagnostics = read_jsonl(source / "diagnostics.jsonl")
     if not diagnostics.empty and diagnostics["decision_id"].duplicated().any():
         raise ValueError(
             "Duplicate diagnostic decision IDs; recovery records must be deduplicated"
         )
+    if experiment_filter is not None:
+        if not episodes.empty:
+            episodes = episodes.loc[episodes.experiment.isin(experiment_filter)].copy()
+        if not diagnostics.empty:
+            diagnostics = diagnostics.loc[
+                diagnostics.experiment.isin(experiment_filter)
+            ].copy()
     incomplete = pd.DataFrame()
     if not episodes.empty:
         completed = episodes["completed"].eq(True)
@@ -933,7 +994,7 @@ def generate_report(
     figures = _figures(summary, d_summary, output)
     figures.extend(_trajectory_figures(frames["trajectory_summary"], output))
     sections = [
-        "# Jev bandit experimental results",
+        "# Jev bandit experimental results" + (" — interim report" if interim else ""),
         (
             "This report is generated from recorded observations; it does not query Jev. "
             "Positive paired pseudo-regret differences favor the comparator (right policy); "
@@ -956,6 +1017,13 @@ def generate_report(
         ),
     ]
     accounting_path = source / "accounting.json"
+    if interim:
+        sections.insert(
+            1,
+            "This is an interim analysis of completed stages. Later experiments may "
+            "still be running and are not represented in the selected results. API accounting covers "
+            "the entire run directory, including work outside this report's experiment filter.",
+        )
     if accounting_path.exists():
         accounting = json.loads(accounting_path.read_text())
         sections += [
@@ -992,9 +1060,12 @@ def generate_report(
             (
                 "Equal-cell-weight cumulative pseudo-regret differences. TS is the primary Bayesian "
                 "comparator; contrasts against Bayes-UCB, knowledge gradient, IDS, greedy and UCB1 are "
-                "secondary. A gain over TS alone does not establish improvement over Bayesian methods "
+                "secondary, as is the finite-horizon AP index approximation. A gain over TS alone "
+                "does not establish improvement over Bayesian methods "
                 "generally, especially when posterior-mean greedy can be close to finite-horizon optimal "
-                "on the evaluated prior and horizon."
+                "on the evaluated prior and horizon. The finite-horizon AP index is a post hoc "
+                "classical approximation, not an exact multi-arm optimizer. Its bracket-overlap "
+                "flags can include true index ties and do not alone establish numerical instability."
             ),
         ]
         for experiment, exp in pooled.loc[pooled.metric == "pseudo_regret"].groupby(
@@ -1221,9 +1292,19 @@ def generate_report(
     manifest = {
         "bootstrap_samples": bootstrap_samples,
         "analysis_seed": 20260920,
+        "analysis_source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        "experiment_filter": None
+        if experiment_filter is None
+        else list(experiment_filter),
+        "interim": interim,
         "inputs": {
             p.name: hashlib.sha256(p.read_bytes()).hexdigest()
-            for p in (source / "episodes.jsonl", source / "diagnostics.jsonl")
+            for p in (
+                source / "episodes.jsonl",
+                source / "episodes_index.jsonl",
+                source / "diagnostics.jsonl",
+                source / "index_manifest.json",
+            )
             if p.exists()
         },
         "completed_episode_rows": len(episodes),
