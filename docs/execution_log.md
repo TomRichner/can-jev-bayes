@@ -40,3 +40,13 @@ An independent analytic policy-value audit is underway to explain finite-horizon
 ## Reporting discipline
 
 Scientific changes after evaluation starts require a new experiment/run amendment and fresh evaluation tasks where appropriate. Report generation may improve without changing data. Numerical results from later stages will be recorded in the scientific report rather than silently rewriting this development history.
+
+## E4 operational interruption and recovery
+
+During automatic retry of a transport failure near turn 20, the monitoring worker misinterpreted an instruction to report errors as requiring interruption. It sent Ctrl-C; the client had not exhausted its retries. The same frozen run resumed from its recorded decisions, without changing prompts, tasks, sample sizes, or rewards. Pending/possibly billed attempts remain in the ledger and spending reserve. The monitor was instructed to leave ordinary bounded retries running and stop only on an actual terminal error, cap, or scientific validation exception. This is an operational deviation, not a reason to exclude any episode.
+
+## Offline index and numerical-audit completion
+
+The finite AP-index simulation completed 1,040 episodes: E3 200, E4 600, E5 240. One process ended during a worker handoff and resumed without duplicates. Five episodes had one bracket-overlap flag; four were terminal decisions, where exact ties can cause overlap. An overlap is not by itself numerical instability. The raw artifact SHA-256 is `ee99ad8ca5582edb282ef1eeceb5cf026deef991affd92512c8b6454ef37f16c`.
+
+The IDS audit completed 200 posterior fixtures with 30 replicates at each of 128, 2,048, and 32,768 posterior samples. The 95th percentile excess true information ratio was 0.015571849, 0.00086055281, and 0.000054793577 respectively; the largest at 2,048 was 0.074298205. These describe approximation quality on this two-arm panel, not online regret or a guarantee for larger arm counts. Quadrature error estimates were below $8.33\times10^{-12}$. No Jev credits were used.

@@ -84,3 +84,17 @@ At pilot turn 16, one response selected arm_03 with probability .44 although arm
 Commit tested implementation, protocol changes, aggregate CSVs, standalone plots, reproducibility metadata, and an interpreted Markdown report at logical milestones with the user's identity and no AI attribution. Raw data can support a later publication release audit. No claim of publication readiness follows merely from running five tests.
 
 If the five experiments finish before 03:00 CDT September 21, specify further rigorous experiments from their findings using new seeds and recorded hypotheses. Potential directions: IDS sample-count sensitivity, horizon-aware policy corrections, probability-estimation tasks, and uncertainty-format ablations. By 07:00 CDT deliver the strongest completed evidence and remaining limitations. Sol medium handles monitoring/literature retrieval; Astra handles building and interpretation.
+
+## Follow-ups specified after E1–E3, before collecting follow-up responses
+
+The completed first three experiments motivated the following additional studies. They preserve the original five-study data and use new evaluation namespaces. Live collection waits until E1–E5 finish; E8 also waits for E6/E7 and an updated budget check. Preparations and offline numerical controls may run concurrently with the original studies.
+
+| Study | Motivation and intervention | Planned Jev decisions | Protocol |
+|---|---|---:|---|
+| E6 advice binding | Correct action values were used reliably, while an optimal recommendation pointer was not. Compare six advice layouts, numeric/letter labels, and random versus deliberately exploration-requiring new fixtures. | 28,800 | [E6 protocol](docs/e6_advice_protocol.md) |
+| E7 probability forecasts | Good action ranking does not establish Bayesian uncertainty. Ask Noul reward forecasts and Choice latent-best-arm questions; compare with analytic conditional probabilities. | 24,000 | [E7 protocol](docs/e7_forecast_protocol.md) |
+| E8 online evidence ladder | Means alone sometimes beat fuller summaries in E2. Compare counts, means, and full summaries on 320 fresh adaptive tasks; two overall primary contrasts receive Bonferroni intervals. | 96,000 | [E8 protocol](docs/e8_evidence_protocol.md) |
+
+Additional offline controls cost no Jev credits: the [exact prior policy-value audit](docs/theory_audit.md), a [finite-horizon AP-index comparator](docs/finite_index_implementation.md), and the [IDS Monte Carlo sensitivity audit](docs/ids_numerical_audit.md). The index is a documented posthoc comparator rather than an originally frozen primary policy. The IDS audit compares 128/2,048/32,768 samples with quadrature references on two-arm states; it does not establish identical approximation accuracy at 15 arms.
+
+The first-three results and their interpretation are committed in [the interim report](reports/interim_first_three/interpretation.md). Follow-up hypotheses were recorded without changing E4/E5 prompts or sample sizes. All new live studies remain subject to the same project-wide cap, including previous and interrupted runs.

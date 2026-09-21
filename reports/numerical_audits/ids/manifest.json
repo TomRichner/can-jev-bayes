@@ -1,0 +1,20 @@
+{
+  "purpose": "posthoc numerical audit of frozen MC IDS, no API calls",
+  "sample_counts": [
+    128,
+    2048,
+    32768
+  ],
+  "repetitions": 30,
+  "fixtures_per_study": 100,
+  "master_seed": 20260920,
+  "fixture_sha256": "3c0782b0fb6a8fb6bba965cf434584731c94a8819691021b169679b75d06027c",
+  "quadrature_epsabs": 1e-13,
+  "quadrature_epsrel": 1e-11,
+  "source_sha256": {
+    "ids_audit.py": "08be3f5de3278699168d7253aae2e7eb903bc8052736a91fcdca9b03917caccc",
+    "baselines.py": "2f204f3724d31ae5b768d3e7c254f9d19bbae4ad81c281a26bb966277b4a9918",
+    "experiments.py": "219a7dab2d34cd54fce52fbe2998150f8d9274c6e2a84b166b43a6c81ba5ee33",
+    "prompts.py": "169102b7d942707626be1e6cb0d510f3a0de38c80b1e985539598d3a8070d4e8"
+  }
+}
