@@ -7,7 +7,14 @@ import pytest
 from scipy.integrate import quad
 from scipy.stats import beta
 
-from jevbandits.baselines import BASELINES, exact_q, select_action
+from jevbandits.baselines import (
+    BASELINES,
+    exact_q,
+    ids_distribution,
+    ids_statistics,
+    knowledge_gradient,
+    select_action,
+)
 
 
 def _exhaustive_fraction_q(successes, failures, h):
@@ -129,3 +136,58 @@ def test_invalid_exact_horizon_rejected(h):
 def test_large_exact_problem_fails_instead_of_approximating():
     with pytest.raises(ValueError, match="state-space"):
         exact_q((0,) * 15, (0,) * 15, 10)
+
+
+def test_knowledge_gradient_terminal_and_two_step_optimality():
+    s, f = (10, 0), (8, 0)
+    rng = np.random.default_rng(10)
+    assert select_action("knowledge_gradient", s, f, 10, 10, rng) == 0
+    assert select_action("knowledge_gradient", s, f, 9, 10, rng) == 1
+    np.testing.assert_allclose(knowledge_gradient(s, f), [0, 7 / 120], atol=1e-14)
+    for _ in range(50):
+        s, f = rng.integers(0, 10, (2, 3))
+        mean = (s + 1) / (s + f + 2)
+        np.testing.assert_allclose(
+            mean + knowledge_gradient(s, f) + mean.max(),
+            exact_q(tuple(s), tuple(f), 2), atol=1e-14,
+        )
+
+
+def test_ids_uniform_prior_matches_analytic_information_and_regret():
+    # Two independent uniforms: E max = 2/3, E[theta_i|i best]=2/3,
+    # E[theta_i|other best]=1/3. Information = H(1/2) - H(2/3).
+    stats = ids_statistics((0, 0), (0, 0), np.random.default_rng(123), samples=200_000)
+    expected_information = np.log(2) + (2 / 3) * np.log(2 / 3) + (1 / 3) * np.log(1 / 3)
+    np.testing.assert_allclose(stats["expected_regret"], [1 / 6] * 2, atol=0.002)
+    np.testing.assert_allclose(stats["information_gain"], [expected_information] * 2, atol=0.002)
+    np.testing.assert_allclose(stats["posterior_best_probabilities"], [0.5] * 2, atol=0.005)
+
+
+def test_ids_mixture_optimization_against_dense_grid():
+    delta, gain = np.array([0.1, 0.5]), np.array([0.001, 0.1])
+    dist = ids_distribution(delta, gain, np.random.default_rng(1))
+    assert 0 < dist[0] < 1
+    assert dist.sum() == pytest.approx(1)
+    achieved = (dist @ delta) ** 2 / (dist @ gain)
+    grid = np.linspace(0, 1, 100_001)
+    grid_ratio = (grid * delta[0] + (1 - grid) * delta[1]) ** 2 / (
+        grid * gain[0] + (1 - grid) * gain[1]
+    )
+    assert achieved <= grid_ratio.min() + 1e-12
+
+
+def test_ids_distribution_handles_zero_information_and_certain_optimum():
+    rng = np.random.default_rng(1)
+    np.testing.assert_array_equal(ids_distribution([0.2, 0.1], [0, 0], rng), [0, 1])
+    np.testing.assert_array_equal(ids_distribution([0, 0.2], [0, 0.1], rng), [1, 0])
+    np.testing.assert_array_equal(ids_distribution([0], [0], rng), [1])
+
+
+def test_ids_statistics_finite_nonnegative_and_seeded():
+    s, f = (100, 0, 3), (0, 100, 7)
+    a = ids_statistics(s, f, np.random.default_rng(42))
+    b = ids_statistics(s, f, np.random.default_rng(42))
+    for key in ("information_gain", "expected_regret", "posterior_best_probabilities"):
+        assert np.all(np.isfinite(a[key])) and np.all(a[key] >= 0)
+        np.testing.assert_array_equal(a[key], b[key])
+    assert sum(a["posterior_best_probabilities"]) == pytest.approx(1)
