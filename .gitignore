@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research downloads, OCR derivatives, and local API probe records
+/pdfs/
+/artifacts/
