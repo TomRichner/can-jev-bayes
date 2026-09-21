@@ -50,3 +50,33 @@ During automatic retry of a transport failure near turn 20, the monitoring worke
 The finite AP-index simulation completed 1,040 episodes: E3 200, E4 600, E5 240. One process ended during a worker handoff and resumed without duplicates. Five episodes had one bracket-overlap flag; four were terminal decisions, where exact ties can cause overlap. An overlap is not by itself numerical instability. The raw artifact SHA-256 is `ee99ad8ca5582edb282ef1eeceb5cf026deef991affd92512c8b6454ef37f16c`.
 
 The IDS audit completed 200 posterior fixtures with 30 replicates at each of 128, 2,048, and 32,768 posterior samples. The 95th percentile excess true information ratio was 0.015571849, 0.00086055281, and 0.000054793577 respectively; the largest at 2,048 was 0.074298205. These describe approximation quality on this two-arm panel, not online regret or a guarantee for larger arm counts. Quadrature error estimates were below $8.33\times10^{-12}$. No Jev credits were used.
+
+## Five-study completion and fresh follow-ups
+
+All five original experiments completed, with 390,800 evaluation decisions plus 200 revised preflight questions and 2,160 revised pilot decisions. The v2 ledger records $12.489054732 in known usage, with conservative reserves retained for the interrupted/retried requests. No evaluation task was dropped or replaced. Core results and compact trajectory/probability exports were committed in `e14fdaa`.
+
+After prospective protocol preparation, E6 completed 28,800 advice-format decisions, E7 completed 24,000 probability forecasts, E8 completed 96,000 adaptive evidence-ladder decisions, and E9 completed 40,000 adaptive sampling decisions. All four follow-up ledgers have zero failed attempts. Final reports distinguish newly specified primary contrasts from exploratory subgroup analyses.
+
+## Final controls and operational spending amendment
+
+The final-control cap amendment preceded all batch-control and E10 calls. It raises the operational cap to $19 while retaining the previously frozen questions and sample sizes. The batching CLI retained its original maximum-$18 argument guard, so the first `--cap 19` command exited before creating a request. Rather than changing frozen scientific source, execution used the existing `run(args)` entry point with the amended cap:
+
+```python
+import asyncio
+from argparse import Namespace
+from jevbandits.batch_control import run
+
+asyncio.run(run(Namespace(
+    run_dir="artifacts/batch_control_v1",
+    prepare=False, report=False, run=True,
+    cap=19.0, rate=5.0, concurrency=4, max_decisions=None,
+)))
+```
+
+The first 32 decisions used `max_decisions=32`; an independent payload audit checked the frozen source/fixture hashes, exact expected question hashes, request question multisets, and task-only shared state. It confirmed sixteen standalone requests and one sixteen-question request. The complete batch validation then recorded 1,920 decisions across 1,020 requests for $0.043193808, with no errors. Its gross advice-format pattern persisted in standalone questions on the small reused fixture panel.
+
+E10 similarly paused after its first 80 questions. The payload/hash audit passed; null `arm` entries occurred only for the joint best-arm Choice question, as required by its schema. The unchanged full run resumed under the amended cap. One Sol medium worker remained the sole API writer; offline auditing and interpretation proceeded separately.
+
+E10 completed at 2026-09-21 06:38:56 UTC (01:38:56 CDT): all 16,560 questions, 1,067 requests, 18,894,164 input tokens, and $0.793554888 in estimated usage, with zero failed attempts. The final project estimate including all development usage, preparation, and conservative reserves is **$18.099707598**, below the amended $19 cap and the reported $20 credits. API collection stopped after this complete design; no additional credits were purchased. Final audit/export and interpretation followed offline.
+
+Final independent data audit: all 598,080 evaluation/control questions complete; 600,440 cached questions including the revised pilot/preflight but excluding the archived development run. There are 1,560 independent online environments, 5,960 evaluation Jev trajectories, and 516,000 online actions. No expected IDs are missing or duplicated. Scientific hashes, paired environments, trace consistency, E10 reference/score calculations, SQLite checks, and export counts/hashes passed. The final full suite passed 319 tests in 25.21 seconds; Ruff and `git diff --check` were clean.

@@ -1,5 +1,7 @@
 # Five experiments on Jev, Bayesian assistance, and sequential control
 
+**Status, September 21:** the five core experiments and additional studies were built and run overnight. The interpreted results are in [research_report.md](research_report.md), collection verification is in [the data audit](docs/data_completeness_audit.md), and the evidence-driven next phase is in [the continuation plan](docs/next_experiments.md). The protocol below preserves the design and amendments rather than rewriting predictions to fit results.
+
 Revised 2026-09-20/21 CDT, before evaluation. The user authorized implementation, execution, analysis, and follow-up experiments through 07:00 CDT September 21. Reasoning-model harnesses, real-money gambling, and post-training optimization are outside this series. This supersedes the [archived proposal](docs/initial_experiment_proposal.md).
 
 ## Aim and literature-driven revisions

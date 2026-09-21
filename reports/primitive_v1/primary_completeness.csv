@@ -1,0 +1,7 @@
+target,k,n_left,n_right,n_pairs,expected
+next_reward,2,30,30,30,30
+next_reward,5,30,30,30,30
+next_reward,15,30,30,30,30
+best_arm,2,30,30,30,30
+best_arm,5,30,30,30,30
+best_arm,15,30,30,30,30

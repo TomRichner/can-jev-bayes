@@ -1,0 +1,25 @@
+representation,target,k,left,right,n_left,n_right,n_pairs,expected,mean_difference,ci95_low,ci95_high,status
+counts,next_reward,2,choice,noul,30,30,30,30,0.032613708513708525,0.024548549422799434,0.040815687229437236,exploratory pointwise; not primary family
+counts,next_reward,5,choice,noul,30,30,30,30,0.017403584415584414,0.013672729004329006,0.021336925613275617,exploratory pointwise; not primary family
+counts,next_reward,15,choice,noul,30,30,30,30,0.018686914862914863,0.01720880822510823,0.02014083590668591,exploratory pointwise; not primary family
+counts,best_arm,2,noul,choice,30,30,30,30,-0.0479873690623953,-0.07434360589593124,-0.024476839652859236,exploratory pointwise; not primary family
+counts,best_arm,5,noul,choice,30,30,30,30,-0.054807104176446214,-0.08576559963378899,-0.027192779155317627,exploratory pointwise; not primary family
+counts,best_arm,15,noul,choice,30,30,30,30,-0.010369791262771539,-0.014604040961627382,-0.0061019500562457035,exploratory pointwise; not primary family
+bayes,next_reward,2,choice,noul,30,30,30,30,0.055880656565656564,0.045289509740259755,0.06664733008658007,exploratory pointwise; not primary family
+bayes,next_reward,5,choice,noul,30,30,30,30,0.054241601731601745,0.048170883044733055,0.06057633975468975,exploratory pointwise; not primary family
+bayes,next_reward,15,choice,noul,30,30,30,30,0.04213612313612314,0.03768963638768638,0.04685014057239057,exploratory pointwise; not primary family
+bayes,best_arm,2,noul,choice,30,30,30,30,-0.07493237759929713,-0.10587323058268598,-0.04730694698715446,exploratory pointwise; not primary family
+bayes,best_arm,5,noul,choice,30,30,30,30,-0.07081003682490451,-0.09411916383128067,-0.04984955239889238,exploratory pointwise; not primary family
+bayes,best_arm,15,noul,choice,30,30,30,30,-0.0258970259701776,-0.030736703363187134,-0.021172473354274503,exploratory pointwise; not primary family
+oracle_probs_full,next_reward,2,choice,noul,30,30,30,30,0.014236399711399717,0.008912303030303036,0.020366790764790765,exploratory pointwise; not primary family
+oracle_probs_full,next_reward,5,choice,noul,30,30,30,30,0.009865330447330447,0.007706447619047621,0.012107633261183267,exploratory pointwise; not primary family
+oracle_probs_full,next_reward,15,choice,noul,30,30,30,30,0.005650130832130834,0.004560070442520443,0.006790770803270805,exploratory pointwise; not primary family
+oracle_probs_full,best_arm,2,noul,choice,30,30,30,30,-0.12537762934814597,-0.17746865204591425,-0.07824407969828051,exploratory pointwise; not primary family
+oracle_probs_full,best_arm,5,noul,choice,30,30,30,30,-0.10445914435195094,-0.13005846876234856,-0.07956971293085607,exploratory pointwise; not primary family
+oracle_probs_full,best_arm,15,noul,choice,30,30,30,30,-0.04942003192508288,-0.05622677948828228,-0.04212925092884686,exploratory pointwise; not primary family
+oracle_probs_only,next_reward,2,choice,noul,30,30,30,30,0.025499069264069266,0.016430407106782115,0.03496535912698411,exploratory pointwise; not primary family
+oracle_probs_only,next_reward,5,choice,noul,30,30,30,30,0.016756721500721505,0.013573987157287158,0.020189490981240985,exploratory pointwise; not primary family
+oracle_probs_only,next_reward,15,choice,noul,30,30,30,30,0.014917988455988457,0.012819088215488213,0.017106322534872535,exploratory pointwise; not primary family
+oracle_probs_only,best_arm,2,noul,choice,30,30,30,30,-0.12339160809877453,-0.1748943117668739,-0.07569422448841372,exploratory pointwise; not primary family
+oracle_probs_only,best_arm,5,noul,choice,30,30,30,30,-0.10454573246466696,-0.13203697798609623,-0.07863580016610995,exploratory pointwise; not primary family
+oracle_probs_only,best_arm,15,noul,choice,30,30,30,30,-0.04819295328789296,-0.055258709593260236,-0.04077028946791478,exploratory pointwise; not primary family

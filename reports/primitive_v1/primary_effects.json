@@ -1,0 +1,76 @@
+[
+  {
+    "target": "next_reward",
+    "left": "choice",
+    "right": "noul",
+    "representation": "bayes",
+    "metric": "mean_binary_excess_brier",
+    "mean_difference": 0.05075279381112715,
+    "ci95_low": 0.04649204204345038,
+    "ci95_high": 0.05515730280583613,
+    "ci97_5_low": 0.04594613879068462,
+    "ci97_5_high": 0.05584395788239538,
+    "complete": true,
+    "status": "prespecified full design",
+    "cells": [
+      {
+        "k": 2,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      },
+      {
+        "k": 5,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      },
+      {
+        "k": 15,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      }
+    ]
+  },
+  {
+    "target": "best_arm",
+    "left": "noul",
+    "right": "choice",
+    "representation": "bayes",
+    "metric": "mean_binary_excess_brier",
+    "mean_difference": -0.05721314679812642,
+    "ci95_low": -0.07024135152864452,
+    "ci95_high": -0.04519054600972612,
+    "ci97_5_low": -0.07212749998550162,
+    "ci97_5_high": -0.04368961891838792,
+    "complete": true,
+    "status": "prespecified full design",
+    "cells": [
+      {
+        "k": 2,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      },
+      {
+        "k": 5,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      },
+      {
+        "k": 15,
+        "n_left": 30,
+        "n_right": 30,
+        "n_pairs": 30,
+        "expected": 30
+      }
+    ]
+  }
+]

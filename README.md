@@ -3,6 +3,8 @@ Investigating Jev on sequential decisions: how objectives, Bayesian summaries, e
 
 See [the protocol](first_experiment_Plan.md), [research notes](research_notes.md), and [selected literature review](docs/literature_design_review.md). The study does not presume a positive or negative result.
 
+The overnight investigation's [interpreted research report](research_report.md) covers the five core experiments and their follow-ups. See the [data audit](docs/data_completeness_audit.md), [compact recorded datasets](results/), and [next experiments](docs/next_experiments.md) for verification and continuation. The findings concern evidence representation, probability elicitation, and the use of external computation; they do not establish general Bayesian reasoning ability.
+
 ## Reproduce
 
 ```bash
