@@ -1,0 +1,353 @@
+[
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "bayes_direct",
+    "n": 40,
+    "mean_exact_loss": 0.8676521077746541,
+    "mean_optimal_agreement": 0.71875,
+    "mean_pseudo_regret": 3.339999999999999
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "bayes_sample",
+    "n": 40,
+    "mean_exact_loss": 1.8544736256686065,
+    "mean_optimal_agreement": 0.8879999999999999,
+    "mean_pseudo_regret": 3.25
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "bayes_ucb",
+    "n": 40,
+    "mean_exact_loss": 0.3561676461889209,
+    "mean_optimal_agreement": 0.9727499999999999,
+    "mean_pseudo_regret": 1.9600000000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "counts_direct",
+    "n": 40,
+    "mean_exact_loss": 1.420068364634314,
+    "mean_optimal_agreement": 0.6609999999999999,
+    "mean_pseudo_regret": 2.55
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "counts_sample",
+    "n": 40,
+    "mean_exact_loss": 2.2332056582980586,
+    "mean_optimal_agreement": 0.9015000000000001,
+    "mean_pseudo_regret": 3.8899999999999997
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "exact_h100",
+    "n": 40,
+    "mean_exact_loss": 0.0,
+    "mean_optimal_agreement": 1.0,
+    "mean_pseudo_regret": 1.17
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "finite_ap_index",
+    "n": 40,
+    "mean_exact_loss": 0.0038220903339536427,
+    "mean_optimal_agreement": 0.9952500000000001,
+    "mean_pseudo_regret": 1.15
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "greedy",
+    "n": 40,
+    "mean_exact_loss": 1.033150677118395,
+    "mean_optimal_agreement": 0.689,
+    "mean_pseudo_regret": 3.04
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "ids",
+    "n": 40,
+    "mean_exact_loss": 0.2618817889270715,
+    "mean_optimal_agreement": 0.93925,
+    "mean_pseudo_regret": 1.5
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "knowledge_gradient",
+    "n": 40,
+    "mean_exact_loss": 0.43928250493003773,
+    "mean_optimal_agreement": 0.8237500000000001,
+    "mean_pseudo_regret": 0.9
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "random",
+    "n": 40,
+    "mean_exact_loss": 18.246630671329548,
+    "mean_optimal_agreement": 0.50875,
+    "mean_pseudo_regret": 20.03
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "ts",
+    "n": 40,
+    "mean_exact_loss": 1.2219951778109854,
+    "mean_optimal_agreement": 0.9247499999999998,
+    "mean_pseudo_regret": 3.0399999999999996
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "clear",
+    "policy": "ucb1",
+    "n": 40,
+    "mean_exact_loss": 5.024085966449971,
+    "mean_optimal_agreement": 0.8322499999999999,
+    "mean_pseudo_regret": 7.290000000000001
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "bayes_direct",
+    "n": 40,
+    "mean_exact_loss": 2.062380671560722,
+    "mean_optimal_agreement": 0.367,
+    "mean_pseudo_regret": 2.460000000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "bayes_sample",
+    "n": 40,
+    "mean_exact_loss": 1.4660961885813066,
+    "mean_optimal_agreement": 0.7302500000000001,
+    "mean_pseudo_regret": 2.231250000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "bayes_ucb",
+    "n": 40,
+    "mean_exact_loss": 0.41537396067592774,
+    "mean_optimal_agreement": 0.9332499999999999,
+    "mean_pseudo_regret": 2.188750000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "counts_direct",
+    "n": 40,
+    "mean_exact_loss": 4.121424241829016,
+    "mean_optimal_agreement": 0.30625,
+    "mean_pseudo_regret": 2.531250000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "counts_sample",
+    "n": 40,
+    "mean_exact_loss": 1.5693047940628986,
+    "mean_optimal_agreement": 0.7092499999999999,
+    "mean_pseudo_regret": 2.297500000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "exact_h100",
+    "n": 40,
+    "mean_exact_loss": 0.0,
+    "mean_optimal_agreement": 1.0,
+    "mean_pseudo_regret": 2.1887500000000015
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "finite_ap_index",
+    "n": 40,
+    "mean_exact_loss": 0.011020947657772496,
+    "mean_optimal_agreement": 0.9774999999999998,
+    "mean_pseudo_regret": 2.3175000000000017
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "greedy",
+    "n": 40,
+    "mean_exact_loss": 2.2876572964552038,
+    "mean_optimal_agreement": 0.38649999999999995,
+    "mean_pseudo_regret": 2.431250000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "ids",
+    "n": 40,
+    "mean_exact_loss": 0.27330815428744826,
+    "mean_optimal_agreement": 0.88975,
+    "mean_pseudo_regret": 2.273750000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "knowledge_gradient",
+    "n": 40,
+    "mean_exact_loss": 0.326427705425684,
+    "mean_optimal_agreement": 0.7749999999999999,
+    "mean_pseudo_regret": 2.2250000000000023
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "random",
+    "n": 40,
+    "mean_exact_loss": 5.385986556280853,
+    "mean_optimal_agreement": 0.5002500000000001,
+    "mean_pseudo_regret": 2.533750000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "ts",
+    "n": 40,
+    "mean_exact_loss": 1.4492080192088477,
+    "mean_optimal_agreement": 0.7775000000000001,
+    "mean_pseudo_regret": 2.205000000000002
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "close",
+    "policy": "ucb1",
+    "n": 40,
+    "mean_exact_loss": 2.9450013686268313,
+    "mean_optimal_agreement": 0.6925,
+    "mean_pseudo_regret": 2.1937500000000023
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "bayes_direct",
+    "n": 40,
+    "mean_exact_loss": 0.8623414863446545,
+    "mean_optimal_agreement": 0.6792499999999999,
+    "mean_pseudo_regret": 3.0021806081994127
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "bayes_sample",
+    "n": 40,
+    "mean_exact_loss": 1.6904895888158713,
+    "mean_optimal_agreement": 0.85125,
+    "mean_pseudo_regret": 4.037941667462329
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "bayes_ucb",
+    "n": 40,
+    "mean_exact_loss": 0.3053897377534825,
+    "mean_optimal_agreement": 0.95175,
+    "mean_pseudo_regret": 2.3356194017446414
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "counts_direct",
+    "n": 40,
+    "mean_exact_loss": 1.178025541608865,
+    "mean_optimal_agreement": 0.67025,
+    "mean_pseudo_regret": 3.455745877862583
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "counts_sample",
+    "n": 40,
+    "mean_exact_loss": 1.9562271377472507,
+    "mean_optimal_agreement": 0.85225,
+    "mean_pseudo_regret": 4.428522163317682
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "exact_h100",
+    "n": 40,
+    "mean_exact_loss": 0.0,
+    "mean_optimal_agreement": 1.0,
+    "mean_pseudo_regret": 2.226698677311797
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "finite_ap_index",
+    "n": 40,
+    "mean_exact_loss": 0.003946275104561271,
+    "mean_optimal_agreement": 0.97625,
+    "mean_pseudo_regret": 2.2933036611996016
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "greedy",
+    "n": 40,
+    "mean_exact_loss": 1.040266256719041,
+    "mean_optimal_agreement": 0.679,
+    "mean_pseudo_regret": 3.6489811572607787
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "ids",
+    "n": 40,
+    "mean_exact_loss": 0.14360346338224073,
+    "mean_optimal_agreement": 0.9269999999999999,
+    "mean_pseudo_regret": 2.2540487747246303
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "knowledge_gradient",
+    "n": 40,
+    "mean_exact_loss": 0.1676240284399535,
+    "mean_optimal_agreement": 0.89025,
+    "mean_pseudo_regret": 2.240379457450317
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "random",
+    "n": 40,
+    "mean_exact_loss": 14.982304927064783,
+    "mean_optimal_agreement": 0.5095,
+    "mean_pseudo_regret": 18.20217411980658
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "ts",
+    "n": 40,
+    "mean_exact_loss": 0.9970427329492673,
+    "mean_optimal_agreement": 0.8787499999999999,
+    "mean_pseudo_regret": 3.0929577125368892
+  },
+  {
+    "experiment": "e4_scaling",
+    "family": "prior",
+    "policy": "ucb1",
+    "n": 40,
+    "mean_exact_loss": 3.6355894593002547,
+    "mean_optimal_agreement": 0.78325,
+    "mean_pseudo_regret": 6.094422620648207
+  }
+]

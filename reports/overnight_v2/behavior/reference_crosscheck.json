@@ -1,0 +1,10 @@
+{
+  "matching_episode_policy_rows": 1440,
+  "maximum_absolute_loss_discrepancy": 9.103828801926284e-15,
+  "tolerance": 1e-08,
+  "formula": "Sum phase mean exact loss multiplied by its number of turns, then compare by episode_id and policy against the separately saved Bellman audit.",
+  "inputs": {
+    "reports/overnight_v2/behavior/episode_phase_metrics.csv": "7d033131b872706fc73b60ca969f0cba64131d7611e2cd8bed148296bfe88a81",
+    "artifacts/overnight_v2/two_arm_bellman_audit.jsonl": "7687fda384b3c0a1a184ba4559d15fe3c1b5c315fd5907503b2a2cf45efa0a08"
+  }
+}

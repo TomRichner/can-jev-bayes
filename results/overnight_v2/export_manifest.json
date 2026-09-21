@@ -1,0 +1,120 @@
+{
+  "source_run": "artifacts/overnight_v2",
+  "exports": {
+    "episodes": {
+      "rows": 13537,
+      "fields": [
+        "action_rule",
+        "actions",
+        "advice_adherence",
+        "arms_visited",
+        "backend_confidences",
+        "best_arm_fraction",
+        "choice_mismatch_fraction",
+        "completed",
+        "episode_id",
+        "exact_loss",
+        "exact_method",
+        "experiment",
+        "family",
+        "framing",
+        "horizon",
+        "index_ambiguous_ranking_fraction",
+        "index_tolerance",
+        "k",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "posthoc_exploratory",
+        "pseudo_regret",
+        "representation",
+        "reward",
+        "rewards",
+        "seed",
+        "suffix_failure",
+        "switches",
+        "theta",
+        "unseen_fraction"
+      ],
+      "sha256": "3a263ac7369111a7e3a11b2a4db363605d4a6df28696024cac43dccbc6360c49"
+    },
+    "diagnostics": {
+      "rows": 10800,
+      "fields": [
+        "action",
+        "backend_choice",
+        "backend_confidence",
+        "backend_probabilities",
+        "canonical_action",
+        "choice_probability_gap",
+        "decision_id",
+        "distribution_exact_loss",
+        "exact_loss",
+        "experiment",
+        "failures",
+        "fixture_id",
+        "framing",
+        "horizon",
+        "label_order",
+        "optimal_agreement",
+        "policy",
+        "posterior_mean_greedy",
+        "prediction_entropy",
+        "probabilities",
+        "probability_mass",
+        "q_values",
+        "repeat",
+        "representation",
+        "request_id",
+        "successes"
+      ],
+      "sha256": "dce86ad3a61545b53004cb0360820aa77d267b04ef5d755879c5e83b5a65e2e5"
+    },
+    "bellman_audit": {
+      "rows": 1560,
+      "fields": [
+        "actions",
+        "episode_id",
+        "exact_loss",
+        "experiment",
+        "family",
+        "horizon",
+        "k",
+        "optimal_agreement",
+        "policy",
+        "posthoc_normative_audit",
+        "pseudo_regret",
+        "reward",
+        "rewards",
+        "source_episode_sha256"
+      ],
+      "sha256": "ca210b5b1c233d37fa322a34a9ea511b1dc7f959129f542eae32043251458093"
+    },
+    "decision_distributions": {
+      "rows": 393160,
+      "fields": [
+        "decision_id",
+        "action",
+        "probabilities",
+        "probability_mass",
+        "choice_probability_gap",
+        "request_id",
+        "latency_seconds",
+        "question_sha256",
+        "backend_confidence",
+        "backend_choice",
+        "backend_noul",
+        "backend_probabilities"
+      ],
+      "sha256": "2b12b128245cbf3d68956a3f8eb35b99ed226e64bf3fc7081d5722d01d7113fa"
+    }
+  },
+  "provenance": {
+    "manifest.json": "bed2a721cb8e2ca463a94cf6ae54c1046db50d3005318df5df27119949ba8afa",
+    "index_manifest.json": "1552a9bf5faa23d6430506f252bd23e31ff903051a6f3dbc9ddcdab6bc0bf15a",
+    "baseline_provenance.json": "c323da32cbc30caf5af580846df3988a9905aec24dc50340e1b929c0b7db41d1",
+    "accounting.json": "a6333ddf0d4a69c26cc0bd8474d5f1da48226431c663d90c12db392b088ad073",
+    "two_arm_audit_manifest.json": "c268f81477400403a64b107e2d6674f8d41b80e3ec382c6ffd1e72af5504c0cd",
+    "two_arm_audit_summary.json": "da26151c6bc76cd2f1aa092613dc13ec573c14092388369962c0a760b3788db3"
+  }
+}

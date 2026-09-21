@@ -1,0 +1,10 @@
+{
+  "status": "posthoc exact normative scoring and exploratory added baseline; no API",
+  "policy": "exact_h100",
+  "arithmetic": "float64 full-state Bellman table",
+  "original_manifest_sha256": "bed2a721cb8e2ca463a94cf6ae54c1046db50d3005318df5df27119949ba8afa",
+  "implementation_sha256": "13c652ef19d2779febc3a8c4ba773520ce2f3f6176a6ec6739faba7baf50d0e5",
+  "prior": "independent Beta(1,1)",
+  "tie_tolerance": 1e-12,
+  "agreement_tolerance": 1e-10
+}

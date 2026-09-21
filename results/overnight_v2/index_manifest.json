@@ -1,0 +1,11 @@
+{
+  "policy": "finite_ap_index",
+  "status": "posthoc exploratory classical comparator; no Jev calls",
+  "source_manifest_sha256": "bed2a721cb8e2ca463a94cf6ae54c1046db50d3005318df5df27119949ba8afa",
+  "method_sha256": "24d290004256a469b4b3545863370bb9f1e41929451886e08b2f41ada06e7eb2",
+  "tolerance": 1e-06,
+  "tie_rule": "uniform among midpoint maxima within absolute 1e-12",
+  "rank_uncertainty": "flag overlapping brackets from distinct posterior states",
+  "arithmetic": "float64",
+  "prior": "independent Beta(1,1)"
+}

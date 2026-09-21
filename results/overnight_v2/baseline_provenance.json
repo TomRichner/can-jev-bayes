@@ -1,0 +1,6 @@
+{
+  "source": "artifacts/overnight_v1/episodes_baselines.jsonl",
+  "sha256": "fc2a126e631950eb3f163fdc37afccd85ed771629184b25686cbd69d76e0f3bb",
+  "reason": "Only Jev response validation and cross-run budget accounting changed; baseline algorithms, episode seeds, and designs are unchanged.",
+  "rows": 7669
+}

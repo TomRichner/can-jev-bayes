@@ -1,0 +1,16 @@
+{
+  "bootstrap_samples": 10000,
+  "analysis_seed": 20260920,
+  "analysis_source_sha256": "ecc42782975eaadec6c0d44aa6a1e2190146dee0f4d3e9e1f116fc89fbb2c6ff",
+  "experiment_filter": null,
+  "interim": false,
+  "inputs": {
+    "episodes.jsonl": "ef5a8f0463da176c17b0dd501112a994b3e5ba5c9b6b66d0c7e269f99653a5b6",
+    "episodes_index.jsonl": "ee99ad8ca5582edb282ef1eeceb5cf026deef991affd92512c8b6454ef37f16c",
+    "diagnostics.jsonl": "0e4804cfc2bbff78359661b560c9ada6aa69dc29396f0a16759fb7d4d00a0882",
+    "index_manifest.json": "1552a9bf5faa23d6430506f252bd23e31ff903051a6f3dbc9ddcdab6bc0bf15a"
+  },
+  "completed_episode_rows": 13417,
+  "incomplete_episode_rows": 0,
+  "diagnostic_rows": 10800
+}

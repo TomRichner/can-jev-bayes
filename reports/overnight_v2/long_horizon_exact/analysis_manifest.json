@@ -1,0 +1,18 @@
+{
+  "bootstrap_samples": 10000,
+  "analysis_source_sha256": "ecc42782975eaadec6c0d44aa6a1e2190146dee0f4d3e9e1f116fc89fbb2c6ff",
+  "input_sha256": "7687fda384b3c0a1a184ba4559d15fe3c1b5c315fd5907503b2a2cf45efa0a08",
+  "audit_manifest": {
+    "status": "posthoc exact normative scoring and exploratory added baseline; no API",
+    "policy": "exact_h100",
+    "arithmetic": "float64 full-state Bellman table",
+    "original_manifest_sha256": "bed2a721cb8e2ca463a94cf6ae54c1046db50d3005318df5df27119949ba8afa",
+    "implementation_sha256": "13c652ef19d2779febc3a8c4ba773520ce2f3f6176a6ec6739faba7baf50d0e5",
+    "prior": "independent Beta(1,1)",
+    "tie_tolerance": 1e-12,
+    "agreement_tolerance": 1e-10
+  },
+  "n_episode_policy_rows": 1560,
+  "n_unique_tasks": 120,
+  "policy": "separate two-arm analysis; not pooled with all-K comparison"
+}
