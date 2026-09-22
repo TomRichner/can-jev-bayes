@@ -1,4 +1,5 @@
 # can-jev-bayes
+Jev Bayes, No?
 
 How well can Jev make sequential decisions under uncertainty, and how can Bayesian methods help it learn and act more effectively?
 
