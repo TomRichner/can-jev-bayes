@@ -1,6 +1,6 @@
-# Research continuation after the overnight studies
+# Follow-up hypotheses from the initial studies
 
-Updated September 21, 2026. This plan responds to E1–E10 and the numerical/interface audits. It preserves the frozen first-study protocols and datasets. These are proposed next allocations, not completed experiments or permission requests. Reasoning-model harnesses remain out of scope for the present phase.
+Historical detailed proposals, September 21, 2026. Active cross-project scope, budgets, and scheduling now live in the [manuscript research plan](../../aistats2027-manuscript/research_plan.md); see its [document map](../../aistats2027-manuscript/TABLE_OF_CONTENTS.md). This plan responds to E1–E10 and the numerical/interface audits. It preserves the frozen first-study protocols and datasets. These are proposed next allocations, not completed experiments or permission requests. The original scope here excluded reasoning-model harnesses; the newer private plan proposes them as a separate phase.
 
 ## Decision on the present evidence
 
