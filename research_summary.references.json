@@ -1,0 +1,128 @@
+[
+  {
+    "id": "krishnamurthyCanLargeLanguage2024",
+    "type": "article",
+    "abstract": "We investigate the extent to which contemporary Large Language Models (LLMs) can engage in exploration, a core capability in reinforcement learning and decision making. We focus on native performance of existing LLMs, without training interventions. We deploy LLMs as agents in simple multi-armed bandit environments, specifying the environment description and interaction history entirely in-context, i.e., within the LLM prompt. We experiment with GPT-3.5, GPT-4, and Llama2, using a variety of prompt designs, and find that the models do not robustly engage in exploration without substantial interventions: i) Across all of our experiments, only one configuration resulted in satisfactory exploratory behavior: GPT-4 with chain-of-thought reasoning and an externally summarized interaction history, presented as sufficient statistics; ii) All other configurations did not result in robust exploratory behavior, including those with chain-of-thought reasoning but unsummarized history. Although these findings can be interpreted positively, they suggest that external summarization -- which may not be possible in more complex settings -- is important for obtaining desirable behavior from LLM agents. We conclude that non-trivial algorithmic interventions, such as fine-tuning or dataset curation, may be required to empower LLM-based decision making agents in complex settings.",
+    "citation-key": "krishnamurthyCanLargeLanguage2024",
+    "note": "arXiv:2403.15371\nresolved:arxiv",
+    "title": "Can large language models explore in-context?",
+    "URL": "http://arxiv.org/abs/2403.15371v3",
+    "author": [
+      {
+        "family": "Krishnamurthy",
+        "given": "Akshay"
+      },
+      {
+        "family": "Harris",
+        "given": "Keegan"
+      },
+      {
+        "family": "Foster",
+        "given": "Dylan J."
+      },
+      {
+        "family": "Zhang",
+        "given": "Cyril"
+      },
+      {
+        "family": "Slivkins",
+        "given": "Aleksandrs"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          22
+        ]
+      ]
+    }
+  },
+  {
+    "id": "russoTutorialThompsonSampling2018",
+    "type": "article-journal",
+    "citation-key": "russoTutorialThompsonSampling2018",
+    "container-title": "Foundations and Trends® in Machine Learning",
+    "DOI": "10.1561/2200000070",
+    "note": "resolved:scholar",
+    "source": "scholar",
+    "title": "A Tutorial on Thompson Sampling",
+    "author": [
+      {
+        "family": "Russo",
+        "given": "Daniel"
+      },
+      {
+        "family": "Roy",
+        "given": "Benjamin Van"
+      },
+      {
+        "family": "Kazerouni",
+        "given": "Abbas"
+      },
+      {
+        "family": "Osband",
+        "given": "Ian"
+      },
+      {
+        "family": "Wen",
+        "given": "Zheng"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kaufmannBayesianUpperConfidence2012",
+    "type": "paper-conference",
+    "citation-key": "kaufmannBayesianUpperConfidence2012",
+    "collection-title": "Proceedings of Machine Learning Research",
+    "container-title": "Proceedings of the Fifteenth International Conference on Artificial Intelligence and Statistics",
+    "event-title": "Fifteenth International Conference on Artificial Intelligence and Statistics",
+    "page": "592–600",
+    "publisher": "PMLR",
+    "publisher-place": "La Palma, Canary Islands",
+    "title": "On Bayesian Upper Confidence Bounds for Bandit Problems",
+    "URL": "https://proceedings.mlr.press/v22/kaufmann12.html",
+    "volume": "22",
+    "author": [
+      {
+        "family": "Kaufmann",
+        "given": "Emilie"
+      },
+      {
+        "family": "Cappé",
+        "given": "Olivier"
+      },
+      {
+        "family": "Garivier",
+        "given": "Aurélien"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Lawrence",
+        "given": "Neil D."
+      },
+      {
+        "family": "Girolami",
+        "given": "Mark"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          4,
+          21
+        ]
+      ]
+    }
+  }
+]
